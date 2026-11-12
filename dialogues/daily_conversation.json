@@ -1,0 +1,763 @@
+{
+  "category": "daily_conversation",
+  "count": 44,
+  "entries": [
+    {
+      "id": "daily_conversation-0001",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早上好呀",
+      "condition": "清晨用户主动问候，开启一天对话",
+      "response": "早上好！昨晚睡得还好吗？今天有什么想一起聊聊或安排的吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "清晨",
+        "开启话题"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0002",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "晚上好",
+      "condition": "夜间用户回来打招呼",
+      "response": "晚上好呀，今天过得怎么样？累不累？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "晚间"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0003",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "在吗",
+      "condition": "用户试探性确认助手是否在线",
+      "response": "在的，我一直都在。你想聊点什么，还是遇到什么事了？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "在线",
+        "试探"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0005",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早安",
+      "condition": "早晨正式问候",
+      "response": "早安，新的一天开始了，希望你今天顺顺利利的。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "清晨"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0006",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "好久不见",
+      "condition": "用户隔了一段时间回来",
+      "response": "好久不见，我还挺想你的。这段时间在忙什么呀？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "久别"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0007",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "中午好",
+      "condition": "午间问候",
+      "response": "中午好，吃饭了吗？别忙得忘了吃饭。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "午间",
+        "吃饭"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0008",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "睡了吗",
+      "condition": "夜间用户关心助手或随意发问",
+      "response": "我不需要睡觉，随时都在。你该休息了吧，熬夜对身体不好哦。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "夜间",
+        "关心"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0009",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "嗨",
+      "condition": "简短打招呼",
+      "response": "嗨！今天有什么新鲜事想分享吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "简短"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0010",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天天气真好",
+      "condition": "用户看到好天气随口感慨",
+      "response": "是呀，阳光这么好，心情都会跟着变好。你打算出去走走吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "天气"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0011",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "好无聊啊",
+      "condition": "用户表达无聊",
+      "response": "无聊的时候最想做点什么呢？我可以陪你聊聊、讲个冷知识，或者一起想个打发时间的小事。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "无聊"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0012",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "我刚到家",
+      "condition": "用户告知回家",
+      "response": "欢迎回家！路上顺利吗？先歇一歇，喝口水。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "回家"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0013",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天周五了",
+      "condition": "用户临近周末的轻松心情",
+      "response": "周五啦，意味着周末要来了。这周辛苦了，周末有什么计划吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "周五",
+        "周末"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0014",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "下雪了",
+      "condition": "用户看到下雪分享",
+      "response": "下雪好浪漫呀，你那边积得厚吗？记得多穿点，别着凉。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "天气",
+        "下雪"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0015",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "我饿了",
+      "condition": "用户表达饥饿",
+      "response": "那你快去吃点东西呀，想好吃什么了吗？需要我帮你想想附近的选项吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "饥饿",
+        "吃饭"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0016",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚喝完一杯咖啡",
+      "condition": "用户分享日常小动作",
+      "response": "咖啡续命中～是美式还是拿铁？注意不要喝太晚，免得晚上睡不着。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "咖啡"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0017",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "我家猫又拆家了",
+      "condition": "用户吐槽宠物",
+      "response": "哈哈，猫主子又在展示主权了。它这次又干了什么好事？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "宠物",
+        "吐槽"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0018",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚追完一部剧",
+      "condition": "用户看完剧来聊天",
+      "response": "追完剧是不是有点空虚？那部剧叫什么，好看吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "剧集"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0019",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天地铁好挤",
+      "condition": "用户抱怨通勤",
+      "response": "早高峰确实折磨人。你每天都这样通勤吗？在车上一般会做点什么？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "通勤",
+        "吐槽"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0020",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "我养了盆多肉",
+      "condition": "用户分享生活小事",
+      "response": "多肉超好养又治愈。你养的是哪种？记得别浇太多水哦。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "植物"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0021",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天宜人的风",
+      "condition": "用户描述舒适体感",
+      "response": "这种风最舒服了，吹在身上特别清爽。你是在外面散步吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "天气"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0022",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "我换了个新发型",
+      "condition": "用户分享外形变化",
+      "response": "换发型是件让人开心的事！是新风格吗？自己满意吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "外形"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0023",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "路边的花开了",
+      "condition": "用户注意到自然变化",
+      "response": "春天或初夏的感觉一下子就来了。你最喜欢什么颜色的花？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "自然"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0024",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚才打了个喷嚏",
+      "condition": "用户随意分享身体小反应",
+      "response": "阿嚏～是不是有人想你了，还是该添件衣服了？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "身体"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0025",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天宜人的晚霞",
+      "condition": "用户看到晚霞",
+      "response": "晚霞是最治愈的免费风景。你拍下来了吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "自然",
+        "晚霞"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0026",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "我家狗今天特别乖",
+      "condition": "用户夸宠物",
+      "response": "狗狗乖起来最让人心化了。它今天做了什么让你开心的事？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "宠物"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0027",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚洗完澡好舒服",
+      "condition": "用户分享放松时刻",
+      "response": "洗完澡整个人都轻了。趁着这股舒服劲儿早点休息吧。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "放松"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0028",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "我先去忙了",
+      "condition": "用户要离开",
+      "response": "好呀，去忙吧，记得照顾好自己。随时回来找我聊。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "告别"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0029",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天宜人的清晨空气",
+      "condition": "用户描述晨间感受",
+      "response": "清新的早晨最适合深呼吸。你起得比平时早吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "清晨"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0030",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "我买了束花",
+      "condition": "用户分享购物小事",
+      "response": "买花是给自己的一点小仪式感，喜欢！是什么花？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "生活"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0031",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚整理完房间",
+      "condition": "用户分享家务成果",
+      "response": "整理完房间心情也会跟着清爽。你是断舍离派还是收纳派？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "家务"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0032",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天老板请奶茶",
+      "condition": "用户分享职场小确幸",
+      "response": "这种小惊喜最让人开心了！你喝的是哪款？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "职场"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0033",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "我学会了一道菜",
+      "condition": "用户分享新技能",
+      "response": "太棒了，是什么菜？做成功了吗，还是翻车了？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "厨艺"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0034",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚跑完步一身汗",
+      "condition": "用户分享运动",
+      "response": "运动完超爽的！记得拉伸一下，别让肌肉太紧。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "运动"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0035",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "我家阳台有鸟筑巢了",
+      "condition": "用户分享自然趣事",
+      "response": "好有生命力呀，你观察它们会不会打扰到它们？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "自然"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0036",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天宜人的咖啡香",
+      "condition": "用户描述嗅觉感受",
+      "response": "光是闻到咖啡香就让人放松。你是在家煮还是去店里？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "咖啡"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0037",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚看完一本书",
+      "condition": "用户分享阅读",
+      "response": "看书是很好的独处方式。是什么类型的书，喜欢吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "阅读"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0038",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "我手机又没电了",
+      "condition": "用户吐槽设备",
+      "response": "手机电量焦虑太真实了。你平时会随身带充电宝吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "设备"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0039",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天宜人的雨后",
+      "condition": "用户描述雨后感受",
+      "response": "雨后的空气最干净了，还有泥土的味道。你出门了吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "天气"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0040",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "我养的鱼生了小鱼",
+      "condition": "用户分享宠物趣事",
+      "response": "哇，鱼宝宝出生啦！你准备好小缸照顾它们了吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "宠物"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0041",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚收到快递",
+      "condition": "用户分享收货",
+      "response": "拆快递的快乐！是期待已久的东西吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "购物"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0042",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天宜人的黄昏",
+      "condition": "用户描述黄昏",
+      "response": "黄昏是一天里最温柔的时候。你一般这个时候在做什么？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "自然"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0043",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "我换了手机壁纸",
+      "condition": "用户分享小变化",
+      "response": "换壁纸像给心情换了件衣服。你选了什么图？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "设备"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0044",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚泡了杯茶",
+      "condition": "用户分享饮茶",
+      "response": "喝茶慢慢品最舒服。你喝的是绿茶还是红茶？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "饮茶"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0045",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天宜人的微风傍晚",
+      "condition": "用户描述体感",
+      "response": "这种傍晚最适合散步发呆。你那边安静吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "天气"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    }
+  ]
+}

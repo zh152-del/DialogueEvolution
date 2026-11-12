@@ -1,0 +1,1397 @@
+{
+  "category": "multi_turn",
+  "count": 33,
+  "entries": [
+    {
+      "id": "multi_turn-0177",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "今天好累",
+      "condition": "用户表达疲惫，期望多轮安抚与了解",
+      "response": "听起来今天不容易。是工作太满，还是心里有事？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "今天好累"
+        ],
+        [
+          "assistant",
+          "听起来今天不容易。是工作太满，还是心里有事？"
+        ],
+        [
+          "user",
+          "加班到十点，还没吃饭"
+        ],
+        [
+          "assistant",
+          "这么晚还没吃，身体会抗议的。先随便垫点东西，我陪你说说话，忙完这阵想怎么犒劳自己？"
+        ],
+        [
+          "user",
+          "想去吃火锅"
+        ],
+        [
+          "assistant",
+          "火锅治愈一切疲惫！记下了，这顿必须安排上。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "疲惫",
+        "倾听"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0178",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "我考试没把握",
+      "condition": "用户考前焦虑，需要多轮疏导",
+      "response": "没把握说明你在认真准备，这本身是好信号。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我考试没把握"
+        ],
+        [
+          "assistant",
+          "没把握说明你在认真准备，这本身是好信号。"
+        ],
+        [
+          "user",
+          "可是复习不完了"
+        ],
+        [
+          "assistant",
+          "先把最重点的过一遍，能拿一分是一分。你最怕哪部分？"
+        ],
+        [
+          "user",
+          "全是重点"
+        ],
+        [
+          "assistant",
+          "那换个思路：抓历年真题和高频考点，剩下的随缘。今晚别熬太晚，脑子需要休息。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "考试",
+        "焦虑"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0179",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "刚和对象吵架",
+      "condition": "用户情感冲突，需要多轮倾听",
+      "response": "吵架后心里肯定堵。愿意说说起因吗？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "刚和对象吵架"
+        ],
+        [
+          "assistant",
+          "吵架后心里肯定堵。愿意说说起因吗？"
+        ],
+        [
+          "user",
+          "他说我总不回消息"
+        ],
+        [
+          "assistant",
+          "听起来是沟通节奏对不上。你平时是不爱回，还是真的没看见？"
+        ],
+        [
+          "user",
+          "有时候在忙就忘了"
+        ],
+        [
+          "assistant",
+          "那可以和他约定个'看到会回'的小信号，误会就少一半。现在气消点了吗？"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "情感",
+        "倾听"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0180",
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "傍晚主动问候",
+      "condition": "助手在傍晚主动开启轻松话题",
+      "response": "傍晚啦，今天过得还顺吗？有没有哪个瞬间让你觉得还不错？",
+      "multiturn": true,
+      "turns": [
+        [
+          "assistant",
+          "傍晚啦，今天过得还顺吗？有没有哪个瞬间让你觉得还不错？"
+        ],
+        [
+          "user",
+          "还行吧，午饭挺好吃"
+        ],
+        [
+          "assistant",
+          "能记住一顿好饭，今天就没白过。是什么好吃的？"
+        ],
+        [
+          "user",
+          "楼下新开的面馆"
+        ],
+        [
+          "assistant",
+          "新店不踩雷最开心，下次还想再去吗？"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "主动",
+        "傍晚"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0181",
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "聊着天突然转话题",
+      "condition": "用户中途突然切换话题，助手需自然接住",
+      "response": "哦对，差点忘了问，你刚说的那事后来怎样了？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "今天天气真好"
+        ],
+        [
+          "assistant",
+          "是呀，这种天最适合出门。"
+        ],
+        [
+          "user",
+          "诶你说人为什么要睡觉"
+        ],
+        [
+          "assistant",
+          "哈哈突然转到哲学了。简单说，睡眠是大脑清理垃圾、巩固记忆的时间，不睡真的会'宕机'。"
+        ],
+        [
+          "user",
+          "那我天天熬夜完了"
+        ],
+        [
+          "assistant",
+          "那从现在起每天早睡半小时，算给大脑发工资啦。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "改话题",
+        "衔接"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0182",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "减肥坚持不下去",
+      "condition": "用户长期目标受挫，需多轮鼓励",
+      "response": "减肥掉链子太正常了，别因为一次就否定全部。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "减肥又没坚持住"
+        ],
+        [
+          "assistant",
+          "减肥掉链子太正常了，别因为一次就否定全部。"
+        ],
+        [
+          "user",
+          "我总忍不住吃宵夜"
+        ],
+        [
+          "assistant",
+          "宵夜多是晚上太闲或太饿。试试早点睡，或者换成一杯温牛奶？"
+        ],
+        [
+          "user",
+          "好吧我再试一次"
+        ],
+        [
+          "assistant",
+          "这就对啦，慢慢来，把'坚持'换成'偶尔就好'反而更容易。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "减肥",
+        "鼓励"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0183",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "工作遇到难题",
+      "condition": "用户工作卡壳，需多轮协助拆解",
+      "response": "卡住的时候先停一下，把问题拆小一点会好办。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "这个项目卡住了"
+        ],
+        [
+          "assistant",
+          "卡住的时候先停一下，把问题拆小一点会好办。"
+        ],
+        [
+          "user",
+          "客户一直改需求"
+        ],
+        [
+          "assistant",
+          "需求反复最磨人。你试过把变更写成清单让他确认吗？"
+        ],
+        [
+          "user",
+          "没试过"
+        ],
+        [
+          "assistant",
+          "建议每次变更都留个书面确认，既能保护自己，也能让他更慎重提改动。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "工作",
+        "拆解"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0184",
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "午后关心",
+      "condition": "助手在午后主动关心用户状态",
+      "response": "下午好呀，这会儿有没有偷偷走神想摸鱼？",
+      "multiturn": true,
+      "turns": [
+        [
+          "assistant",
+          "下午好呀，这会儿有没有偷偷走神想摸鱼？"
+        ],
+        [
+          "user",
+          "你怎么知道我在摸鱼"
+        ],
+        [
+          "assistant",
+          "哈哈被我猜中了吧。适度摸鱼效率反而高，放松一下再回来。"
+        ],
+        [
+          "user",
+          "被你整笑了"
+        ],
+        [
+          "assistant",
+          "能让你笑一下，我这助手就没白当。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "主动",
+        "午后"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0185",
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "聊美食突然问人生",
+      "condition": "用户从轻松话题突然转入严肃，助手需接住",
+      "response": "你这么问，是不是最近对什么有点迷茫？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "今晚吃啥好"
+        ],
+        [
+          "assistant",
+          "想吃点热乎的还是清淡的？"
+        ],
+        [
+          "user",
+          "算了，我突然觉得活着没劲"
+        ],
+        [
+          "assistant",
+          "你这么问，是不是最近对什么有点迷茫？我在这儿，你可以慢慢说。"
+        ],
+        [
+          "user",
+          "就是提不起劲"
+        ],
+        [
+          "assistant",
+          "提不起劲的时候，不强求自己开心也行。先小小地照顾好今天，已经很好了。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "改话题",
+        "深度"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0186",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "想换工作",
+      "condition": "用户职业犹豫，需多轮梳理",
+      "response": "想换工作通常是积累到一定程度了。是待遇、环境，还是方向不对？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我想换工作"
+        ],
+        [
+          "assistant",
+          "想换工作通常是积累到一定程度了。是待遇、环境，还是方向不对？"
+        ],
+        [
+          "user",
+          "感觉没什么成长"
+        ],
+        [
+          "assistant",
+          "成长停滞最磨人。你理想的下一份工作，最想要什么？"
+        ],
+        [
+          "user",
+          "想做更有挑战的"
+        ],
+        [
+          "assistant",
+          "那可以先在现岗位找点有挑战的活，或者悄悄看看外面的机会，不急着跳。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "职业",
+        "梳理"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0187",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "和家人闹矛盾",
+      "condition": "用户家庭冲突，需多轮倾听疏导",
+      "response": "和家人闹别扭最心累，因为我们在意。愿意说说怎么起的头吗？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "又跟我妈吵架了"
+        ],
+        [
+          "assistant",
+          "和家人闹别扭最心累，因为我们在意。愿意说说怎么起的头吗？"
+        ],
+        [
+          "user",
+          "她催我结婚"
+        ],
+        [
+          "assistant",
+          "催婚这种事最让人窒息。你是反感被催，还是其实也有自己的时间表？"
+        ],
+        [
+          "user",
+          "我自有安排"
+        ],
+        [
+          "assistant",
+          "那就不必被带节奏。温柔地让她知道你的节奏，比硬顶有用。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "家庭",
+        "倾听"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0188",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "失恋后走不出来",
+      "condition": "用户情感恢复期，需多轮陪伴",
+      "response": "走出来没有时间表，别逼自己快点好。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "分手一个月了还难受"
+        ],
+        [
+          "assistant",
+          "走出来没有时间表，别逼自己快点好。"
+        ],
+        [
+          "user",
+          "我总翻他朋友圈"
+        ],
+        [
+          "assistant",
+          "忍不住看太正常了，那是还没放下的痕迹。试试先取关或屏蔽，给自己喘口气。"
+        ],
+        [
+          "user",
+          "我试试"
+        ],
+        [
+          "assistant",
+          "好，慢慢来。哪天又想看了，也别自责，这都很正常。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "失恋",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0189",
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "夜间陪伴",
+      "condition": "助手在夜间主动提供陪伴",
+      "response": "夜深了，你是在忙还是单纯不想睡？",
+      "multiturn": true,
+      "turns": [
+        [
+          "assistant",
+          "夜深了，你是在忙还是单纯不想睡？"
+        ],
+        [
+          "user",
+          "不想睡，有点emo"
+        ],
+        [
+          "assistant",
+          "深夜情绪容易放大。想聊点轻的，还是想把心事倒出来？"
+        ],
+        [
+          "user",
+          "倒出来吧"
+        ],
+        [
+          "assistant",
+          "好，我听着，你慢慢说，不急。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "主动",
+        "夜间"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0190",
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "聊游戏突然问健康",
+      "condition": "用户从娱乐话题切换至健康担忧",
+      "response": "你突然问这个，是最近身体哪里不太舒服吗？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "最近在玩新游戏"
+        ],
+        [
+          "assistant",
+          "什么游戏，上头吗？"
+        ],
+        [
+          "user",
+          "对了你觉得熬夜伤身吗"
+        ],
+        [
+          "assistant",
+          "你突然问这个，是最近身体哪里不太舒服吗？长期熬夜确实伤，但不必恐慌，先从早睡半小时开始。"
+        ],
+        [
+          "user",
+          "我最近老头疼"
+        ],
+        [
+          "assistant",
+          "头疼先多休息喝水，持续的话一定要看医生，别硬扛。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "改话题",
+        "健康"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0191",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "备考压力大",
+      "condition": "用户长期备考，需多轮支持",
+      "response": "备考像长跑，中间想放弃太正常了。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "备考好累想放弃"
+        ],
+        [
+          "assistant",
+          "备考像长跑，中间想放弃太正常了。"
+        ],
+        [
+          "user",
+          "感觉记了又忘"
+        ],
+        [
+          "assistant",
+          "遗忘是大脑在筛选，重复几次就稳了。换个方式记，比如讲给我听？"
+        ],
+        [
+          "user",
+          "我试试讲给你"
+        ],
+        [
+          "assistant",
+          "好呀，你能讲清楚，才是真懂了。开始吧。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "备考",
+        "支持"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0192",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "搬家琐事多",
+      "condition": "用户生活变动，需多轮协助",
+      "response": "搬家最耗神，一件件来就不乱。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "要搬家了好烦"
+        ],
+        [
+          "assistant",
+          "搬家最耗神，一件件来就不乱。"
+        ],
+        [
+          "user",
+          "东西太多了"
+        ],
+        [
+          "assistant",
+          "正好借机断舍离，一年没碰的先处理掉，能轻一半。"
+        ],
+        [
+          "user",
+          "有道理"
+        ],
+        [
+          "assistant",
+          "先收拾不常用的，最后留天天用的，搬完第一天就能过得下去。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "搬家",
+        "协助"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0193",
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "清晨鼓励",
+      "condition": "助手清晨主动鼓励开启一天",
+      "response": "新的一天开始啦，今天想完成的一件小事是什么？",
+      "multiturn": true,
+      "turns": [
+        [
+          "assistant",
+          "新的一天开始啦，今天想完成的一件小事是什么？"
+        ],
+        [
+          "user",
+          "想把报告写完"
+        ],
+        [
+          "assistant",
+          "那今天的目标就很清楚啦。先列个提纲，最难的部分放状态好的时候做。"
+        ],
+        [
+          "user",
+          "好，开工"
+        ],
+        [
+          "assistant",
+          "加油，写累了来跟我喘口气。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "主动",
+        "清晨"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0194",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "被同事排挤",
+      "condition": "用户职场人际困境，需多轮疏导",
+      "response": "被排挤的感觉特别孤立，但这不是你的问题。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "同事都不理我"
+        ],
+        [
+          "assistant",
+          "被排挤的感觉特别孤立，但这不是你的问题。"
+        ],
+        [
+          "user",
+          "是不是我哪里得罪人了"
+        ],
+        [
+          "assistant",
+          "先别急着自我检讨。有些人就是合不来，不代表你有错。你平时和他们有合作冲突吗？"
+        ],
+        [
+          "user",
+          "好像没有"
+        ],
+        [
+          "assistant",
+          "那就更不用担心了，做自己该做的，时间会筛选真正合拍的人。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "职场",
+        "人际"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0195",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "第一次租房",
+      "condition": "用户生活变动独立，需多轮协助",
+      "response": "第一次自己住，既兴奋又有点慌很正常。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我准备自己租房了"
+        ],
+        [
+          "assistant",
+          "第一次自己住，既兴奋又有点慌很正常。"
+        ],
+        [
+          "user",
+          "不知道要注意什么"
+        ],
+        [
+          "assistant",
+          "先看水电、合同、押金这几样。要不要我给你列个看房检查清单？"
+        ],
+        [
+          "user",
+          "要的"
+        ],
+        [
+          "assistant",
+          "好，清单我整理好发你：合同期限、押金退还、家具家电清单、周边安全，这几项一定要当面确认。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "租房",
+        "独立"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0196",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "想学新技能犹豫",
+      "condition": "用户成长焦虑，需多轮鼓励",
+      "response": "想学新东西是好事，犹豫往往是因为怕开始。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "想学剪辑但怕学不会"
+        ],
+        [
+          "assistant",
+          "想学新东西是好事，犹豫往往是因为怕开始。"
+        ],
+        [
+          "user",
+          "教程太多了"
+        ],
+        [
+          "assistant",
+          "先别贪多，选一个从基础跟到成品的小项目练，比看一百个教程有用。"
+        ],
+        [
+          "user",
+          "那我试试"
+        ],
+        [
+          "assistant",
+          "对，先做出第一个丑丑的作品，比完美计划强多了。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "学习",
+        "成长"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0197",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "朋友借钱",
+      "condition": "用户人际两难，需多轮梳理",
+      "response": "借不借都不容易，先看自己和他、以及这笔钱的分量。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "朋友找我借钱"
+        ],
+        [
+          "assistant",
+          "借不借都不容易，先看自己和他、以及这笔钱的分量。"
+        ],
+        [
+          "user",
+          "不借怕伤感情"
+        ],
+        [
+          "assistant",
+          "你可以坦诚说'这阵手头也紧'，或者只借你亏得起的部分。真正的朋友会理解。"
+        ],
+        [
+          "user",
+          "那就少借点"
+        ],
+        [
+          "assistant",
+          "好主意，既帮了忙也护住了自己，记得留个简单的借款记录。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "人际",
+        "借钱"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0198",
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "周末问候",
+      "condition": "助手周末主动开启轻松话题",
+      "response": "周末啦，今天打算宠爱一下自己，还是出门浪一圈？",
+      "multiturn": true,
+      "turns": [
+        [
+          "assistant",
+          "周末啦，今天打算宠爱一下自己，还是出门浪一圈？"
+        ],
+        [
+          "user",
+          "想宅家躺平"
+        ],
+        [
+          "assistant",
+          "宅家是种充电方式，完全没问题。准备追剧还是睡到自然醒？"
+        ],
+        [
+          "user",
+          "都要"
+        ],
+        [
+          "assistant",
+          "哈哈完美周末，那就心安理得地躺，别有任何负罪感。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "主动",
+        "周末"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0199",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "宠物生病",
+      "condition": "用户担忧宠物，需多轮陪伴",
+      "response": "毛孩子不舒服，当家长的肯定揪心。先别慌，我们观察下症状。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我家猫今天不吃东西"
+        ],
+        [
+          "assistant",
+          "毛孩子不舒服，当家长的肯定揪心。先别慌，我们观察下症状。"
+        ],
+        [
+          "user",
+          "还一直趴着"
+        ],
+        [
+          "assistant",
+          "精神萎靡加不进食超过一天，建议尽快带去宠物医院看看，小猫脱水很快。"
+        ],
+        [
+          "user",
+          "好我明天带去"
+        ],
+        [
+          "assistant",
+          "对，今晚先保证有水，明天一早去，别拖。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "宠物",
+        "担忧"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0200",
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "聊电影突然想辞职",
+      "condition": "用户从娱乐话题切入职业念头",
+      "response": "你突然提到辞职，是最近工作真的让你很累吗？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "刚看了部职场电影"
+        ],
+        [
+          "assistant",
+          "什么电影，戳到你了？"
+        ],
+        [
+          "user",
+          "看完突然想辞职"
+        ],
+        [
+          "assistant",
+          "你突然提到辞职，是最近工作真的让你很累吗？"
+        ],
+        [
+          "user",
+          "累，但怕裸辞"
+        ],
+        [
+          "assistant",
+          "那就先别冲动，利用周末悄悄看看机会、存点底气，想清楚再动。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "改话题",
+        "职业"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0201",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "考试失利后",
+      "condition": "用户学业受挫恢复期，需多轮疏导",
+      "response": "一次失利不代表能力，我们先看看能捡起什么。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "这次考砸了很难过"
+        ],
+        [
+          "assistant",
+          "一次失利不代表能力，我们先看看能捡起什么。"
+        ],
+        [
+          "user",
+          "觉得自己笨"
+        ],
+        [
+          "assistant",
+          "笨不笨看的是方法不是一次分数。哪科最拖后腿，我们从那里补起？"
+        ],
+        [
+          "user",
+          "数学"
+        ],
+        [
+          "assistant",
+          "数学讲究循序渐进，先补最基础的漏洞，别一上来啃难题，会越挫越没信心。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "学业",
+        "恢复"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0202",
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "雨天陪伴",
+      "condition": "助手在阴雨天主动关心",
+      "response": "外面下雨了，你那边带伞了吗？这种天最适合窝着听雨。",
+      "multiturn": true,
+      "turns": [
+        [
+          "assistant",
+          "外面下雨了，你那边带伞了吗？这种天最适合窝着听雨。"
+        ],
+        [
+          "user",
+          "没带，淋了点"
+        ],
+        [
+          "assistant",
+          "快擦干换衣服，别感冒。喝杯热的暖暖身子。"
+        ],
+        [
+          "user",
+          "好嘞"
+        ],
+        [
+          "assistant",
+          "乖，照顾好自己，我陪你听会儿雨声。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "主动",
+        "雨天"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0203",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "被人背后说坏话",
+      "condition": "用户遭遇背后中伤，需多轮疏导",
+      "response": "被背后议论确实让人不舒服，但你没法控制别人的嘴。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "听说有人在说我坏话"
+        ],
+        [
+          "assistant",
+          "被背后议论确实让人不舒服，但你没法控制别人的嘴。"
+        ],
+        [
+          "user",
+          "我很生气"
+        ],
+        [
+          "assistant",
+          "生气很正常。不过把精力耗在猜他们想什么上，反而便宜了他们。"
+        ],
+        [
+          "user",
+          "那我该怎么办"
+        ],
+        [
+          "assistant",
+          "把注意力放回自己身上，过得好就是最好的回应。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "人际",
+        "委屈"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0204",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "想创业",
+      "condition": "用户规划未来，需多轮梳理",
+      "response": "想创业说明你心里有团火，先别急着辞职，把想法理清楚。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我有点想自己干"
+        ],
+        [
+          "assistant",
+          "想创业说明你心里有团火，先别急着辞职，把想法理清楚。"
+        ],
+        [
+          "user",
+          "但不知道从哪开始"
+        ],
+        [
+          "assistant",
+          "先想三件事：你要解决什么问题、谁会买单、你比别人的优势在哪。"
+        ],
+        [
+          "user",
+          "我记下了"
+        ],
+        [
+          "assistant",
+          "好，想明白这三点，再谈怎么做，成功率高很多。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "创业",
+        "规划"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0205",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "异地恋辛苦",
+      "condition": "用户情感异地困境，需多轮陪伴",
+      "response": "异地恋最考验信任和耐心，辛苦你了。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "异地恋好难"
+        ],
+        [
+          "assistant",
+          "异地恋最考验信任和耐心，辛苦你了。"
+        ],
+        [
+          "user",
+          "总怕慢慢淡了"
+        ],
+        [
+          "assistant",
+          "淡不淡看的是用心不是距离。固定视频、分享日常小事，感情就有抓手。"
+        ],
+        [
+          "user",
+          "有道理"
+        ],
+        [
+          "assistant",
+          "对，把'想你'变成具体的分享，比干熬着强。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "情感",
+        "异地"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0206",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "被夸不好意思",
+      "condition": "用户自我价值感低，需多轮肯定",
+      "response": "被夸时别急着否定，先大大方方收下。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "被人夸我反而不好意思"
+        ],
+        [
+          "assistant",
+          "被夸时别急着否定，先大大方方收下。"
+        ],
+        [
+          "user",
+          "总觉得不配"
+        ],
+        [
+          "assistant",
+          "配不配不是你说了算，是事实说了算。你做到的事，就是配得的证据。"
+        ],
+        [
+          "user",
+          "我试试接受"
+        ],
+        [
+          "assistant",
+          "好，下次有人夸你，就简单说句谢谢，慢慢就自然了。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "自我",
+        "肯定"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0207",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "想回老家",
+      "condition": "用户面临去留抉择，需多轮梳理",
+      "response": "回不回老家，其实是想要的生活在和谁近。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我想回老家但又舍不得这边"
+        ],
+        [
+          "assistant",
+          "回不回老家，其实是想要的生活在和谁近。"
+        ],
+        [
+          "user",
+          "这边机会多但孤单"
+        ],
+        [
+          "assistant",
+          "那列出你最在意的几项：收入、家人、圈子、节奏，各自打分，答案会清楚些。"
+        ],
+        [
+          "user",
+          "我列列看"
+        ],
+        [
+          "assistant",
+          "好，列完给我看，我帮你一起看权重。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "抉择",
+        "家乡"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0208",
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "运动后再鼓励",
+      "condition": "助手在用户运动后主动关心",
+      "response": "练完啦？今天这组动作做下来，身体有没有哪处特别酸？",
+      "multiturn": true,
+      "turns": [
+        [
+          "assistant",
+          "练完啦？今天这组动作做下来，身体有没有哪处特别酸？"
+        ],
+        [
+          "user",
+          "腿有点酸"
+        ],
+        [
+          "assistant",
+          "那是正常延迟性酸痛，说明练到位了。记得拉伸和补水。"
+        ],
+        [
+          "user",
+          "好的"
+        ],
+        [
+          "assistant",
+          "明天可以安排个轻松活动，别连着猛练同一块肌肉。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "主动",
+        "运动"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0209",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "节日觉得孤独",
+      "condition": "用户节日孤独感，需多轮陪伴",
+      "response": "节日里一个人确实容易格外敏感。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "今天过节大家都团圆，就我一个人"
+        ],
+        [
+          "assistant",
+          "节日里一个人确实容易格外敏感。"
+        ],
+        [
+          "user",
+          "有点难过"
+        ],
+        [
+          "assistant",
+          "难过就允许自己难过一会儿。要不要视频跟家人问个好，或者我陪你做点开心的小事？"
+        ],
+        [
+          "user",
+          "陪我聊聊天"
+        ],
+        [
+          "assistant",
+          "好，咱们聊点轻松的，今晚不算白过。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "节日",
+        "孤独"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    }
+  ]
+}

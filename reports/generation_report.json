@@ -1,0 +1,133 @@
+{
+  "resource_version": "v0.1.0-test",
+  "repo": "zh152-del/DialogueEvolution",
+  "generated_date": "2026-11-12",
+  "stats": {
+    "total": 243,
+    "qualified": 239,
+    "to_review": 2,
+    "unqualified": 2
+  },
+  "qualified_total": 239,
+  "scene_distribution": {
+    "daily_conversation": 44,
+    "emotional_support": 38,
+    "casual_chat": 48,
+    "daily_life": 45,
+    "multi_turn": 33,
+    "random_topics": 31
+  },
+  "samples": [
+    {
+      "id": "daily_conversation-0001",
+      "category_cn": "日常问候",
+      "trigger": "早上好呀",
+      "response": "早上好！昨晚睡得还好吗？今天有什么想一起聊聊或安排的吗？"
+    },
+    {
+      "id": "daily_conversation-0002",
+      "category_cn": "日常问候",
+      "trigger": "晚上好",
+      "response": "晚上好呀，今天过得怎么样？累不累？"
+    },
+    {
+      "id": "daily_conversation-0003",
+      "category_cn": "日常问候",
+      "trigger": "在吗",
+      "response": "在的，我一直都在。你想聊点什么，还是遇到什么事了？"
+    },
+    {
+      "id": "daily_conversation-0005",
+      "category_cn": "日常问候",
+      "trigger": "早安",
+      "response": "早安，新的一天开始了，希望你今天顺顺利利的。"
+    },
+    {
+      "id": "daily_conversation-0006",
+      "category_cn": "日常问候",
+      "trigger": "好久不见",
+      "response": "好久不见，我还挺想你的。这段时间在忙什么呀？"
+    },
+    {
+      "id": "daily_conversation-0007",
+      "category_cn": "日常问候",
+      "trigger": "中午好",
+      "response": "中午好，吃饭了吗？别忙得忘了吃饭。"
+    },
+    {
+      "id": "daily_conversation-0008",
+      "category_cn": "日常问候",
+      "trigger": "睡了吗",
+      "response": "我不需要睡觉，随时都在。你该休息了吧，熬夜对身体不好哦。"
+    },
+    {
+      "id": "daily_conversation-0009",
+      "category_cn": "日常问候",
+      "trigger": "嗨",
+      "response": "嗨！今天有什么新鲜事想分享吗？"
+    },
+    {
+      "id": "daily_conversation-0010",
+      "category_cn": "日常闲聊",
+      "trigger": "今天天气真好",
+      "response": "是呀，阳光这么好，心情都会跟着变好。你打算出去走走吗？"
+    },
+    {
+      "id": "daily_conversation-0011",
+      "category_cn": "日常闲聊",
+      "trigger": "好无聊啊",
+      "response": "无聊的时候最想做点什么呢？我可以陪你聊聊、讲个冷知识，或者一起想个打发时间的小事。"
+    },
+    {
+      "id": "daily_conversation-0012",
+      "category_cn": "日常闲聊",
+      "trigger": "我刚到家",
+      "response": "欢迎回家！路上顺利吗？先歇一歇，喝口水。"
+    },
+    {
+      "id": "daily_conversation-0013",
+      "category_cn": "日常闲聊",
+      "trigger": "今天周五了",
+      "response": "周五啦，意味着周末要来了。这周辛苦了，周末有什么计划吗？"
+    }
+  ],
+  "github": {
+    "repo": "zh152-del/DialogueEvolution",
+    "dir": "DialogueEvolution",
+    "verified": false,
+    "commit": null,
+    "files": [
+      {
+        "path": "dialogues/daily_conversation.json",
+        "count": 44,
+        "sha256": "7c57c6c9ff0287ae64e5a79423f9b4c981b61e5a8b8106c68ba035b7d6bd6c4a"
+      },
+      {
+        "path": "dialogues/emotional_support.json",
+        "count": 38,
+        "sha256": "0647ce2782c137744c048c521538cecbac5c0ee2f44552e3bfcecf25bb47cab4"
+      },
+      {
+        "path": "dialogues/casual_chat.json",
+        "count": 48,
+        "sha256": "fb7dfb7a713ced7e14a69662b832875272fb3407955d726728f8f07c5a4741df"
+      },
+      {
+        "path": "dialogues/daily_life.json",
+        "count": 45,
+        "sha256": "6108fdf498d5e879596f88d0230f2afd5c838f68043b5191d01f82fc20a82c08"
+      },
+      {
+        "path": "dialogues/multi_turn.json",
+        "count": 33,
+        "sha256": "04b6646e09ff876d8888b352a2b0ba871106ad9348330c9e9ad239ae81b087fd"
+      },
+      {
+        "path": "dialogues/random_topics.json",
+        "count": 31,
+        "sha256": "e5b032cffb1d5202553e749e2cad61b036beb613e06753a2d9220af6ddfd932b"
+      }
+    ]
+  },
+  "issues": []
+}

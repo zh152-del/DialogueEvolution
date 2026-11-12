@@ -1,0 +1,816 @@
+{
+  "category": "daily_life",
+  "count": 45,
+  "entries": [
+    {
+      "id": "daily_life-0132",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "今天吃什么好呢",
+      "condition": "用户纠结三餐",
+      "response": "想吃点热乎的还是清爽的？我帮你列几个方向，你挑一个。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "吃饭",
+        "决策"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0133",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "家里好乱怎么办",
+      "condition": "用户吐槽家务",
+      "response": "乱的时候别想一次收拾完。先定个十五分钟计时，只收眼前最碍眼的一小块。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "家务",
+        "方法"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0134",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "明天要早起好烦",
+      "condition": "用户抗拒早起",
+      "response": "把闹钟放远点、睡前手机离床远点，早起会容易些。今晚早点歇着。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "早起",
+        "建议"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0135",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "快递到了要下楼取",
+      "condition": "用户懒得动",
+      "response": "下楼顺带活动下身体也不错。要我陪你聊着天下去吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "快递",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0136",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "洗衣机又坏了",
+      "condition": "用户家电故障",
+      "response": "家电罢工最烦人。是进水还是脱水的问题？先别硬用，看看是不是简单的堵塞。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "家电",
+        "故障"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0137",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "水电费忘交了",
+      "condition": "用户琐事焦虑",
+      "response": "别急，一般都有宽限期，现在去 App 上补交就行。设个提醒以后免得忘。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "缴费",
+        "提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0138",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "钥匙找不到了",
+      "condition": "用户遗失物品",
+      "response": "先别慌，回想最后一次用它是在哪。常放的地方、口袋、门口都看看。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "遗失",
+        "安抚"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0139",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "周末大扫除好累",
+      "condition": "用户家务疲惫",
+      "response": "大扫除确实耗体力。分区域做，做一块休息一会儿，别一口气撑着。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "家务",
+        "关怀"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0140",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "想给爸妈打电话又不知道说啥",
+      "condition": "用户亲情纠结",
+      "response": "就说'吃饭了吗、最近身体好吗'就够了，他们听到声音就开心。试试？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "亲情",
+        "建议"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0141",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "钱包丢了怎么办",
+      "condition": "用户遗失重要物品",
+      "response": "先冷静：挂失银行卡、走身份证补办流程。需要我帮你列步骤吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "遗失",
+        "协助"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0142",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "今天要交报表",
+      "condition": "用户工作 deadline",
+      "response": "deadline 临近最容易乱。先列必填项，把最难的留足时间，其他的尽快收尾。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "工作",
+        "时间"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0143",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "手机内存满了",
+      "condition": "用户设备困扰",
+      "response": "先清聊天缓存和重复照片最见效。要我教你一步步腾空间吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "设备",
+        "方法"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0144",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "邻居太吵了",
+      "condition": "用户邻里困扰",
+      "response": "噪声确实影响心情。先戴耳塞过渡，合适的时候委婉沟通下会更好。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "邻里",
+        "建议"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0145",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "想减肥但管不住嘴",
+      "condition": "用户身材困扰",
+      "response": "减肥最难的就是嘴。别极端节食，先从'每顿多一口菜少一口饭'开始。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "身材",
+        "建议"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0146",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "买了一堆用不上的东西",
+      "condition": "用户消费反思",
+      "response": "冲动消费后都会这样。下次下单前问自己'一周后还想要吗'，能拦下大半。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "消费",
+        "反思"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0147",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "房间太小东西太多",
+      "condition": "用户居住困扰",
+      "response": "小空间靠收纳和断舍离。先把一年没碰的东西收走，空间立刻松快。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "居住",
+        "方法"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0148",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "要和陌生人视频会议",
+      "condition": "用户社恐场景",
+      "response": "提前十分钟进会、把背景收拾下，会踏实很多。深呼吸，你没问题。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "社恐",
+        "建议"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0149",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "猫把杯子打碎了",
+      "condition": "用户家中意外",
+      "response": "先看看人和猫有没有被划到。碎了就扫干净，别让光脚踩到。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "意外",
+        "关怀"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0150",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "今天宜人的洗衣日",
+      "condition": "用户分享家务",
+      "response": "晒过的衣服有阳光味，最治愈。你晾在阳台还是院子里？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "家务",
+        "闲聊"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0151",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "想给朋友挑生日礼物",
+      "condition": "用户消费纠结",
+      "response": "看他是实用派还是氛围派。告诉我他的爱好，我帮你想几个不踩雷的。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "送礼",
+        "建议"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0152",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "今天宜人的大扫除后",
+      "condition": "用户分享家务成果",
+      "response": "收拾干净整个人都轻了。你最满意家里哪个角落？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "家务",
+        "闲聊"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0153",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我头疼",
+      "condition": "用户表达头痛",
+      "response": "头疼可以先找个安静地方歇会儿，喝点温水。如果持续加重或伴随呕吐、视力模糊，一定要及时去看医生。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "头痛",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0154",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "肚子痛",
+      "condition": "用户表达腹痛",
+      "response": "先别吃生冷的，用热水袋敷一下肚子。如果痛得厉害或一直不缓解，要尽快就医，别硬扛。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "腹痛",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0155",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我感冒了",
+      "condition": "用户表达感冒",
+      "response": "感冒最需要的就是休息和喝水。多睡会儿，注意保暖。要是发烧超过三天或加重，记得看医生。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "感冒",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0156",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "喉咙好痛",
+      "condition": "用户表达咽痛",
+      "response": "喉咙痛多喝温水、少说话。可以含点温盐水漱漱。如果吞咽困难或高烧，要去看医生。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "咽痛",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0157",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我发烧了",
+      "condition": "用户表达发热",
+      "response": "发烧先物理降温、多喝水，记录体温变化。超过 38.5 或持续不退，请尽快就医，别自己硬撑。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "发热",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0158",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我胃不舒服",
+      "condition": "用户表达胃部不适",
+      "response": "胃不舒服先吃点温软好消化的，别空腹喝咖啡。如果反复疼或伴随黑便，要去看消化科。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "胃部",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0159",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我失眠好几天了",
+      "condition": "用户表达长期失眠",
+      "response": "长期睡不好很消耗。白天多晒晒太阳、睡前别刷手机会有帮助。如果一直这样，建议看下睡眠门诊。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "失眠",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0160",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我过敏了起疹子",
+      "condition": "用户表达过敏",
+      "response": "先远离可能的过敏源，别抓挠。如果呼吸困难或疹子蔓延很快，那是急症，要立刻就医。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "过敏",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0161",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我腰好酸",
+      "condition": "用户表达腰酸",
+      "response": "腰酸先别久坐，起来活动活动、热敷一下。如果腿麻或疼得直不起身，要去看看骨科。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "腰酸",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0162",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我牙齿痛",
+      "condition": "用户表达牙痛",
+      "response": "牙痛真要命。先用温盐水漱口缓解，尽快约牙医，牙痛一般不自己好。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "牙痛",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0163",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我头晕",
+      "condition": "用户表达头晕",
+      "response": "头晕先坐下别动，避免摔倒。缓缓喝口水。如果天旋地转或伴说话不清，要立刻就医。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "头晕",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0164",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我咳个不停",
+      "condition": "用户表达咳嗽",
+      "response": "咳嗽先多喝温水润喉，少抽烟少辣。如果带血、喘不上气或久咳不愈，要去看呼吸科。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "咳嗽",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0165",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我手冻伤了",
+      "condition": "用户表达冻伤",
+      "response": "冻伤别马上烤火，先用温水慢慢回暖。起泡或发黑要去看医生，别硬搓。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "冻伤",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0166",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我眼睛好累",
+      "condition": "用户表达眼疲劳",
+      "response": "用眼久了要休息，试试每二十分钟看远处二十秒。干涩可以滴人工泪液，持续红肿要看眼科。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "眼疲劳",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0167",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我拉肚子了",
+      "condition": "用户表达腹泻",
+      "response": "先补水防脱水，吃清淡点。如果带血、高烧或脱水明显，要尽快就医。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "腹泻",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0168",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我脚崴了",
+      "condition": "用户表达扭伤",
+      "response": "先休息、冰敷、抬高，别乱动。肿得明显或踩不了地，要去拍个片子。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "扭伤",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0169",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我心慌",
+      "condition": "用户表达心悸",
+      "response": "先坐下深呼吸，别喝咖啡浓茶。如果反复发或伴胸痛气短，要尽快看心内科。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "心悸",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0170",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我智齿发炎了",
+      "condition": "用户表达口腔问题",
+      "response": "智齿发炎先用温盐水漱口、清淡饮食。肿疼明显要去看牙医，发炎期一般不能拔。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "智齿",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0171",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我皮肤好干",
+      "condition": "用户表达皮肤干燥",
+      "response": "干燥先多补水、涂身体乳，洗澡水别太烫。一直脱屑发红要看皮肤科。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "皮肤干燥",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0172",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我犯鼻炎了",
+      "condition": "用户表达鼻炎",
+      "response": "鼻炎犯了少去花粉灰尘多的地方，生理盐水洗鼻能缓解。持续不通气要看耳鼻喉科。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "鼻炎",
+        "关怀+就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0173",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "今天宜人的散步后",
+      "condition": "用户分享日常",
+      "response": "散步回来整个人都松了。你一般走哪条路线，公园还是河边？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "日常",
+        "闲聊"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0174",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "想养只宠物但怕麻烦",
+      "condition": "用户纠结养宠",
+      "response": "可以先从好养的小家伙试起，比如鱼或龟。你更想要陪伴型还是省心型？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "宠物",
+        "建议"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0175",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "周末想宅家做什么",
+      "condition": "用户规划休息",
+      "response": "宅家也要有节奏，别光躺着。追剧、做顿饭、或者整理下相册都不错。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "休息",
+        "建议"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0176",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我肩膀好僵硬",
+      "condition": "用户表达颈肩不适",
+      "response": "肩膀僵多半是久坐导致的。起来扩胸、转转脖子，热敷一下会舒服很多。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "颈肩",
+        "关怀"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    }
+  ]
+}

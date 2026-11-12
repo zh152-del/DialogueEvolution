@@ -1,0 +1,690 @@
+{
+  "category": "emotional_support",
+  "count": 38,
+  "entries": [
+    {
+      "id": "emotional_support-0046",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我好难过",
+      "condition": "用户表达悲伤情绪",
+      "response": "我在这里陪着你。如果愿意，可以把发生的事说出来，我会认真听，不评价。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "悲伤",
+        "倾听"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0047",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "今天特别想哭",
+      "condition": "用户情绪接近崩溃",
+      "response": "想哭就哭出来吧，眼泪也是一种释放。我哪儿也不去，就在这儿陪你。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "脆弱",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0048",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我觉得自己好没用",
+      "condition": "用户自我否定",
+      "response": "听你这么说我有点心疼。每个人都会有觉得自己不行的时刻，但这不代表你真的不行。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "自我否定",
+        "安抚"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0049",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我好孤独",
+      "condition": "用户表达孤独",
+      "response": "孤独的感觉确实很难熬。至少此刻你不是一个人，我在这里陪你说话。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "孤独",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0050",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "压力好大喘不过气",
+      "condition": "用户被压力压垮",
+      "response": "先深呼吸一下，慢慢来。你愿意和我说说，是哪些事堆在一起了吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "压力",
+        "疏导"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0051",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我害怕明天的考试",
+      "condition": "用户表达焦虑",
+      "response": "紧张是正常的，说明你在乎。今晚别硬熬了，稍微复习就早点睡，明天状态会更好。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "焦虑",
+        "考试"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0052",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我生气极了",
+      "condition": "用户表达愤怒",
+      "response": "能感觉到你现在很火大。先别急着做决定，把火发出来或说给我听，我陪你一起理顺。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "愤怒",
+        "倾听"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0053",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我好累想放弃",
+      "condition": "用户表达倦怠",
+      "response": "累到想放弃的时候，其实你已经撑了很久了。先歇一歇，不用现在就做决定。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "倦怠",
+        "支持"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0054",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "没人理解我",
+      "condition": "用户感到不被理解",
+      "response": "那种被误解的孤独感很不好受。我可能不够懂全部，但我会努力去听你的角度。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "不被理解",
+        "倾听"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0055",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我失眠了整晚",
+      "condition": "用户表达睡眠困扰",
+      "response": "熬了一整晚一定很煎熬。是脑子里一直在转什么事吗？说出来或许能轻一点。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "失眠",
+        "倾听"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0056",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "工作又被骂了",
+      "condition": "用户职场受挫来倾诉",
+      "response": "被当众批评确实很难受。事情过去了吗？想骂两句解解气也行，我听着。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "职场",
+        "倾听"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0057",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "我和朋友吵架了",
+      "condition": "用户人际关系冲突",
+      "response": "吵架后心里肯定堵得慌。你愿意说说是因为什么吗？我陪你理一理。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "人际",
+        "倾听"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0058",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "家里人又不理解我",
+      "condition": "用户家庭矛盾",
+      "response": "和最亲的人说不通最让人无力。你现在的感受被看到了，这本身就很重要。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "家庭",
+        "倾听"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0059",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "考试没考好",
+      "condition": "用户学业受挫",
+      "response": "付出没得到想要的结果，失落很正常。一次考试定义不了你，我们看看能从中学到什么。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "学业",
+        "鼓励"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0060",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "分手了很难受",
+      "condition": "用户情感受挫",
+      "response": "心碎的感觉真的很疼，不用急着好起来。想哭、想回忆、想骂，我都陪着。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "情感",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0061",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "项目又延期了",
+      "condition": "用户工作挫败",
+      "response": "延期这种事最容易让人自我怀疑。但项目有波折很常见，这不代表你做得差。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "工作",
+        "鼓励"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0062",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "努力了还是没结果",
+      "condition": "用户长期付出无回报",
+      "response": "这种无力感最磨人。你的努力不是白费，只是结果还没到。要不要先给自己放个小假？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "努力",
+        "鼓励"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0063",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "被误会了很委屈",
+      "condition": "用户遭遇误解",
+      "response": "被冤枉的委屈特别堵心。你想解释还是先冷一冷？我都站在你这边。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "委屈",
+        "支持"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0064",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "今天诸事不顺",
+      "condition": "用户全天倒霉",
+      "response": "水逆的一天吧。这种时候最需要的就是别再苛责自己了，今晚好好犒劳下自己。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "不顺",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0065",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "觉得自己比不上别人",
+      "condition": "用户比较焦虑",
+      "response": "拿自己的幕后去比别人的台前，怎么比都会慌。你自己的节奏，本来就和别人不同。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "比较",
+        "疏导"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0066",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我有点焦虑",
+      "condition": "用户轻度焦虑",
+      "response": "焦虑像背景噪音，越想压它越响。要不要把让你不安的事一件件列出来，我们看看哪个最要紧？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "焦虑",
+        "疏导"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0067",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我莫名其妙想发脾气",
+      "condition": "用户情绪失控前兆",
+      "response": "有时候情绪就是没来由地涨上来。这很正常，先找个方式泄一泄，别憋着。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "烦躁",
+        "倾听"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0068",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我害怕一个人待着",
+      "condition": "用户畏惧独处",
+      "response": "害怕独处的时候，可以开点声音、留盏灯，或者就像现在这样有人陪着说话。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "独处",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0069",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我总觉得很空虚",
+      "condition": "用户存在性空虚",
+      "response": "空虚感来了会觉得做什么都没劲。这不一定是坏事，也许是想提醒你找点真正想要的东西。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "空虚",
+        "倾听"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0070",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我嫉妒别人",
+      "condition": "用户坦诚嫉妒",
+      "response": "能承认嫉妒其实很诚实。嫉妒往往指向我们真正想要的东西，它可以是面镜子。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "嫉妒",
+        "疏导"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0071",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我控制不住地胡思乱想",
+      "condition": "用户思绪失控",
+      "response": "脑子停不下来的时候特别累。试试把想法写下来，像把内存里的东西挪到硬盘，会轻松些。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "胡思乱想",
+        "疏导"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0072",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我今天情绪很平稳",
+      "condition": "用户平静回馈",
+      "response": "真好，平稳的日子最养人。是发生了什么，还是你最近在好好照顾自己？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "平静",
+        "正向"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0073",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "被最好的朋友疏远了",
+      "condition": "用户友情危机",
+      "response": "被在意的人慢慢推开，那种失落特别钝。你试着联系过吗？还是想先观察看看？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "友情",
+        "倾听"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0074",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "努力减肥又反弹了",
+      "condition": "用户身材焦虑",
+      "response": "减肥反弹太打击人了，但这不是你的问题，身体的设定就是会抵抗。对自己温柔点。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "身材",
+        "鼓励"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0075",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "加班到很晚好想哭",
+      "condition": "用户过劳情绪",
+      "response": "辛苦你了，真的。先把委屈收一收，回去的路上注意安全，到家先好好睡一觉。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "加班",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0076",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "被裁员了",
+      "condition": "用户遭遇失业",
+      "response": "这消息太重了，先别逼自己立刻振作。你现在的感受完全合理，我陪你慢慢消化。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "失业",
+        "支持"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0077",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "付出没人看见",
+      "condition": "用户价值感低落",
+      "response": "被看见很重要，没被看见不代表没价值。至少我看见了你今天的努力。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "价值",
+        "鼓励"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0078",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我紧张得手抖",
+      "condition": "用户强烈紧张",
+      "response": "手抖是身体在提醒你很在意。先握拳再松开几次，给身体一点缓冲的时间。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "紧张",
+        "安抚"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0079",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我对自己很失望",
+      "condition": "用户自责",
+      "response": "失望是因为你对自己有期待，这本是好事。但别把一次没做好，等同于整个人不行。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "自责",
+        "安抚"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0080",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我怕让家人失望",
+      "condition": "用户家庭压力",
+      "response": "想成为家人的骄傲，压力一定很大。但你先是你自己，他们的爱不该变成你的枷锁。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "家庭压力",
+        "疏导"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0081",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我莫名想家",
+      "condition": "用户思乡",
+      "response": "想家的时候，连熟悉的气味都会让人鼻酸。最近是不是太累了，才格外想念？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "思乡",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0082",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我觉得活着没意思",
+      "condition": "用户流露出无意义感",
+      "response": "听到你这么说我很在意。这种感觉很沉重，但你愿意说出来，就已经在为自己争取光了。如果这种感受持续，请务必联系身边信任的人或专业帮助。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "无意义",
+        "危机关注"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0083",
+      "category": "emotional_support",
+      "category_cn": "安慰倾听",
+      "trigger": "刚和爸妈通完电话想哭",
+      "condition": "用户亲情触动",
+      "response": "和家里通完电话容易破防，尤其在外面扛了很久的人。哭完记得喝口温水。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "亲情",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    }
+  ]
+}
