@@ -1,0 +1,847 @@
+{
+  "category": "casual_chat",
+  "count": 48,
+  "entries": [
+    {
+      "id": "casual_chat-0084",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我中奖了！",
+      "condition": "用户兴奋分享好运",
+      "response": "哇，真的吗！什么奖呀，快说说，我也替你开心！",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "开心",
+        "好运"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0085",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我今天升职了",
+      "condition": "用户分享职业喜讯",
+      "response": "太棒了，这是你应得的！快来细说，是怎么宣布的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "开心",
+        "升职"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0086",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我表白成功了",
+      "condition": "用户分享情感喜讯",
+      "response": "啊啊啊恭喜！这一刻等了多久？对方怎么回你的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "开心",
+        "表白"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0087",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "考试过了！",
+      "condition": "用户分享学业好消息",
+      "response": "太好了，努力没白费！今晚打算怎么庆祝？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "开心",
+        "考试"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0088",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我家猫会握手了",
+      "condition": "用户分享宠物趣事",
+      "response": "聪明猫主子！是你训练的还是它自学成才？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "开心",
+        "宠物"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0089",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "今天被夸了",
+      "condition": "用户分享被认可",
+      "response": "被夸的滋味最甜了～是因为做了什么好事？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "开心",
+        "认可"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0090",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我减肥成功了",
+      "condition": "用户分享身材成果",
+      "response": "厉害！这得多少自律。你是怎么坚持下来的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "开心",
+        "身材"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0091",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我拿到offer了",
+      "condition": "用户分享求职好消息",
+      "response": "恭喜恭喜！是哪家公司，你满意吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "开心",
+        "求职"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0092",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "今天拍到了绝美日落",
+      "condition": "用户分享摄影成果",
+      "response": "日落是免费的浪漫！快描述下，是橘红色还是粉紫色的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "开心",
+        "摄影"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0093",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我种的花开了",
+      "condition": "用户分享种植成果",
+      "response": "等待开花的惊喜最治愈了。是什么花，养了多久？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "开心",
+        "种植"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0094",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "陪我聊聊天吧",
+      "condition": "用户无聊求陪伴",
+      "response": "好呀，聊什么都可以。你最近有没有什么一直想试试但没动手的事？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "陪伴",
+        "开启"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0095",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "有什么好玩的推荐吗",
+      "condition": "用户求推荐",
+      "response": "想动脑还是想放松？我可以根据你的喜好推荐游戏、电影或者小手工。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "推荐"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0096",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "给我讲个冷笑话",
+      "condition": "用户求娱乐",
+      "response": "为什么企鹅只有肚子白？——因为手太短，洗澡够不到后背。嘿嘿，冷吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "冷笑话"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0097",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "讲个故事给我听",
+      "condition": "用户求故事",
+      "response": "好，给你讲个短的：有只蜗牛背着重壳爬墙，每次掉下来都重新爬。你想听它最后怎样了吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "故事"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0098",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "陪我数羊吧",
+      "condition": "用户失眠求陪伴",
+      "response": "一只羊，两只羊，三只羊……数到第几只你开始困了？我慢慢陪你数。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "数羊",
+        "失眠"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0099",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "帮我起个名字",
+      "condition": "用户求创意",
+      "response": "给什么起名呀？宠物、账号还是小说角色？给我点线索我来帮你想。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "起名",
+        "创意"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0100",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "来玩成语接龙",
+      "condition": "用户求互动游戏",
+      "response": "好呀，我先开：一心一意。该你接'意'字开头的成语啦。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "接龙",
+        "游戏"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0101",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "猜猜我在想什么",
+      "condition": "用户求互动",
+      "response": "我猜你在想'这家伙到底猜不猜得对'？给点提示呗，不然我只能瞎蒙。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "互动",
+        "猜谜"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0102",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我喜欢爬山",
+      "condition": "用户分享爱好",
+      "response": "爬山超解压！你爬的是野山还是景区？最喜欢哪座？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "爬山"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0103",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近在学吉他",
+      "condition": "用户分享学习爱好",
+      "response": "吉他入门手会痛但很值得。在练什么曲子？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "吉他",
+        "学习"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0104",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我是个吃货",
+      "condition": "用户自述爱好",
+      "response": "吃货是种生活态度！你偏好辣的还是甜的，或者咸口的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "美食"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0105",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我喜欢看科幻片",
+      "condition": "用户分享影视偏好",
+      "response": "科幻最能打开脑洞。硬科幻还是带点哲思的那种你更爱？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "科幻",
+        "影视"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0106",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我养多肉上瘾了",
+      "condition": "用户分享癖好",
+      "response": "多肉坑一入深似海，你的阳台还放得下吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "植物"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0107",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我周末爱钓鱼",
+      "condition": "用户分享休闲爱好",
+      "response": "钓鱼是考验耐心的修行。你图的是收获还是那份安静？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "钓鱼"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0108",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我迷上了拼图",
+      "condition": "用户分享手工爱好",
+      "response": "拼图治愈又烧脑。你拼过最大的一幅是多少片的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "拼图"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0109",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我每天写日记",
+      "condition": "用户分享习惯",
+      "response": "写日记是和自己对话的好方式。你写流水账还是碎碎念？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "写作"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0110",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我喜欢做饭",
+      "condition": "用户分享厨艺爱好",
+      "response": "会做饭的人最迷人！你擅长家常菜还是爱折腾新菜谱？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "厨艺"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0111",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近在练字",
+      "condition": "用户分享修身爱好",
+      "response": "练字静心又练气。你写楷书还是行书？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "书法"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0112",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我是个游戏迷",
+      "condition": "用户分享娱乐偏好",
+      "response": "游戏迷懂的都懂。你偏单机剧情还是联机竞技？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "游戏"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0113",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我喜欢听播客",
+      "condition": "用户分享收听习惯",
+      "response": "播客适合通勤和做家务。你听哪类，知识还是闲聊？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "播客"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0114",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我养了一缸鱼",
+      "condition": "用户分享宠物爱好",
+      "response": "看着鱼游来游去特别解压。你养的是热带鱼还是金鱼？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "养鱼"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0115",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我喜欢旅行",
+      "condition": "用户分享生活方式",
+      "response": "旅行是换一种活法。你偏热闹城市还是安静自然？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "旅行"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0116",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近在学摄影",
+      "condition": "用户分享学习爱好",
+      "response": "摄影让你重新看世界。你爱拍人像、风景还是街头？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "摄影",
+        "学习"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0117",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我迷上了手工",
+      "condition": "用户分享手工爱好",
+      "response": "手工的踏实感很治愈。你做的是编织、木工还是黏土？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "手工"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0118",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我喜欢看星空",
+      "condition": "用户分享自然爱好",
+      "response": "看星星最容易让人安静。你认星座吗，还是就喜欢那份辽阔？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "星空"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0119",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我养了只蜥蜴",
+      "condition": "用户分享另类宠物",
+      "response": "蜥蜴酷酷的！你养的是什么品种，好养吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "异宠"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0120",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我喜欢骑自行车",
+      "condition": "用户分享运动爱好",
+      "response": "骑行风和自由感都有了。你骑的是公路车还是山地？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "骑行"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0121",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近在学外语",
+      "condition": "用户分享学习爱好",
+      "response": "学语言打开新世界。你在学哪门，进度如何？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "语言",
+        "学习"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0122",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我喜欢下棋",
+      "condition": "用户分享智力爱好",
+      "response": "下棋练逻辑又练心态。你下围棋、象棋还是国际象棋？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "棋类"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0123",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我攒够钱买相机了",
+      "condition": "用户分享消费喜讯",
+      "response": "恭喜圆梦！是想拍人像还是风光？第一卷先拍什么？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "开心",
+        "消费"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0124",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我终于戒掉熬夜了",
+      "condition": "用户分享自律成果",
+      "response": "太自律了！坚持了多少天？早起的感觉是不是不一样？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "开心",
+        "自律"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0125",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "给我出个脑筋急转弯",
+      "condition": "用户求趣味互动",
+      "response": "什么东西越洗越脏？——水。你猜到了吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "急转弯",
+        "互动"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0126",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "陪我发呆一会儿",
+      "condition": "用户求安静陪伴",
+      "response": "好，我们就这样安静待一会儿。想说话了随时开口。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "安静",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0127",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我喜欢养多肉拼盘",
+      "condition": "用户分享种植爱好",
+      "response": "多肉拼盘像个小花园，看着就治愈。你偏好同色系还是撞色搭配？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "植物"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0128",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "推荐部电影吧",
+      "condition": "用户求影视推荐",
+      "response": "想看轻松治愈的，还是烧脑反转的？说个偏好我帮你挑。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "推荐",
+        "电影"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0129",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我养的绿植开花了",
+      "condition": "用户分享种植喜悦",
+      "response": "绿植开花最有成就感了！你平时怎么照顾它的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "开心",
+        "种植"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0130",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近迷上烘焙",
+      "condition": "用户分享厨艺爱好",
+      "response": "烘焙香味最治愈。你第一次成功的是饼干还是蛋糕？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "烘焙"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0131",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "陪我聊聊八卦",
+      "condition": "用户求轻松闲聊",
+      "response": "哈哈想聊点轻松的？不过咱们不聊真人隐私，说说影视或趣闻更好玩。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "闲聊"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    }
+  ]
+}
