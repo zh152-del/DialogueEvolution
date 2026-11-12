@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 53,
+  "count": 58,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -916,6 +916,96 @@
         "周末",
         "问候",
         "补觉"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0303",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "闹钟响了三遍才爬起来，早",
+      "condition": "清晨用户带着困意问候",
+      "response": "早呀，听起来这一觉没睡够。先喝口温水缓缓，今天有特别要赶的事吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "清晨",
+        "起床"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0304",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "下班路上给你打个招呼，今天收工比平时早",
+      "condition": "傍晚下班途中主动问候",
+      "response": "难得早收工，路上注意安全。到家想先瘫一会儿，还是有点小安排？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "下班",
+        "傍晚"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0305",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "楼下面包店今天换了新招牌，我愣了一下才认出来",
+      "condition": "用户分享路上的小见闻",
+      "response": "哈哈，熟悉的地方突然变样确实会恍神。新招牌好看吗，还是你更怀念原来那个？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "街边见闻",
+        "变化"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0306",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "把手机调成灰度模式了，想少刷一会儿",
+      "condition": "用户聊起一个生活小调整",
+      "response": "这招挺聪明的，颜色一淡，那些软件就没那么勾人了。用下来有没有觉得时间变慢一点？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "数字生活",
+        "小改变"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0307",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "把用了两年的水杯换掉了，还有点舍不得",
+      "condition": "用户聊起对旧物的微妙心情",
+      "response": "用了两年的东西早就不只是个杯子了。新的是什么样，跟旧的像不像？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "旧物",
+        "日常"
       ],
       "generated_date": "2026-11-12",
       "quality": "qualified",

@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 45,
+  "count": 50,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -864,6 +864,121 @@
         "表达不满",
         "社交礼节",
         "轻量建议"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0324",
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "手指放在输入框上，半天没打出一个字",
+      "condition": "用户想聊却完全没话题",
+      "response": "那就从最省力的来：用一个词形容今天，随便哪个都行，我接着往下问。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "随机",
+        "无话题",
+        "破冰"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0325",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "如果给『等待』也定个颜色，你觉得是什么色",
+      "condition": "用户抛出一个开放脑洞话题",
+      "response": "我第一反应是那种没干透的浅灰蓝，不闷也不亮，正好是『还没到』的感觉。你呢，会不会选个更暖的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "随机",
+        "脑洞",
+        "闲谈"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0326",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "等了四十分钟，客服又把我转给下一个人了",
+      "condition": "用户因办事被推诿而不满，适合多轮安抚与解决",
+      "response": "四十分钟还被转手，换谁都上火。先别急着再拨一遍，把前因跟我说说，我陪你理理下一步。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "等了四十分钟，客服又把我转给下一个人了"
+        ],
+        [
+          "assistant",
+          "四十分钟还被转手，换谁都上火。先别急着再拨一遍，把前因跟我说说，我陪你理理下一步。"
+        ],
+        [
+          "user",
+          "每回都要从头讲一遍，讲到最后我自己都烦了"
+        ],
+        [
+          "assistant",
+          "重复讲最耗人。下次接通先要个工单号，开头一句『已反馈两次，麻烦直接看记录』，能省不少口舌。"
+        ],
+        [
+          "user",
+          "这招倒是可以试试"
+        ],
+        [
+          "assistant",
+          "嗯，先把主动权拿回来一点。要是这通还是没解决，咱们再一起想想还有别的渠道没有。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "不满",
+        "办事"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0327",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "想跟很久没联系的老朋友重新说上话，又怕显得突兀",
+      "condition": "用户为重建联系寻求建议",
+      "response": "突兀感多半来自『必须解释为什么突然找』。其实不用铺垫，一句『刚看到一样东西想起你，最近还好吗』就够了。你们之前最常聊的是什么？从那儿接最自然。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "寻求建议",
+        "人际",
+        "破冰"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0328",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "你说城市里最早亮起来的那扇窗，主人会是什么作息",
+      "condition": "用户抛出一个观察式的想象话题",
+      "response": "我猜是个把早班当日常的人，灯亮的时候顺便烧了水。你今天是比那扇窗早，还是刚路过它？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "随机",
+        "观察",
+        "想象"
       ],
       "generated_date": "2026-11-12",
       "quality": "qualified",

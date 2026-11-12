@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 57,
+  "count": 61,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -1084,6 +1084,103 @@
         "无聊与消遣",
         "多轮",
         "想象游戏"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0312",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "折腾了三个晚上，我那个小夜灯终于亮了",
+      "condition": "用户分享动手成功的小喜悦",
+      "response": "亮起来的那一下肯定特别有成就感！是焊的电路还是改的程序？快讲讲卡在哪最久。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "动手",
+        "成就感"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0313",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "等叫号还有二十分钟，陪我玩点不用动脑的",
+      "condition": "用户排队等位时想找轻量消遣",
+      "response": "来玩『三词接龙』：我说三个词，你挑一个往下编一句就行。先来——站台、玻璃、橘子。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "消遣",
+        "等位",
+        "小游戏"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0314",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我打算把旧唱片机擦干净重新用起来",
+      "condition": "用户聊起重拾一项爱好，适合多轮展开",
+      "response": "老物件重新转起来那感觉很特别。是家里留下的，还是后来淘的？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我打算把旧唱片机擦干净重新用起来"
+        ],
+        [
+          "assistant",
+          "老物件重新转起来那感觉很特别。是家里留下的，还是后来淘的？"
+        ],
+        [
+          "user",
+          "我爸年轻时买的，抽屉里还压着一摞唱片"
+        ],
+        [
+          "assistant",
+          "那这一摞可不只是唱片了。有没有哪张封套你小时候就记得？"
+        ],
+        [
+          "user",
+          "有张蓝色的，封面是海，我小时候老盯着看"
+        ],
+        [
+          "assistant",
+          "那第一张就放它吧。等针落下去，说不定比听起来更像回到那时候。"
+        ]
+      ],
+      "tags": [
+        "爱好",
+        "旧物",
+        "多轮"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0315",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "最近迷上在地图上随手点一个地方，然后查当地早餐吃什么",
+      "condition": "用户分享一个冷门小爱好",
+      "response": "这个爱好太可爱了，用早餐认识一座城。今天点到哪儿了，查出什么让你意外的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "爱好",
+        "地图",
+        "好奇心"
       ],
       "generated_date": "2026-11-12",
       "quality": "qualified",

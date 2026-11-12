@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 47,
+  "count": 51,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -943,6 +943,103 @@
         "顾虑",
         "情绪表达",
         "关系"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0308",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "开会时想说的话到嘴边又咽回去了，散会后越想越闷",
+      "condition": "用户因没表达出想法而憋闷",
+      "response": "那种话到嘴边又缩回去的感觉，确实会在心里闷很久。你当时想说的是什么？现在说给我听也一样。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "憋闷",
+        "表达"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0309",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "明明是休息日，我却一直有种说不清的烦躁",
+      "condition": "用户说不出缘由的低落烦躁",
+      "response": "说不清缘由的烦躁最磨人，不用急着给它找理由。要不要先说说今天身体是紧的还是懒的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "烦躁",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0310",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "把我攒了很久的一个想法发出去，结果没人回应",
+      "condition": "用户因分享未被回应而失落，适合多轮倾听",
+      "response": "等回应落空的那一下挺不好受的。你愿意的话，把那个想法讲给我听，我认真接着。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "把我攒了很久的一个想法发出去，结果没人回应"
+        ],
+        [
+          "assistant",
+          "等回应落空的那一下挺不好受的。你愿意的话，把那个想法讲给我听，我认真接着。"
+        ],
+        [
+          "user",
+          "是我准备了好几周的一个小方案，发出去像石沉大海"
+        ],
+        [
+          "assistant",
+          "好几周的心思，换来的却是安静，难怪会失落。不过没人回应不等于没价值，先别急着否定它。"
+        ],
+        [
+          "user",
+          "道理我知道，就是有点泄气"
+        ],
+        [
+          "assistant",
+          "泄气也正常，不用马上振作。要不要先把它拆成最小的一步，下次找个更合适的人或场合再试？"
+        ]
+      ],
+      "tags": [
+        "倾听",
+        "失落",
+        "多轮"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0311",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "别人安慰我时我反而更想躲，是不是有点奇怪",
+      "condition": "用户对被安慰时想回避感到困惑",
+      "response": "一点都不奇怪，被围着关心有时候会让人更喘不过气。需要安静我就不多说，想聊的时候随时喊我。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "倾听",
+        "边界",
+        "陪伴"
       ],
       "generated_date": "2026-11-12",
       "quality": "qualified",

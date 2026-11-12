@@ -1,6 +1,6 @@
 {
   "category": "daily_life",
-  "count": 56,
+  "count": 60,
   "entries": [
     {
       "id": "daily_life-0132",
@@ -1081,6 +1081,103 @@
         "楼道灯",
         "生活琐事",
         "安全"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0316",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "晾在外面的衣服被雨淋了，白洗一遍",
+      "condition": "用户遇到家务小挫折",
+      "response": "哎，这种『白忙一场』最泄气。先看天气预报挑个连晴的时段重晾，这次我帮你记着提醒。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "洗衣",
+        "天气"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0317",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "冰箱里剩半棵白菜和两根葱，晚饭怎么安排",
+      "condition": "用户想用现有食材解决一餐",
+      "response": "这俩凑一起挺合适：白菜撕片、葱切段，先炝个锅做汤面或者醋溜都行。你更想喝汤还是想吃干一点的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "琐事",
+        "做饭",
+        "食材"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0318",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "下午开始嗓子干得厉害，说话都费劲",
+      "condition": "用户咽喉不适，需关怀且不给诊断或用药",
+      "response": "嗓子干成这样挺难受的，先少说点话、别贪凉，温水小口小口喝。要是持续好几天或者咽东西明显疼，别硬扛，去医院让医生看看更踏实。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体不适",
+        "咽喉",
+        "关怀"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0319",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "昨夜没睡踏实，今天一整天都昏沉沉的",
+      "condition": "用户因休息不佳状态差，适合多轮关怀",
+      "response": "一整天都带着这层雾肯定不好过。先别给自己排太满的事，能坐着就别站着。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "昨夜没睡踏实，今天一整天都昏沉沉的"
+        ],
+        [
+          "assistant",
+          "一整天都带着这层雾肯定不好过。先别给自己排太满的事，能坐着就别站着。"
+        ],
+        [
+          "user",
+          "中午想补个觉又怕晚上更睡不着"
+        ],
+        [
+          "assistant",
+          "这种纠结很常见。要是实在撑不住，就闭眼靠一会儿，别给自己定任务，舒服一点算一点。"
+        ],
+        [
+          "user",
+          "要是连着几天都这样呢"
+        ],
+        [
+          "assistant",
+          "那就别自己扛了，把作息和状态跟医生说说，比反复猜原因省心得多。今晚先早点放下手机试试？"
+        ]
+      ],
+      "tags": [
+        "身体不适",
+        "睡眠",
+        "多轮"
       ],
       "generated_date": "2026-11-12",
       "quality": "qualified",

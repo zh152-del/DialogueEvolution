@@ -1,94 +1,88 @@
 {
-  "resource_version": "v0.1.2",
+  "resource_version": "v0.1.3",
   "repo": "zh152-del/DialogueEvolution",
   "generated_date": "2026-11-12",
   "stats": {
-    "total": 33,
-    "qualified": 33,
+    "total": 26,
+    "qualified": 26,
     "to_review": 0,
     "unqualified": 0
   },
-  "qualified_total": 301,
+  "qualified_total": 327,
   "scene_distribution": {
     "daily_conversation": 5,
-    "emotional_support": 5,
-    "casual_chat": 5,
-    "daily_life": 6,
-    "multi_turn": 5,
-    "random_topics": 7
+    "emotional_support": 4,
+    "casual_chat": 4,
+    "daily_life": 4,
+    "multi_turn": 4,
+    "random_topics": 5
   },
   "samples": [
     {
-      "id": "daily_conversation-0270",
-      "category_cn": "日常闲聊",
-      "trigger": "午休刚醒，脑子还有点懵",
-      "response": "刚醒那会儿确实像没开机，先喝口水、缓缓再动。今天下午要紧的事多吗？"
+      "id": "daily_conversation-0303",
+      "category_cn": "日常问候",
+      "trigger": "闹钟响了三遍才爬起来，早",
+      "response": "早呀，听起来这一觉没睡够。先喝口温水缓缓，今天有特别要赶的事吗？"
     },
     {
-      "id": "daily_conversation-0271",
-      "category_cn": "日常闲聊",
-      "trigger": "今天下班比平时早",
-      "response": "难得早收工！这多出来的时间想用来歇着，还是做点一直搁着的小事？"
+      "id": "daily_conversation-0304",
+      "category_cn": "日常问候",
+      "trigger": "下班路上给你打个招呼，今天收工比平时早",
+      "response": "难得早收工，路上注意安全。到家想先瘫一会儿，还是有点小安排？"
     },
     {
-      "id": "emotional_support-0275",
-      "category_cn": "情绪表达",
-      "trigger": "明明没出什么事，却提不起劲",
-      "response": "这种没来由的低电量也很真实，不用给它找个理由才允许自己休息。要不要先做件特别小、特别不费力的事？"
-    },
-    {
-      "id": "emotional_support-0276",
+      "id": "emotional_support-0310",
       "category_cn": "安慰与倾听",
-      "trigger": "我把一件小事搞砸了，一直在自责",
-      "response": "反复回放最耗人。事情本身可能没那么大，倒是自责把它放大了。先跟我说说具体是哪一步，咱们把它从「我搞砸了」拆回「一件小事」。"
+      "trigger": "把我攒了很久的一个想法发出去，结果没人回应",
+      "response": "等回应落空的那一下挺不好受的。你愿意的话，把那个想法讲给我听，我认真接着。"
     },
     {
-      "id": "casual_chat-0280",
+      "id": "emotional_support-0308",
+      "category_cn": "情绪表达",
+      "trigger": "开会时想说的话到嘴边又咽回去了，散会后越想越闷",
+      "response": "那种话到嘴边又缩回去的感觉，确实会在心里闷很久。你当时想说的是什么？现在说给我听也一样。"
+    },
+    {
+      "id": "casual_chat-0314",
+      "category_cn": "兴趣爱好",
+      "trigger": "我打算把旧唱片机擦干净重新用起来",
+      "response": "老物件重新转起来那感觉很特别。是家里留下的，还是后来淘的？"
+    },
+    {
+      "id": "casual_chat-0312",
       "category_cn": "开心与分享",
-      "trigger": "我做的第一锅汤没糊！",
-      "response": "火候拿捏住了！是什么汤？这波成就感值得记一笔，下次可以试着加点自己的改动。"
+      "trigger": "折腾了三个晚上，我那个小夜灯终于亮了",
+      "response": "亮起来的那一下肯定特别有成就感！是焊的电路还是改的程序？快讲讲卡在哪最久。"
     },
     {
-      "id": "casual_chat-0281",
-      "category_cn": "无聊与消遣",
-      "trigger": "排队排了半小时，快睡着了",
-      "response": "排队最考验耐心了。要不要趁这会儿玩个「给前面每个人编个身份」的小游戏？或者干脆放空，我陪你耗着。"
+      "id": "daily_life-0319",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "昨夜没睡踏实，今天一整天都昏沉沉的",
+      "response": "一整天都带着这层雾肯定不好过。先别给自己排太满的事，能坐着就别站着。"
     },
     {
-      "id": "daily_life-0285",
+      "id": "daily_life-0316",
       "category_cn": "生活琐事",
-      "trigger": "晾衣服发现少了只袜子",
-      "response": "袜子单只失踪堪称生活未解之谜。先翻翻洗衣机门封和床底，多半躲在那儿；实在找不到，就当它提前退休了。"
+      "trigger": "晾在外面的衣服被雨淋了，白洗一遍",
+      "response": "哎，这种『白忙一场』最泄气。先看天气预报挑个连晴的时段重晾，这次我帮你记着提醒。"
     },
     {
-      "id": "daily_life-0286",
-      "category_cn": "生活琐事",
-      "trigger": "晚饭做多了，剩一大盘",
-      "response": "别硬撑着吃完。分装冷藏，明天带饭或换个做法又是新的一餐。要我帮你想个剩菜翻身的点子吗？"
+      "id": "multi_turn-0320",
+      "category_cn": "多轮连续交流",
+      "trigger": "帮我捋一下，这周末我到底想干嘛",
+      "response": "行，咱们慢慢捋。先说一个：这周末你最不想做的事是什么？从反着来反而好找方向。"
     },
     {
-      "id": "multi_turn-0291",
-      "category_cn": "主动开启话题",
-      "trigger": "刚开完会，脑子还嗡嗡的",
-      "response": "会开得久吧？先给自己两分钟缓一缓，喝口水。是会太长，还是讨论的事有点烧脑？"
+      "id": "random_topics-0326",
+      "category_cn": "表达不满",
+      "trigger": "等了四十分钟，客服又把我转给下一个人了",
+      "response": "四十分钟还被转手，换谁都上火。先别急着再拨一遍，把前因跟我说说，我陪你理理下一步。"
     },
     {
-      "id": "multi_turn-0292",
-      "category_cn": "突然改变话题",
-      "trigger": "诶，突然想起个事",
-      "response": "洗耳恭听，什么突然冒出来了？"
-    },
-    {
-      "id": "random_topics-0296",
+      "id": "random_topics-0324",
       "category_cn": "用户不知道聊什么",
-      "trigger": "嘴巴想聊天，脑子拒绝提供素材",
-      "response": "那就别逼脑子交作业了。我们玩个最省力的：我说一个词，你接第一反应，接不下去就换我接，怎么样？"
-    },
-    {
-      "id": "random_topics-0297",
-      "category_cn": "随机话题探索",
-      "trigger": "为什么方便面是弯的",
-      "response": "弯的面条之间留了空隙，泡的时候热水更容易穿过去、熟得更均匀，也不容易粘成一坨；卷成块还更抗压、好装袋。要不要再来一个「厨房里的为什么」？"
+      "trigger": "手指放在输入框上，半天没打出一个字",
+      "response": "那就从最省力的来：用一个词形容今天，随便哪个都行，我接着往下问。"
     }
   ],
   "github": {
@@ -99,33 +93,33 @@
     "files": [
       {
         "path": "dialogues/daily_conversation.json",
-        "count": 53,
-        "sha256": "aeced6352d03393809fb874c87f1fc564f8fa03d165d30d04ffbdba6869a9264"
+        "count": 58,
+        "sha256": "57a4834a797a89e6f7e1fa8ba8cda48b0d1a717b83ecac436ce8e52bb758e0c0"
       },
       {
         "path": "dialogues/emotional_support.json",
-        "count": 47,
-        "sha256": "e695d8368b606c9c58ea47048050c8b6dfbcf9d2302f7935c83bec647d436769"
+        "count": 51,
+        "sha256": "d04e37a001983739c5b47fd9bcd340047bf0879abb2eb778107c533507a98a2f"
       },
       {
         "path": "dialogues/casual_chat.json",
-        "count": 57,
-        "sha256": "a7ec70da4dec663b27a79138cc4fc8c367a9711a40a479187fa8446e99e51ebf"
+        "count": 61,
+        "sha256": "f5ca1cef9f64fa4bc6757cfc655377ba804759a810e4b0149873b80e98394c7f"
       },
       {
         "path": "dialogues/daily_life.json",
-        "count": 56,
-        "sha256": "1d21c720f01f75d3242757d7c9709d6902031c27404ecb813aa5b017d200a1ea"
+        "count": 60,
+        "sha256": "bd66fd8068c28d596f018ce947c2c570696aea26b5d26e5257c8f5b97a2cae50"
       },
       {
         "path": "dialogues/multi_turn.json",
-        "count": 43,
-        "sha256": "ac73cfc40fa4bcd4fde39f052e716ff6fa2affcc6cc7f101aa5c8d01536c4a8e"
+        "count": 47,
+        "sha256": "f2f8e5d09a117836d4659cfc605b1148591e9999498135a1c1bbbdfb0fd0ceb5"
       },
       {
         "path": "dialogues/random_topics.json",
-        "count": 45,
-        "sha256": "506948024d4c9990c2ed728d0911d614c61d3f2f4d7256f375f26668304f6bf7"
+        "count": 50,
+        "sha256": "16a9272159a1dfc1c5c64b751133b0f5c1170803158994637fecb679608397ab"
       }
     ]
   },
