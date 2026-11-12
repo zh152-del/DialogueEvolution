@@ -1,6 +1,6 @@
 {
   "category": "daily_life",
-  "count": 45,
+  "count": 50,
   "entries": [
     {
       "id": "daily_life-0132",
@@ -808,6 +808,146 @@
         "颈肩",
         "关怀"
       ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "微波炉好像坏了，加热不动",
+      "condition": "用户家电出故障求助",
+      "response": "先别急，检查一下是不是门没关严或定时没设好。还是不行的话，看看保修期，别自己拆修，找售后更稳妥。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活",
+        "家电",
+        "故障"
+      ],
+      "id": "daily_life-0253",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "快递放驿站忘了取，超时了",
+      "condition": "用户忘记取快递求助",
+      "response": "别担心，一般超时后会退回网点再等你取。先在取件软件上看看包裹状态，联系驿站约个时间，顺路带回来就行。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活",
+        "快递",
+        "琐事"
+      ],
+      "id": "daily_life-0254",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "想给客厅换窗帘，纠结颜色",
+      "condition": "用户家居选择纠结需要建议",
+      "response": "客厅窗帘跟沙发或墙面同色系最不容易出错，你家沙发是什么颜色的？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "想给客厅换窗帘，纠结颜色"
+        ],
+        [
+          "assistant",
+          "客厅窗帘跟沙发或墙面同色系最不容易出错，你家沙发是什么颜色的？"
+        ],
+        [
+          "user",
+          "灰色的"
+        ],
+        [
+          "assistant",
+          "那选浅灰、米白都很稳，想要亮点可以试试雾霾蓝或芥末黄，和灰色也搭。"
+        ],
+        [
+          "user",
+          "想要耐脏一点的"
+        ],
+        [
+          "assistant",
+          "那米灰或燕麦色最合适，深色显沉稳但容易显旧。买之前可以先要一小块布样放在沙发旁比比看。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "生活",
+        "家居"
+      ],
+      "id": "daily_life-0255",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "早上起来脖子落枕了",
+      "condition": "用户落枕需要日常关怀（不做诊断）",
+      "response": "落枕转个头都费劲吧。这几天别硬扭脖子，热敷一下能舒服些，睡觉注意枕头高度。要是几天还不见好，去医院看看更放心。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体",
+        "落枕",
+        "关怀"
+      ],
+      "id": "daily_life-0256",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "早上没吃早饭，有点头晕心慌",
+      "condition": "用户空腹不适需要日常关怀（不做诊断）",
+      "response": "多半是饿的，先坐下来缓缓，喝点糖水或吃块糖，别空着肚子硬撑。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "早上没吃早饭，现在有点头晕心慌"
+        ],
+        [
+          "assistant",
+          "多半是饿的，先坐下来缓缓，喝点糖水或吃块糖，别空着肚子硬撑。"
+        ],
+        [
+          "user",
+          "找了块巧克力吃了"
+        ],
+        [
+          "assistant",
+          "好的，缓一缓，等舒服点了正经吃顿东西垫垫胃，以后别空着肚子扛到中午啦。"
+        ],
+        [
+          "user",
+          "好多了，谢谢你"
+        ],
+        [
+          "assistant",
+          "不客气。要是这种头晕心慌反复出现，别拖着，去医院查一下更安心。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "身体",
+        "关怀"
+      ],
+      "id": "daily_life-0257",
       "generated_date": "2026-11-12",
       "quality": "qualified",
       "qc_reasons": []

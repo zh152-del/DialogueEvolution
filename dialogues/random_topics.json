@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 31,
+  "count": 38,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -555,6 +555,165 @@
         "旅行",
         "思辨"
       ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "想聊点新鲜的，但没头绪",
+      "condition": "用户想聊天但想不出话题",
+      "response": "那就从今天的五个感官开始：你今天看到、听到、吃到、摸到、闻到的东西里，哪一样最特别？从它开始，咱们就能聊出一串话题。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "没话题",
+        "探索",
+        "开场"
+      ],
+      "id": "random_topics-0263",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "云为什么不会掉下来",
+      "condition": "用户好奇自然现象",
+      "response": "因为云其实是无数很小的水滴和冰晶，它们又轻又散，下降速度极慢，加上大气里上升的暖流一直托着，所以能飘在天上。等水滴攒大了、托不住了，就变成雨掉下来啦。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "科普",
+        "随机",
+        "云"
+      ],
+      "id": "random_topics-0264",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "为什么切洋葱会流眼泪",
+      "condition": "用户好奇生活常识",
+      "response": "洋葱被切开时会释放出一种刺激性物质，飘进眼睛会刺激角膜，大脑就指挥泪腺大量分泌泪水来冲洗保护眼睛。想切洋葱不流泪，可以提前把它冷藏一会儿，或者开着抽油烟机在水边切。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "科普",
+        "随机",
+        "生活常识"
+      ],
+      "id": "random_topics-0265",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "外卖送错单了，真无语",
+      "condition": "用户遇到糟心事表达不满",
+      "response": "等了半天送来的却不是自己的，确实很火大。先拍照留证，在平台里申请退款或重新配送，一般都能处理。饭要紧，先想想接下来吃什么，别让一单外卖毁了心情。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "不满",
+        "外卖",
+        "安抚"
+      ],
+      "id": "random_topics-0266",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "视频软件又弹贴片广告，好烦",
+      "condition": "用户吐槽广告体验",
+      "response": "广告比正片还长的体验谁懂，确实烦人。要是常用这个软件，去广告会员可以权衡一下；不想花钱的话，不少平台有跳过按钮，掐着秒数点能省不少时间。深呼吸，别让它影响追剧的心情。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "不满",
+        "广告",
+        "吐槽"
+      ],
+      "id": "random_topics-0267",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "想养成阅读习惯，但总是坚持不了",
+      "condition": "用户求助习惯养成建议",
+      "response": "大多数人卡在目标定太高，一上来就定每天一小时，反而容易放弃。先把目标缩到每天读五分钟，门槛越低越容易坚持。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "想养成阅读习惯，但总是坚持不了几天"
+        ],
+        [
+          "assistant",
+          "大多数人卡在目标定太高，一上来就定每天一小时，反而容易放弃。先把目标缩到每天读五分钟，门槛越低越容易坚持。"
+        ],
+        [
+          "user",
+          "五分钟能读到什么"
+        ],
+        [
+          "assistant",
+          "五分钟大约两三页，一周也能啃完几十页。关键是让\"读书\"变成每天自然发生的事，量后面自然会涨。"
+        ],
+        [
+          "user",
+          "那用什么书开始好"
+        ],
+        [
+          "assistant",
+          "选你真正感兴趣的，小说、随笔都行，别逼自己啃大部头。把书放在床头或沙发上，顺手就能拿到的地方。"
+        ],
+        [
+          "user",
+          "有道理，今晚就开始"
+        ],
+        [
+          "assistant",
+          "好，从今晚五分钟开始。坚持一周后来跟我汇报进度，我帮你看看要不要加量。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "建议",
+        "阅读"
+      ],
+      "id": "random_topics-0268",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "第一次坐飞机有什么要注意的",
+      "condition": "用户寻求出行建议",
+      "response": "第一次飞行不用紧张。提前两小时到机场，带好身份证；充电宝要随身携带不能托运，超过一百毫升的液体别带上飞机。起飞降落时系好安全带，耳朵不适可以嚼口香糖缓解。剩下的就交给窗外的云海吧。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "建议",
+        "出行",
+        "飞机"
+      ],
+      "id": "random_topics-0269",
       "generated_date": "2026-11-12",
       "quality": "qualified",
       "qc_reasons": []

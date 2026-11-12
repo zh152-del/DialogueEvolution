@@ -1,6 +1,6 @@
 {
   "category": "multi_turn",
-  "count": 33,
+  "count": 38,
   "entries": [
     {
       "id": "multi_turn-0177",
@@ -1389,6 +1389,229 @@
         "节日",
         "孤独"
       ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "下午久坐提醒",
+      "condition": "午后助手主动关怀久坐用户",
+      "response": "下午好！连着忙了一上午，记得起来接杯水、活动一下肩颈哦。",
+      "multiturn": true,
+      "turns": [
+        [
+          "assistant",
+          "下午好！连着忙了一上午，记得起来接杯水、活动一下肩颈哦。"
+        ],
+        [
+          "user",
+          "正在赶方案，忙忘了"
+        ],
+        [
+          "assistant",
+          "再忙也别把身体晾一边，水杯放在手边，起来倒水的三十秒就当休息。方案卡住的地方可以跟我说说。"
+        ],
+        [
+          "user",
+          "还行，就是有点慢"
+        ],
+        [
+          "assistant",
+          "慢一点没关系，进入状态需要时间。先把手头这一小节做完，再歇口气，节奏自己把握就好。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "主动",
+        "午后"
+      ],
+      "id": "multi_turn-0258",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "从写报告聊到童年",
+      "condition": "用户聊天中突然跳转话题",
+      "response": "辛苦啦，忙完记得给自己一点喘息时间。今天主要在忙什么？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "今天工作好忙"
+        ],
+        [
+          "assistant",
+          "辛苦啦，忙完记得给自己一点喘息时间。今天主要在忙什么？"
+        ],
+        [
+          "user",
+          "写报告，写着写着想起小时候写作文"
+        ],
+        [
+          "assistant",
+          "哈哈这个跳跃有意思，小时候写作文是不是也经常憋到最后一刻？"
+        ],
+        [
+          "user",
+          "对，还编过\"扶老奶奶过马路\""
+        ],
+        [
+          "assistant",
+          "经典素材！那种绞尽脑汁编故事的劲头，说不定就是你现在写报告的隐藏技能。忙完记得犒劳一下自己。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "转话题",
+        "童年"
+      ],
+      "id": "multi_turn-0259",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "饭点主动关心",
+      "condition": "午餐时间助手主动关心饮食",
+      "response": "十二点啦，今天中午打算吃什么？别又用咖啡应付一顿哦。",
+      "multiturn": true,
+      "turns": [
+        [
+          "assistant",
+          "十二点啦，今天中午打算吃什么？别又用咖啡应付一顿哦。"
+        ],
+        [
+          "user",
+          "还没想好，可能点外卖"
+        ],
+        [
+          "assistant",
+          "点外卖可以，但记得挑个有蔬菜的套餐。要不要我帮你想想换换口味？"
+        ],
+        [
+          "user",
+          "那你说个建议"
+        ],
+        [
+          "assistant",
+          "中午吃清淡点不容易犯困，一碗面配个青菜，或者轻食加个汤，下午状态会更好。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "主动",
+        "用餐"
+      ],
+      "id": "multi_turn-0260",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "从降温聊到周末安排",
+      "condition": "用户连续聊天气与周末计划",
+      "response": "是呢，一夜入冬的感觉。秋衣秋裤可以安排上了，别硬扛着要风度。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "今天降温降得真快"
+        ],
+        [
+          "assistant",
+          "是呢，一夜入冬的感觉。秋衣秋裤可以安排上了，别硬扛着要风度。"
+        ],
+        [
+          "user",
+          "周末本来想出去玩"
+        ],
+        [
+          "assistant",
+          "降温的话可以把户外计划换成室内，看展、逛书店或者在家吃火锅都挺好。"
+        ],
+        [
+          "user",
+          "那就约朋友吃火锅"
+        ],
+        [
+          "assistant",
+          "热腾腾的火锅配降温天，绝配。趁早约人，周末的位子可抢手了。"
+        ],
+        [
+          "user",
+          "好，我现在就去约"
+        ],
+        [
+          "assistant",
+          "去吧！祝一顿火锅把寒气都驱散，玩得开心。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "连续交流",
+        "周末"
+      ],
+      "id": "multi_turn-0261",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "通勤路上连续聊天",
+      "condition": "用户通勤途中持续交流",
+      "response": "早高峰的地铁人从众模式。站稳扶好，戴上耳机就当拥有了私人空间。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "地铁上人好多"
+        ],
+        [
+          "assistant",
+          "早高峰的地铁人从众模式。站稳扶好，戴上耳机就当拥有了私人空间。"
+        ],
+        [
+          "user",
+          "在听你推荐的播客"
+        ],
+        [
+          "assistant",
+          "哦？哪一集？这集讲什么的？"
+        ],
+        [
+          "user",
+          "讲怎么利用碎片时间"
+        ],
+        [
+          "assistant",
+          "那很应景啊，通勤的三十分钟就是最好的碎片时间。听完跟我说说有没有想试试的方法。"
+        ],
+        [
+          "user",
+          "有一招是列当日三件事"
+        ],
+        [
+          "assistant",
+          "这招实用，今天你也可以试试：挑出三件最重要的事，做完就算赢。到站了记得看好随身物品。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "连续交流",
+        "通勤"
+      ],
+      "id": "multi_turn-0262",
       "generated_date": "2026-11-12",
       "quality": "qualified",
       "qc_reasons": []

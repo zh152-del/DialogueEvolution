@@ -1,46 +1,46 @@
 {
-  "resource_version": "v0.1.0-test",
-  "generated_at": "2026-11-12T10:35:12Z",
+  "resource_version": "v0.1.1",
+  "generated_at": "2026-11-12T11:36:33Z",
   "repo": "zh152-del/DialogueEvolution",
-  "qualified_total": 239,
+  "qualified_total": 268,
   "scene_categories": {
-    "daily_conversation": 44,
-    "emotional_support": 38,
-    "casual_chat": 48,
-    "daily_life": 45,
-    "multi_turn": 33,
-    "random_topics": 31
+    "daily_conversation": 48,
+    "emotional_support": 42,
+    "casual_chat": 52,
+    "daily_life": 50,
+    "multi_turn": 38,
+    "random_topics": 38
   },
   "files": [
     {
       "path": "dialogues/daily_conversation.json",
-      "count": 44,
-      "sha256": "7c57c6c9ff0287ae64e5a79423f9b4c981b61e5a8b8106c68ba035b7d6bd6c4a"
+      "count": 48,
+      "sha256": "5948098c95379b49c32ee7a1b0694ce52ebead10df6aa1fa7f58dc524be25ea3"
     },
     {
       "path": "dialogues/emotional_support.json",
-      "count": 38,
-      "sha256": "0647ce2782c137744c048c521538cecbac5c0ee2f44552e3bfcecf25bb47cab4"
+      "count": 42,
+      "sha256": "a8f8fd75a4c61c74d23ab3a30fb6bc9456fb92a23d233117ccb175e1082065df"
     },
     {
       "path": "dialogues/casual_chat.json",
-      "count": 48,
-      "sha256": "fb7dfb7a713ced7e14a69662b832875272fb3407955d726728f8f07c5a4741df"
+      "count": 52,
+      "sha256": "a08efae124bafb33eb4b059c41ea4026fa195b7d4fa30783e88d116516533681"
     },
     {
       "path": "dialogues/daily_life.json",
-      "count": 45,
-      "sha256": "6108fdf498d5e879596f88d0230f2afd5c838f68043b5191d01f82fc20a82c08"
+      "count": 50,
+      "sha256": "d8396ff321c4f044504444d5d2498e7fd2e1e730be4e660ec03e0e85613d3061"
     },
     {
       "path": "dialogues/multi_turn.json",
-      "count": 33,
-      "sha256": "04b6646e09ff876d8888b352a2b0ba871106ad9348330c9e9ad239ae81b087fd"
+      "count": 38,
+      "sha256": "80fb04f0fd82c095a29500e742aa1650c50b889c2f687d9e27267314127966c7"
     },
     {
       "path": "dialogues/random_topics.json",
-      "count": 31,
-      "sha256": "e5b032cffb1d5202553e749e2cad61b036beb613e06753a2d9220af6ddfd932b"
+      "count": 38,
+      "sha256": "e4017b465383eaab8fe5e7308b88b3ecf7a1458190e5b4d79c9ebf47aed4907e"
     }
   ]
 }

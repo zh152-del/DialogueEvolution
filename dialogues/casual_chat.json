@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 48,
+  "count": 52,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -839,6 +839,136 @@
         "无聊",
         "闲聊"
       ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我种的番茄终于结果了",
+      "condition": "用户分享种植成果",
+      "response": "从开花到挂果可是等了好久的成就感！熟透前少浇水会更甜，第一颗摘下来别忘了尝尝鲜。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "种植",
+        "开心"
+      ],
+      "id": "casual_chat-0249",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我第一次跑完十公里！",
+      "condition": "用户分享运动里程碑",
+      "response": "十公里都坚持下来了，这是里程碑级的进步，为你骄傲！",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我第一次跑完十公里！"
+        ],
+        [
+          "assistant",
+          "十公里都坚持下来了，这是里程碑级的进步，为你骄傲！"
+        ],
+        [
+          "user",
+          "跑到最后腿都在抖"
+        ],
+        [
+          "assistant",
+          "那是身体在记功呢。今晚好好拉伸放松，补点水分和蛋白质，明天别急着再冲量。"
+        ],
+        [
+          "user",
+          "下次想挑战十五公里"
+        ],
+        [
+          "assistant",
+          "循序渐进，每周加一点就好。你已经用行动证明了坚持的威力，下一块里程碑也会被你踩在脚下。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "分享",
+        "跑步"
+      ],
+      "id": "casual_chat-0250",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "下雨天哪也去不了，好闷",
+      "condition": "用户雨天无聊想解闷",
+      "response": "雨天是天然的宅家许可证呀。可以泡杯热茶看部老电影，或者听着雨声整理照片，也可以跟我玩个小游戏解解闷。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "雨天",
+        "消遣"
+      ],
+      "id": "casual_chat-0251",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "陪我玩个猜歌名的游戏吧",
+      "condition": "用户无聊想玩互动游戏",
+      "response": "好呀！我给线索你来猜歌名，准备好了吗？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "陪我玩个猜歌名的游戏吧"
+        ],
+        [
+          "assistant",
+          "好呀！我给线索你来猜歌名。第一题：一首毕业季常被全班合唱的经典粤语歌，歌名两个字，指一种珍贵的称呼。"
+        ],
+        [
+          "user",
+          "是《朋友》吗？"
+        ],
+        [
+          "assistant",
+          "猜对啦！旋律一响起就是满屏回忆。要不要来第二题，我加大一点难度？"
+        ],
+        [
+          "user",
+          "来！"
+        ],
+        [
+          "assistant",
+          "听好了：一首节奏欢快的国语歌，歌名是一种水果，常出现在聚会和表白场景，前奏一响就想跳舞。"
+        ],
+        [
+          "user",
+          "是《小苹果》吗？"
+        ],
+        [
+          "assistant",
+          "又答对了，你曲库可以啊！今天状态火热，改天想要歌单推荐也可以来找我。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "游戏",
+        "音乐"
+      ],
+      "id": "casual_chat-0252",
       "generated_date": "2026-11-12",
       "quality": "qualified",
       "qc_reasons": []

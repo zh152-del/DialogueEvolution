@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 44,
+  "count": 48,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -755,6 +755,78 @@
         "闲聊",
         "天气"
       ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "窗外阴天好犯困",
+      "condition": "用户阴天犯困时闲聊",
+      "response": "阴天的确容易让人犯困，光线一暗身体就想切换到省电模式。要是能眯十分钟，下午会精神不少。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "天气",
+        "犯困"
+      ],
+      "id": "daily_conversation-0241",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今晚想吃火锅",
+      "condition": "用户闲聊晚间饮食计划",
+      "response": "火锅安排上！想吃番茄锅还是麻辣锅？在家煮的话记得提前把食材和蘸料备齐，涮菜可是灵魂。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "美食",
+        "火锅"
+      ],
+      "id": "daily_conversation-0242",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早安，今天风有点大",
+      "condition": "用户早晨问候并提及天气",
+      "response": "早安！风大就多穿一件，围巾帽子安排上。出门注意安全，今天也要元气满满哦。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "早安",
+        "天气"
+      ],
+      "id": "daily_conversation-0243",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "晚安，今天辛苦啦",
+      "condition": "用户睡前互道晚安",
+      "response": "晚安，辛苦了一天，把烦恼都放一放。盖好被子，做个好梦，明天见。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "晚安",
+        "睡前"
+      ],
+      "id": "daily_conversation-0244",
       "generated_date": "2026-11-12",
       "quality": "qualified",
       "qc_reasons": []

@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 38,
+  "count": 42,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -682,6 +682,153 @@
         "亲情",
         "陪伴"
       ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "今天心里堵得慌",
+      "condition": "用户心情压抑需要倾诉",
+      "response": "心里堵着肯定不好受，愿意跟我说说发生了什么吗？还是只想安静待一会儿，我都在。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "倾诉",
+        "陪伴"
+      ],
+      "id": "emotional_support-0245",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "面试又没通过，挺沮丧的",
+      "condition": "用户求职受挫需要安慰",
+      "response": "付出了努力却没等到结果，换谁都会失落，先别急着否定自己。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "面试又没通过，挺沮丧的"
+        ],
+        [
+          "assistant",
+          "付出了努力却没等到结果，换谁都会失落，先别急着否定自己。"
+        ],
+        [
+          "user",
+          "我准备了好久"
+        ],
+        [
+          "assistant",
+          "准备的过程不会白费，它已经变成你的经验。要不要复盘一下哪一环节卡住了？"
+        ],
+        [
+          "user",
+          "最后一题答得不好"
+        ],
+        [
+          "assistant",
+          "那就针对这类问题多练几次，下次会更有底气。一次结果说明不了什么，你已经比上一次更接近了。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "安慰",
+        "面试"
+      ],
+      "id": "emotional_support-0246",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "爸妈又开始催婚了，好烦",
+      "condition": "用户被家人催婚感到烦躁",
+      "response": "被催婚的滋味确实憋屈，一边是关心，一边是压力，夹在中间很难受。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "爸妈又开始催婚了，好烦"
+        ],
+        [
+          "assistant",
+          "被催婚的滋味确实憋屈，一边是关心，一边是压力，夹在中间很难受。"
+        ],
+        [
+          "user",
+          "每次打电话都要说"
+        ],
+        [
+          "assistant",
+          "每次都提确实消耗人。可以试试温和但坚定地设个边界，比如\"这事我有自己的节奏\"。"
+        ],
+        [
+          "user",
+          "他们不听怎么办"
+        ],
+        [
+          "assistant",
+          "那就少在这件事上纠缠，多聊点彼此都轻松的话题。你的生活节奏由你来定，烦的时候随时来找我倒苦水。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "家庭",
+        "催婚"
+      ],
+      "id": "emotional_support-0247",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "感觉自己被大家忽略了",
+      "condition": "用户感到被忽视需要倾听",
+      "response": "被忽略的感觉像隔着一层玻璃看热闹，挺孤独的吧。最近发生什么事让你这么觉得？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "感觉自己被大家忽略了"
+        ],
+        [
+          "assistant",
+          "被忽略的感觉像隔着一层玻璃看热闹，挺孤独的吧。最近发生什么事让你这么觉得？"
+        ],
+        [
+          "user",
+          "群里说话没人回"
+        ],
+        [
+          "assistant",
+          "有时候大家只是忙，不是不在乎你。但你的感受是真实的，想被看见的需求一点也不过分。"
+        ],
+        [
+          "user",
+          "可能我太敏感了"
+        ],
+        [
+          "assistant",
+          "敏感不是缺点，它让你更在意联结。与其怀疑自己，不如找一两个信任的人认真聊聊，或者先跟我说说今天的事？"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "孤独",
+        "被忽略"
+      ],
+      "id": "emotional_support-0248",
       "generated_date": "2026-11-12",
       "quality": "qualified",
       "qc_reasons": []
