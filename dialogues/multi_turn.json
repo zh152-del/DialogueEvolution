@@ -1,6 +1,6 @@
 {
   "category": "multi_turn",
-  "count": 38,
+  "count": 43,
   "entries": [
     {
       "id": "multi_turn-0177",
@@ -1612,6 +1612,214 @@
         "通勤"
       ],
       "id": "multi_turn-0262",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0291",
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "刚开完会，脑子还嗡嗡的",
+      "condition": "用户结束长会后主动开口、需要被接住并自然延展话题时",
+      "response": "会开得久吧？先给自己两分钟缓一缓，喝口水。是会太长，还是讨论的事有点烧脑？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "刚开完会，脑子还嗡嗡的"
+        ],
+        [
+          "assistant",
+          "会开得久吧？先给自己两分钟缓一缓，喝口水。是会太长，还是讨论的事有点烧脑？"
+        ],
+        [
+          "user",
+          "两小时，全程都在记要点"
+        ],
+        [
+          "assistant",
+          "连续记两小时确实耗神，手和脑子都没停过。要不要先把最要紧的三条捋出来，剩下的先放着？"
+        ],
+        [
+          "user",
+          "对了，不说这个了，周末去看展吗"
+        ],
+        [
+          "assistant",
+          "好呀，换频道成功！想看什么类型的展？我这会儿正好有精神陪你挑挑。"
+        ]
+      ],
+      "tags": [
+        "会议",
+        "主动开启话题",
+        "多轮",
+        "转话题"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0292",
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "诶，突然想起个事",
+      "condition": "用户在对话中途忽然插入一件无关小事时",
+      "response": "洗耳恭听，什么突然冒出来了？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "诶，突然想起个事"
+        ],
+        [
+          "assistant",
+          "洗耳恭听，什么突然冒出来了？"
+        ],
+        [
+          "user",
+          "我好像把伞落在上次那家店了"
+        ],
+        [
+          "assistant",
+          "这种小失落最挠人。还记得是哪天去的吗？要是顺路，回头捎上就找回来了；不方便的话，也别为把伞太纠结。"
+        ],
+        [
+          "user",
+          "算了，反正也旧了"
+        ],
+        [
+          "assistant",
+          "想得开。那要不要趁这几天给家里备把新的？挑把颜色亮的，下雨天心情也能好一点。"
+        ]
+      ],
+      "tags": [
+        "突然转话题",
+        "落东西",
+        "多轮"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0293",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "接着刚才那句继续说",
+      "condition": "用户中断后回到先前话题、需要助手延续上下文时",
+      "response": "好，我们接着聊。刚才说到一半的是哪件？你起个头，我跟上。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "接着刚才那句继续说"
+        ],
+        [
+          "assistant",
+          "好，我们接着聊。刚才说到一半的是哪件？你起个头，我跟上。"
+        ],
+        [
+          "user",
+          "就是我犹豫要不要报名那个夜校"
+        ],
+        [
+          "assistant",
+          "想起来了。你之前担心的是时间排不开，还是怕坚持不下来？这两个的解法不太一样。"
+        ],
+        [
+          "user",
+          "主要是怕半途而废"
+        ],
+        [
+          "assistant",
+          "那可以先挑一期短的试水，别一上来就报整年的。试过一次，答案比在脑子里转清楚多了。"
+        ]
+      ],
+      "tags": [
+        "上下文延续",
+        "多轮连续交流",
+        "决策"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0294",
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "我先说个无关的哈",
+      "condition": "用户主动声明要插入一个跳跃话题、测试助手跟随能力时",
+      "response": "来，无关的往往最好玩，你说。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我先说个无关的哈"
+        ],
+        [
+          "assistant",
+          "来，无关的往往最好玩，你说。"
+        ],
+        [
+          "user",
+          "刚看到窗外有只鸟一直站电线上不走"
+        ],
+        [
+          "assistant",
+          "站得那么稳，像在值勤。它大概在等风，或者单纯觉得那根线视野好。你观察了几分钟了？"
+        ]
+      ],
+      "tags": [
+        "突然转话题",
+        "观察",
+        "多轮"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0295",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "刚下地铁，还有两站",
+      "condition": "通勤途中用户碎片化地连续聊天时",
+      "response": "那还有几分钟属于自己。今天这趟车上人多吗？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "刚下地铁，还有两站"
+        ],
+        [
+          "assistant",
+          "那还有几分钟属于自己。今天这趟车上人多吗？"
+        ],
+        [
+          "user",
+          "还行，居然抢到座了"
+        ],
+        [
+          "assistant",
+          "小确幸！坐下就别刷工作消息了，放空两站，到站再切换状态。"
+        ],
+        [
+          "user",
+          "到站了，回聊"
+        ],
+        [
+          "assistant",
+          "好，先忙，随时回来找我。"
+        ]
+      ],
+      "tags": [
+        "通勤",
+        "多轮连续交流",
+        "陪伴"
+      ],
       "generated_date": "2026-11-12",
       "quality": "qualified",
       "qc_reasons": []

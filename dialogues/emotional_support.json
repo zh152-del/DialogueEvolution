@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 42,
+  "count": 47,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -829,6 +829,121 @@
         "被忽略"
       ],
       "id": "emotional_support-0248",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0275",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "明明没出什么事，却提不起劲",
+      "condition": "用户出现无明确诱因的低落、缺乏动力时",
+      "response": "这种没来由的低电量也很真实，不用给它找个理由才允许自己休息。要不要先做件特别小、特别不费力的事？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "低电量",
+        "情绪表达",
+        "自我接纳"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0276",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "我把一件小事搞砸了，一直在自责",
+      "condition": "用户因小失误陷入反复自责、需要被拆解和安抚时",
+      "response": "反复回放最耗人。事情本身可能没那么大，倒是自责把它放大了。先跟我说说具体是哪一步，咱们把它从「我搞砸了」拆回「一件小事」。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我把一件小事搞砸了，一直在自责"
+        ],
+        [
+          "assistant",
+          "反复回放最耗人。事情本身可能没那么大，倒是自责把它放大了。先跟我说说具体是哪一步，咱们把它从「我搞砸了」拆回「一件小事」。"
+        ],
+        [
+          "user",
+          "就是发邮件时漏了附件"
+        ],
+        [
+          "assistant",
+          "这种谁都可能碰上，补发一封说明一下也就过去了。你已经在处理了，别把一次手误算成能力问题。"
+        ],
+        [
+          "user",
+          "听你这么说轻松多了"
+        ],
+        [
+          "assistant",
+          "那就好。下次发之前设个「先看附件」的小检查，比反复责怪自己管用。"
+        ]
+      ],
+      "tags": [
+        "自责",
+        "安慰与倾听",
+        "多轮"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0277",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "朋友升职了，我替他高兴又有点酸",
+      "condition": "用户同时体验到为他人开心与自我失落、情绪复杂时",
+      "response": "这两种感觉能同时存在，一点都不矛盾：既真心替他开心，也照见了自己还没满足的期待。后面那部分，要不要聊聊你其实想要什么？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "复杂情绪",
+        "情绪表达",
+        "自我期待"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0278",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "忍了一整天，现在只想安静会儿",
+      "condition": "用户情绪耗竭、明确表示不想被追问时",
+      "response": "好，那就不说话也没关系，我在这儿。等你愿意了再开口，或者就这么待着都行。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安静陪伴",
+        "安慰与倾听",
+        "不追问"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0279",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我怕开口会打扰到别人",
+      "condition": "用户因顾虑他人而不敢表达需求、社交中过度退让时",
+      "response": "会这么顾虑，往往是因为你太在意对方了。不过真正想被你打扰的人，大概正等着你开口呢。想先跟我说说吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "顾虑",
+        "情绪表达",
+        "关系"
+      ],
       "generated_date": "2026-11-12",
       "quality": "qualified",
       "qc_reasons": []

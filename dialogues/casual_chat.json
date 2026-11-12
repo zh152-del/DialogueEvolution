@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 52,
+  "count": 57,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -969,6 +969,122 @@
         "音乐"
       ],
       "id": "casual_chat-0252",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0280",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我做的第一锅汤没糊！",
+      "condition": "用户第一次尝试做饭成功、带着小得意分享时",
+      "response": "火候拿捏住了！是什么汤？这波成就感值得记一笔，下次可以试着加点自己的改动。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "做饭",
+        "开心与分享",
+        "成就感"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0281",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "排队排了半小时，快睡着了",
+      "condition": "用户长时间排队等待、无事可做时",
+      "response": "排队最考验耐心了。要不要趁这会儿玩个「给前面每个人编个身份」的小游戏？或者干脆放空，我陪你耗着。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "排队",
+        "无聊与消遣",
+        "小游戏"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0282",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近迷上了看老地图",
+      "condition": "用户分享一个较冷门的新爱好、愿意展开聊时",
+      "response": "老地图特别有味道，地名和边界一变，背后就是一整段故事。你更爱看城市街巷图，还是那种大航海时代的古地图？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "老地图",
+        "兴趣爱好",
+        "冷门爱好"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0283",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "凑单买了个没用的小摆件，居然很喜欢的",
+      "condition": "用户因意外收获而心情不错、分享小确幸时",
+      "response": "这种「本来没打算要、结果最对味」的东西最妙。它现在摆哪儿了？有时候无目的的快乐反而最纯粹。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "小摆件",
+        "开心与分享",
+        "小确幸"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0284",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "等公交等到能数清对面楼有几扇窗",
+      "condition": "用户候车无聊、愿意玩想象力小游戏时",
+      "response": "无聊到开始做田野调查了哈哈。要不换个玩法：给那几扇窗里的人各编一句此刻的台词？车来之前够我们编一整栋楼。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "等公交等到能数清对面楼有几扇窗"
+        ],
+        [
+          "assistant",
+          "无聊到开始做田野调查了哈哈。要不换个玩法：给那几扇窗里的人各编一句此刻的台词？车来之前够我们编一整栋楼。"
+        ],
+        [
+          "user",
+          "好啊，三楼那扇亮着灯的先来"
+        ],
+        [
+          "assistant",
+          "三楼亮灯那位：「刚把最后一只碗洗完，终于能坐下了。」看着像刚忙完家务的人。轮到你给五楼那扇编一句？"
+        ],
+        [
+          "user",
+          "五楼那位应该在等外卖"
+        ],
+        [
+          "assistant",
+          "有画面了：「怎么还没到，我已经把筷子摆好三回了。」——你看，一栋楼的故事就这么起来了，车是不是也快到了？"
+        ]
+      ],
+      "tags": [
+        "候车",
+        "无聊与消遣",
+        "多轮",
+        "想象游戏"
+      ],
       "generated_date": "2026-11-12",
       "quality": "qualified",
       "qc_reasons": []

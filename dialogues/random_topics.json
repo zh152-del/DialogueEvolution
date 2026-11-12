@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 38,
+  "count": 45,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -714,6 +714,157 @@
         "飞机"
       ],
       "id": "random_topics-0269",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0296",
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "嘴巴想聊天，脑子拒绝提供素材",
+      "condition": "用户想聊却完全想不出话题、需要低门槛开场时",
+      "response": "那就别逼脑子交作业了。我们玩个最省力的：我说一个词，你接第一反应，接不下去就换我接，怎么样？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "不知道聊什么",
+        "低门槛",
+        "词语接龙"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0297",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "为什么方便面是弯的",
+      "condition": "用户对日常物品的原理产生好奇、想听轻量科普时",
+      "response": "弯的面条之间留了空隙，泡的时候热水更容易穿过去、熟得更均匀，也不容易粘成一坨；卷成块还更抗压、好装袋。要不要再来一个「厨房里的为什么」？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "冷知识",
+        "随机话题探索",
+        "食物原理"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0298",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "客服把我当皮球踢了三回",
+      "condition": "用户被反复推诿、带着火气吐槽并需要可操作建议时",
+      "response": "被来回推三次，火气上来太正常了。先记下每次的时间、工号和说法，再直接要求转主管或走平台投诉，比重新描述一遍省劲。要我帮你把要说的几点列清楚吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "表达不满",
+        "客服",
+        "维权步骤"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0299",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "两份工作都给了offer，怎么选",
+      "condition": "用户面临两个工作机会、纠结取舍需要梳理框架时",
+      "response": "先别急着比薪资数字。拿张纸分三栏：每天实际做什么、跟谁共事、一年后能长成什么样，各自打分，往往比反复纠结清楚。你最卡住的是哪一点？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "两份工作都给了offer，怎么选"
+        ],
+        [
+          "assistant",
+          "先别急着比薪资数字。拿张纸分三栏：每天实际做什么、跟谁共事、一年后能长成什么样，各自打分，往往比反复纠结清楚。你最卡住的是哪一点？"
+        ],
+        [
+          "user",
+          "一个钱多但通勤两小时"
+        ],
+        [
+          "assistant",
+          "每天来回两小时，一年下来是相当可观的一笔时间。把它也算进「成本」里，两份的差距可能就没看起来那么大了。"
+        ],
+        [
+          "user",
+          "另一个离得近但成长慢"
+        ],
+        [
+          "assistant",
+          "那就看你眼下更缺什么：是攒钱和稳定，还是想趁这几年多学东西。没有标准答案，但把「现在最想要的」排第一，选完就不容易后悔。"
+        ]
+      ],
+      "tags": [
+        "寻求建议",
+        "职业选择",
+        "多轮"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0300",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "下雨前总能闻到一股特别的味道",
+      "condition": "用户对自然现象好奇、想展开随机话题时",
+      "response": "那个味道有个名字叫「潮土油」，是雨滴落到干燥土壤时，把土里放线菌产生的气味分子和植物油脂一起扬到空气里带出来的。很多人对它特别有好感，你也是闻到就觉得要下雨的那种吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "冷知识",
+        "随机话题探索",
+        "雨前气味"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0301",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "总觉得日子过得一模一样",
+      "condition": "用户感到生活重复、想要一点新鲜感时",
+      "response": "这种「复制粘贴感」挺常见的，往往是少了点不一样的输入。不用大改，今天换条回家的路、或者进一家没进过的店，就能撬开一点缝隙。想试哪个？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常重复",
+        "随机话题探索",
+        "微改变"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0302",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "又收到一条群发祝福，回也不是不回也不是",
+      "condition": "用户被社交礼节性消息困扰、略感烦躁时",
+      "response": "这种「礼貌负担」确实尴尬。不想敷衍又没精力长聊的话，一句简短的「谢谢，也祝你顺遂」就够了，不用给自己加戏。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "表达不满",
+        "社交礼节",
+        "轻量建议"
+      ],
       "generated_date": "2026-11-12",
       "quality": "qualified",
       "qc_reasons": []

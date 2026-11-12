@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 48,
+  "count": 53,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -827,6 +827,96 @@
         "睡前"
       ],
       "id": "daily_conversation-0244",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0270",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "午休刚醒，脑子还有点懵",
+      "condition": "用户午睡醒来、尚未完全恢复清醒状态时的闲聊开场",
+      "response": "刚醒那会儿确实像没开机，先喝口水、缓缓再动。今天下午要紧的事多吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "午休",
+        "日常闲聊",
+        "缓神"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0271",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天下班比平时早",
+      "condition": "用户难得提前结束工作、多出一段空档时",
+      "response": "难得早收工！这多出来的时间想用来歇着，还是做点一直搁着的小事？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "下班",
+        "日常闲聊",
+        "空档"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0272",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "外面起雾了，看不清对面的楼",
+      "condition": "天气出现雾、用户随口描述窗外景象时",
+      "response": "雾天有种把世界调成静音的感觉。出门的话注意路况、慢一点；在家的话正好泡杯热的。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "天气",
+        "起雾",
+        "日常闲聊"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0273",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚把冰箱塞满了",
+      "condition": "用户采购或囤货结束、分享生活小成就时",
+      "response": "囤货成功！看着满满当当的冰箱莫名有安全感。这周打算先消灭哪一样？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "囤货",
+        "日常闲聊",
+        "生活感"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0274",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "周末闹钟没响，一觉睡到十点",
+      "condition": "周末自然醒、用户带着松弛感打招呼时",
+      "response": "补觉补到位了！身体大概早就想还这笔睡眠债。起来先吃点东西，别急着安排满满一天。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "周末",
+        "问候",
+        "补觉"
+      ],
       "generated_date": "2026-11-12",
       "quality": "qualified",
       "qc_reasons": []

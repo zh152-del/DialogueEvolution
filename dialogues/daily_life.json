@@ -1,6 +1,6 @@
 {
   "category": "daily_life",
-  "count": 50,
+  "count": 56,
   "entries": [
     {
       "id": "daily_life-0132",
@@ -948,6 +948,140 @@
         "关怀"
       ],
       "id": "daily_life-0257",
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0285",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "晾衣服发现少了只袜子",
+      "condition": "用户遇到家常小物品莫名失踪、略带无奈时",
+      "response": "袜子单只失踪堪称生活未解之谜。先翻翻洗衣机门封和床底，多半躲在那儿；实在找不到，就当它提前退休了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "袜子",
+        "生活琐事",
+        "家务"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0286",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "晚饭做多了，剩一大盘",
+      "condition": "用户做饭分量没控制好、纠结如何处理剩菜时",
+      "response": "别硬撑着吃完。分装冷藏，明天带饭或换个做法又是新的一餐。要我帮你想个剩菜翻身的点子吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "剩菜",
+        "生活琐事",
+        "不浪费"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0287",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "换季整理衣柜，翻出好多年前的衣服",
+      "condition": "用户换季收纳时翻出旧物、带出回忆时",
+      "response": "这简直是小型考古现场。有没有哪件让你愣了一下、想起某段时间的？穿不上的也别急着扔，先留着那份回忆也行。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "换季整理衣柜，翻出好多年前的衣服"
+        ],
+        [
+          "assistant",
+          "这简直是小型考古现场。有没有哪件让你愣了一下、想起某段时间的？穿不上的也别急着扔，先留着那份回忆也行。"
+        ],
+        [
+          "user",
+          "有件大学时买的外套，那时还觉得特别酷"
+        ],
+        [
+          "assistant",
+          "哈哈，审美会变但那股「觉得自己挺酷」的劲儿挺珍贵的。它当年陪你去过哪儿吗？"
+        ],
+        [
+          "user",
+          "基本天天穿去上课"
+        ],
+        [
+          "assistant",
+          "那它算是立过功了。要是舍不得丢，洗洗干净收进收纳箱，比压在衣柜深处体面多了。"
+        ]
+      ],
+      "tags": [
+        "换季",
+        "旧物",
+        "生活琐事",
+        "多轮"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0288",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "盯了一下午表格，眼睛发胀",
+      "condition": "用户长时间用眼后感到不适、需要关怀与就医提醒时（不下诊断、不给用药）",
+      "response": "连续盯屏确实费眼，先离开屏幕看看远处、眨眨眼，让眼睛缓一缓。要是发胀一直不缓解，或者看东西变模糊，别硬扛，去眼科检查一下更放心。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "用眼",
+        "身体不舒服",
+        "就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0289",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "搬完一箱书，胳膊有点酸",
+      "condition": "用户搬运重物后肌肉酸、需要关怀与提醒时（不下诊断、不给用药）",
+      "response": "搬重物后酸一阵挺常见，先放下来歇会儿、别接着使劲。要是出现明显肿痛或者抬不起来，就别自己扛着，去看看更稳妥。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "搬重物",
+        "身体不舒服",
+        "就医提醒"
+      ],
+      "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0290",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "楼道灯坏了，摸黑上楼",
+      "condition": "公共区域照明故障、用户需要注意安全时",
+      "response": "摸黑上楼可得慢点，扶好扶手、手机开个手电。顺手在物业群里报一声，修好了大家都方便。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "楼道灯",
+        "生活琐事",
+        "安全"
+      ],
       "generated_date": "2026-11-12",
       "quality": "qualified",
       "qc_reasons": []

@@ -1,131 +1,131 @@
 {
-  "resource_version": "v0.1.1",
+  "resource_version": "v0.1.2",
   "repo": "zh152-del/DialogueEvolution",
   "generated_date": "2026-11-12",
   "stats": {
-    "total": 29,
-    "qualified": 29,
+    "total": 33,
+    "qualified": 33,
     "to_review": 0,
     "unqualified": 0
   },
-  "qualified_total": 268,
+  "qualified_total": 301,
   "scene_distribution": {
-    "daily_conversation": 4,
-    "emotional_support": 4,
-    "casual_chat": 4,
-    "daily_life": 5,
+    "daily_conversation": 5,
+    "emotional_support": 5,
+    "casual_chat": 5,
+    "daily_life": 6,
     "multi_turn": 5,
     "random_topics": 7
   },
   "samples": [
     {
-      "id": "daily_conversation-0241",
+      "id": "daily_conversation-0270",
       "category_cn": "日常闲聊",
-      "trigger": "窗外阴天好犯困",
-      "response": "阴天的确容易让人犯困，光线一暗身体就想切换到省电模式。要是能眯十分钟，下午会精神不少。"
+      "trigger": "午休刚醒，脑子还有点懵",
+      "response": "刚醒那会儿确实像没开机，先喝口水、缓缓再动。今天下午要紧的事多吗？"
     },
     {
-      "id": "daily_conversation-0242",
+      "id": "daily_conversation-0271",
       "category_cn": "日常闲聊",
-      "trigger": "今晚想吃火锅",
-      "response": "火锅安排上！想吃番茄锅还是麻辣锅？在家煮的话记得提前把食材和蘸料备齐，涮菜可是灵魂。"
+      "trigger": "今天下班比平时早",
+      "response": "难得早收工！这多出来的时间想用来歇着，还是做点一直搁着的小事？"
     },
     {
-      "id": "daily_conversation-0243",
-      "category_cn": "日常问候",
-      "trigger": "早安，今天风有点大",
-      "response": "早安！风大就多穿一件，围巾帽子安排上。出门注意安全，今天也要元气满满哦。"
-    },
-    {
-      "id": "daily_conversation-0244",
-      "category_cn": "日常问候",
-      "trigger": "晚安，今天辛苦啦",
-      "response": "晚安，辛苦了一天，把烦恼都放一放。盖好被子，做个好梦，明天见。"
-    },
-    {
-      "id": "emotional_support-0245",
+      "id": "emotional_support-0275",
       "category_cn": "情绪表达",
-      "trigger": "今天心里堵得慌",
-      "response": "心里堵着肯定不好受，愿意跟我说说发生了什么吗？还是只想安静待一会儿，我都在。"
+      "trigger": "明明没出什么事，却提不起劲",
+      "response": "这种没来由的低电量也很真实，不用给它找个理由才允许自己休息。要不要先做件特别小、特别不费力的事？"
     },
     {
-      "id": "casual_chat-0249",
-      "category_cn": "开心与分享",
-      "trigger": "我种的番茄终于结果了",
-      "response": "从开花到挂果可是等了好久的成就感！熟透前少浇水会更甜，第一颗摘下来别忘了尝尝鲜。"
-    },
-    {
-      "id": "emotional_support-0246",
+      "id": "emotional_support-0276",
       "category_cn": "安慰与倾听",
-      "trigger": "面试又没通过，挺沮丧的",
-      "response": "付出了努力却没等到结果，换谁都会失落，先别急着否定自己。 / 准备的过程不会白费，它已经变成你的经验。要不要复盘一下哪一环节卡住了？ / 那就针对这类问题多练几次，下次会更有底气。一次结果说明不了什么，你已经比上一次更接近了。"
+      "trigger": "我把一件小事搞砸了，一直在自责",
+      "response": "反复回放最耗人。事情本身可能没那么大，倒是自责把它放大了。先跟我说说具体是哪一步，咱们把它从「我搞砸了」拆回「一件小事」。"
     },
     {
-      "id": "emotional_support-0247",
-      "category_cn": "安慰与倾听",
-      "trigger": "爸妈又开始催婚了，好烦",
-      "response": "被催婚的滋味确实憋屈，一边是关心，一边是压力，夹在中间很难受。 / 每次都提确实消耗人。可以试试温和但坚定地设个边界，比如\"这事我有自己的节奏\"。 / 那就少在这件事上纠缠，多聊点彼此都轻松的话题。你的生活节奏由你来定，烦的时候随时来找我倒苦水。"
-    },
-    {
-      "id": "emotional_support-0248",
-      "category_cn": "情绪表达",
-      "trigger": "感觉自己被大家忽略了",
-      "response": "被忽略的感觉像隔着一层玻璃看热闹，挺孤独的吧。最近发生什么事让你这么觉得？ / 有时候大家只是忙，不是不在乎你。但你的感受是真实的，想被看见的需求一点也不过分。 / 敏感不是缺点，它让你更在意联结。与其怀疑自己，不如找一两个信任的人认真聊聊，或者先跟我说说今天的事？"
-    },
-    {
-      "id": "casual_chat-0250",
+      "id": "casual_chat-0280",
       "category_cn": "开心与分享",
-      "trigger": "我第一次跑完十公里！",
-      "response": "十公里都坚持下来了，这是里程碑级的进步，为你骄傲！ / 那是身体在记功呢。今晚好好拉伸放松，补点水分和蛋白质，明天别急着再冲量。 / 循序渐进，每周加一点就好。你已经用行动证明了坚持的威力，下一块里程碑也会被你踩在脚下。"
+      "trigger": "我做的第一锅汤没糊！",
+      "response": "火候拿捏住了！是什么汤？这波成就感值得记一笔，下次可以试着加点自己的改动。"
     },
     {
-      "id": "casual_chat-0252",
+      "id": "casual_chat-0281",
       "category_cn": "无聊与消遣",
-      "trigger": "陪我玩个猜歌名的游戏吧",
-      "response": "好呀！我给线索你来猜歌名。第一题：一首毕业季常被全班合唱的经典粤语歌，歌名两个字，指一种珍贵的称呼。 / 猜对啦！旋律一响起就是满屏回忆。要不要来第二题，我加大一点难度？ / 听好了：一首节奏欢快的国语歌，歌名是一种水果，常出现在聚会和表白场景，前奏一响就想跳舞。 / 又答对了，你曲库可以啊！今天状态火热，改天想要歌单推荐也可以来找我。"
+      "trigger": "排队排了半小时，快睡着了",
+      "response": "排队最考验耐心了。要不要趁这会儿玩个「给前面每个人编个身份」的小游戏？或者干脆放空，我陪你耗着。"
     },
     {
-      "id": "daily_life-0255",
+      "id": "daily_life-0285",
       "category_cn": "生活琐事",
-      "trigger": "想给客厅换窗帘，纠结颜色",
-      "response": "客厅窗帘跟沙发或墙面同色系最不容易出错，你家沙发是什么颜色的？ / 那选浅灰、米白都很稳，想要亮点可以试试雾霾蓝或芥末黄，和灰色也搭。 / 那米灰或燕麦色最合适，深色显沉稳但容易显旧。买之前可以先要一小块布样放在沙发旁比比看。"
+      "trigger": "晾衣服发现少了只袜子",
+      "response": "袜子单只失踪堪称生活未解之谜。先翻翻洗衣机门封和床底，多半躲在那儿；实在找不到，就当它提前退休了。"
+    },
+    {
+      "id": "daily_life-0286",
+      "category_cn": "生活琐事",
+      "trigger": "晚饭做多了，剩一大盘",
+      "response": "别硬撑着吃完。分装冷藏，明天带饭或换个做法又是新的一餐。要我帮你想个剩菜翻身的点子吗？"
+    },
+    {
+      "id": "multi_turn-0291",
+      "category_cn": "主动开启话题",
+      "trigger": "刚开完会，脑子还嗡嗡的",
+      "response": "会开得久吧？先给自己两分钟缓一缓，喝口水。是会太长，还是讨论的事有点烧脑？"
+    },
+    {
+      "id": "multi_turn-0292",
+      "category_cn": "突然改变话题",
+      "trigger": "诶，突然想起个事",
+      "response": "洗耳恭听，什么突然冒出来了？"
+    },
+    {
+      "id": "random_topics-0296",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "嘴巴想聊天，脑子拒绝提供素材",
+      "response": "那就别逼脑子交作业了。我们玩个最省力的：我说一个词，你接第一反应，接不下去就换我接，怎么样？"
+    },
+    {
+      "id": "random_topics-0297",
+      "category_cn": "随机话题探索",
+      "trigger": "为什么方便面是弯的",
+      "response": "弯的面条之间留了空隙，泡的时候热水更容易穿过去、熟得更均匀，也不容易粘成一坨；卷成块还更抗压、好装袋。要不要再来一个「厨房里的为什么」？"
     }
   ],
   "github": {
     "repo": "zh152-del/DialogueEvolution",
     "dir": "DialogueEvolution",
-    "verified": true,
-    "commit": "3ea402ab6a0b580bd01199f2f5590215a66f5015",
+    "verified": false,
+    "commit": null,
     "files": [
       {
         "path": "dialogues/daily_conversation.json",
-        "count": 48,
-        "sha256": "5948098c95379b49c32ee7a1b0694ce52ebead10df6aa1fa7f58dc524be25ea3"
+        "count": 53,
+        "sha256": "aeced6352d03393809fb874c87f1fc564f8fa03d165d30d04ffbdba6869a9264"
       },
       {
         "path": "dialogues/emotional_support.json",
-        "count": 42,
-        "sha256": "a8f8fd75a4c61c74d23ab3a30fb6bc9456fb92a23d233117ccb175e1082065df"
+        "count": 47,
+        "sha256": "e695d8368b606c9c58ea47048050c8b6dfbcf9d2302f7935c83bec647d436769"
       },
       {
         "path": "dialogues/casual_chat.json",
-        "count": 52,
-        "sha256": "a08efae124bafb33eb4b059c41ea4026fa195b7d4fa30783e88d116516533681"
+        "count": 57,
+        "sha256": "a7ec70da4dec663b27a79138cc4fc8c367a9711a40a479187fa8446e99e51ebf"
       },
       {
         "path": "dialogues/daily_life.json",
-        "count": 50,
-        "sha256": "d8396ff321c4f044504444d5d2498e7fd2e1e730be4e660ec03e0e85613d3061"
+        "count": 56,
+        "sha256": "1d21c720f01f75d3242757d7c9709d6902031c27404ecb813aa5b017d200a1ea"
       },
       {
         "path": "dialogues/multi_turn.json",
-        "count": 38,
-        "sha256": "80fb04f0fd82c095a29500e742aa1650c50b889c2f687d9e27267314127966c7"
+        "count": 43,
+        "sha256": "ac73cfc40fa4bcd4fde39f052e716ff6fa2affcc6cc7f101aa5c8d01536c4a8e"
       },
       {
         "path": "dialogues/random_topics.json",
-        "count": 38,
-        "sha256": "e4017b465383eaab8fe5e7308b88b3ecf7a1458190e5b4d79c9ebf47aed4907e"
+        "count": 45,
+        "sha256": "506948024d4c9990c2ed728d0911d614c61d3f2f4d7256f375f26668304f6bf7"
       }
     ]
   },
