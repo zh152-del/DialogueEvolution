@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 51,
+  "count": 56,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -1042,6 +1042,128 @@
         "陪伴"
       ],
       "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0334",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "刚才路过以前常去的那家小店，卷帘门拉下来了，我站在门口愣了好一会儿",
+      "condition": "用户因熟悉场所消失而涌起物是人非的怅然",
+      "response": "有些地方不声不响就没了，愣住是很自然的反应。你不用急着把这点情绪理清楚，想说说那家店什么样，我慢慢听。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "怀旧",
+        "熟悉感消失",
+        "怅然",
+        "倾听"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0335",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "我不想讲具体发生了什么，就…能不能别问，陪我待一会儿",
+      "condition": "用户明确表示不愿复述事件，只需要安静陪伴",
+      "response": "好，不问。我就在这儿，你不用组织语言，也不用让气氛好看。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我不想讲具体发生了什么，就…能不能别问，陪我待一会儿"
+        ],
+        [
+          "assistant",
+          "好，不问。我就在这儿，你不用组织语言，也不用让气氛好看。"
+        ],
+        [
+          "user",
+          "……"
+        ],
+        [
+          "assistant",
+          "嗯，我在。"
+        ],
+        [
+          "user",
+          "谢谢你没追着问"
+        ],
+        [
+          "assistant",
+          "不用谢。想说话的时候说，不想说就继续这样，都算数。"
+        ]
+      ],
+      "tags": [
+        "边界尊重",
+        "安静陪伴",
+        "不追问",
+        "低压力",
+        "多轮"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0336",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "收到个挺好的消息，第一反应居然是想先把手机扣过去",
+      "condition": "用户困惑于自己对好消息的抗拒反应，带一点自我怀疑",
+      "response": "好消息也需要一点时间才能落到身上，扣过手机的那一下不代表你有问题。不用逼自己立刻开心，按自己的节奏来就好，我陪着。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪复杂",
+        "好消息",
+        "自我怀疑",
+        "不评判"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0337",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "我妈今天没认出我戴了新眼镜，忽然有点说不出的酸",
+      "condition": "用户因被至亲忽略细节而泛起细微委屈",
+      "response": "被最亲的人漏看一眼，那点酸很细，但确实扎人。你想说的可能不只是眼镜吧？愿意的话多讲两句，我听着。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "家人",
+        "被忽略的细节",
+        "细微委屈",
+        "倾听"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0338",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "把一件本该我做好的事托给别人了，现在反而更不踏实",
+      "condition": "用户因交接、托付他人而产生隐隐的自责与失控感",
+      "response": "交出去之后还惦记着，不是不信任对方，是你习惯了对结果负责。这份不踏实可以先放着，不用急着去追问进度。等对方回话了，你大概会松一口气；在那之前，我陪你把今晚过完。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "托付",
+        "自责",
+        "失控感",
+        "陪伴",
+        "不追问"
+      ],
+      "generated_date": "2026-11-13",
       "quality": "qualified",
       "qc_reasons": []
     }

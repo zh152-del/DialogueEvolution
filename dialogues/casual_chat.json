@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 61,
+  "count": 66,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -1183,6 +1183,127 @@
         "好奇心"
       ],
       "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0339",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我妈终于学会用视频通话了，刚才自己拨过来的，画面里全是天花板",
+      "condition": "用户分享家人学会新技能的可爱瞬间，语气愉快",
+      "response": "哈哈哈哈全是天花板也太经典了！她肯定举着手机找了半天角度。这通电话值得记一笔，回头你俩可以约个「看得见脸」的第二回合。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "家人",
+        "小成就",
+        "搞笑瞬间",
+        "分享喜悦"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0340",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "等水烧开的这四分钟，突然觉得时间特别空",
+      "condition": "用户在短暂等待间隙想找点轻松互动",
+      "response": "四分钟刚好够玩个小的：随便报一个你视线里的东西，我给它编一段一本正经的用途。不用挑有用的，越没存在感越好玩。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "等待间隙",
+        "小游戏",
+        "即兴",
+        "消遣"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0341",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "开始记观鸟笔记才两周，今天第一次靠叫声认出了一种鸟",
+      "condition": "用户在新爱好上获得第一次可验证的小突破",
+      "response": "靠叫声认出来，这比看见一眼难多了！耳朵先记住的那种，通常也最不容易忘。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "开始记观鸟笔记才两周，今天第一次靠叫声认出了一种鸟"
+        ],
+        [
+          "assistant",
+          "靠叫声认出来，这比看见一眼难多了！耳朵先记住的那种，通常也最不容易忘。"
+        ],
+        [
+          "user",
+          "当时在公园，我还愣了一下没敢确定"
+        ],
+        [
+          "assistant",
+          "没敢确定反而说明你在认真对待，没有硬猜。后来是翻笔记对上的，还是又叫了一声给你确认？"
+        ],
+        [
+          "user",
+          "翻笔记对上的，还对了好几遍"
+        ],
+        [
+          "assistant",
+          "那这几遍一点都不白费——下次再听见，大概不用翻了。要不要给今天这笔记个日期？以后回头看会很有意思。"
+        ]
+      ],
+      "tags": [
+        "观鸟",
+        "自然观察",
+        "听觉辨认",
+        "新手突破",
+        "多轮"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0342",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "会议临时取消，空出来的一小时完全不知道往哪儿放",
+      "condition": "用户因计划取消获得一段意外空白时间，略感茫然",
+      "response": "突然多出一小时，最难受的是「得干点有价值的事」这个念头。要不先允许它就这么空着？发五分钟呆、把杯子洗了、或者下楼走一圈，哪个先冒出来就选哪个。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "计划取消",
+        "空白时间",
+        "不逼自己",
+        "消遣"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0343",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "攒了半年的假终于批下来了，还没想好去哪儿，先把日历涂了个色",
+      "condition": "用户分享期待中的好消息，处于计划前的兴奋阶段",
+      "response": "先把日历涂色这一步，快乐已经提前到账了。去哪儿可以慢慢想，你更想要的是「每天睡到自然醒」那种，还是「一天跑三个地方」那种？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "休假获批",
+        "期待",
+        "计划前",
+        "分享喜悦"
+      ],
+      "generated_date": "2026-11-13",
       "quality": "qualified",
       "qc_reasons": []
     }

@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 50,
+  "count": 55,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -981,6 +981,134 @@
         "想象"
       ],
       "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0354",
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "打开对话框三次了，每次都打了两个字又删掉",
+      "condition": "用户想聊天却起不了头，有轻微挫败感",
+      "response": "删掉的那两个字也算来过。要不这样，我给你三个不用动脑的开头，你挑一个、或者一个都不挑：一是今天吃过最咸的一口，二是最近一次走错路，三是窗外现在最吵的声音。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "起不了头",
+        "降低门槛",
+        "给选项",
+        "不施压"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0355",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "排到我时窗口贴出「暂停服务」，前面那二十分钟算白站了",
+      "condition": "用户因办事流程临门变故而恼火，需要被认可而非讲道理",
+      "response": "二十分钟站下来，一句「暂停」就抹平了，换谁都得憋屈。你要是想骂两句就骂，我这儿不用讲礼貌。等缓过来再看是改天再来，还是问问能不能换个窗口。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "办事遇阻",
+        "表达不满",
+        "先接情绪",
+        "不急着解决"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0356",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "同事总在下班前五分钟丢活过来，我该怎么说才不显得难相处",
+      "condition": "用户寻求边界沟通的具体措辞，希望既有效又不伤关系",
+      "response": "难相处的往往不是拒绝，是含糊地答应然后又憋着。可以试试把话说在「时间」上而不是「人」上：「这个我明天上午一上班就先处理，今天到点得走了，你看来得及吗？」——给了明确接手时间，也把边界摆平了。说一次不习惯，说两三次对方就会改习惯。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "职场边界",
+        "沟通措辞",
+        "寻求建议",
+        "给具体话术"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0357",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "突然好奇，路边的行道树是不是每年都有人专门来修枝",
+      "condition": "用户抛出一个随机的日常观察型问题，期待轻松展开而非严谨考据",
+      "response": "这个好奇很对味——明明天天路过，一被问住才发现从没想过。我不敢替你说各地都怎么安排，但顺着想挺有意思：修完那几天树底下忽然亮堂一大截，大概就是有人来过的痕迹。你是在哪棵树下冒出这念头的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "随机观察",
+        "城市日常",
+        "不硬给结论",
+        "顺着聊"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0358",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "想给爸妈换个手机，挑了三天越挑越拿不定",
+      "condition": "用户为家人选购物品陷入选择过载，希望被帮着收窄范围",
+      "response": "挑三天还在挑，多半不是选项不够好，是没定下「最看重哪一条」。先别比参数了，说说是怕他们嫌贵、怕太复杂学不会，还是怕买了不用？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "想给爸妈换个手机，挑了三天越挑越拿不定"
+        ],
+        [
+          "assistant",
+          "挑三天还在挑，多半不是选项不够好，是没定下「最看重哪一条」。先别比参数了，说说是怕他们嫌贵、怕太复杂学不会，还是怕买了不用？"
+        ],
+        [
+          "user",
+          "主要是怕太复杂，上次教了半天还是记不住"
+        ],
+        [
+          "assistant",
+          "那优先顺序一下就清楚了：字够大、常用功能摆在最外面、摔了不心疼，比跑分重要得多。"
+        ],
+        [
+          "user",
+          "这么说好像确实不用纠结那些配置了"
+        ],
+        [
+          "assistant",
+          "对，先把这三样圈出来，能选的就剩两三台了。回头也可以让爸妈自己按一下再定，他们顺手才是真的合适。"
+        ],
+        [
+          "user",
+          "行，周末带他们去店里摸摸"
+        ],
+        [
+          "assistant",
+          "这个安排比你在页面上刷三天强。摸完回来告诉我他们最后看上哪台，我还挺好奇的。"
+        ]
+      ],
+      "tags": [
+        "选择过载",
+        "给家人买东西",
+        "收窄标准",
+        "连续多轮"
+      ],
+      "generated_date": "2026-11-13",
       "quality": "qualified",
       "qc_reasons": []
     }

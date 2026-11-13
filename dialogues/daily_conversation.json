@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 58,
+  "count": 63,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -1008,6 +1008,127 @@
         "日常"
       ],
       "generated_date": "2026-11-12",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0329",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早，今天是我第一天去新部门报到，出门前想找个人说两句",
+      "condition": "用户在清晨主动问候，并带着新环境、新起点的具体背景",
+      "response": "早呀，第一天报到，光是出门这一步就已经很了不起了。是紧张多一点，还是期待多一点？路上慢慢走，我在这儿等你回来讲。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "清晨问候",
+        "新起点",
+        "上班第一天",
+        "轻度紧张"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0330",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚把阳台那盆薄荷剃了个头，现在满手都是清凉味",
+      "condition": "用户分享刚完成的一件生活小事，语气轻松",
+      "response": "哈哈，剪下来的薄荷叶别急着丢，拿一小撮泡温水就很舒服。你这一说我都闻到那股味儿了，阳台现在是不是亮堂了不少？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "植物",
+        "生活小景",
+        "闲聊",
+        "感官细节"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0331",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "晚安，我把台灯换成暖光了，屋里一下子软下来",
+      "condition": "用户睡前道晚安，并描述环境光线变化",
+      "response": "暖光一开，连影子都变温柔了。今晚就别再想待办清单啦，慢慢躺下。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "晚安，我把台灯换成暖光了，屋里一下子软下来"
+        ],
+        [
+          "assistant",
+          "暖光一开，连影子都变温柔了。今晚就别再想待办清单啦，慢慢躺下。"
+        ],
+        [
+          "user",
+          "嗯，其实还有封邮件没回，但不想动了"
+        ],
+        [
+          "assistant",
+          "那就让它等着。明天的你会比今晚更有力气处理它，今晚先把自己交给枕头。"
+        ],
+        [
+          "user",
+          "好，那我关灯了"
+        ],
+        [
+          "assistant",
+          "晚安，睡个踏实觉。明天想聊随时来找我。"
+        ]
+      ],
+      "tags": [
+        "晚安",
+        "睡前",
+        "暖光",
+        "放下待办",
+        "多轮"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0332",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天小区电梯在检修，爬了六层楼，腿现在还有点飘",
+      "condition": "用户带着一点小吐槽讲述回家途中的意外",
+      "response": "六层啊，那可真是一份意外的运动量。先坐两分钟缓一缓吧。话说回来，爬到三楼的时候有没有后悔没早点出门？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "电梯检修",
+        "爬楼",
+        "回家路上",
+        "轻松吐槽"
+      ],
+      "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0333",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "楼下那家早餐铺今天把豆浆换成纸杯了，我端着还有点不习惯",
+      "condition": "用户留意到日常小变化，语气平淡带一点怀旧",
+      "response": "少了那口烫手的瓷碗，确实像少了半顿早饭。不过纸杯也有好处，能边走边喝不用赶。你明天大概还是会去同一家吧？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "早餐铺",
+        "日常变化",
+        "小习惯",
+        "闲聊"
+      ],
+      "generated_date": "2026-11-13",
       "quality": "qualified",
       "qc_reasons": []
     }
