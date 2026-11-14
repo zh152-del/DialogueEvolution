@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 66,
+  "count": 70,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -1304,6 +1304,97 @@
         "分享喜悦"
       ],
       "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0367",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "给旧木凳重新上了遍油，木纹一下子全浮出来了，比新买时还好看",
+      "condition": "用户分享修复或翻新旧物的成就感",
+      "response": "木纹藏了那么久，就等这一遍油！这种『把它本来的样子擦回来』的成就感，跟买件新东西完全不一样。打磨的时候是不是还闻着点旧木头味儿？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "开心与分享",
+        "旧物修复",
+        "成就感"
+      ],
+      "generated_date": "2026-11-14",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0368",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "把家里三个闹钟的时间都对了一遍，纯粹因为不想开始正事",
+      "condition": "用户用无关小事拖延正事、带点自嘲地承认",
+      "response": "哈哈，这种『用整理代替开工』的仪式感我太熟了，对完还顺手擦了擦表盘吧？正事没那么可怕，要不要先只做第一步、做完就允许回来继续对第四个？我给你计时。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊与消遣",
+        "拖延",
+        "轻松陪伴"
+      ],
+      "generated_date": "2026-11-14",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0369",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "最近迷上临摹公交站牌上的字体，一个字能描半小时",
+      "condition": "用户分享一个非常小众、需要耐心的观察型爱好",
+      "response": "这个爱好太会挑东西了——站牌字体天天被路过、几乎没人细看，你倒把它请回家了。描的时候会不会发现某个笔画特别倔、怎么都写不像？今天描的是哪个字？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣爱好",
+        "字体临摹",
+        "观察",
+        "小众"
+      ],
+      "generated_date": "2026-11-14",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0370",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "想给书架换个摆法，书搬下来了，却对着空架子发了会儿呆",
+      "condition": "用户整理书架中途停住、想要一点轻量的方向",
+      "response": "书一搬走，架子忽然变成另一件家具了哈哈。先别急着按高矮排：你平时是站着随手抽，还是坐下来才挑？取书的姿势定了，摆法就少纠结一半。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "想给书架换个摆法，书搬下来了，却对着空架子发了会儿呆"
+        ],
+        [
+          "assistant",
+          "书一搬走，架子忽然变成另一件家具了哈哈。先别急着按高矮排：你平时是站着随手抽，还是坐下来才挑？取书的姿势定了，摆法就少纠结一半。"
+        ],
+        [
+          "user",
+          "基本是坐沙发上伸手够那一层"
+        ],
+        [
+          "assistant",
+          "那最顺手的那一层就留给『最近想重读的』，别留给『该读的』——后者放高了反而心安。其余的慢慢归位就行，空着几格也不碍事，书架又不是非得填满才好看。"
+        ]
+      ],
+      "tags": [
+        "兴趣爱好",
+        "书架整理",
+        "多轮",
+        "轻建议"
+      ],
+      "generated_date": "2026-11-14",
       "quality": "qualified",
       "qc_reasons": []
     }

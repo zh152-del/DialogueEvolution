@@ -1,94 +1,94 @@
 {
-  "resource_version": "v0.1.4",
+  "resource_version": "v0.1.5",
   "repo": "zh152-del/DialogueEvolution",
-  "generated_date": "2026-11-13",
+  "generated_date": "2026-11-14",
   "stats": {
-    "total": 30,
-    "qualified": 30,
+    "total": 26,
+    "qualified": 26,
     "to_review": 0,
     "unqualified": 0
   },
-  "qualified_total": 357,
+  "qualified_total": 383,
   "scene_distribution": {
-    "daily_conversation": 5,
-    "emotional_support": 5,
-    "casual_chat": 5,
-    "daily_life": 5,
+    "daily_conversation": 4,
+    "emotional_support": 4,
+    "casual_chat": 4,
+    "daily_life": 4,
     "multi_turn": 5,
     "random_topics": 5
   },
   "samples": [
     {
-      "id": "daily_conversation-0329",
+      "id": "daily_conversation-0359",
       "category_cn": "日常问候",
-      "trigger": "早，今天是我第一天去新部门报到，出门前想找个人说两句",
-      "response": "早呀，第一天报到，光是出门这一步就已经很了不起了。是紧张多一点，还是期待多一点？路上慢慢走，我在这儿等你回来讲。"
+      "trigger": "刚把窗帘拉开，外面天还没全亮，先跟你说声早",
+      "response": "早呀，天没亮透就起来了，是特意起早，还是被什么吵醒的？这种半明半暗的时候屋里最安静，先别急着开大灯，慢慢醒就好。"
     },
     {
-      "id": "daily_conversation-0330",
+      "id": "daily_conversation-0361",
       "category_cn": "日常闲聊",
-      "trigger": "刚把阳台那盆薄荷剃了个头，现在满手都是清凉味",
-      "response": "哈哈，剪下来的薄荷叶别急着丢，拿一小撮泡温水就很舒服。你这一说我都闻到那股味儿了，阳台现在是不是亮堂了不少？"
+      "trigger": "常坐的那班公交换了报站音，一时没反应过来，坐过了一站",
+      "response": "哈哈，熟悉的声音一换，身体比脑子先懵。多坐这一站反倒捡了段没走过的路吧？下车时有没有看见什么平时不会注意的店？"
     },
     {
-      "id": "emotional_support-0334",
+      "id": "emotional_support-0363",
       "category_cn": "情绪表达",
-      "trigger": "刚才路过以前常去的那家小店，卷帘门拉下来了，我站在门口愣了好一会儿",
-      "response": "有些地方不声不响就没了，愣住是很自然的反应。你不用急着把这点情绪理清楚，想说说那家店什么样，我慢慢听。"
+      "trigger": "特意绕路去买了小时候常吃的那种点心，真吃到了却没尝出当年的味儿",
+      "response": "有点怅然吧。惦记了那么久的其实可能不只是那口甜，是当年那个不用想事、只等着吃的下午。点心没变坏，是吃它的人换了心境。要不要说说那时候是谁买给你的？"
     },
     {
-      "id": "emotional_support-0335",
-      "category_cn": "安慰与倾听",
-      "trigger": "我不想讲具体发生了什么，就…能不能别问，陪我待一会儿",
-      "response": "好，不问。我就在这儿，你不用组织语言，也不用让气氛好看。"
+      "id": "emotional_support-0365",
+      "category_cn": "情绪表达",
+      "trigger": "明明约好了周末出去，临近了却开始盼着对方临时取消",
+      "response": "这种『盼着别发生』不一定是懒，可能是这一周被填得太满，身体先替你投了反对票。不用给它扣『不合群』的帽子，先问问自己：是怕累，还是怕那种得打起精神的场合？"
     },
     {
-      "id": "casual_chat-0339",
+      "id": "casual_chat-0367",
       "category_cn": "开心与分享",
-      "trigger": "我妈终于学会用视频通话了，刚才自己拨过来的，画面里全是天花板",
-      "response": "哈哈哈哈全是天花板也太经典了！她肯定举着手机找了半天角度。这通电话值得记一笔，回头你俩可以约个「看得见脸」的第二回合。"
+      "trigger": "给旧木凳重新上了遍油，木纹一下子全浮出来了，比新买时还好看",
+      "response": "木纹藏了那么久，就等这一遍油！这种『把它本来的样子擦回来』的成就感，跟买件新东西完全不一样。打磨的时候是不是还闻着点旧木头味儿？"
     },
     {
-      "id": "casual_chat-0340",
-      "category_cn": "无聊与消遣",
-      "trigger": "等水烧开的这四分钟，突然觉得时间特别空",
-      "response": "四分钟刚好够玩个小的：随便报一个你视线里的东西，我给它编一段一本正经的用途。不用挑有用的，越没存在感越好玩。"
+      "id": "casual_chat-0370",
+      "category_cn": "兴趣爱好",
+      "trigger": "想给书架换个摆法，书搬下来了，却对着空架子发了会儿呆",
+      "response": "书一搬走，架子忽然变成另一件家具了哈哈。先别急着按高矮排：你平时是站着随手抽，还是坐下来才挑？取书的姿势定了，摆法就少纠结一半。"
     },
     {
-      "id": "daily_life-0344",
+      "id": "daily_life-0371",
       "category_cn": "生活琐事",
-      "trigger": "新买的书架到了，拆完发现少一颗螺丝，装到一半停在那儿了",
-      "response": "装到一半停住最磨人。先别硬凑，把已经拧上的都轻轻带回半圈，看板子能不能暂时立稳；缺的那颗拍张照记下规格，回头找商家补比用别的螺丝硬顶稳妥。今晚先让它靠着墙也行。"
+      "trigger": "把两件要手洗的衣服泡上，结果忘了，一晚上过去水都凉了",
+      "response": "哈哈，泡着泡着就把它从待办里『泡』出去了。水凉了不影响，换温水正常洗就行；要是料子娇气，先看一眼洗标再决定要不要多泡一会儿。下次顺手设个二十分钟提醒，比靠记性靠谱。"
     },
     {
-      "id": "daily_life-0345",
-      "category_cn": "生活琐事",
-      "trigger": "把羽绒服塞进洗衣机之前，才想起来看一眼洗标",
-      "response": "这一眼看得太值了，洗标上那几个小图标经常和直觉反着来。"
+      "id": "daily_life-0374",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "这两天一到傍晚就觉得眼皮沉，也不是困，就是抬不起来",
+      "response": "连着两天、还卡在同一个时间点，挺值得留意的。先别硬撑：这会儿把屏幕亮度调低点、起来接杯温水，让眼睛缓一缓。今天白天是盯屏久，还是没怎么歇过？"
     },
     {
-      "id": "multi_turn-0349",
+      "id": "multi_turn-0375",
       "category_cn": "主动开启话题",
-      "trigger": "发了个表情，懒得打字",
-      "response": "收到～傍晚好。不用补文字也行，我就顺着猜一个：今天是不是过得有点满？"
+      "trigger": "刚过饭点，你还没开口，我先来搭一句",
+      "response": "刚过饭点，先来搭一句：这个点桌上应该刚收拾完吧？不用回我什么正经的，就说说今天那顿饭里哪一口最合胃口，或者干脆报个『吃饱了』也行。"
     },
     {
-      "id": "multi_turn-0350",
-      "category_cn": "突然改变话题",
-      "trigger": "对了，先不说这个了——你见过凌晨四点的菜市场吗",
-      "response": "接得住，转得还挺漂亮。没亲眼见过，但光想那个画面就很有劲：灯一盏盏亮起来，箱子在地上拖出声响。你是刚从那儿回来，还是突然想起来的？"
+      "id": "multi_turn-0378",
+      "category_cn": "多轮连续交流",
+      "trigger": "接上回那句，我今天真绕过去把那条小巷走完了",
+      "response": "还真去了！上次你说的时候只是『哪天顺路去看看』，今天就变成走完了。跟想象里比，是更长还是更短？"
     },
     {
-      "id": "random_topics-0354",
+      "id": "random_topics-0380",
       "category_cn": "用户不知道聊什么",
-      "trigger": "打开对话框三次了，每次都打了两个字又删掉",
-      "response": "删掉的那两个字也算来过。要不这样，我给你三个不用动脑的开头，你挑一个、或者一个都不挑：一是今天吃过最咸的一口，二是最近一次走错路，三是窗外现在最吵的声音。"
+      "trigger": "今天攒了一肚子零碎，真要开口又不知道从哪件说起",
+      "response": "那就不按重要程度排了，咱挑最没用的一件开头——比如路上看见的一个招牌，或者今天喝到的一口怪味。零碎的好处就是不用承上启下，随便捡一件，我能顺着问下去；聊着聊着，真正想说的那件自己会冒出来。"
     },
     {
-      "id": "random_topics-0355",
-      "category_cn": "表达不满",
-      "trigger": "排到我时窗口贴出「暂停服务」，前面那二十分钟算白站了",
-      "response": "二十分钟站下来，一句「暂停」就抹平了，换谁都得憋屈。你要是想骂两句就骂，我这儿不用讲礼貌。等缓过来再看是改天再来，还是问问能不能换个窗口。"
+      "id": "random_topics-0384",
+      "category_cn": "寻求建议",
+      "trigger": "想把手上一个拖了半年的小决定今晚定下来，可一到关键处就又开始列清单",
+      "response": "列到第三版清单还没定，通常不是信息不够，是清单里混进了『想选出那个不会后悔的』。先问个不那么正经的：如果现在必须抛硬币，落到哪一面你会偷偷松一口气？"
     }
   ],
   "github": {
@@ -99,33 +99,33 @@
     "files": [
       {
         "path": "dialogues/daily_conversation.json",
-        "count": 63,
-        "sha256": "bdd24ce9c38688da3870cbbaa908a8254e4ffa08590c3de5745a84682e06aa86"
+        "count": 67,
+        "sha256": "76b16208f73e03116e2e9622c031c5d9dff9d3d7607ca787bc67e80ba4d70b3e"
       },
       {
         "path": "dialogues/emotional_support.json",
-        "count": 56,
-        "sha256": "0171ef4f63c031c7ed1f86a2e049bda145a95eb9531eaaa6d6af7fb71fb75e3d"
+        "count": 60,
+        "sha256": "e6dd20e802444c30fd9c1d283b97883f04add8c69f7dcead041113ea7efff402"
       },
       {
         "path": "dialogues/casual_chat.json",
-        "count": 66,
-        "sha256": "391e3b414368e0a8fc86168a6f999b6e5abdf27d9f218f3edbe1a5f43417c330"
+        "count": 70,
+        "sha256": "4171d6500c04be04a2477406657ffb040eb3c76a5f25e8f778f0016c435a7356"
       },
       {
         "path": "dialogues/daily_life.json",
-        "count": 65,
-        "sha256": "db2e65206dd468b06187884949dcdb7995627f8ff7c06044b3a921c044ad6fb6"
+        "count": 69,
+        "sha256": "d5f0e00f7ddf802fe56ebd05b4e71a979b508eb5700ea559528b79274bc573a4"
       },
       {
         "path": "dialogues/multi_turn.json",
-        "count": 52,
-        "sha256": "4e16c3d5c041957901f003e3e8cc6902bd972dfba586e78cfc745e778936a344"
+        "count": 57,
+        "sha256": "1213fe45b23d62e85ca8072f617cbac5c2b8e5e6fc461a982b92067660710bb2"
       },
       {
         "path": "dialogues/random_topics.json",
-        "count": 55,
-        "sha256": "0e337e514344bea3e227549aeb6087b4af0d6c65b3a26f4d8c600c250c58585c"
+        "count": 60,
+        "sha256": "e269ea124498bb3a0e76c9c3d5c1bdcf5cc0d4b1d0ad77d54f0529d426ed9617"
       }
     ]
   },

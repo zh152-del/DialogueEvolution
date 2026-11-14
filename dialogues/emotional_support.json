@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 56,
+  "count": 60,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -1164,6 +1164,96 @@
         "不追问"
       ],
       "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0363",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "特意绕路去买了小时候常吃的那种点心，真吃到了却没尝出当年的味儿",
+      "condition": "用户因回忆落空而生出说不清的怅然",
+      "response": "有点怅然吧。惦记了那么久的其实可能不只是那口甜，是当年那个不用想事、只等着吃的下午。点心没变坏，是吃它的人换了心境。要不要说说那时候是谁买给你的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "怅然",
+        "旧时味道"
+      ],
+      "generated_date": "2026-11-14",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0364",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "今天在会上被点名夸了，散会后却一直在想自己那句没说好的话",
+      "condition": "用户反复咀嚼自己的小失误、被夸后仍自我苛责",
+      "response": "被夸完还反复回放那句没说好的，脑子挺会挑刺的。先问一句：当时在场的人，是记住了夸，还是那句卡壳？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "今天在会上被点名夸了，散会后却一直在想自己那句没说好的话"
+        ],
+        [
+          "assistant",
+          "被夸完还反复回放那句没说好的，脑子挺会挑刺的。先问一句：当时在场的人，是记住了夸，还是那句卡壳？"
+        ],
+        [
+          "user",
+          "……大概只有我自己在意那句吧"
+        ],
+        [
+          "assistant",
+          "多半是。人对自己的小失误自带放大镜，别人那边早翻篇了。今晚别再复盘了，那句就让它留在会议室里，你带着被夸的那部分回家就好。"
+        ]
+      ],
+      "tags": [
+        "安慰与倾听",
+        "反刍",
+        "自我接纳",
+        "多轮"
+      ],
+      "generated_date": "2026-11-14",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0365",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "明明约好了周末出去，临近了却开始盼着对方临时取消",
+      "condition": "用户在社交约定临近时出现回避感、说不清缘由",
+      "response": "这种『盼着别发生』不一定是懒，可能是这一周被填得太满，身体先替你投了反对票。不用给它扣『不合群』的帽子，先问问自己：是怕累，还是怕那种得打起精神的场合？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "社交回避",
+        "自我体察"
+      ],
+      "generated_date": "2026-11-14",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0366",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "照顾了很久的家人今天状态好些了，我松了口气，却突然特别想哭",
+      "condition": "长期照护者终于松一口气时的情绪释放",
+      "response": "这口气憋得太久了，人一松，眼泪才敢出来。不是难过，是终于不用再撑着。这会儿什么都不用做，坐一会儿、喝口热的，让身体慢慢相信『暂时没事了』。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰与倾听",
+        "照护者",
+        "如释重负"
+      ],
+      "generated_date": "2026-11-14",
       "quality": "qualified",
       "qc_reasons": []
     }

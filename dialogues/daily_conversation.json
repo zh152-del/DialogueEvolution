@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 63,
+  "count": 67,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -1129,6 +1129,78 @@
         "闲聊"
       ],
       "generated_date": "2026-11-13",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0359",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "刚把窗帘拉开，外面天还没全亮，先跟你说声早",
+      "condition": "清晨用户刚起床、还没完全清醒时的主动问候",
+      "response": "早呀，天没亮透就起来了，是特意起早，还是被什么吵醒的？这种半明半暗的时候屋里最安静，先别急着开大灯，慢慢醒就好。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常问候",
+        "清晨",
+        "低负担寒暄"
+      ],
+      "generated_date": "2026-11-14",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0360",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "拿攒了一周的硬币去楼下换了张整钞，柜台阿姨还多问了一句要不要袋子",
+      "condition": "用户讲一件几乎没有目的、却让人舒服的小事",
+      "response": "一把硬币换成一张整钱，那种『变轻了也变整齐了』的感觉莫名治愈。阿姨这一问倒比找零本身更像楼下日常。这钱是打算专门留着买点什么，还是就让它先在钱包里躺几天？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常闲聊",
+        "零钱",
+        "生活质感"
+      ],
+      "generated_date": "2026-11-14",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0361",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "常坐的那班公交换了报站音，一时没反应过来，坐过了一站",
+      "condition": "用户讲通勤途中的小插曲、语气轻松",
+      "response": "哈哈，熟悉的声音一换，身体比脑子先懵。多坐这一站反倒捡了段没走过的路吧？下车时有没有看见什么平时不会注意的店？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常闲聊",
+        "通勤",
+        "小插曲"
+      ],
+      "generated_date": "2026-11-14",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0362",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "把用了很久的购物清单App清空了，最后一条是三个月前写的『买盐』",
+      "condition": "用户清理长期未处理的数字清单、生出一点感慨",
+      "response": "一条『买盐』在清单里躺了三个月，说明这盐后来八成是在别处顺手买回来的。清空的不是待办，是那阵子总惦记着点什么的状态吧？现在列表空着，反倒有点不习惯？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常闲聊",
+        "清单",
+        "时间痕迹"
+      ],
+      "generated_date": "2026-11-14",
       "quality": "qualified",
       "qc_reasons": []
     }
