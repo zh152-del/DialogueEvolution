@@ -1,137 +1,133 @@
 {
-  "resource_version": "v0.1.5",
+  "resource_version": "v0.1.6",
   "repo": "zh152-del/DialogueEvolution",
-  "generated_date": "2026-11-14",
+  "generated_date": "2026-11-15",
   "stats": {
-    "total": 26,
-    "qualified": 26,
-    "to_review": 0,
-    "unqualified": 0
+    "total": 32,
+    "qualified": 28,
+    "to_review": 2,
+    "unqualified": 2
   },
-  "qualified_total": 383,
+  "qualified_total": 411,
   "scene_distribution": {
-    "daily_conversation": 4,
+    "daily_conversation": 6,
     "emotional_support": 4,
-    "casual_chat": 4,
+    "casual_chat": 5,
     "daily_life": 4,
     "multi_turn": 5,
-    "random_topics": 5
+    "random_topics": 4
   },
   "samples": [
     {
-      "id": "daily_conversation-0359",
+      "id": "daily_conversation-0385",
       "category_cn": "日常问候",
-      "trigger": "刚把窗帘拉开，外面天还没全亮，先跟你说声早",
-      "response": "早呀，天没亮透就起来了，是特意起早，还是被什么吵醒的？这种半明半暗的时候屋里最安静，先别急着开大灯，慢慢醒就好。"
+      "trigger": "早，煮面时把葱切得整整齐齐，莫名心情不错",
+      "response": "早呀，一碗面从切葱开始就顺了，这种「开局利落」的好心情最经用。今天打算先把哪件事顺着这股劲儿办了？"
     },
     {
-      "id": "daily_conversation-0361",
-      "category_cn": "日常闲聊",
-      "trigger": "常坐的那班公交换了报站音，一时没反应过来，坐过了一站",
-      "response": "哈哈，熟悉的声音一换，身体比脑子先懵。多坐这一站反倒捡了段没走过的路吧？下车时有没有看见什么平时不会注意的店？"
-    },
-    {
-      "id": "emotional_support-0363",
+      "id": "emotional_support-0390",
       "category_cn": "情绪表达",
-      "trigger": "特意绕路去买了小时候常吃的那种点心，真吃到了却没尝出当年的味儿",
-      "response": "有点怅然吧。惦记了那么久的其实可能不只是那口甜，是当年那个不用想事、只等着吃的下午。点心没变坏，是吃它的人换了心境。要不要说说那时候是谁买给你的？"
+      "trigger": "今天路过操场看别人打球，站着看了会儿，忽然有点想哭",
+      "response": "有些情绪不挑场合，偏偏在最不相干的时候冒出来。不用急着弄明白它是什么，先让它过去这一阵。想说说当时想起什么了吗？不想说也没关系，我陪你站一会儿。"
     },
     {
-      "id": "emotional_support-0365",
-      "category_cn": "情绪表达",
-      "trigger": "明明约好了周末出去，临近了却开始盼着对方临时取消",
-      "response": "这种『盼着别发生』不一定是懒，可能是这一周被填得太满，身体先替你投了反对票。不用给它扣『不合群』的帽子，先问问自己：是怕累，还是怕那种得打起精神的场合？"
-    },
-    {
-      "id": "casual_chat-0367",
+      "id": "casual_chat-0394",
       "category_cn": "开心与分享",
-      "trigger": "给旧木凳重新上了遍油，木纹一下子全浮出来了，比新买时还好看",
-      "response": "木纹藏了那么久，就等这一遍油！这种『把它本来的样子擦回来』的成就感，跟买件新东西完全不一样。打磨的时候是不是还闻着点旧木头味儿？"
+      "trigger": "第一次把蛋清打发到位，蛋白霜立着小尖角，我拍了张照",
+      "response": "那个立得住的小尖角可太值得拍了，打发这种事全凭手感，第一次就到位真不简单。接下来是做戚风还是舒芙蕾？这一步过了，后面底气都不一样。"
     },
     {
-      "id": "casual_chat-0370",
-      "category_cn": "兴趣爱好",
-      "trigger": "想给书架换个摆法，书搬下来了，却对着空架子发了会儿呆",
-      "response": "书一搬走，架子忽然变成另一件家具了哈哈。先别急着按高矮排：你平时是站着随手抽，还是坐下来才挑？取书的姿势定了，摆法就少纠结一半。"
-    },
-    {
-      "id": "daily_life-0371",
+      "id": "daily_life-0398",
       "category_cn": "生活琐事",
-      "trigger": "把两件要手洗的衣服泡上，结果忘了，一晚上过去水都凉了",
-      "response": "哈哈，泡着泡着就把它从待办里『泡』出去了。水凉了不影响，换温水正常洗就行；要是料子娇气，先看一眼洗标再决定要不要多泡一会儿。下次顺手设个二十分钟提醒，比靠记性靠谱。"
+      "trigger": "新买的插排孔位太挤，两个大头插头只能轮着用",
+      "response": "孔距没算上大头适配器，是插排最常踩的坑。要是一时不想换，先把不常拔的那个插在最里侧，轮着用的留给外侧；真嫌烦，下次挑那种孔距加宽的或带独立开关的会省心不少。"
     },
     {
-      "id": "daily_life-0374",
-      "category_cn": "身体不舒服时的日常交流",
-      "trigger": "这两天一到傍晚就觉得眼皮沉，也不是困，就是抬不起来",
-      "response": "连着两天、还卡在同一个时间点，挺值得留意的。先别硬撑：这会儿把屏幕亮度调低点、起来接杯温水，让眼睛缓一缓。今天白天是盯屏久，还是没怎么歇过？"
-    },
-    {
-      "id": "multi_turn-0375",
+      "id": "multi_turn-0402",
       "category_cn": "主动开启话题",
-      "trigger": "刚过饭点，你还没开口，我先来搭一句",
-      "response": "刚过饭点，先来搭一句：这个点桌上应该刚收拾完吧？不用回我什么正经的，就说说今天那顿饭里哪一口最合胃口，或者干脆报个『吃饱了』也行。"
+      "trigger": "就一句「我回来了」，没别的可说",
+      "response": "回来了就好，不用急着找话说。我倒想起个小事：你家门口那盏灯是进门就亮，还是要摸黑走两步才够得着开关？我每次都在想这个。"
     },
     {
-      "id": "multi_turn-0378",
-      "category_cn": "多轮连续交流",
-      "trigger": "接上回那句，我今天真绕过去把那条小巷走完了",
-      "response": "还真去了！上次你说的时候只是『哪天顺路去看看』，今天就变成走完了。跟想象里比，是更长还是更短？"
-    },
-    {
-      "id": "random_topics-0380",
+      "id": "random_topics-0407",
       "category_cn": "用户不知道聊什么",
-      "trigger": "今天攒了一肚子零碎，真要开口又不知道从哪件说起",
-      "response": "那就不按重要程度排了，咱挑最没用的一件开头——比如路上看见的一个招牌，或者今天喝到的一口怪味。零碎的好处就是不用承上启下，随便捡一件，我能顺着问下去；聊着聊着，真正想说的那件自己会冒出来。"
+      "trigger": "今天没什么想说的，但也不想就这么关掉对话框",
+      "response": "那就不用说什么，框留着就行。我这边也不硬找话了，你忙你的、发呆也行，偶尔瞄一眼还在就够了。等真想开口了，从哪儿起都可以。"
     },
     {
-      "id": "random_topics-0384",
-      "category_cn": "寻求建议",
-      "trigger": "想把手上一个拖了半年的小决定今晚定下来，可一到关键处就又开始列清单",
-      "response": "列到第三版清单还没定，通常不是信息不够，是清单里混进了『想选出那个不会后悔的』。先问个不那么正经的：如果现在必须抛硬币，落到哪一面你会偷偷松一口气？"
+      "id": "daily_conversation-0386",
+      "category_cn": "日常闲聊",
+      "trigger": "楼下便利店把关东煮的锅挪到门口了，热气扑了一脸",
+      "response": "这改动挺会挑位置的，冷天里那股热气简直拦人。你最后没忍住拿了一串吧？萝卜还是丸子？"
+    },
+    {
+      "id": "emotional_support-0391",
+      "category_cn": "安慰与倾听",
+      "trigger": "跟人聊天时我一直在赔笑，回家路上脸才松下来",
+      "response": "原来一路上都在替场面兜着，到家才轮到自己。那种「终于可以不用表情了」的松劲里，其实有点累吧。先别复盘说过什么了，歇会儿，这会儿不用对谁客气。"
+    },
+    {
+      "id": "casual_chat-0395",
+      "category_cn": "无聊与消遣",
+      "trigger": "给我出三道完全没用但很想知道答案的问题吧",
+      "response": "好，专挑没用的来：一、自动门为什么在人离得还挺远时就开了；二、为什么新剪的头发第三天比第一天顺眼；三、一本书读到一半夹的那张票根，后来去哪了。先答哪个都行，答不上来也不扣分。"
+    },
+    {
+      "id": "daily_life-0399",
+      "category_cn": "生活琐事",
+      "trigger": "把攒的纸箱拆平捆好，下楼才发现回收点今天没来",
+      "response": "白扛一趟最泄气，尤其都拆平捆好了。先别急着再跑，找个不挡道的角落竖着放，纸箱立起来比摊着省地方；顺手问下物业明天在不在，省得再扑个空。"
+    },
+    {
+      "id": "multi_turn-0403",
+      "category_cn": "突然改变话题",
+      "trigger": "先岔一句：为什么搬完家总觉得新房间要过几天才像自己的",
+      "response": "岔得好，这个我也有话说。大概房间认人比人认房间慢一点——得等书堆到顺手的位置、杯子放在惯常那角、夜里不用想就知道开关在哪，它才慢慢算「自己的」。你搬完第几天了？"
+    },
+    {
+      "id": "random_topics-0408",
+      "category_cn": "随机话题探索",
+      "trigger": "为什么同一段路，去的时候总觉得比回来长",
+      "response": "这个感觉太普遍了，多半跟「熟不熟」有关：去的时候一路都在预判还有多远，注意力全花在没到的地方；回来时路已经认得了，脑子一放松，路就短了。也有人说是因为回程有个明确的「到点了」在等着。你今天是走哪一段路想起来的？"
     }
   ],
   "github": {
     "repo": "zh152-del/DialogueEvolution",
     "dir": "DialogueEvolution",
-    "verified": true,
-    "commit": "dfbbb6b713b5d99c704ff1eebcf2825097be6c6a",
+    "verified": false,
+    "commit": null,
     "files": [
       {
         "path": "dialogues/daily_conversation.json",
-        "count": 67,
-        "sha256": "76b16208f73e03116e2e9622c031c5d9dff9d3d7607ca787bc67e80ba4d70b3e"
+        "count": 73,
+        "sha256": "55674033b238276c341e32be1d044692944d6ef9b679035037125d8aef000c7b"
       },
       {
         "path": "dialogues/emotional_support.json",
-        "count": 60,
-        "sha256": "e6dd20e802444c30fd9c1d283b97883f04add8c69f7dcead041113ea7efff402"
+        "count": 64,
+        "sha256": "e6c2408ea13f2a0ff2d9ce43fc369a695a0b450178d545ea24906b5559ad73c9"
       },
       {
         "path": "dialogues/casual_chat.json",
-        "count": 70,
-        "sha256": "4171d6500c04be04a2477406657ffb040eb3c76a5f25e8f778f0016c435a7356"
+        "count": 75,
+        "sha256": "59ae5aff77db148447d037f86e2ef9dcf65d0b21b2bbef2ebcd480a800e5c6a7"
       },
       {
         "path": "dialogues/daily_life.json",
-        "count": 69,
-        "sha256": "d5f0e00f7ddf802fe56ebd05b4e71a979b508eb5700ea559528b79274bc573a4"
+        "count": 73,
+        "sha256": "31b3e4991aca40eafc87a96d3f2fea3ed791a8f52c19f333b1342d50d0f63594"
       },
       {
         "path": "dialogues/multi_turn.json",
-        "count": 57,
-        "sha256": "1213fe45b23d62e85ca8072f617cbac5c2b8e5e6fc461a982b92067660710bb2"
+        "count": 62,
+        "sha256": "f8e9342ae8ebc39fd5bb8aae34a12534677e069f8bdab84084b8fa03cf855867"
       },
       {
         "path": "dialogues/random_topics.json",
-        "count": 60,
-        "sha256": "e269ea124498bb3a0e76c9c3d5c1bdcf5cc0d4b1d0ad77d54f0529d426ed9617"
+        "count": 64,
+        "sha256": "a3486f1f8da43edddc505aad26799301df958efb521ab6d5165895b85656fc0f"
       }
     ]
   },
-  "issues": [
-    "首次读回验证脚本误用 /repos/.../commits/{sha} 的字段路径（commit.message），而 /git/commits/{sha} 的 message 位于顶层，抛 KeyError('commit') 中断；文件级 8 个文件字节/SHA-256 比对在首次执行中已全部通过。",
-    "第二次复验改调 /repos/.../commits/{sha} 单条端点，该端点对本次 Token 返回 404，复验再次中断；经只读诊断确认 /git/commits/{sha} 与 /commits?sha=main 均可用，已改用这两个端点完成复验。",
-    "当日第二封『更正版』邮件在验证实际未通过、报告未回填的情况下，正文中硬编码了『已通过/已回填』的成功描述，属不实表述；已由最终更正版邮件更正作废。"
-  ]
+  "issues": []
 }

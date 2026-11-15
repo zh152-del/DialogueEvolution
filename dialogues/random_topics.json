@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 60,
+  "count": 64,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -1217,6 +1217,78 @@
         "拖延"
       ],
       "generated_date": "2026-11-14",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0407",
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "今天没什么想说的，但也不想就这么关掉对话框",
+      "condition": "用户没有话题，只想保持连接，不适合被硬塞话题",
+      "response": "那就不用说什么，框留着就行。我这边也不硬找话了，你忙你的、发呆也行，偶尔瞄一眼还在就够了。等真想开口了，从哪儿起都可以。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "用户不知道聊什么",
+        "安静陪伴",
+        "低压力"
+      ],
+      "generated_date": "2026-11-15",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0408",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "为什么同一段路，去的时候总觉得比回来长",
+      "condition": "用户抛出一个关于主观距离感的轻思辨",
+      "response": "这个感觉太普遍了，多半跟「熟不熟」有关：去的时候一路都在预判还有多远，注意力全花在没到的地方；回来时路已经认得了，脑子一放松，路就短了。也有人说是因为回程有个明确的「到点了」在等着。你今天是走哪一段路想起来的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "随机话题探索",
+        "距离感",
+        "轻思辨"
+      ],
+      "generated_date": "2026-11-15",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0409",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "自助机吞了钱不出票，屏幕还一直说「交易成功」",
+      "condition": "用户遇到设备故障且得不到对应反馈，带着火气",
+      "response": "最气的就是这句「交易成功」——机器自说自话，你手里什么都没有。先把屏幕上那笔的时间、编号拍下来，别急着走开也别再投第二次钱；旁边要是有人工窗口，拿照片过去说清楚最快。这火发得一点不多余。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "表达不满",
+        "自助机故障",
+        "先取证再处理"
+      ],
+      "generated_date": "2026-11-15",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0410",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "想把一件拖了很久的事跟对方说清楚，又怕一开口就变成吵架",
+      "condition": "用户想坦诚沟通但担心升级成冲突，来求个稳妥开口方式",
+      "response": "怕的不是说清楚，是怕第一句就带上积了很久的火。可以先把它写成「我这边一直有点卡住，想跟你捋捋」这样的开头，只讲自己的状态和这件事，先不评价对方当时怎么做；约个都不赶的时间，别在临睡前开。要是说着说着声音起来了，就先停一下，约好回头接着说——这不算没谈完，算谈得住。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "寻求建议",
+        "沟通方式",
+        "避免冲突"
+      ],
+      "generated_date": "2026-11-15",
       "quality": "qualified",
       "qc_reasons": []
     }

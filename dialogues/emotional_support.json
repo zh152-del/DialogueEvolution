@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 60,
+  "count": 64,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -1254,6 +1254,104 @@
         "如释重负"
       ],
       "generated_date": "2026-11-14",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0390",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "今天路过操场看别人打球，站着看了会儿，忽然有点想哭",
+      "condition": "用户被一个旁观场景勾起说不清的情绪",
+      "response": "有些情绪不挑场合，偏偏在最不相干的时候冒出来。不用急着弄明白它是什么，先让它过去这一阵。想说说当时想起什么了吗？不想说也没关系，我陪你站一会儿。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "莫名想哭",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-15",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0391",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "跟人聊天时我一直在赔笑，回家路上脸才松下来",
+      "condition": "用户经历一场耗神的社交，事后才卸下紧绷",
+      "response": "原来一路上都在替场面兜着，到家才轮到自己。那种「终于可以不用表情了」的松劲里，其实有点累吧。先别复盘说过什么了，歇会儿，这会儿不用对谁客气。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰与倾听",
+        "社交疲惫",
+        "情绪劳动"
+      ],
+      "generated_date": "2026-11-15",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0392",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "今天被一句玩笑话戳到了，别人都在笑，只有我笑不出来",
+      "condition": "用户在一群人的说笑里感到被刺到、又不好表露",
+      "response": "满屋子都笑的时候，唯独自己笑不出来，那种格格不入比话本身更难受。你不用为没跟着笑而解释，也不必现在就判断是不是自己太敏感。想聊聊那句话，或者先翻过去，都随你。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "被玩笑刺到",
+        "不合群感"
+      ],
+      "generated_date": "2026-11-15",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0393",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "很久没联系的朋友忽然问了句「最近还好吗」，我盯着那行字看了半天",
+      "condition": "用户收到旧友的简短问候，迟迟不知怎么回",
+      "response": "六个字能把人钉在屏幕前半天，大概是因为它既轻又重。你是还没想好怎么回，还是不太确定该不该把真实情况说出去？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "很久没联系的朋友忽然问了句「最近还好吗」，我盯着那行字看了半天"
+        ],
+        [
+          "assistant",
+          "六个字能把人钉在屏幕前半天，大概是因为它既轻又重。你是还没想好怎么回，还是不太确定该把真实情况说出去？"
+        ],
+        [
+          "user",
+          "两边都有一点，怕回得太轻显得生分，太重又怕吓着人家"
+        ],
+        [
+          "assistant",
+          "其实不用一次把分寸拿捏到位。先回一句实在的近况，比如最近在忙什么、天气如何，门就算是留着了。"
+        ],
+        [
+          "user",
+          "那我先说最近在学做菜好了"
+        ],
+        [
+          "assistant",
+          "这个开头很好，轻巧又带点生活气。对方要是想接着聊，自然有话接；不接，也不至于冷场。慢慢来就好。"
+        ]
+      ],
+      "tags": [
+        "安慰与倾听",
+        "多轮",
+        "旧友问候",
+        "回消息"
+      ],
+      "generated_date": "2026-11-15",
       "quality": "qualified",
       "qc_reasons": []
     }

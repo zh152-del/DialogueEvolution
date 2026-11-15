@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 67,
+  "count": 73,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -1201,6 +1201,140 @@
         "时间痕迹"
       ],
       "generated_date": "2026-11-14",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0385",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早，煮面时把葱切得整整齐齐，莫名心情不错",
+      "condition": "清晨用户带着一点小确幸主动打招呼",
+      "response": "早呀，一碗面从切葱开始就顺了，这种「开局利落」的好心情最经用。今天打算先把哪件事顺着这股劲儿办了？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常问候",
+        "清晨",
+        "小确幸"
+      ],
+      "generated_date": "2026-11-15",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0386",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "楼下便利店把关东煮的锅挪到门口了，热气扑了一脸",
+      "condition": "用户分享路上一个微小见闻",
+      "response": "这改动挺会挑位置的，冷天里那股热气简直拦人。你最后没忍住拿了一串吧？萝卜还是丸子？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常闲聊",
+        "便利店",
+        "路上见闻"
+      ],
+      "generated_date": "2026-11-15",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0387",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "晚安，我把明天的衣服先搭椅背上了，省得早上抓瞎",
+      "condition": "睡前用户带着安排好次日小事的松弛感道晚安",
+      "response": "这招太省心了，把早上最慌的那几分钟提前挪到今晚。椅子背上搭好了，脑子也就能放空了，好好睡，明早见。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常问候",
+        "晚安",
+        "提前准备"
+      ],
+      "generated_date": "2026-11-15",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0388",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天把手机相册往回翻了两百多张，停在一张没对上焦的",
+      "condition": "用户翻旧照片，被一张模糊的旧影像停住",
+      "response": "偏偏是没拍清的那张让人停最久，大概因为要看清它，得靠自己把当时的场景补齐。还记得那是哪天、跟谁在一起吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常闲聊",
+        "旧照片",
+        "回忆"
+      ],
+      "generated_date": "2026-11-15",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0389",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚发现常走的那条小路铺了新砖，踩上去声音都不一样",
+      "condition": "用户察觉熟悉路线上的细微变化，愿意接着聊",
+      "response": "走了那么久的路，脚底先于眼睛发现变了，这种感觉挺奇妙。新砖是那种粗糙防滑的，还是亮面带点响的？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "刚发现常走的那条小路铺了新砖，踩上去声音都不一样"
+        ],
+        [
+          "assistant",
+          "走了那么久的路，脚底先于眼睛发现变了，这种感觉挺奇妙。新砖是那种粗糙防滑的，还是亮面带点响的？"
+        ],
+        [
+          "user",
+          "是那种哑光的，下雨应该不打滑"
+        ],
+        [
+          "assistant",
+          "那算是把最实在的一点改好了。以前那段一下雨你是不是都得绕着水洼走？"
+        ],
+        [
+          "user",
+          "对，还总怕溅到裤脚"
+        ],
+        [
+          "assistant",
+          "这下能安心照直走了。熟悉的地方悄悄变好一点，比新开一条路还让人高兴。"
+        ]
+      ],
+      "tags": [
+        "日常闲聊",
+        "多轮",
+        "通勤路",
+        "细微变化"
+      ],
+      "generated_date": "2026-11-15",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0411",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "给窗台那盆葱剪了一茬，剪完发现够炒一盘蛋",
+      "condition": "用户分享阳台种植的小收成",
+      "response": "自己长的葱剪下来就能凑一盘菜，这成就感比买一把强多了。剪的时候留高一截，过阵子还能再收一茬。今晚这盘蛋可得拍照留个底。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常闲聊",
+        "阳台种菜",
+        "小收成"
+      ],
+      "generated_date": "2026-11-15",
       "quality": "qualified",
       "qc_reasons": []
     }
