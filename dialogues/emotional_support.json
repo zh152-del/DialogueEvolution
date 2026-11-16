@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 64,
+  "count": 69,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -1352,6 +1352,126 @@
         "回消息"
       ],
       "generated_date": "2026-11-15",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0418",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "今天一整天都像隔了层玻璃，别人说话我都听得见，就是接不进去",
+      "condition": "用户描述一种说不清的疏离感、并未要求解决方案时",
+      "response": "隔着玻璃这个说法我一下就懂了——不是听不见，是中间多了点什么，话到不了跟前。这种状态不一定需要马上弄明白，也不用逼自己「接进去」。你要是想就这么待着，我陪着；想说点什么，从哪个字起都行。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "疏离感",
+        "陪伴",
+        "不追问"
+      ],
+      "generated_date": "2026-11-16",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0419",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "今天把一件我挺在意的事讲给朋友听，对方一直在看手机，我讲到一半就自己收了尾",
+      "condition": "用户因为倾诉未被认真接住而失落、需要被听见时",
+      "response": "讲到一半自己把话收回去，那一下其实比没说出口还难受。你在意的那件事没有因为对方分神就变轻，我这儿还空着，想从哪儿重新讲都行，不用替它找个「值得说」的理由。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰与倾听",
+        "未被接住",
+        "重新讲述",
+        "不评判"
+      ],
+      "generated_date": "2026-11-16",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0420",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "明明是挺平常的一天，傍晚收拾桌子的时候忽然就鼻子一酸，自己也说不上为什么",
+      "condition": "用户出现无明显诱因的情绪波动、不想被追问原因时",
+      "response": "这种没有由头的一酸，其实挺常见的，不用非得给它找个解释。收拾桌子那种手上有活、脑子放空的时刻，最容易让攒着的东西自己浮上来。先别急着归纳它，喝口水，坐一会儿；想说就说，不说也完全可以。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "无由头",
+        "不追问",
+        "允许不说"
+      ],
+      "generated_date": "2026-11-16",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0421",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "通知都发出去了，可我这一晚上反复点开那条消息看，越看越不确定自己做得对不对",
+      "condition": "用户已做出决定但事后反复动摇、需要被稳住而非重新分析时",
+      "response": "发出去之后还会一遍遍回看，太正常了——决定落地的那一刻，反而比做决定时更晃。先不急着判断对不对，今晚不用给它下结论。要是不想聊细节，我们就放一放；想说，我从头听。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "通知都发出去了，可我这一晚上反复点开那条消息看，越看越不确定自己做得对不对"
+        ],
+        [
+          "assistant",
+          "发出去之后还会一遍遍回看，太正常了——决定落地的那一刻，反而比做决定时更晃。先不急着判断对不对，今晚不用给它下结论。"
+        ],
+        [
+          "user",
+          "道理我知道，就是手自己会去点开"
+        ],
+        [
+          "assistant",
+          "手比脑子诚实嘛。不用跟这个动作较劲，点开就点开，看两眼也没改什么。等它自己不想点了，这事就过去了。"
+        ],
+        [
+          "user",
+          "嗯……听你这么一说，好像没那么绷了"
+        ],
+        [
+          "assistant",
+          "那就先松着。明早要是又冒出来，我们再看也不迟，今晚不用交卷。"
+        ]
+      ],
+      "tags": [
+        "安慰与倾听",
+        "决定后的摇摆",
+        "不评判",
+        "多轮"
+      ],
+      "generated_date": "2026-11-16",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0422",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "收拾旧包的时候翻到一张没用过的车票，日期都过了好几年，我拿着看了半天才放回去",
+      "condition": "用户被一件旧物勾起情绪、语气平缓但带着停顿感时",
+      "response": "一张没用过的票，比用过的还容易让人停一下——它记的不是去了哪儿，是当时那个没成行的打算。看半天也挺好的，不用急着给它安个心情。放回去就放回去，哪天想聊那趟没走成的路，我听着。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "旧物",
+        "未完成",
+        "留白"
+      ],
+      "generated_date": "2026-11-16",
       "quality": "qualified",
       "qc_reasons": []
     }

@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 73,
+  "count": 78,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -1335,6 +1335,126 @@
         "小收成"
       ],
       "generated_date": "2026-11-15",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0413",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早，今天陪家里人去做年度体检，出门比平时早了半个钟头，路上还没什么车",
+      "condition": "清晨出门、用户主动打招呼并提到陪同就医安排时",
+      "response": "早呀。这个点路上清静，正好不用赶。要用的证件和之前的检查单记得顺手装一个袋子里，就不容易落下。回来要是累了，随时来找我聊两句歇歇。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常问候",
+        "清晨",
+        "出行",
+        "关怀"
+      ],
+      "generated_date": "2026-11-16",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0414",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "晚安，今天把攒了一周的衣物全洗了，阳台挂得满满当当的",
+      "condition": "睡前道晚安、用户顺带分享当天完成的一件家务时",
+      "response": "晚安～一整排衣服晾在那儿，看着就挺有「这周收了尾」的感觉。夜里风要是大，明早收的时候顺手抖一抖就好。睡吧，明天的事明天再说。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常问候",
+        "晚安",
+        "家务",
+        "收尾感"
+      ],
+      "generated_date": "2026-11-16",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0415",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚在楼下看见有人教小孩骑车，扶着后座一路小跑，跑了快半条街",
+      "condition": "用户分享路上看到的一段生活画面、语气轻松时",
+      "response": "哈哈这个画面太熟了，扶的人比骑的还累。最妙的是某个瞬间悄悄松手，小孩自己蹬出去好几米才发现没人扶。你当时是站在旁边看完了，还是路过瞥了一眼？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常闲聊",
+        "路边见闻",
+        "童年",
+        "开放式接话"
+      ],
+      "generated_date": "2026-11-16",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0416",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天把工位挪到靠窗那排了，抬头能看见一小块天",
+      "condition": "用户分享环境小变动、愿意多聊几句时",
+      "response": "那挺好的，一小块天也够用了。搬到窗边之后，下午的光会不会正好斜到键盘上？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "今天把工位挪到靠窗那排了，抬头能看见一小块天"
+        ],
+        [
+          "assistant",
+          "那挺好的，一小块天也够用了。搬到窗边之后，下午的光会不会正好斜到键盘上？"
+        ],
+        [
+          "user",
+          "会，刚好晒到左手边，我先把杯子挪开了"
+        ],
+        [
+          "assistant",
+          "杯子挪得好，不然一下午都在温着。靠窗还有个隐藏好处：走神的时候有个能看的地方，比盯着屏幕发呆舒服多了。"
+        ],
+        [
+          "user",
+          "确实，刚才就看了一会儿云，什么事也没想"
+        ],
+        [
+          "assistant",
+          "这种「什么也没想」的几分钟挺难得的，不用急着收回来。等你想聊了，我还在。"
+        ]
+      ],
+      "tags": [
+        "日常闲聊",
+        "工位",
+        "多轮",
+        "走神"
+      ],
+      "generated_date": "2026-11-16",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0417",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "小区门口那家修鞋摊今天没出摊，我那双鞋还搁在包里呢",
+      "condition": "用户顺口提到一件没办成的小事、略带无奈但不沉重时",
+      "response": "白拎了一路，这种小落空最让人「哎」一声。摊主多半是临时歇一天，明后天路过再看一眼就行，鞋先放包里也不占地方。要是这阵子一直没出摊，附近还能去哪儿问，我陪你一起想想。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常闲聊",
+        "小事落空",
+        "生活服务",
+        "轻无奈"
+      ],
+      "generated_date": "2026-11-16",
       "quality": "qualified",
       "qc_reasons": []
     }

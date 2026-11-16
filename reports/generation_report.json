@@ -1,131 +1,131 @@
 {
-  "resource_version": "v0.1.6",
+  "resource_version": "v0.1.7",
   "repo": "zh152-del/DialogueEvolution",
-  "generated_date": "2026-11-15",
+  "generated_date": "2026-11-16",
   "stats": {
-    "total": 32,
-    "qualified": 28,
-    "to_review": 2,
-    "unqualified": 2
+    "total": 34,
+    "qualified": 32,
+    "to_review": 1,
+    "unqualified": 1
   },
-  "qualified_total": 411,
+  "qualified_total": 443,
   "scene_distribution": {
-    "daily_conversation": 6,
-    "emotional_support": 4,
+    "daily_conversation": 5,
+    "emotional_support": 5,
     "casual_chat": 5,
-    "daily_life": 4,
-    "multi_turn": 5,
-    "random_topics": 4
+    "daily_life": 5,
+    "multi_turn": 6,
+    "random_topics": 6
   },
   "samples": [
     {
-      "id": "daily_conversation-0385",
+      "id": "daily_conversation-0413",
       "category_cn": "日常问候",
-      "trigger": "早，煮面时把葱切得整整齐齐，莫名心情不错",
-      "response": "早呀，一碗面从切葱开始就顺了，这种「开局利落」的好心情最经用。今天打算先把哪件事顺着这股劲儿办了？"
+      "trigger": "早，今天陪家里人去做年度体检，出门比平时早了半个钟头，路上还没什么车",
+      "response": "早呀。这个点路上清静，正好不用赶。要用的证件和之前的检查单记得顺手装一个袋子里，就不容易落下。回来要是累了，随时来找我聊两句歇歇。"
     },
     {
-      "id": "emotional_support-0390",
+      "id": "daily_conversation-0414",
+      "category_cn": "日常问候",
+      "trigger": "晚安，今天把攒了一周的衣物全洗了，阳台挂得满满当当的",
+      "response": "晚安～一整排衣服晾在那儿，看着就挺有「这周收了尾」的感觉。夜里风要是大，明早收的时候顺手抖一抖就好。睡吧，明天的事明天再说。"
+    },
+    {
+      "id": "emotional_support-0418",
       "category_cn": "情绪表达",
-      "trigger": "今天路过操场看别人打球，站着看了会儿，忽然有点想哭",
-      "response": "有些情绪不挑场合，偏偏在最不相干的时候冒出来。不用急着弄明白它是什么，先让它过去这一阵。想说说当时想起什么了吗？不想说也没关系，我陪你站一会儿。"
+      "trigger": "今天一整天都像隔了层玻璃，别人说话我都听得见，就是接不进去",
+      "response": "隔着玻璃这个说法我一下就懂了——不是听不见，是中间多了点什么，话到不了跟前。这种状态不一定需要马上弄明白，也不用逼自己「接进去」。你要是想就这么待着，我陪着；想说点什么，从哪个字起都行。"
     },
     {
-      "id": "casual_chat-0394",
-      "category_cn": "开心与分享",
-      "trigger": "第一次把蛋清打发到位，蛋白霜立着小尖角，我拍了张照",
-      "response": "那个立得住的小尖角可太值得拍了，打发这种事全凭手感，第一次就到位真不简单。接下来是做戚风还是舒芙蕾？这一步过了，后面底气都不一样。"
-    },
-    {
-      "id": "daily_life-0398",
-      "category_cn": "生活琐事",
-      "trigger": "新买的插排孔位太挤，两个大头插头只能轮着用",
-      "response": "孔距没算上大头适配器，是插排最常踩的坑。要是一时不想换，先把不常拔的那个插在最里侧，轮着用的留给外侧；真嫌烦，下次挑那种孔距加宽的或带独立开关的会省心不少。"
-    },
-    {
-      "id": "multi_turn-0402",
-      "category_cn": "主动开启话题",
-      "trigger": "就一句「我回来了」，没别的可说",
-      "response": "回来了就好，不用急着找话说。我倒想起个小事：你家门口那盏灯是进门就亮，还是要摸黑走两步才够得着开关？我每次都在想这个。"
-    },
-    {
-      "id": "random_topics-0407",
-      "category_cn": "用户不知道聊什么",
-      "trigger": "今天没什么想说的，但也不想就这么关掉对话框",
-      "response": "那就不用说什么，框留着就行。我这边也不硬找话了，你忙你的、发呆也行，偶尔瞄一眼还在就够了。等真想开口了，从哪儿起都可以。"
-    },
-    {
-      "id": "daily_conversation-0386",
-      "category_cn": "日常闲聊",
-      "trigger": "楼下便利店把关东煮的锅挪到门口了，热气扑了一脸",
-      "response": "这改动挺会挑位置的，冷天里那股热气简直拦人。你最后没忍住拿了一串吧？萝卜还是丸子？"
-    },
-    {
-      "id": "emotional_support-0391",
+      "id": "emotional_support-0419",
       "category_cn": "安慰与倾听",
-      "trigger": "跟人聊天时我一直在赔笑，回家路上脸才松下来",
-      "response": "原来一路上都在替场面兜着，到家才轮到自己。那种「终于可以不用表情了」的松劲里，其实有点累吧。先别复盘说过什么了，歇会儿，这会儿不用对谁客气。"
+      "trigger": "今天把一件我挺在意的事讲给朋友听，对方一直在看手机，我讲到一半就自己收了尾",
+      "response": "讲到一半自己把话收回去，那一下其实比没说出口还难受。你在意的那件事没有因为对方分神就变轻，我这儿还空着，想从哪儿重新讲都行，不用替它找个「值得说」的理由。"
     },
     {
-      "id": "casual_chat-0395",
+      "id": "casual_chat-0423",
+      "category_cn": "开心与分享",
+      "trigger": "第一次自己把被套套平整了，四个角都对上了，我站在床边欣赏了半分钟",
+      "response": "四个角全对上，这个真的值得站半分钟——很多人套完是一边鼓一边空的。你用的是先塞两角再抖开那招，还是自己摸索出来的？下次换季我可能要来讨教一下。"
+    },
+    {
+      "id": "casual_chat-0424",
       "category_cn": "无聊与消遣",
-      "trigger": "给我出三道完全没用但很想知道答案的问题吧",
-      "response": "好，专挑没用的来：一、自动门为什么在人离得还挺远时就开了；二、为什么新剪的头发第三天比第一天顺眼；三、一本书读到一半夹的那张票根，后来去哪了。先答哪个都行，答不上来也不扣分。"
+      "trigger": "等打印的这七八分钟，机器响得特别有节奏，我居然听着没走",
+      "response": "哈哈，打印机那种「咔、咔咔、咔」确实自带节拍，还会在快结束的时候突然变一个调，像在收尾。要不要趁这几分钟玩个特别省事的：你随便说一个字，我只接同韵的字、不重复，接不上算我输？不想玩也行，一起听它响完也挺好。"
     },
     {
-      "id": "daily_life-0399",
+      "id": "daily_life-0428",
       "category_cn": "生活琐事",
-      "trigger": "把攒的纸箱拆平捆好，下楼才发现回收点今天没来",
-      "response": "白扛一趟最泄气，尤其都拆平捆好了。先别急着再跑，找个不挡道的角落竖着放，纸箱立起来比摊着省地方；顺手问下物业明天在不在，省得再扑个空。"
+      "trigger": "新买的沥水架尺寸刚好卡在槽边，多一厘米就放不下了，我量了两遍才敢拆包装",
+      "response": "量两遍才拆包装，谨慎得对了——这种卡着边儿的尺寸，退换比量尺寸麻烦多了。现在刚好卡住，日后擦水槽的时候顺手拎起来冲一下就成。摆上去之后是不是整块台面都清爽了？"
     },
     {
-      "id": "multi_turn-0403",
+      "id": "daily_life-0429",
+      "category_cn": "生活琐事",
+      "trigger": "把冰箱里那几个快到期的东西挪到最前面了，结果一开门还是先看见别的",
+      "response": "挪到最前面还是被忽略，这个太真实了——手比眼睛快，开门那一下就先抓了顺眼的。要不要给它们贴个最显眼的标记？或者干脆今晚就先解决一样。"
+    },
+    {
+      "id": "multi_turn-0433",
+      "category_cn": "主动开启话题",
+      "trigger": "先丢了个句号过来，什么也没写",
+      "response": "收到一个句号，我懂，就是「人在，但今天没什么想说的」。那我来起个头：不用聊正事，你猜我这会儿最想问你的一件小事是什么？"
+    },
+    {
+      "id": "multi_turn-0434",
       "category_cn": "突然改变话题",
-      "trigger": "先岔一句：为什么搬完家总觉得新房间要过几天才像自己的",
-      "response": "岔得好，这个我也有话说。大概房间认人比人认房间慢一点——得等书堆到顺手的位置、杯子放在惯常那角、夜里不用想就知道开关在哪，它才慢慢算「自己的」。你搬完第几天了？"
+      "trigger": "不聊这个了——你说，为什么同一首歌在耳机里和在外放时，听着像两首",
+      "response": "接得住，岔得正好。耳机里是「只给你一个人听」，外放一开就变成「这屋里还有别人」，同一段旋律平白多了一层场合感。你是刚才突然切到外放了，还是路过哪儿听见了？"
     },
     {
-      "id": "random_topics-0408",
+      "id": "random_topics-0439",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "别问我今天怎么样了，直接丢个能接得上的话头过来吧",
+      "response": "收到，不反问。给你一个：如果明天早上醒来，家里所有钟表都慢了十分钟，你第一个发现的是哪一处？随口答就行，答「不会发现」也算。"
+    },
+    {
+      "id": "random_topics-0440",
       "category_cn": "随机话题探索",
-      "trigger": "为什么同一段路，去的时候总觉得比回来长",
-      "response": "这个感觉太普遍了，多半跟「熟不熟」有关：去的时候一路都在预判还有多远，注意力全花在没到的地方；回来时路已经认得了，脑子一放松，路就短了。也有人说是因为回程有个明确的「到点了」在等着。你今天是走哪一段路想起来的？"
+      "trigger": "突然想问，为什么冰箱里那盏灯，偏偏只在开门的时候亮",
+      "response": "这个「偏偏」问得妙——一般是门边有个小开关：门合上时把它压住，一开就松开，灯便亮了。所以你每次开冰箱，都等于替它按了一次开机键。至于它到底亮了多久，我们永远看不到，因为看的时候门一定开着。"
     }
   ],
   "github": {
     "repo": "zh152-del/DialogueEvolution",
     "dir": "DialogueEvolution",
-    "verified": true,
-    "commit": "f5d91284035a7d3ac522df8a8e5aa29f08c72266",
+    "verified": false,
+    "commit": null,
     "files": [
       {
         "path": "dialogues/daily_conversation.json",
-        "count": 73,
-        "sha256": "55674033b238276c341e32be1d044692944d6ef9b679035037125d8aef000c7b"
+        "count": 78,
+        "sha256": "017c589fd6d67e93365f63dcb38f5003daa69e8a19c6a05b158debdea632f3e7"
       },
       {
         "path": "dialogues/emotional_support.json",
-        "count": 64,
-        "sha256": "e6c2408ea13f2a0ff2d9ce43fc369a695a0b450178d545ea24906b5559ad73c9"
+        "count": 69,
+        "sha256": "9458844565001161be1909e25408398e6d7dee1eed67b73d69052e91229bad13"
       },
       {
         "path": "dialogues/casual_chat.json",
-        "count": 75,
-        "sha256": "59ae5aff77db148447d037f86e2ef9dcf65d0b21b2bbef2ebcd480a800e5c6a7"
+        "count": 80,
+        "sha256": "239b486bf5e5458b8af72ef24f54f496bf43d526ec857ea0c8de19e82cbcd68d"
       },
       {
         "path": "dialogues/daily_life.json",
-        "count": 73,
-        "sha256": "31b3e4991aca40eafc87a96d3f2fea3ed791a8f52c19f333b1342d50d0f63594"
+        "count": 78,
+        "sha256": "c856d7f9664ec2d06740d3bf8d78a32633caa30ac7b421d29297a2685c751a90"
       },
       {
         "path": "dialogues/multi_turn.json",
-        "count": 62,
-        "sha256": "f8e9342ae8ebc39fd5bb8aae34a12534677e069f8bdab84084b8fa03cf855867"
+        "count": 68,
+        "sha256": "896b6e19ed30dadf417fe9a405094e44f086976c47bd1ca410bd61f2442ddd03"
       },
       {
         "path": "dialogues/random_topics.json",
-        "count": 64,
-        "sha256": "a3486f1f8da43edddc505aad26799301df958efb521ab6d5165895b85656fc0f"
+        "count": 70,
+        "sha256": "74b8a75452caa3b94c9586cfe2716c8db691ce53a181fc9f59d5a896e64615d4"
       }
     ]
   },
