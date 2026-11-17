@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 70,
+  "count": 74,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -1428,6 +1428,78 @@
         "多轮"
       ],
       "generated_date": "2026-11-16",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0466",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "给我两个选项：今晚看纪录片，还是整理相册",
+      "condition": "用户在两件小事间犹豫、请助手给建议时",
+      "response": "我投整理相册一票——纪录片随时能看，相册里的情绪可遇不可求。不过你要是现在更想放空，就选纪录片，别跟自己较劲。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "寻求建议",
+        "选择",
+        "相册"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0467",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "为什么有些地方明明没去过，却觉得特别熟悉",
+      "condition": "用户提出带点好奇的随机问题时",
+      "response": "这种感觉挺常见的，多半是照片、影片里似曾相识的角落拼出来的。不用急着找神秘解释，就当记忆在跟你开玩笑。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "随机话题",
+        "既视感",
+        "好奇心"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0468",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "外卖备注写了不要香菜，送来还是满满一层",
+      "condition": "用户遭遇被忽视的要求、表达不满时",
+      "response": "明明说清楚了还被无视，换谁都得烦。先拍张照留证，直接找平台申诉通常比跟骑手置气管用，今晚先凑合吃点别的。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "表达不满",
+        "外卖",
+        "维权"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0469",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "我想开始跑步，但一想到要换衣服出门就放弃了",
+      "condition": "用户有行动意愿却被启动成本卡住时",
+      "response": "卡在「出门」这一步的人可不少。前一晚把跑鞋和衣服摆在门口，早上先只做「穿上鞋」这一件事，出了门往往自然就跑起来了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "寻求建议",
+        "跑步",
+        "行动力"
+      ],
+      "generated_date": "2026-11-17",
       "quality": "qualified",
       "qc_reasons": []
     }

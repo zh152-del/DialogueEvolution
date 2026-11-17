@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 80,
+  "count": 84,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -1657,6 +1657,80 @@
         "轻回应"
       ],
       "generated_date": "2026-11-16",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0453",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我第一次把面包烤出了拉丝的组织，拍了照却舍不得发朋友圈",
+      "condition": "用户分享烘焙小成就、语气惊喜时",
+      "response": "能拉丝那一下最有成就感了，光想想断面就替你高兴。照片先存着，哪天想给谁看再发也不迟。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "开心与分享",
+        "烘焙",
+        "成就感"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0454",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "无聊到开始给家里的拖鞋按大小排队了",
+      "condition": "用户极度无聊、用无意义小动作打发时间时",
+      "response": "这属于无聊到一定境界才会干的事，我差点笑出声。排完记得告诉我，最大那只是不是总找不到另一半。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊与消遣",
+        "发呆",
+        "幽默"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0455",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "最近迷上听老电台的深夜节目，那种沙沙的声音反而特别安心",
+      "condition": "用户分享小众收听爱好时",
+      "response": "带点杂音的声音反而像有人陪着熬夜。你一般听到几点？我猜你心里早就有个固定频道了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣爱好",
+        "电台",
+        "深夜",
+        "放松"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0456",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我把阳台改成了小小的香草园，做菜时随手就能摘一把",
+      "condition": "用户分享阳台种植与烹饪结合的爱好时",
+      "response": "自己种的香草摘下来那一下，手感都不一样。哪天真做了拿手菜，记得先报个菜名让我馋一下。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣爱好",
+        "香草",
+        "做饭",
+        "阳台"
+      ],
+      "generated_date": "2026-11-17",
       "quality": "qualified",
       "qc_reasons": []
     }

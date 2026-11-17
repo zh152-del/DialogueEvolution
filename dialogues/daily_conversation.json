@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 78,
+  "count": 82,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -1455,6 +1455,80 @@
         "轻无奈"
       ],
       "generated_date": "2026-11-16",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0445",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚把晾了一天的被子收进来，抱起来暖烘烘的",
+      "condition": "用户分享到家后收衣物的日常小确幸时",
+      "response": "晒足太阳的被子自带一股干净的味道，抱着就不想撒手吧。今晚盖着应该能睡得特别沉。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常闲聊",
+        "阳光",
+        "被子",
+        "小确幸"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0446",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早，今天楼下修路，我绕了一大圈才到工位",
+      "condition": "用户清晨问候并抱怨通勤绕路时",
+      "response": "一大早就开始绕路，确实够闹心的。好在人平安到了，先给自己倒杯水缓一缓，今天剩下的路就别再绕了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常问候",
+        "通勤",
+        "清晨"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0447",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚换了手机号，通讯录里一半人还没来得及存回去",
+      "condition": "用户说起换号后联系人还没整理完时",
+      "response": "换号那几天就是这样，看着一串陌生数字得愣半天。先把常联系的那几个存上，剩下的慢慢补，不用急着一次弄完。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常闲聊",
+        "换号",
+        "通讯录"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0448",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "晚上散步看见有人放孔明灯，一小片天都是暖黄的",
+      "condition": "用户描述夜散步时看到的温暖景象时",
+      "response": "那种慢慢飘上去的光看着就让人心里软一下。你当时是不是也停下脚步，站那儿看了好一会儿？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常闲聊",
+        "散步",
+        "夜景",
+        "温暖"
+      ],
+      "generated_date": "2026-11-17",
       "quality": "qualified",
       "qc_reasons": []
     }

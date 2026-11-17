@@ -1,60 +1,135 @@
 {
-  "resource_version": "v0.1.8",
+  "resource_version": "v0.1.9",
   "repo": "zh152-del/DialogueEvolution",
   "generated_date": "2026-11-17",
   "stats": {
     "total": 25,
-    "qualified": 0,
+    "qualified": 25,
     "to_review": 0,
-    "unqualified": 25
+    "unqualified": 0
   },
-  "qualified_total": 443,
+  "qualified_total": 468,
   "scene_distribution": {
-    "daily_conversation": 0,
-    "emotional_support": 0,
-    "casual_chat": 0,
-    "daily_life": 0,
-    "multi_turn": 0,
-    "random_topics": 0
+    "daily_conversation": 4,
+    "emotional_support": 4,
+    "casual_chat": 4,
+    "daily_life": 4,
+    "multi_turn": 5,
+    "random_topics": 4
   },
-  "samples": [],
+  "samples": [
+    {
+      "id": "daily_conversation-0445",
+      "category_cn": "日常闲聊",
+      "trigger": "刚把晾了一天的被子收进来，抱起来暖烘烘的",
+      "response": "晒足太阳的被子自带一股干净的味道，抱着就不想撒手吧。今晚盖着应该能睡得特别沉。"
+    },
+    {
+      "id": "daily_conversation-0446",
+      "category_cn": "日常问候",
+      "trigger": "早，今天楼下修路，我绕了一大圈才到工位",
+      "response": "一大早就开始绕路，确实够闹心的。好在人平安到了，先给自己倒杯水缓一缓，今天剩下的路就别再绕了。"
+    },
+    {
+      "id": "daily_conversation-0447",
+      "category_cn": "日常闲聊",
+      "trigger": "刚换了手机号，通讯录里一半人还没来得及存回去",
+      "response": "换号那几天就是这样，看着一串陌生数字得愣半天。先把常联系的那几个存上，剩下的慢慢补，不用急着一次弄完。"
+    },
+    {
+      "id": "daily_conversation-0448",
+      "category_cn": "日常闲聊",
+      "trigger": "晚上散步看见有人放孔明灯，一小片天都是暖黄的",
+      "response": "那种慢慢飘上去的光看着就让人心里软一下。你当时是不是也停下脚步，站那儿看了好一会儿？"
+    },
+    {
+      "id": "emotional_support-0449",
+      "category_cn": "情绪表达",
+      "trigger": "翻了一下午旧聊天记录，什么正事都没干完，人却像被掏空了",
+      "response": "翻旧记录最耗神，一条一条都带着当时的情绪。先别急着怪自己效率低，合上手机喝口水，今晚剩下的时间允许自己什么都不做。"
+    },
+    {
+      "id": "emotional_support-0450",
+      "category_cn": "情绪表达",
+      "trigger": "别人都说我脾气好，可我其实憋了一肚子火没处说",
+      "response": "一直被贴着「脾气好」的标签，连生气都要先过一遍别人的眼光。你愿意说出来就已经很不容易了，在这儿不用替谁维持那个形象。"
+    },
+    {
+      "id": "emotional_support-0451",
+      "category_cn": "安慰与倾听",
+      "trigger": "家里有人住院，我白天上班晚上赶医院，感觉两头都亏欠",
+      "response": "这样两头跑最磨人，身体和心都绷着。你已经做得够多了，别忘了自己也需要在中间喘口气。真撑不住时请个短假、请亲友替一晚，都不是失职。"
+    },
+    {
+      "id": "emotional_support-0452",
+      "category_cn": "安慰与倾听",
+      "trigger": "把难受的事写进备忘录里，写完反而更堵得慌",
+      "response": "写下来有时候像把伤口又掀开一次，不是你矫情。要是现在还堵着，就先合上本子，我陪你说点别的，或者就这么安静待一会儿也行。"
+    },
+    {
+      "id": "casual_chat-0453",
+      "category_cn": "开心与分享",
+      "trigger": "我第一次把面包烤出了拉丝的组织，拍了照却舍不得发朋友圈",
+      "response": "能拉丝那一下最有成就感了，光想想断面就替你高兴。照片先存着，哪天想给谁看再发也不迟。"
+    },
+    {
+      "id": "casual_chat-0454",
+      "category_cn": "无聊与消遣",
+      "trigger": "无聊到开始给家里的拖鞋按大小排队了",
+      "response": "这属于无聊到一定境界才会干的事，我差点笑出声。排完记得告诉我，最大那只是不是总找不到另一半。"
+    },
+    {
+      "id": "casual_chat-0455",
+      "category_cn": "兴趣爱好",
+      "trigger": "最近迷上听老电台的深夜节目，那种沙沙的声音反而特别安心",
+      "response": "带点杂音的声音反而像有人陪着熬夜。你一般听到几点？我猜你心里早就有个固定频道了。"
+    },
+    {
+      "id": "casual_chat-0456",
+      "category_cn": "兴趣爱好",
+      "trigger": "我把阳台改成了小小的香草园，做菜时随手就能摘一把",
+      "response": "自己种的香草摘下来那一下，手感都不一样。哪天真做了拿手菜，记得先报个菜名让我馋一下。"
+    }
+  ],
   "github": {
     "repo": "zh152-del/DialogueEvolution",
     "dir": "DialogueEvolution",
-    "verified": true,
-    "commit": "c11ee987d3a4946e38d4fdc31f3557af91c896f1",
+    "verified": false,
+    "commit": null,
     "files": [
       {
         "path": "dialogues/daily_conversation.json",
-        "count": 78,
-        "sha256": "017c589fd6d67e93365f63dcb38f5003daa69e8a19c6a05b158debdea632f3e7"
+        "count": 82,
+        "sha256": "21f28d68ba3d91253745dd2c3fd4e94b65ab55114a38ec9b67d4c493a12bca45"
       },
       {
         "path": "dialogues/emotional_support.json",
-        "count": 69,
-        "sha256": "9458844565001161be1909e25408398e6d7dee1eed67b73d69052e91229bad13"
+        "count": 73,
+        "sha256": "c2982116940c271a324b9a1dc64cbb3bb18d250f84c039b1f729c496f76e2bfa"
       },
       {
         "path": "dialogues/casual_chat.json",
-        "count": 80,
-        "sha256": "239b486bf5e5458b8af72ef24f54f496bf43d526ec857ea0c8de19e82cbcd68d"
+        "count": 84,
+        "sha256": "d17fe6d2dc246d6c5287aedd98b328a766fec93b89fd3c5d3505afca67d64c50"
       },
       {
         "path": "dialogues/daily_life.json",
-        "count": 78,
-        "sha256": "c856d7f9664ec2d06740d3bf8d78a32633caa30ac7b421d29297a2685c751a90"
+        "count": 82,
+        "sha256": "2bcf19a8310e2bb3a0c2de0952177df9b1bc3bae43586406b969c8ed3162890d"
       },
       {
         "path": "dialogues/multi_turn.json",
-        "count": 68,
-        "sha256": "896b6e19ed30dadf417fe9a405094e44f086976c47bd1ca410bd61f2442ddd03"
+        "count": 73,
+        "sha256": "a3c151c44d2eafe96ed579333fe1ef2cb93d3a526e0cf9a03782bd55b575db54"
       },
       {
         "path": "dialogues/random_topics.json",
-        "count": 70,
-        "sha256": "74b8a75452caa3b94c9586cfe2716c8db691ce53a181fc9f59d5a896e64615d4"
+        "count": 74,
+        "sha256": "354295c9ec92f59febbb86ede246692bf7c07aff5cdcda2bf187c215e9cba17f"
       }
     ]
   },
-  "issues": []
+  "issues": [
+    "首次执行时质控脚本把合法的空列表字段（turns/qc_reasons）误判为缺字段，25 条草稿被错误丢弃，并产生过一份 0 条的 v0.1.8 报告；已修正逻辑并重新生成上传，最终状态以本轮为准。"
+  ]
 }

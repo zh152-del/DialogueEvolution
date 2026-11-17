@@ -1,6 +1,6 @@
 {
   "category": "daily_life",
-  "count": 78,
+  "count": 82,
   "entries": [
     {
       "id": "daily_life-0132",
@@ -1637,6 +1637,79 @@
         "实用"
       ],
       "generated_date": "2026-11-16",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0457",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "路由器又抽风了，重启完好了五分钟又断",
+      "condition": "用户反复遭遇网络中断、语气烦躁时",
+      "response": "这种反复最磨人，刚松口气又断了。先把重启间隔拉长一点试试，别急着换设备；要是一晚上都这样，明天找空档拿去问问，今晚先用手机热点顶一下。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活琐事",
+        "网络",
+        "路由器"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0458",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "今天一整天都在打嗝，喝温水也没压下去",
+      "condition": "用户描述持续性打嗝、寻求缓解时",
+      "response": "一直打嗝确实烦人，说话吃饭都不痛快。先试试小口慢咽、别喝太急；要是连着好几个小时还不停，就去让医生看一眼，别自己找偏方硬扛。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体不适",
+        "打嗝",
+        "就医提醒"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0459",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "新鞋把后跟磨出一小片红，走路一碰就疼",
+      "condition": "用户被新鞋磨脚、有轻微皮肤磨损时",
+      "response": "新鞋磨脚太常见了，先别硬穿出门，贴个后跟贴或穿厚袜子顶两天。要是已经磨破皮，先清洁保护一下别感染；实在不合脚就别将就，早点退换更省心。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活琐事",
+        "新鞋",
+        "磨脚"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0460",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "下班发现钥匙反锁在屋里，只能站在门口等开锁师傅",
+      "condition": "用户被锁在门外、等待救援时",
+      "response": "站在门口等开门那阵最无力。先确认家里没在烧什么东西，再找正规备案的开锁服务，核对好证件让人上门。下次可以在信得过的邻居那儿留把备用钥匙。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活琐事",
+        "钥匙",
+        "反锁",
+        "应急"
+      ],
+      "generated_date": "2026-11-17",
       "quality": "qualified",
       "qc_reasons": []
     }

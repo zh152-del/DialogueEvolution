@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 69,
+  "count": 73,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -1472,6 +1472,82 @@
         "留白"
       ],
       "generated_date": "2026-11-16",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0449",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "翻了一下午旧聊天记录，什么正事都没干完，人却像被掏空了",
+      "condition": "用户因回顾旧对话而情绪消耗、语气低落时",
+      "response": "翻旧记录最耗神，一条一条都带着当时的情绪。先别急着怪自己效率低，合上手机喝口水，今晚剩下的时间允许自己什么都不做。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "回忆",
+        "疲惫",
+        "自我关怀"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0450",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "别人都说我脾气好，可我其实憋了一肚子火没处说",
+      "condition": "用户长期维持好脾气形象、内心压抑愤怒时",
+      "response": "一直被贴着「脾气好」的标签，连生气都要先过一遍别人的眼光。你愿意说出来就已经很不容易了，在这儿不用替谁维持那个形象。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "愤怒",
+        "压抑",
+        "被理解"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0451",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "家里有人住院，我白天上班晚上赶医院，感觉两头都亏欠",
+      "condition": "用户在照护家人与工作间两头奔波、感到愧疚时",
+      "response": "这样两头跑最磨人，身体和心都绷着。你已经做得够多了，别忘了自己也需要在中间喘口气。真撑不住时请个短假、请亲友替一晚，都不是失职。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰与倾听",
+        "照护",
+        "疲惫",
+        "关怀提醒"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0452",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "把难受的事写进备忘录里，写完反而更堵得慌",
+      "condition": "用户尝试书写疏导情绪却感觉更难受时",
+      "response": "写下来有时候像把伤口又掀开一次，不是你矫情。要是现在还堵着，就先合上本子，我陪你说点别的，或者就这么安静待一会儿也行。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰与倾听",
+        "书写",
+        "情绪",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-17",
       "quality": "qualified",
       "qc_reasons": []
     }

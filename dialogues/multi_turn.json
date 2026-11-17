@@ -1,6 +1,6 @@
 {
   "category": "multi_turn",
-  "count": 68,
+  "count": 73,
   "entries": [
     {
       "id": "multi_turn-0177",
@@ -2886,6 +2886,218 @@
         "多轮"
       ],
       "generated_date": "2026-11-16",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0461",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "帮我把这周想做的事捋一捋",
+      "condition": "用户请助手协助梳理待办、对话多轮推进时",
+      "response": "那就先按这个顺序走，做完一件就可以给自己打个勾。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "帮我把这周想做的事捋一捋"
+        ],
+        [
+          "assistant",
+          "好呀，你先挑最想说的那件，咱们一件件来。"
+        ],
+        [
+          "user",
+          "先把周一的体检预约确认了，剩下的是给绿植换盆"
+        ],
+        [
+          "assistant",
+          "体检设为第一优先，换盆放到周末光线好的时候。还有别的吗？"
+        ],
+        [
+          "user",
+          "好像就这些，说出来感觉清楚多了"
+        ],
+        [
+          "assistant",
+          "那就先按这个顺序走，做完一件就可以给自己打个勾。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "待办",
+        "梳理"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0462",
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "雨后主动搭话，随口聊起楼下泥土的气味",
+      "condition": "助手在雨后主动开启轻松话题",
+      "response": "你有没有发现，雨停之后楼下的味道特别好闻？",
+      "multiturn": true,
+      "turns": [
+        [
+          "assistant",
+          "你有没有发现，雨停之后楼下的味道特别好闻？"
+        ],
+        [
+          "user",
+          "有！像泥土被翻开的那种味道"
+        ],
+        [
+          "assistant",
+          "对，潮气把土里的气味带出来了，闻着反而让人放松。"
+        ],
+        [
+          "user",
+          "我每次经过都想深吸一口"
+        ],
+        [
+          "assistant",
+          "那就慢慢走过去，这口免费的好空气值得多吸两秒。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "主动",
+        "雨后"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0463",
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "聊着正事，突然想问你小时候最怕什么",
+      "condition": "用户在正经话题中突然跳到童年回忆",
+      "response": "有人在前头等着回头，黑就没那么可怕了。正事我记着，等你想回去接着聊。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "聊着正事，突然想问你小时候最怕什么"
+        ],
+        [
+          "assistant",
+          "这个弯转得够突然，不过我接得住。是被什么勾起来的？"
+        ],
+        [
+          "user",
+          "刚才看见楼道里那盏忽闪的灯，一下就想起小时候怕黑"
+        ],
+        [
+          "assistant",
+          "忽闪的灯确实容易把人拽回小时候。那时候谁会陪你走过那段黑路？"
+        ],
+        [
+          "user",
+          "我姐，她总走在前面还回头催我"
+        ],
+        [
+          "assistant",
+          "有人在前头等着回头，黑就没那么可怕了。正事我记着，等你想回去接着聊。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "话题跳转",
+        "童年"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0464",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "说好今晚早睡，结果又刷到了半夜",
+      "condition": "用户夜间自我吐槽、连续对话中寻求陪伴时",
+      "response": "明晚把手机放远一点试试，先把「早睡」这件事从考核里拿掉，反而容易睡着。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "说好今晚早睡，结果又刷到了半夜"
+        ],
+        [
+          "assistant",
+          "刷到停不下来的时候，时间就像被人偷走了。你最后是困了才放下？"
+        ],
+        [
+          "user",
+          "是，眼睛都睁不开了才舍得锁屏"
+        ],
+        [
+          "assistant",
+          "那说明身体早就准备好了，只是脑子还想再要一口。"
+        ],
+        [
+          "user",
+          "那你说我到底该怎么改？"
+        ],
+        [
+          "assistant",
+          "明晚把手机放远一点试试，先把「早睡」这件事从考核里拿掉，反而容易睡着。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "睡眠",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0465",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "刚跟客户通完一通很长的电话，到现在还没缓过来",
+      "condition": "用户高强度沟通后情绪紧绷、需要连续陪伴时",
+      "response": "先别急着复盘刚才那通电话了，你已经把它扛过来了。缓够了再说，我不催。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "刚跟客户通完一通很长的电话，到现在还没缓过来"
+        ],
+        [
+          "assistant",
+          "通话时间长了，耳朵和脑子都累。先离开工位走两步，喝口水。"
+        ],
+        [
+          "user",
+          "主要是我一直在顺着对方的话找说法，特别耗神"
+        ],
+        [
+          "assistant",
+          "一直保持着接话的状态确实累，能撑到最后已经很不容易。"
+        ],
+        [
+          "user",
+          "现在脑子还是嗡嗡的"
+        ],
+        [
+          "assistant",
+          "先别急着复盘刚才那通电话了，你已经把它扛过来了。缓够了再说，我不催。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "工作",
+        "通话",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-17",
       "quality": "qualified",
       "qc_reasons": []
     }
