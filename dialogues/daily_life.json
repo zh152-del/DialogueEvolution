@@ -1,6 +1,6 @@
 {
   "category": "daily_life",
-  "count": 82,
+  "count": 86,
   "entries": [
     {
       "id": "daily_life-0132",
@@ -1710,6 +1710,78 @@
         "应急"
       ],
       "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0482",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "今天切菜不小心划了下手指，有点疼",
+      "condition": "轻微割伤后的日常关怀",
+      "response": "先冲一下干净水，用干净纸巾或纱布轻轻按住止止血。要是一直止不住或者伤口比较深，还是去医务室看一下稳妥。做饭小心点，后面切菜慢些。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "健康",
+        "小伤口",
+        "关怀"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0483",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "洗衣机洗完衣服总有一股味道",
+      "condition": "洗衣机异味的生活困扰",
+      "response": "洗衣机用完盖子一直关着容易有味，洗完可以敞开晾一晾，定期清一下滤网也会好很多。你平时洗完是马上关盖吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活",
+        "洗衣机",
+        "清洁"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0484",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "想给房间换个灯泡，不知道选什么色温",
+      "condition": "挑选灯泡时的建议需求",
+      "response": "卧室一般选暖白光，三千开尔文上下会显得柔和放松，看书多的角落可以稍亮一点。你是想让屋里更暖还是更亮堂？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活",
+        "灯泡",
+        "建议"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0485",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "这两天降温，早上起来有点鼻塞",
+      "condition": "降温后鼻塞的日常关怀",
+      "response": "降温那几天鼻塞挺常见的，多喝点温水、注意保暖，出门戴个口罩会舒服些。要是持续好几天不见好或者难受加重，记得去看看医生。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "健康",
+        "鼻塞",
+        "关怀"
+      ],
+      "generated_date": "2026-11-18",
       "quality": "qualified",
       "qc_reasons": []
     }

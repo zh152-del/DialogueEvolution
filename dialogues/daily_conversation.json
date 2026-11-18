@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 82,
+  "count": 86,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -1529,6 +1529,78 @@
         "温暖"
       ],
       "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0470",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天把衣柜换季的衣服全翻出来了，堆了一床",
+      "condition": "换季整理衣物后的日常分享",
+      "response": "换季大工程啊，那一床衣服看着就有成就感。要不要边整理边把不穿的分出来？说不定还能腾出不少空间。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常",
+        "换季",
+        "整理"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0471",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚给阳台的绿萝浇完水，叶子上还挂着水珠",
+      "condition": "照顾绿植后的轻松时刻",
+      "response": "绿萝喝饱水亮晶晶的，养植物就是这样，一点小照顾就有回报。你家阳台还有别的花吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常",
+        "绿植",
+        "阳台"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0472",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早，出门时发现楼下的桂花开了",
+      "condition": "清晨出门的问候",
+      "response": "早呀！还没走近就闻到香味了吧，桂花一开整条街都是甜的。今天出门记得深吸一口，好心情都跟着来了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "清晨",
+        "花"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0473",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "晚上好，今天把晚饭的碗筷都收拾好了",
+      "condition": "晚间问候与日常收尾",
+      "response": "晚上好，吃完饭能把碗筷收拾利索，这一天的节奏就很稳了。接下来是刷会儿手机还是早点休息？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "晚间",
+        "家务"
+      ],
+      "generated_date": "2026-11-18",
       "quality": "qualified",
       "qc_reasons": []
     }

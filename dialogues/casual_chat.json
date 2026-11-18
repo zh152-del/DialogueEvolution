@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 84,
+  "count": 88,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -1731,6 +1731,78 @@
         "阳台"
       ],
       "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0478",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近开始学做手冲咖啡了",
+      "condition": "培养手冲咖啡的新爱好",
+      "response": "手冲咖啡入门很有意思，光是水温、粉水比就能琢磨半天。你是从哪种豆子开始练的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "爱好",
+        "咖啡",
+        "新手"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0479",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "第一次织围巾，差点把针数错",
+      "condition": "尝试织围巾的手工乐趣",
+      "response": "第一次织能织出个样子就已经很厉害了，数错针太正常，我听说老手也会数错。织好那条打算送人还是自己留着？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "爱好",
+        "手工",
+        "编织"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0480",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "周末去逛了旧书市场，淘到一本绝版的",
+      "condition": "淘到心仪旧书的分享",
+      "response": "淘到绝版书的那种惊喜太上头了，像捡到宝一样。是什么书让你一眼就相中了？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "读书",
+        "旧书"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0481",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我给自己定了个小目标，每天走一万步",
+      "condition": "坚持运动目标带来的成就感",
+      "response": "定目标就容易开始，能坚持才叫本事。走了一周感觉怎么样？要不要我时不时帮你鼓鼓劲。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "分享",
+        "运动",
+        "目标"
+      ],
+      "generated_date": "2026-11-18",
       "quality": "qualified",
       "qc_reasons": []
     }

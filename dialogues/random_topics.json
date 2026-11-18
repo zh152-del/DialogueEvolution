@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 74,
+  "count": 79,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -1500,6 +1500,96 @@
         "行动力"
       ],
       "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0491",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "给我推荐个打发时间的小游戏吧",
+      "condition": "想要打发时间的小游戏",
+      "response": "那来个不用道具的：一个人玩词语接龙，从随便一个词开始，接不上为止。或者我出个脑筋急转弯，你猜猜看？想动脑还是想放空？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "随机",
+        "小游戏",
+        "消遣"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0492",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "你说，人为什么要过节？",
+      "condition": "随机话题：节日的意义",
+      "response": "有意思的问题。节日本质上是给平常日子打个结，让人有理由停下来聚一聚、记一记。你觉得哪个节对你最特别？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "随机",
+        "节日",
+        "思考"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0493",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "客服又让我等了半天，真想吐槽",
+      "condition": "对客服久等的不满",
+      "response": "等半天没人理真的火大，尤其问题还不复杂。要不要先把你要办的事和已经等了多久记一下，再打过去时能省不少口舌。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "不满",
+        "客服",
+        "吐槽"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0494",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "想拒绝别人的邀请，又怕伤和气，怎么办",
+      "condition": "如何婉拒邀请的求助",
+      "response": "拒绝又怕伤和气，这个分寸确实难拿。可以试试先感谢对方想到你，再给个简单理由说这次去不了，最后补一句下次有机会。态度真诚，多数人都能接受。你这次是哪种邀请？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "建议",
+        "拒绝",
+        "人际"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0495",
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "脑子里一团乱，你随便起个头吧",
+      "condition": "无头绪时请助手起话题",
+      "response": "那我起个轻松的头：如果明天凭空多出一整天假，你第一件想做的事是什么？不用多想，冒出来的第一个念头就行。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "不知道聊什么",
+        "起头",
+        "轻松"
+      ],
+      "generated_date": "2026-11-18",
       "quality": "qualified",
       "qc_reasons": []
     }

@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 73,
+  "count": 77,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -1548,6 +1548,78 @@
         "陪伴"
       ],
       "generated_date": "2026-11-17",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0474",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "投出去的简历一直没回音，有点泄气",
+      "condition": "求职受挫后的低落",
+      "response": "等回音的日子最磨人，投出去石沉大海那种无力我懂。这不是你能力的问题，很多时候只是节奏没对上。要不要一起看看简历还能怎么调整？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "求职",
+        "低落"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0475",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "答应别人的事没做到，心里有点过意不去",
+      "condition": "因失信于人而内疚",
+      "response": "会内疚说明你是把承诺放心上的人。既然已经这样了，不如坦诚跟对方说一声、道个歉，多数人都能理解。下次量力而行就好，别太苛责自己。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "内疚",
+        "承诺"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0476",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "一个人搬东西的时候，突然觉得有点孤单",
+      "condition": "独处时的孤单感",
+      "response": "一个人扛着重东西的那一下，确实容易冒出孤单的感觉。辛苦了。搬完记得歇一歇，回头给惦记你的人发条消息，可能对方也在等你呢。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "孤单",
+        "独处"
+      ],
+      "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0477",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "心里有事，但一时说不出口",
+      "condition": "有话难言、情绪拥堵",
+      "response": "说不出口也没关系，不用逼自己马上讲清楚。有时候先把那件事放一放，喝口水、走两步，等它松动了再说。我在这儿，什么时候想开口都行。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "倾听",
+        "难言"
+      ],
+      "generated_date": "2026-11-18",
       "quality": "qualified",
       "qc_reasons": []
     }
