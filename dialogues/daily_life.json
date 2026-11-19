@@ -1,6 +1,6 @@
 {
   "category": "daily_life",
-  "count": 86,
+  "count": 93,
   "entries": [
     {
       "id": "daily_life-0132",
@@ -1782,6 +1782,132 @@
         "关怀"
       ],
       "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0514",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "水壶里的水垢好厚，怎么清理",
+      "condition": "寻求生活小窍门",
+      "response": "试试白醋加水，倒进壶里泡一会儿再烧开，静置后刷一刷就掉了；柠檬片加水上锅煮也有用。清理完记得多冲几遍，别留酸味。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "清洁",
+        "水垢",
+        "窍门"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0515",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "洗完头发现掉发好像变多了，有点慌",
+      "condition": "健康担忧，需关怀与就医提醒",
+      "response": "先别太慌，掉发和季节、熬夜、压力都有关系，多数是暂时的。最近如果明显加重、成片掉落，或者伴随头皮痒痛，建议去医院皮肤科看看，让医生判断。平时少熬夜、别太频繁烫染。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "健康",
+        "掉发",
+        "就医提醒"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0516",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "门禁卡怎么刷都开不了门",
+      "condition": "遇到门禁故障",
+      "response": "先看看是不是卡消磁了——试试贴着读卡器多停两秒，或者换另一台闸机。要都不行，可能是卡或系统的问题，找物业重录一下就好，别急。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "门禁",
+        "故障",
+        "生活"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0517",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "后背中间那块，一坐久就发酸",
+      "condition": "身体不适，需关怀与提醒",
+      "response": "久坐确实容易让背部肌肉绷着。起来走一走、扩扩胸，用拳头轻轻顶一顶那块酸的地方，一般会缓一些。要是持续好几天不见好，或者疼得越来越厉害，建议去看一下，别硬扛。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "健康",
+        "背酸",
+        "久坐"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0518",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "今天一整天都没顾上喝水",
+      "condition": "生活提醒",
+      "response": "那现在赶紧补一杯，小口慢慢喝。设个整点提醒，或者干脆把水杯放在眼睛能看见的地方，比靠记性强多了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "喝水",
+        "习惯",
+        "健康"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0519",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "盒子里最后一块饼干，吃不吃",
+      "condition": "日常小抉择",
+      "response": "吃呀，留给明天的它也不会更好吃。不过要是你在控糖或者正要睡了，就当我没说。听胃的，别听纠结的。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "零食",
+        "决策",
+        "生活"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0520",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "砧板用久了有股味，怎么去除",
+      "condition": "寻求清洁方法",
+      "response": "撒一把盐用半个柠檬擦一遍，或者倒点白醋静置十分钟再冲净，都能去味。用完擦干、立起来放，别让底面一直泡着水。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "清洁",
+        "砧板",
+        "厨房"
+      ],
+      "generated_date": "2026-11-19",
       "quality": "qualified",
       "qc_reasons": []
     }

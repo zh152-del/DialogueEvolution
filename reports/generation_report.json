@@ -1,131 +1,131 @@
 {
-  "resource_version": "v0.1.10",
+  "resource_version": "v0.1.11",
   "repo": "zh152-del/DialogueEvolution",
-  "generated_date": "2026-11-18",
+  "generated_date": "2026-11-19",
   "stats": {
-    "total": 26,
-    "qualified": 26,
+    "total": 38,
+    "qualified": 38,
     "to_review": 0,
     "unqualified": 0
   },
-  "qualified_total": 494,
+  "qualified_total": 532,
   "scene_distribution": {
-    "daily_conversation": 4,
-    "emotional_support": 4,
-    "casual_chat": 4,
-    "daily_life": 4,
+    "daily_conversation": 6,
+    "emotional_support": 6,
+    "casual_chat": 6,
+    "daily_life": 7,
     "multi_turn": 5,
-    "random_topics": 5
+    "random_topics": 8
   },
   "samples": [
     {
-      "id": "daily_conversation-0470",
-      "category_cn": "日常闲聊",
-      "trigger": "今天把衣柜换季的衣服全翻出来了，堆了一床",
-      "response": "换季大工程啊，那一床衣服看着就有成就感。要不要边整理边把不穿的分出来？说不定还能腾出不少空间。"
-    },
-    {
-      "id": "daily_conversation-0471",
-      "category_cn": "日常闲聊",
-      "trigger": "刚给阳台的绿萝浇完水，叶子上还挂着水珠",
-      "response": "绿萝喝饱水亮晶晶的，养植物就是这样，一点小照顾就有回报。你家阳台还有别的花吗？"
-    },
-    {
-      "id": "daily_conversation-0472",
+      "id": "daily_conversation-0496",
       "category_cn": "日常问候",
-      "trigger": "早，出门时发现楼下的桂花开了",
-      "response": "早呀！还没走近就闻到香味了吧，桂花一开整条街都是甜的。今天出门记得深吸一口，好心情都跟着来了。"
+      "trigger": "早，今天出门发现楼下在洒水",
+      "response": "早呀！洒水车一过，空气里都是潮湿的土腥味，倒也有种清爽。出门记得留意路面湿滑，别踩到水坑溅一身。"
     },
     {
-      "id": "daily_conversation-0473",
-      "category_cn": "日常问候",
-      "trigger": "晚上好，今天把晚饭的碗筷都收拾好了",
-      "response": "晚上好，吃完饭能把碗筷收拾利索，这一天的节奏就很稳了。接下来是刷会儿手机还是早点休息？"
+      "id": "daily_conversation-0499",
+      "category_cn": "日常闲聊",
+      "trigger": "刚发现我家wifi名字被邻居改成了梗",
+      "response": "这也太有才了，邻居怕是个隐藏段子手。下次连上可以顺手改回去，或者干脆接着玩梗，留个乐子。"
     },
     {
-      "id": "emotional_support-0474",
+      "id": "emotional_support-0502",
       "category_cn": "情绪表达",
-      "trigger": "投出去的简历一直没回音，有点泄气",
-      "response": "等回音的日子最磨人，投出去石沉大海那种无力我懂。这不是你能力的问题，很多时候只是节奏没对上。要不要一起看看简历还能怎么调整？"
+      "trigger": "心里像压着块石头，说不清是什么",
+      "response": "有时候情绪就是没有名字的，不必非要找到原因才允许自己难受。你愿意的话，先陪你坐一会儿；想说的时候，哪怕只是零碎的几句，我都在。"
     },
     {
-      "id": "emotional_support-0475",
-      "category_cn": "安慰与倾听",
-      "trigger": "答应别人的事没做到，心里有点过意不去",
-      "response": "会内疚说明你是把承诺放心上的人。既然已经这样了，不如坦诚跟对方说一声、道个歉，多数人都能理解。下次量力而行就好，别太苛责自己。"
-    },
-    {
-      "id": "emotional_support-0476",
+      "id": "emotional_support-0505",
       "category_cn": "情绪表达",
-      "trigger": "一个人搬东西的时候，突然觉得有点孤单",
-      "response": "一个人扛着重东西的那一下，确实容易冒出孤单的感觉。辛苦了。搬完记得歇一歇，回头给惦记你的人发条消息，可能对方也在等你呢。"
+      "trigger": "眼眶突然热了一下，我自己都愣了",
+      "response": "有时候身体比脑子先知道我们在意什么。愣一下也没关系，不用急着弄明白那一下是为了谁、为了什么。想哭就哭一会儿，我在。"
     },
     {
-      "id": "emotional_support-0477",
-      "category_cn": "安慰与倾听",
-      "trigger": "心里有事，但一时说不出口",
-      "response": "说不出口也没关系，不用逼自己马上讲清楚。有时候先把那件事放一放，喝口水、走两步，等它松动了再说。我在这儿，什么时候想开口都行。"
-    },
-    {
-      "id": "casual_chat-0478",
-      "category_cn": "兴趣爱好",
-      "trigger": "我最近开始学做手冲咖啡了",
-      "response": "手冲咖啡入门很有意思，光是水温、粉水比就能琢磨半天。你是从哪种豆子开始练的？"
-    },
-    {
-      "id": "casual_chat-0479",
-      "category_cn": "兴趣爱好",
-      "trigger": "第一次织围巾，差点把针数错",
-      "response": "第一次织能织出个样子就已经很厉害了，数错针太正常，我听说老手也会数错。织好那条打算送人还是自己留着？"
-    },
-    {
-      "id": "casual_chat-0480",
+      "id": "casual_chat-0508",
       "category_cn": "开心与分享",
-      "trigger": "周末去逛了旧书市场，淘到一本绝版的",
-      "response": "淘到绝版书的那种惊喜太上头了，像捡到宝一样。是什么书让你一眼就相中了？"
+      "trigger": "我第一次把奶泡打成了心形！",
+      "response": "哇，心形奶泡！这可是咖啡师的招牌动作，你第一次就成功，太厉害了。快趁热拍张照，这杯值得被记住。"
     },
     {
-      "id": "casual_chat-0481",
-      "category_cn": "开心与分享",
-      "trigger": "我给自己定了个小目标，每天走一万步",
-      "response": "定目标就容易开始，能坚持才叫本事。走了一周感觉怎么样？要不要我时不时帮你鼓鼓劲。"
+      "id": "casual_chat-0511",
+      "category_cn": "无聊与消遣",
+      "trigger": "给我讲个绕口令吧",
+      "response": "来一个经典的：四是四，十是十，十四是十四，四十是四十。慢慢念，别急，念快了舌头可要打结啦。"
+    },
+    {
+      "id": "daily_life-0514",
+      "category_cn": "生活琐事",
+      "trigger": "水壶里的水垢好厚，怎么清理",
+      "response": "试试白醋加水，倒进壶里泡一会儿再烧开，静置后刷一刷就掉了；柠檬片加水上锅煮也有用。清理完记得多冲几遍，别留酸味。"
+    },
+    {
+      "id": "daily_life-0517",
+      "category_cn": "身体不舒服",
+      "trigger": "后背中间那块，一坐久就发酸",
+      "response": "久坐确实容易让背部肌肉绷着。起来走一走、扩扩胸，用拳头轻轻顶一顶那块酸的地方，一般会缓一些。要是持续好几天不见好，或者疼得越来越厉害，建议去看一下，别硬扛。"
+    },
+    {
+      "id": "daily_life-0520",
+      "category_cn": "生活琐事",
+      "trigger": "砧板用久了有股味，怎么去除",
+      "response": "撒一把盐用半个柠檬擦一遍，或者倒点白醋静置十分钟再冲净，都能去味。用完擦干、立起来放，别让底面一直泡着水。"
+    },
+    {
+      "id": "multi_turn-0523",
+      "category_cn": "多轮连续交流",
+      "trigger": "从晚饭聊着聊着，突然想起小时候一件事",
+      "response": "哦？饭桌上聊到哪儿就拐到小时候了，说来听听。"
+    },
+    {
+      "id": "random_topics-0526",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "给我出个选择题吧，二选一那种",
+      "response": "好：如果明天多出一整天假，你会选宅家把想看的剧看完，还是出门去一个没去过的地方？不用想太久，凭第一感觉。"
+    },
+    {
+      "id": "random_topics-0529",
+      "category_cn": "表达不满",
+      "trigger": "排了半天队，到我这居然说没号了",
+      "response": "这也太气人了，白站那么久，换谁都得火。先别憋着，骂两句也没关系。要是这事儿还能补救，我帮你想想怎么问最省力；要是没法了，就当今天踩了个坑，早点翻篇。"
     }
   ],
   "github": {
     "repo": "zh152-del/DialogueEvolution",
     "dir": "DialogueEvolution",
-    "verified": true,
-    "commit": "d1a4dd004215273594c1d5f01068c0f72a254210",
+    "verified": false,
+    "commit": null,
     "files": [
       {
         "path": "dialogues/daily_conversation.json",
-        "count": 86,
-        "sha256": "b28bdab4c4dbb3bdff507164a217c73fb8928c0f6be3dee0a544212bc5db4f45"
+        "count": 92,
+        "sha256": "afb89532ec0664e24798e1c1d00e415743a401f0b095035b8d4bafcb40cdc3c6"
       },
       {
         "path": "dialogues/emotional_support.json",
-        "count": 77,
-        "sha256": "741587f386ea2b52e9e413e2c624cef79b923be9e7674ef96ad2616674b17a5f"
+        "count": 83,
+        "sha256": "878d6f8736501962159134bb08e3e96e94f4b46f9b7068325e99f99df7b183bf"
       },
       {
         "path": "dialogues/casual_chat.json",
-        "count": 88,
-        "sha256": "ae0f251f9a3d05c0c544b11781356807d3d7986c315ee1247a265041a5d7234a"
+        "count": 94,
+        "sha256": "8fd5aa253183181ee9ae0aa4976f65767e63bd9b4642a877e9222d6fef4647b0"
       },
       {
         "path": "dialogues/daily_life.json",
-        "count": 86,
-        "sha256": "920385874bc2ecab5f3ea57b3760e5cb095dd8812508cc898de36705a15104d9"
+        "count": 93,
+        "sha256": "7d7e627a3b25c8316549538c0b8586fd968d39f572126652a7698cae28be2998"
       },
       {
         "path": "dialogues/multi_turn.json",
-        "count": 78,
-        "sha256": "59aa4db5170d9e08572d08bb4f2a490219203b4493491c2da680ef303e31462c"
+        "count": 83,
+        "sha256": "6215166e27fd9cef3c1559428515f1483810206ce1a8d043a380acc793c7a46c"
       },
       {
         "path": "dialogues/random_topics.json",
-        "count": 79,
-        "sha256": "028153b4e0e78e285120e90d58789add0076dd0c5f112cdb2682ed73f5372014"
+        "count": 87,
+        "sha256": "2611c5ec58f1430396fa81dc023a0b6920de2c21f8c818754bb7de5ef394bd47"
       }
     ]
   },

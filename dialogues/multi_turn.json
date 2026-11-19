@@ -1,6 +1,6 @@
 {
   "category": "multi_turn",
-  "count": 78,
+  "count": 83,
   "entries": [
     {
       "id": "multi_turn-0177",
@@ -3313,6 +3313,197 @@
         "情绪"
       ],
       "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0521",
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "刚接到个陌生电话，聊着聊着突然想问你个事",
+      "condition": "多轮，话题突然转换",
+      "response": "陌生电话？先说说是什么事，我听着。你想问的那个也别憋着，一起说。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "刚接到个陌生电话，聊着聊着突然想问你个事"
+        ],
+        [
+          "assistant",
+          "陌生电话？先说说是什么事，我听着。你想问的那个也别憋着，一起说。"
+        ],
+        [
+          "user",
+          "其实电话是快递，但我想问的是——你有没有过明明很困却舍不得睡的时候"
+        ],
+        [
+          "assistant",
+          "太有了，那叫报复性熬夜。白天时间都不属于自己的，到了晚上就想抓回来一点。你今晚是那种舍不得睡，还是单纯睡不着？"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "话题转换",
+        "熬夜"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0522",
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "我先说个完全无关的哈",
+      "condition": "多轮，用户主动岔开话题",
+      "response": "哈，我就喜欢这种突然的无关。你说，我接着。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我先说个完全无关的哈"
+        ],
+        [
+          "assistant",
+          "哈，我就喜欢这种突然的无关。你说，我接着。"
+        ],
+        [
+          "user",
+          "你说为什么下雨天特别想睡觉"
+        ],
+        [
+          "assistant",
+          "大概是雨声像天然的白噪音，加上气压一低，人就松下来了。你那是真困，还是赖在床上不想动？"
+        ],
+        [
+          "user",
+          "后者，被窝太舒服了"
+        ],
+        [
+          "assistant",
+          "那就赖一会儿，反正雨天适合什么也不干。等起不来的时候再说，我不催你。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "闲聊",
+        "雨天"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0523",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "从晚饭聊着聊着，突然想起小时候一件事",
+      "condition": "多轮，自然延伸话题",
+      "response": "哦？饭桌上聊到哪儿就拐到小时候了，说来听听。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "从晚饭聊着聊着，突然想起小时候一件事"
+        ],
+        [
+          "assistant",
+          "哦？饭桌上聊到哪儿就拐到小时候了，说来听听。"
+        ],
+        [
+          "user",
+          "小时候我妈总把鱼头夹给我，说鱼肉嫩，其实她自己才爱吃鱼肉"
+        ],
+        [
+          "assistant",
+          "这种借口太熟悉了，大人总把好的让给孩子，还要编个理由让你安心收下。现在想起来，是有点鼻酸。"
+        ],
+        [
+          "user",
+          "嗯，今晚我给她夹了块鱼腹"
+        ],
+        [
+          "assistant",
+          "这一下就轮到你编借口了。她肯定嘴上说不要，心里美着呢。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "回忆",
+        "亲情"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0524",
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "聊着正事，我突然岔一下——你怕不怕打雷",
+      "condition": "多轮，话题突然转换",
+      "response": "哈哈这岔得够彻底。我倒是不怕，但知道不少人听到雷声会心里一紧。你呢，是怕还是单纯讨厌被吵醒？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "聊着正事，我突然岔一下——你怕不怕打雷"
+        ],
+        [
+          "assistant",
+          "哈哈这岔得够彻底。我倒是不怕，但知道不少人听到雷声会心里一紧。你呢，是怕还是单纯讨厌被吵醒？"
+        ],
+        [
+          "user",
+          "怕，尤其半夜打雷，总觉得要出事"
+        ],
+        [
+          "assistant",
+          "半夜那几声确实吓人。可以试试戴个耳塞或者开点轻音乐盖一盖，把手机放床头充好电，心里会踏实些。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "话题转换",
+        "打雷"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0525",
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "午后主动搭个话，你今天忙不忙",
+      "condition": "多轮，用户主动搭话",
+      "response": "不忙，正好想歇会儿。你呢，午后续上电了吗？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "午后主动搭个话，你今天忙不忙"
+        ],
+        [
+          "assistant",
+          "不忙，正好想歇会儿。你呢，午后续上电了吗？"
+        ],
+        [
+          "user",
+          "刚处理完一摊子事，脑子有点木"
+        ],
+        [
+          "assistant",
+          "那就先放空五分钟，别急着接下一件。喝口水、站到窗边看看远处，比盯着屏幕回血快。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "搭话",
+        "放松"
+      ],
+      "generated_date": "2026-11-19",
       "quality": "qualified",
       "qc_reasons": []
     }

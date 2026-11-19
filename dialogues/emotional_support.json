@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 77,
+  "count": 83,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -1620,6 +1620,114 @@
         "难言"
       ],
       "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0502",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "心里像压着块石头，说不清是什么",
+      "condition": "有模糊压抑感，说不出缘由",
+      "response": "有时候情绪就是没有名字的，不必非要找到原因才允许自己难受。你愿意的话，先陪你坐一会儿；想说的时候，哪怕只是零碎的几句，我都在。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "压抑",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0503",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我好像总把事情往坏处想",
+      "condition": "意识到消极思维倾向",
+      "response": "能察觉到这一点，其实已经很不容易了。脑子爱往坏处跑，是它在试着保护你，只是有时候用力过猛。下次它又开始的时候，可以试着问自己一句：最坏的结果真发生了，我能应对吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "焦虑",
+        "思维",
+        "觉察"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0504",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "今天一整天都不想跟人讲话",
+      "condition": "需要独处，不想社交",
+      "response": "那就安安静静待着，不想说话一点问题都没有。独处不是逃避，是给自己充电。等你想开口了，我随时在这儿，不用找话题也没关系。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "独处",
+        "社交",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0505",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "眼眶突然热了一下，我自己都愣了",
+      "condition": "被莫名情绪触动",
+      "response": "有时候身体比脑子先知道我们在意什么。愣一下也没关系，不用急着弄明白那一下是为了谁、为了什么。想哭就哭一会儿，我在。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "触动",
+        "哭泣"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0506",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我觉得自己好像一直在讨好别人",
+      "condition": "意识到讨好倾向",
+      "response": "能说出这句话，说明你已经开始心疼自己了。讨好往往是怕不被喜欢，可你不用靠迁就换来停留。下次想说『好』之前，先问自己一句：我是真的愿意吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "自我",
+        "讨好",
+        "边界"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0507",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我总觉得自己不配拥有好的东西",
+      "condition": "自我价值怀疑",
+      "response": "这句话听着让人心疼。好东西不是奖励，不需要你先证明够好才配得上。你正在怀疑自己，可这份怀疑本身不代表事实。慢慢来，先允许自己收下一件小小的好事试试。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "自我价值",
+        "怀疑",
+        "关怀"
+      ],
+      "generated_date": "2026-11-19",
       "quality": "qualified",
       "qc_reasons": []
     }

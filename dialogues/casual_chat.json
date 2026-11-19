@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 88,
+  "count": 94,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -1803,6 +1803,131 @@
         "目标"
       ],
       "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0508",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我第一次把奶泡打成了心形！",
+      "condition": "分享咖啡成就感",
+      "response": "哇，心形奶泡！这可是咖啡师的招牌动作，你第一次就成功，太厉害了。快趁热拍张照，这杯值得被记住。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "开心",
+        "咖啡",
+        "成就"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0509",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "我们来玩二十个问题吧",
+      "condition": "用户想玩游戏",
+      "response": "好呀，我来想一个东西，你用最多二十个是或否的问题来猜。准备好了就说开始，我脑子里已经有一个了。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我们来玩二十个问题吧"
+        ],
+        [
+          "assistant",
+          "好呀，我来想一个东西，你用最多二十个是或否的问题来猜。准备好了就说开始，我脑子里已经有一个了。"
+        ],
+        [
+          "user",
+          "开始"
+        ],
+        [
+          "assistant",
+          "好，我心里已经想好一个东西了。它是活的吗？"
+        ]
+      ],
+      "tags": [
+        "游戏",
+        "互动",
+        "消遣"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0510",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近开始收集电影票根了",
+      "condition": "分享新爱好",
+      "response": "这个爱好有意思，一张票根就是一段故事。攒到一盒的时候翻出来看，每张都能想起那天和谁坐在一起、散场后聊了什么。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "爱好",
+        "电影",
+        "收藏"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0511",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "给我讲个绕口令吧",
+      "condition": "想要娱乐内容",
+      "response": "来一个经典的：四是四，十是十，十四是十四，四十是四十。慢慢念，别急，念快了舌头可要打结啦。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "绕口令",
+        "娱乐",
+        "语言"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0512",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我养的薄荷被我晒蔫了",
+      "condition": "养的植物晒蔫",
+      "response": "薄荷其实挺皮实的，晒蔫多半是水没跟上。先挪到散光处，浇透水，缓一晚上，往往第二天就支棱回来了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "植物",
+        "养护",
+        "薄荷"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0513",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "给我出三道脑筋急转弯",
+      "condition": "想要益智娱乐",
+      "response": "来三道：一，什么东西越洗越脏？二，什么路最窄？三，什么人始终不敢洗澡？想好了再说答案，我不提示。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "脑筋急转弯",
+        "娱乐",
+        "互动"
+      ],
+      "generated_date": "2026-11-19",
       "quality": "qualified",
       "qc_reasons": []
     }

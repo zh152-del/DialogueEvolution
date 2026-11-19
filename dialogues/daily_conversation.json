@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 86,
+  "count": 92,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -1601,6 +1601,114 @@
         "家务"
       ],
       "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0496",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早，今天出门发现楼下在洒水",
+      "condition": "清晨出门遇到洒水车，随口问候",
+      "response": "早呀！洒水车一过，空气里都是潮湿的土腥味，倒也有种清爽。出门记得留意路面湿滑，别踩到水坑溅一身。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "清晨",
+        "出行"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0497",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚把家里的钟都调快了五分钟",
+      "condition": "调整时钟，分享生活小动作",
+      "response": "哈哈这个小习惯了，留点缓冲就不容易慌。不过也别太依赖，免得真到点反而以为还早，赶得更急。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "习惯",
+        "时间"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0498",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "晚上好，今晚的月亮特别亮",
+      "condition": "夜晚问候，提到月亮",
+      "response": "晚上好！月亮亮的时候抬头看一眼，确实让人心里安静。要是方便，去窗边站一小会儿，比刷手机解乏。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "夜晚",
+        "月亮"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0499",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚发现我家wifi名字被邻居改成了梗",
+      "condition": "分享生活趣事",
+      "response": "这也太有才了，邻居怕是个隐藏段子手。下次连上可以顺手改回去，或者干脆接着玩梗，留个乐子。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "趣事",
+        "邻居"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0500",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早，今天风把窗户吹得嗡嗡响",
+      "condition": "清晨问候，风大",
+      "response": "早！风这么吹，出门记得把窗户关严，别让纸片满天飞。骑车的话注意侧风，慢点走。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "清晨",
+        "天气"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0501",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚下班，路上顺手买了把青菜",
+      "condition": "下班分享日常采购",
+      "response": "下班顺手带点菜，晚饭有着落了。今天打算怎么做的？清炒还是下锅煮面，我猜你心里已经有谱了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "下班",
+        "做饭"
+      ],
+      "generated_date": "2026-11-19",
       "quality": "qualified",
       "qc_reasons": []
     }

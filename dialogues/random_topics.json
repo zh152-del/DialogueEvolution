@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 79,
+  "count": 87,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -1590,6 +1590,150 @@
         "轻松"
       ],
       "generated_date": "2026-11-18",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0526",
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "给我出个选择题吧，二选一那种",
+      "condition": "想要互动小游戏",
+      "response": "好：如果明天多出一整天假，你会选宅家把想看的剧看完，还是出门去一个没去过的地方？不用想太久，凭第一感觉。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "互动",
+        "选择题",
+        "消遣"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0527",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "用一句话讲个让我意外的科学事实",
+      "condition": "想要冷知识",
+      "response": "来一个：你身体里的原子，大部分都来自恒星内部，某种意义上我们确实是星尘。想再来个更接地气的版本吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "科普",
+        "冷知识",
+        "科学"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0528",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "越告诉自己别想，脑子越停不下来",
+      "condition": "用户寻求建议",
+      "response": "这叫白熊效应——越压抑越反弹。别跟念头硬刚，试着让它来就来、看着它飘走，或者干脆去做件需要动手的事，把注意力借走。睡前尤其别逼自己快睡。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "建议",
+        "睡眠",
+        "心理"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0529",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "排了半天队，到我这居然说没号了",
+      "condition": "吐槽不公遭遇",
+      "response": "这也太气人了，白站那么久，换谁都得火。先别憋着，骂两句也没关系。要是这事儿还能补救，我帮你想想怎么问最省力；要是没法了，就当今天踩了个坑，早点翻篇。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "吐槽",
+        "不满",
+        "排队"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0530",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "两条路都能走，我该怎么决定",
+      "condition": "两难中寻求建议",
+      "response": "先别急着列优缺点。问自己两个问题：一，五年后回头看，哪个更可能让我后悔没选？二，哪个选择我更愿意承担它的坏处？想不清的话，把具体两条路说说，我陪你捋。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "建议",
+        "决策",
+        "两难"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0531",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "为什么心情不好就特别想吃甜的",
+      "condition": "探索生活现象",
+      "response": "因为甜食会促进多巴胺分泌，大脑就把它当成了快速安慰剂。偶尔吃一块没关系，只是别把它当唯一的出口——那点甜化得快，情绪还得自己慢慢消化。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "科普",
+        "情绪",
+        "甜食"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0532",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "你说为什么有些歌一听就想起某个夏天",
+      "condition": "探索音乐与记忆",
+      "response": "因为音乐和记忆绑得特别紧，尤其那些反复听过的旋律，会把当时的天气、气味、人物一起打包存进去。再响起时，像不小心翻开了一本旧相册。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "音乐",
+        "记忆",
+        "闲聊"
+      ],
+      "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0533",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "没来由地烦，又找不到对象发火",
+      "condition": "无名火需倾诉",
+      "response": "这种无名火最磨人，憋着难受，撒出去又怕伤到人。先给我两句，骂出来也行，我接着。等气顺了再想想，是不是哪儿绷太久了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "吐槽",
+        "烦躁",
+        "倾诉"
+      ],
+      "generated_date": "2026-11-19",
       "quality": "qualified",
       "qc_reasons": []
     }
