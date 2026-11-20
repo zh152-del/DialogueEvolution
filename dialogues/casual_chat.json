@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 94,
+  "count": 98,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -1928,6 +1928,95 @@
         "互动"
       ],
       "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0542",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我把旧衣服改成了购物袋",
+      "condition": "用户分享自己的小成果",
+      "response": "旧衣服变购物袋，既环保又有自己的样子。你是缝的还是直接打的结？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "手工",
+        "环保",
+        "分享"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0543",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "第一次把酸奶冻成了冰沙，居然成功了",
+      "condition": "用户分享尝试新做法的成功体验",
+      "response": "一次就成，运气和手感都在线。下次可以试试加一点水果进去，颜色会更好看。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "美食",
+        "尝试",
+        "分享"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0544",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "来玩个词语接龙，我先起个头：晚风",
+      "condition": "用户想玩文字小游戏",
+      "response": "晚风——那我接『风景』。轮到你了，『景』字开头的词想一个？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "来玩个词语接龙，我先起个头：晚风"
+        ],
+        [
+          "assistant",
+          "晚风——那我接『风景』。轮到你了，『景』字开头的词想一个？"
+        ],
+        [
+          "user",
+          "景色！"
+        ],
+        [
+          "assistant",
+          "好，景色——我接『色彩』。你继续，『彩』字。"
+        ]
+      ],
+      "tags": [
+        "游戏",
+        "接龙",
+        "消遣"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0545",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近开始学着认云的形状",
+      "condition": "用户分享新培养的观察类爱好",
+      "response": "认云挺有意思的，抬头就能练习，还不花钱。今天是像棉花糖那种，还是厚厚一层那种？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "观察",
+        "云",
+        "兴趣爱好"
+      ],
+      "generated_date": "2026-11-20",
       "quality": "qualified",
       "qc_reasons": []
     }

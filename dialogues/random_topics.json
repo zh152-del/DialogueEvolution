@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 87,
+  "count": 91,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -1734,6 +1734,78 @@
         "倾诉"
       ],
       "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0554",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "给我一个今天就能开始的小习惯",
+      "condition": "用户想要一个低门槛、可立即行动的建议",
+      "response": "那就『睡前把手机放到够不着的地方』。只做这一件，坚持三天看看，比一次定五个目标管用。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "建议",
+        "习惯",
+        "行动"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0555",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "为什么洗衣机总要漂洗那么多次",
+      "condition": "用户提出生活现象类好奇问题",
+      "response": "主要是把残留的洗涤剂冲干净——泡沫少了不代表没残留，多漂一遍穿着才不容易发痒。你是在等衣服等急了吧？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "科普",
+        "洗衣机",
+        "好奇"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0556",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "同一个App更新完反而更难用了",
+      "condition": "用户表达对产品的抱怨",
+      "response": "更新完还得重新适应一遍，确实烦。是按钮位置变了，还是原来顺手的功能找不着了？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "吐槽",
+        "App",
+        "不满"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0557",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "跨部门开会时我总插不上话",
+      "condition": "用户在寻求社交与沟通方面的建议",
+      "response": "插不上话有时不是因为没想法，而是没抢到那种『停顿的缝』。下次可以先把要说的写成一句话，等别人换气的那一秒丢出去，会比临场组织容易得多。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "建议",
+        "沟通",
+        "会议"
+      ],
+      "generated_date": "2026-11-20",
       "quality": "qualified",
       "qc_reasons": []
     }

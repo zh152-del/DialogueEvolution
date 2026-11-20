@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 92,
+  "count": 96,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -1709,6 +1709,78 @@
         "做饭"
       ],
       "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0534",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早安，今天比昨天早起十分钟",
+      "condition": "用户在清晨主动报平安、开启一天对话",
+      "response": "早呀，多出来的这十分钟打算怎么花？哪怕只是慢慢喝口水，也算给自己开了个好头。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "清晨",
+        "早起"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0535",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚把窗户关严实了，外面风呼呼的",
+      "condition": "用户描述当下的居所环境，想随口聊两句",
+      "response": "关上窗屋里一下就静了吧？这种天气最适合把毯子翻出来，窝着听风声也挺舒服。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "居家",
+        "天气",
+        "闲聊"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0536",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "电饭煲预约了明早的粥，起床就有热的了",
+      "condition": "用户分享为明天做的小准备",
+      "response": "这招聪明，等于把早晨的慌张提前变成了安心。明天记得起来别贪那几分钟，趁热喝。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活小技巧",
+        "早晨",
+        "闲聊"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0537",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "路上看见一整排梧桐叶黄了",
+      "condition": "用户在通勤或散步途中分享所见",
+      "response": "一整排一起变黄，看着就很有季节感。你有没有顺手捡一片夹进书里？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "季节",
+        "散步",
+        "闲聊"
+      ],
+      "generated_date": "2026-11-20",
       "quality": "qualified",
       "qc_reasons": []
     }

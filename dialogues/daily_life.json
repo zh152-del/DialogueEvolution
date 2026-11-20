@@ -1,6 +1,6 @@
 {
   "category": "daily_life",
-  "count": 93,
+  "count": 97,
   "entries": [
     {
       "id": "daily_life-0132",
@@ -1908,6 +1908,95 @@
         "厨房"
       ],
       "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0546",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "热水器出的水忽冷忽热，洗澡像抽奖",
+      "condition": "用户遇到家居设备小故障",
+      "response": "忽冷忽热确实扫兴。先看看是不是用水高峰期别人也在放水，避开那阵再试；要是还这样，可能得请人来看看阀门了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "家居",
+        "热水器",
+        "生活琐事"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0547",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "洗衣液手一抖倒多了，盆里全是泡沫",
+      "condition": "用户描述家务中的小失误",
+      "response": "泡沫多的话先别急着拧干，多过两遍清水就行。下次可以先放衣服再倒液，就不容易失手了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "家务",
+        "洗衣",
+        "生活琐事"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0548",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "空调滤网拆下来一看，积了厚厚一层灰",
+      "condition": "用户做家电清洁时发现脏污",
+      "response": "拆开吓一跳吧？这东西洗净晾干再装回去，吹出来的风都不一样。记得装之前别开机。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "清洁",
+        "空调",
+        "生活琐事"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0549",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "这两天膝盖上下楼有点发酸",
+      "condition": "用户描述身体不适，需要关怀而非诊断",
+      "response": "上下楼发酸挺影响走路的。这两天先少爬楼、注意别受凉，让膝盖歇一歇；要是持续好几天没缓解，或者疼得厉害，还是去看看医生比较放心。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "这两天膝盖上下楼有点发酸"
+        ],
+        [
+          "assistant",
+          "上下楼发酸挺影响走路的。这两天先少爬楼、注意别受凉，让膝盖歇一歇；要是持续好几天没缓解，或者疼得厉害，还是去看看医生比较放心。"
+        ],
+        [
+          "user",
+          "我就是担心是不是什么大问题"
+        ],
+        [
+          "assistant",
+          "光凭这句我也没法下判断，但持续的不适值得让专业的人看一眼。在有结果之前，别自己吓自己，先按最省力的来。"
+        ]
+      ],
+      "tags": [
+        "健康",
+        "膝盖",
+        "关怀"
+      ],
+      "generated_date": "2026-11-20",
       "quality": "qualified",
       "qc_reasons": []
     }

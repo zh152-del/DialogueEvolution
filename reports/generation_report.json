@@ -1,94 +1,94 @@
 {
-  "resource_version": "v0.1.11",
+  "resource_version": "v0.1.12",
   "repo": "zh152-del/DialogueEvolution",
-  "generated_date": "2026-11-19",
+  "generated_date": "2026-11-20",
   "stats": {
-    "total": 38,
-    "qualified": 38,
+    "total": 24,
+    "qualified": 24,
     "to_review": 0,
     "unqualified": 0
   },
-  "qualified_total": 532,
+  "qualified_total": 556,
   "scene_distribution": {
-    "daily_conversation": 6,
-    "emotional_support": 6,
-    "casual_chat": 6,
-    "daily_life": 7,
-    "multi_turn": 5,
-    "random_topics": 8
+    "daily_conversation": 4,
+    "emotional_support": 4,
+    "casual_chat": 4,
+    "daily_life": 4,
+    "multi_turn": 4,
+    "random_topics": 4
   },
   "samples": [
     {
-      "id": "daily_conversation-0496",
+      "id": "daily_conversation-0534",
       "category_cn": "日常问候",
-      "trigger": "早，今天出门发现楼下在洒水",
-      "response": "早呀！洒水车一过，空气里都是潮湿的土腥味，倒也有种清爽。出门记得留意路面湿滑，别踩到水坑溅一身。"
+      "trigger": "早安，今天比昨天早起十分钟",
+      "response": "早呀，多出来的这十分钟打算怎么花？哪怕只是慢慢喝口水，也算给自己开了个好头。"
     },
     {
-      "id": "daily_conversation-0499",
+      "id": "daily_conversation-0535",
       "category_cn": "日常闲聊",
-      "trigger": "刚发现我家wifi名字被邻居改成了梗",
-      "response": "这也太有才了，邻居怕是个隐藏段子手。下次连上可以顺手改回去，或者干脆接着玩梗，留个乐子。"
+      "trigger": "刚把窗户关严实了，外面风呼呼的",
+      "response": "关上窗屋里一下就静了吧？这种天气最适合把毯子翻出来，窝着听风声也挺舒服。"
     },
     {
-      "id": "emotional_support-0502",
+      "id": "daily_conversation-0536",
+      "category_cn": "日常闲聊",
+      "trigger": "电饭煲预约了明早的粥，起床就有热的了",
+      "response": "这招聪明，等于把早晨的慌张提前变成了安心。明天记得起来别贪那几分钟，趁热喝。"
+    },
+    {
+      "id": "daily_conversation-0537",
+      "category_cn": "日常闲聊",
+      "trigger": "路上看见一整排梧桐叶黄了",
+      "response": "一整排一起变黄，看着就很有季节感。你有没有顺手捡一片夹进书里？"
+    },
+    {
+      "id": "emotional_support-0538",
       "category_cn": "情绪表达",
-      "trigger": "心里像压着块石头，说不清是什么",
-      "response": "有时候情绪就是没有名字的，不必非要找到原因才允许自己难受。你愿意的话，先陪你坐一会儿；想说的时候，哪怕只是零碎的几句，我都在。"
+      "trigger": "我把想说的话写进信里，最后还是没寄出去",
+      "response": "写了没寄，不代表那些话不重要——它只是先替你在这儿放了一会儿。想让我帮你把信里最想说的那句挑出来吗？"
     },
     {
-      "id": "emotional_support-0505",
+      "id": "emotional_support-0539",
       "category_cn": "情绪表达",
-      "trigger": "眼眶突然热了一下，我自己都愣了",
-      "response": "有时候身体比脑子先知道我们在意什么。愣一下也没关系，不用急着弄明白那一下是为了谁、为了什么。想哭就哭一会儿，我在。"
+      "trigger": "明明都做完了，却总担心哪里没做好",
+      "response": "做完还会回头挑自己毛病，挺累的吧。先别急着找错，能不能先跟我说一件你这次确实做到的事？"
     },
     {
-      "id": "casual_chat-0508",
+      "id": "emotional_support-0540",
+      "category_cn": "情绪表达",
+      "trigger": "别人一句无心的话，我记了一整天",
+      "response": "能被一句话绊一整天，说明你其实很在意别人怎么看。那句话大概戳中了你自己也担心的地方。"
+    },
+    {
+      "id": "emotional_support-0541",
+      "category_cn": "安慰与倾听",
+      "trigger": "今天突然很想有个人听我讲讲废话",
+      "response": "那正好，我今天专门留了时间听废话。你从头讲起，不用组织语言，想到哪儿说到哪儿。"
+    },
+    {
+      "id": "casual_chat-0542",
       "category_cn": "开心与分享",
-      "trigger": "我第一次把奶泡打成了心形！",
-      "response": "哇，心形奶泡！这可是咖啡师的招牌动作，你第一次就成功，太厉害了。快趁热拍张照，这杯值得被记住。"
+      "trigger": "我把旧衣服改成了购物袋",
+      "response": "旧衣服变购物袋，既环保又有自己的样子。你是缝的还是直接打的结？"
     },
     {
-      "id": "casual_chat-0511",
+      "id": "casual_chat-0543",
+      "category_cn": "开心与分享",
+      "trigger": "第一次把酸奶冻成了冰沙，居然成功了",
+      "response": "一次就成，运气和手感都在线。下次可以试试加一点水果进去，颜色会更好看。"
+    },
+    {
+      "id": "casual_chat-0544",
       "category_cn": "无聊与消遣",
-      "trigger": "给我讲个绕口令吧",
-      "response": "来一个经典的：四是四，十是十，十四是十四，四十是四十。慢慢念，别急，念快了舌头可要打结啦。"
+      "trigger": "来玩个词语接龙，我先起个头：晚风",
+      "response": "晚风——那我接『风景』。轮到你了，『景』字开头的词想一个？"
     },
     {
-      "id": "daily_life-0514",
-      "category_cn": "生活琐事",
-      "trigger": "水壶里的水垢好厚，怎么清理",
-      "response": "试试白醋加水，倒进壶里泡一会儿再烧开，静置后刷一刷就掉了；柠檬片加水上锅煮也有用。清理完记得多冲几遍，别留酸味。"
-    },
-    {
-      "id": "daily_life-0517",
-      "category_cn": "身体不舒服",
-      "trigger": "后背中间那块，一坐久就发酸",
-      "response": "久坐确实容易让背部肌肉绷着。起来走一走、扩扩胸，用拳头轻轻顶一顶那块酸的地方，一般会缓一些。要是持续好几天不见好，或者疼得越来越厉害，建议去看一下，别硬扛。"
-    },
-    {
-      "id": "daily_life-0520",
-      "category_cn": "生活琐事",
-      "trigger": "砧板用久了有股味，怎么去除",
-      "response": "撒一把盐用半个柠檬擦一遍，或者倒点白醋静置十分钟再冲净，都能去味。用完擦干、立起来放，别让底面一直泡着水。"
-    },
-    {
-      "id": "multi_turn-0523",
-      "category_cn": "多轮连续交流",
-      "trigger": "从晚饭聊着聊着，突然想起小时候一件事",
-      "response": "哦？饭桌上聊到哪儿就拐到小时候了，说来听听。"
-    },
-    {
-      "id": "random_topics-0526",
-      "category_cn": "用户不知道聊什么",
-      "trigger": "给我出个选择题吧，二选一那种",
-      "response": "好：如果明天多出一整天假，你会选宅家把想看的剧看完，还是出门去一个没去过的地方？不用想太久，凭第一感觉。"
-    },
-    {
-      "id": "random_topics-0529",
-      "category_cn": "表达不满",
-      "trigger": "排了半天队，到我这居然说没号了",
-      "response": "这也太气人了，白站那么久，换谁都得火。先别憋着，骂两句也没关系。要是这事儿还能补救，我帮你想想怎么问最省力；要是没法了，就当今天踩了个坑，早点翻篇。"
+      "id": "casual_chat-0545",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近开始学着认云的形状",
+      "response": "认云挺有意思的，抬头就能练习，还不花钱。今天是像棉花糖那种，还是厚厚一层那种？"
     }
   ],
   "github": {
@@ -99,33 +99,33 @@
     "files": [
       {
         "path": "dialogues/daily_conversation.json",
-        "count": 92,
-        "sha256": "afb89532ec0664e24798e1c1d00e415743a401f0b095035b8d4bafcb40cdc3c6"
+        "count": 96,
+        "sha256": "fe3b7faf924bb1c1aa6f2f32044b23c824210cc66f2184092583039d9a6bc27f"
       },
       {
         "path": "dialogues/emotional_support.json",
-        "count": 83,
-        "sha256": "878d6f8736501962159134bb08e3e96e94f4b46f9b7068325e99f99df7b183bf"
+        "count": 87,
+        "sha256": "485e70d1e8a1f4c2f7338b9364c02720dcae621856523cab5bf529b0edcbaeab"
       },
       {
         "path": "dialogues/casual_chat.json",
-        "count": 94,
-        "sha256": "8fd5aa253183181ee9ae0aa4976f65767e63bd9b4642a877e9222d6fef4647b0"
+        "count": 98,
+        "sha256": "b0a161bc09a4447e88a23a42b3e157bbd4018091a25bc7bde591db15a93891b3"
       },
       {
         "path": "dialogues/daily_life.json",
-        "count": 93,
-        "sha256": "7d7e627a3b25c8316549538c0b8586fd968d39f572126652a7698cae28be2998"
+        "count": 97,
+        "sha256": "480697fa9e22b3d5b6581e8b27a6eec7e13c428d646ed3fcdf2a17c17376613b"
       },
       {
         "path": "dialogues/multi_turn.json",
-        "count": 83,
-        "sha256": "6215166e27fd9cef3c1559428515f1483810206ce1a8d043a380acc793c7a46c"
+        "count": 87,
+        "sha256": "02e5fbad03ce64457fd7755adde294a578942c45aae27a5ce4b621d6c2170530"
       },
       {
         "path": "dialogues/random_topics.json",
-        "count": 87,
-        "sha256": "2611c5ec58f1430396fa81dc023a0b6920de2c21f8c818754bb7de5ef394bd47"
+        "count": 91,
+        "sha256": "de61486e32161c7d25ed1a56cd7ccc24ecc1aba8f1dac572d5f7b9e82a700d1b"
       }
     ]
   },

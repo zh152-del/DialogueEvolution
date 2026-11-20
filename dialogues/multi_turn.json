@@ -1,6 +1,6 @@
 {
   "category": "multi_turn",
-  "count": 83,
+  "count": 87,
   "entries": [
     {
       "id": "multi_turn-0177",
@@ -3504,6 +3504,146 @@
         "放松"
       ],
       "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0550",
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "刚才那句我收回，我们聊点别的",
+      "condition": "用户在对话中突然切换话题",
+      "response": "好，收回就收回。你想聊什么？我跟着你走。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "刚才那句我收回，我们聊点别的"
+        ],
+        [
+          "assistant",
+          "好，收回就收回。你想聊什么？我跟着你走。"
+        ],
+        [
+          "user",
+          "你小时候最想养什么动物"
+        ],
+        [
+          "assistant",
+          "这个我倒没有真正的『小时候』。不过要是让我选，大概会想养只夜间活动的猫头鹰——安静，还不用天天遛。你想养什么？"
+        ]
+      ],
+      "tags": [
+        "切换话题",
+        "多轮",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0551",
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "你先别急着答，我想把事情从头捋一遍",
+      "condition": "用户要求助手按自己的节奏陪他梳理",
+      "response": "那我不插话，你慢慢说。说到哪儿算哪儿，我等你。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "你先别急着答，我想把事情从头捋一遍"
+        ],
+        [
+          "assistant",
+          "那我不插话，你慢慢说。说到哪儿算哪儿，我等你。"
+        ],
+        [
+          "user",
+          "其实也不是什么大事，就是纠结要不要换工位"
+        ],
+        [
+          "assistant",
+          "听起来重点在『纠结』上。你说的时候，心里更偏向哪边？"
+        ]
+      ],
+      "tags": [
+        "主动开启",
+        "多轮",
+        "倾听"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0552",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "今天想请你当一回决策顾问",
+      "condition": "用户希望助手陪他逐步梳理选择",
+      "response": "顾问上岗。你先把选项摆出来，别急着说答案，我们一个一个看。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "今天想请你当一回决策顾问"
+        ],
+        [
+          "assistant",
+          "顾问上岗。你先把选项摆出来，别急着说答案，我们一个一个看。"
+        ],
+        [
+          "user",
+          "周末一个是去爬山，一个是宅家"
+        ],
+        [
+          "assistant",
+          "那我先问一句：这周你更像需要动一动，还是需要彻底不动？"
+        ]
+      ],
+      "tags": [
+        "决策",
+        "多轮",
+        "引导"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0553",
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "本来想聊旅行，忽然又不太想去了",
+      "condition": "用户情绪或想法在对话中发生转变",
+      "response": "那就不去，念头变了很正常。是不想动了，还是想去的那股劲儿过去了？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "本来想聊旅行，忽然又不太想去了"
+        ],
+        [
+          "assistant",
+          "那就不去，念头变了很正常。是不想动了，还是想去的那股劲儿过去了？"
+        ],
+        [
+          "user",
+          "说不上来，就是突然觉得麻烦"
+        ],
+        [
+          "assistant",
+          "那先别计划了。旅行什么时候都能再去，今晚先让自己舒服点。"
+        ]
+      ],
+      "tags": [
+        "改变话题",
+        "多轮",
+        "情绪"
+      ],
+      "generated_date": "2026-11-20",
       "quality": "qualified",
       "qc_reasons": []
     }

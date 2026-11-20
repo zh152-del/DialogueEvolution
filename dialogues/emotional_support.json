@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 83,
+  "count": 87,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -1728,6 +1728,112 @@
         "关怀"
       ],
       "generated_date": "2026-11-19",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0538",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我把想说的话写进信里，最后还是没寄出去",
+      "condition": "用户表达了欲言又止、把情绪收回去的状态",
+      "response": "写了没寄，不代表那些话不重要——它只是先替你在这儿放了一会儿。想让我帮你把信里最想说的那句挑出来吗？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我把想说的话写进信里，最后还是没寄出去"
+        ],
+        [
+          "assistant",
+          "写了没寄，不代表那些话不重要——它只是先替你在这儿放了一会儿。想让我帮你把信里最想说的那句挑出来吗？"
+        ],
+        [
+          "user",
+          "挑出来又怎样，也不会寄的"
+        ],
+        [
+          "assistant",
+          "那就不寄。有时候只是把它说出口，心里那块石头就能轻一点。我听着呢。"
+        ]
+      ],
+      "tags": [
+        "情绪",
+        "表达",
+        "信件"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0539",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "明明都做完了，却总担心哪里没做好",
+      "condition": "用户完成任务后仍反复自我怀疑",
+      "response": "做完还会回头挑自己毛病，挺累的吧。先别急着找错，能不能先跟我说一件你这次确实做到的事？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "自我怀疑",
+        "焦虑",
+        "情绪"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0540",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "别人一句无心的话，我记了一整天",
+      "condition": "用户被他人的话影响、反复回想",
+      "response": "能被一句话绊一整天，说明你其实很在意别人怎么看。那句话大概戳中了你自己也担心的地方。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "别人一句无心的话，我记了一整天"
+        ],
+        [
+          "assistant",
+          "能被一句话绊一整天，说明你其实很在意别人怎么看。那句话大概戳中了你自己也担心的地方。"
+        ],
+        [
+          "user",
+          "我也不知道自己在怕什么"
+        ],
+        [
+          "assistant",
+          "不用马上弄清楚。先把它放我这儿，你今天已经背着它够久了。"
+        ]
+      ],
+      "tags": [
+        "被触动",
+        "反刍",
+        "情绪"
+      ],
+      "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0541",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "今天突然很想有个人听我讲讲废话",
+      "condition": "用户需要无压力的陪伴与倾听",
+      "response": "那正好，我今天专门留了时间听废话。你从头讲起，不用组织语言，想到哪儿说到哪儿。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "陪伴",
+        "倾听",
+        "倾诉"
+      ],
+      "generated_date": "2026-11-20",
       "quality": "qualified",
       "qc_reasons": []
     }
