@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 91,
+  "count": 94,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -1806,6 +1806,78 @@
         "会议"
       ],
       "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0579",
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "今天不想动脑，你抛个轻松的话题给我",
+      "condition": "用户没有头绪，希望助手起话题",
+      "response": "轻松的来啦：如果明天可以凭空多出两小时，你第一件想拿它来干嘛？别想太认真，凭直觉说。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "今天不想动脑，你抛个轻松的话题给我"
+        ],
+        [
+          "assistant",
+          "轻松的来啦：如果明天可以凭空多出两小时，你第一件想拿它来干嘛？别想太认真，凭直觉说。"
+        ],
+        [
+          "user",
+          "大概是躺在阳台上晒太阳，什么都不干"
+        ],
+        [
+          "assistant",
+          "这个答案太对了，什么都不干有时候就是最好的安排。那两小时你连手机都别带。"
+        ]
+      ],
+      "tags": [
+        "无话题",
+        "轻松",
+        "想象",
+        "多轮"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0580",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "为什么人一紧张就想上厕所",
+      "condition": "用户探索生理类冷知识",
+      "response": "这是身体在启动『战斗或逃跑』反应，会把暂时用不上的消化活动往后排，膀胱和肠道反而先有反应，于是就有便意了。属于很正常的生理现象，不是你一个人在紧张时这样。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "冷知识",
+        "生理",
+        "科普"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0581",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "刚买的耳机没用两天就接触不良，太糟心了",
+      "condition": "用户吐槽商品质量，寻求共鸣与建议",
+      "response": "没用两天就接触不良，确实糟心，尤其还是新买的。你先看看接口是不是有脏东西，轻轻擦一擦；要还是不行，直接找商家退换，这本来就该他们管。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "吐槽",
+        "购物",
+        "维权"
+      ],
+      "generated_date": "2026-11-21",
       "quality": "qualified",
       "qc_reasons": []
     }

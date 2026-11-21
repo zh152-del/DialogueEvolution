@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 98,
+  "count": 102,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -2017,6 +2017,95 @@
         "兴趣爱好"
       ],
       "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0566",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我第一次把拼图完整拼好了！",
+      "condition": "用户分享成就感",
+      "response": "从一堆碎片到完整一幅，最后一块按下去那下肯定特别有满足感吧！",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "成就",
+        "拼图",
+        "开心"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0567",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近迷上了种蘑菇",
+      "condition": "用户分享新兴趣",
+      "response": "种蘑菇挺有意思的，看着菌包一天冒出一片小伞，很有成就感。你种的是平菇还是香菇那一类？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣",
+        "种植",
+        "新奇"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0568",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "无聊，我们来轮流说一种颜色的东西",
+      "condition": "用户想玩轻松的文字小游戏",
+      "response": "好呀，我先来：天空是蓝的。轮到你了，说一种颜色的东西，咱们比比谁接得快。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "无聊，我们来轮流说一种颜色的东西"
+        ],
+        [
+          "assistant",
+          "好呀，我先来：天空是蓝的。轮到你了，说一种颜色的东西，咱们比比谁接得快。"
+        ],
+        [
+          "user",
+          "我先来：奶油色的猫"
+        ],
+        [
+          "assistant",
+          "接得好，奶油色这答案很有画面感。轮到我：砖红色的老墙。"
+        ]
+      ],
+      "tags": [
+        "小游戏",
+        "消遣",
+        "多轮"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0569",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我养的向日葵终于朝着太阳转了",
+      "condition": "用户分享植物带来的开心",
+      "response": "向日葵追着太阳转的样子特别有生命力吧，看着它一天一个样，心情都跟着亮堂。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "植物",
+        "开心",
+        "分享"
+      ],
+      "generated_date": "2026-11-21",
       "quality": "qualified",
       "qc_reasons": []
     }

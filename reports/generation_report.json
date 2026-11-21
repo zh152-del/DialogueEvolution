@@ -1,131 +1,131 @@
 {
-  "resource_version": "v0.1.12",
+  "resource_version": "v0.1.13",
   "repo": "zh152-del/DialogueEvolution",
-  "generated_date": "2026-11-20",
+  "generated_date": "2026-11-21",
   "stats": {
     "total": 24,
     "qualified": 24,
     "to_review": 0,
     "unqualified": 0
   },
-  "qualified_total": 556,
+  "qualified_total": 580,
   "scene_distribution": {
     "daily_conversation": 4,
     "emotional_support": 4,
     "casual_chat": 4,
     "daily_life": 4,
-    "multi_turn": 4,
-    "random_topics": 4
+    "multi_turn": 5,
+    "random_topics": 3
   },
   "samples": [
     {
-      "id": "daily_conversation-0534",
-      "category_cn": "日常问候",
-      "trigger": "早安，今天比昨天早起十分钟",
-      "response": "早呀，多出来的这十分钟打算怎么花？哪怕只是慢慢喝口水，也算给自己开了个好头。"
-    },
-    {
-      "id": "daily_conversation-0535",
+      "id": "daily_conversation-0558",
       "category_cn": "日常闲聊",
-      "trigger": "刚把窗户关严实了，外面风呼呼的",
-      "response": "关上窗屋里一下就静了吧？这种天气最适合把毯子翻出来，窝着听风声也挺舒服。"
+      "trigger": "把阳台的纱窗拆下来洗了，冲出来的水都是黑的",
+      "response": "哈哈，纱窗这东西平时真想不起来洗，一冲才知道攒了多少灰。装回去以后透光明亮一截吧？"
     },
     {
-      "id": "daily_conversation-0536",
-      "category_cn": "日常闲聊",
-      "trigger": "电饭煲预约了明早的粥，起床就有热的了",
-      "response": "这招聪明，等于把早晨的慌张提前变成了安心。明天记得起来别贪那几分钟，趁热喝。"
-    },
-    {
-      "id": "daily_conversation-0537",
-      "category_cn": "日常闲聊",
-      "trigger": "路上看见一整排梧桐叶黄了",
-      "response": "一整排一起变黄，看着就很有季节感。你有没有顺手捡一片夹进书里？"
-    },
-    {
-      "id": "emotional_support-0538",
+      "id": "emotional_support-0562",
       "category_cn": "情绪表达",
-      "trigger": "我把想说的话写进信里，最后还是没寄出去",
-      "response": "写了没寄，不代表那些话不重要——它只是先替你在这儿放了一会儿。想让我帮你把信里最想说的那句挑出来吗？"
+      "trigger": "我好像把坏情绪都留给了最亲近的人",
+      "response": "能意识到这一点，其实已经很不容易了。亲近的人往往承受了我们最放松也最不加掩饰的一面，别太苛责自己，愿意回头想想就已经是在乎了。"
     },
     {
-      "id": "emotional_support-0539",
+      "id": "emotional_support-0564",
       "category_cn": "情绪表达",
-      "trigger": "明明都做完了，却总担心哪里没做好",
-      "response": "做完还会回头挑自己毛病，挺累的吧。先别急着找错，能不能先跟我说一件你这次确实做到的事？"
+      "trigger": "我很烦别人不打招呼就翻我的东西",
+      "response": "自己的东西被人随意翻动，那种被侵入的感觉很不舒服。你有权对这种事说不，哪怕对方是熟人。"
     },
     {
-      "id": "emotional_support-0540",
-      "category_cn": "情绪表达",
-      "trigger": "别人一句无心的话，我记了一整天",
-      "response": "能被一句话绊一整天，说明你其实很在意别人怎么看。那句话大概戳中了你自己也担心的地方。"
-    },
-    {
-      "id": "emotional_support-0541",
-      "category_cn": "安慰与倾听",
-      "trigger": "今天突然很想有个人听我讲讲废话",
-      "response": "那正好，我今天专门留了时间听废话。你从头讲起，不用组织语言，想到哪儿说到哪儿。"
-    },
-    {
-      "id": "casual_chat-0542",
-      "category_cn": "开心与分享",
-      "trigger": "我把旧衣服改成了购物袋",
-      "response": "旧衣服变购物袋，既环保又有自己的样子。你是缝的还是直接打的结？"
-    },
-    {
-      "id": "casual_chat-0543",
-      "category_cn": "开心与分享",
-      "trigger": "第一次把酸奶冻成了冰沙，居然成功了",
-      "response": "一次就成，运气和手感都在线。下次可以试试加一点水果进去，颜色会更好看。"
-    },
-    {
-      "id": "casual_chat-0544",
-      "category_cn": "无聊与消遣",
-      "trigger": "来玩个词语接龙，我先起个头：晚风",
-      "response": "晚风——那我接『风景』。轮到你了，『景』字开头的词想一个？"
-    },
-    {
-      "id": "casual_chat-0545",
+      "id": "casual_chat-0567",
       "category_cn": "兴趣爱好",
-      "trigger": "我最近开始学着认云的形状",
-      "response": "认云挺有意思的，抬头就能练习，还不花钱。今天是像棉花糖那种，还是厚厚一层那种？"
+      "trigger": "我最近迷上了种蘑菇",
+      "response": "种蘑菇挺有意思的，看着菌包一天冒出一片小伞，很有成就感。你种的是平菇还是香菇那一类？"
+    },
+    {
+      "id": "daily_life-0570",
+      "category_cn": "生活琐事",
+      "trigger": "新买的雨伞用了一次就翻了，风太大了",
+      "response": "伞被风翻过来那一下真挺无奈的，尤其还是新的。下次挑伞可以看看伞骨硬一点的，抗风会好些。"
+    },
+    {
+      "id": "daily_life-0572",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "我今天一整天嗓子眼儿发紧，吞东西有点卡",
+      "response": "嗓子发紧、吞咽不舒服，先别硬撑，今天吃点温软的东西、多喝温水观察一下。如果这种发紧的感觉一直没缓解，或者连呼吸都受影响，尽快去医院让医生看看比较稳妥。"
+    },
+    {
+      "id": "multi_turn-0575",
+      "category_cn": "突然改变话题",
+      "trigger": "先放一放，我刚瞥见窗外有道彩虹",
+      "response": "彩虹？那先不管刚才那事了——快说说，是完整的一道还是只有一小截？"
+    },
+    {
+      "id": "multi_turn-0577",
+      "category_cn": "多轮连续交流",
+      "trigger": "我今天状态不太对，说不上来哪里不对",
+      "response": "说不上来的不对劲最磨人了。别急着给它找名字，你先说说今天大概怎么过的，我们慢慢捋。"
+    },
+    {
+      "id": "random_topics-0579",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "今天不想动脑，你抛个轻松的话题给我",
+      "response": "轻松的来啦：如果明天可以凭空多出两小时，你第一件想拿它来干嘛？别想太认真，凭直觉说。"
+    },
+    {
+      "id": "random_topics-0580",
+      "category_cn": "随机话题探索",
+      "trigger": "为什么人一紧张就想上厕所",
+      "response": "这是身体在启动『战斗或逃跑』反应，会把暂时用不上的消化活动往后排，膀胱和肠道反而先有反应，于是就有便意了。属于很正常的生理现象，不是你一个人在紧张时这样。"
+    },
+    {
+      "id": "random_topics-0581",
+      "category_cn": "表达不满",
+      "trigger": "刚买的耳机没用两天就接触不良，太糟心了",
+      "response": "没用两天就接触不良，确实糟心，尤其还是新买的。你先看看接口是不是有脏东西，轻轻擦一擦；要还是不行，直接找商家退换，这本来就该他们管。"
+    },
+    {
+      "id": "daily_conversation-0561",
+      "category_cn": "日常问候",
+      "trigger": "早，今天被窗外的鸟叫声叫醒的",
+      "response": "早呀，被鸟叫醒可比被闹钟叫醒温柔多了。今天打算怎么过？"
     }
   ],
   "github": {
     "repo": "zh152-del/DialogueEvolution",
     "dir": "DialogueEvolution",
-    "verified": true,
-    "commit": "8121cc5c9b50713d0775a5a1f11083cfbca934f8",
+    "verified": false,
+    "commit": null,
     "files": [
       {
         "path": "dialogues/daily_conversation.json",
-        "count": 96,
-        "sha256": "fe3b7faf924bb1c1aa6f2f32044b23c824210cc66f2184092583039d9a6bc27f"
+        "count": 100,
+        "sha256": "ebacd89f13d910322fe8ea39cb709f2d9977426d5ef81d98fe04cfaf797a8cd4"
       },
       {
         "path": "dialogues/emotional_support.json",
-        "count": 87,
-        "sha256": "485e70d1e8a1f4c2f7338b9364c02720dcae621856523cab5bf529b0edcbaeab"
+        "count": 91,
+        "sha256": "e4a3f2140535202173a6941b3ef474b13c3392cdb9ce3ca6db64567e131c4b31"
       },
       {
         "path": "dialogues/casual_chat.json",
-        "count": 98,
-        "sha256": "b0a161bc09a4447e88a23a42b3e157bbd4018091a25bc7bde591db15a93891b3"
+        "count": 102,
+        "sha256": "1631ab62cfa72094bda1691ceef2e14a605704542aad58f7b7fda0b10739a8e8"
       },
       {
         "path": "dialogues/daily_life.json",
-        "count": 97,
-        "sha256": "480697fa9e22b3d5b6581e8b27a6eec7e13c428d646ed3fcdf2a17c17376613b"
+        "count": 101,
+        "sha256": "1bddb8475acaf577bfd0c2336ef41741a44b3814a0a2361a0b231f216ed6b1a9"
       },
       {
         "path": "dialogues/multi_turn.json",
-        "count": 87,
-        "sha256": "02e5fbad03ce64457fd7755adde294a578942c45aae27a5ce4b621d6c2170530"
+        "count": 92,
+        "sha256": "31768535add101728351211b80e35ff8a8fe9004c72658b5dc6df1f0bc5b3a9c"
       },
       {
         "path": "dialogues/random_topics.json",
-        "count": 91,
-        "sha256": "de61486e32161c7d25ed1a56cd7ccc24ecc1aba8f1dac572d5f7b9e82a700d1b"
+        "count": 94,
+        "sha256": "e352dfae8ac12c7c601052d82c0f41e64cf0a202b9e5b765962e2e4e1dc8729c"
       }
     ]
   },

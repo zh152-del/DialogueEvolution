@@ -1,6 +1,6 @@
 {
   "category": "daily_life",
-  "count": 97,
+  "count": 101,
   "entries": [
     {
       "id": "daily_life-0132",
@@ -1997,6 +1997,96 @@
         "关怀"
       ],
       "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0570",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "新买的雨伞用了一次就翻了，风太大了",
+      "condition": "用户吐槽刚买的伞损坏",
+      "response": "伞被风翻过来那一下真挺无奈的，尤其还是新的。下次挑伞可以看看伞骨硬一点的，抗风会好些。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "雨天",
+        "购物",
+        "生活琐事"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0571",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "我的耳机线缠成一团，解了十分钟了",
+      "condition": "用户被耳机线打结困扰",
+      "response": "耳机线打结最考验耐心了，越急越解不开。你先放着缓一缓，回头从那个最松的结下手，一下就开了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "耳机",
+        "生活琐事",
+        "耐心"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0572",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "我今天一整天嗓子眼儿发紧，吞东西有点卡",
+      "condition": "用户描述咽喉不适，需关怀与就医提醒，不给诊断",
+      "response": "嗓子发紧、吞咽不舒服，先别硬撑，今天吃点温软的东西、多喝温水观察一下。如果这种发紧的感觉一直没缓解，或者连呼吸都受影响，尽快去医院让医生看看比较稳妥。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "咽喉不适",
+        "关怀",
+        "就医提醒"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0573",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "我这两天手腕一转就疼，拧毛巾都费劲",
+      "condition": "用户描述手腕疼痛，多轮关怀并提醒就医，不给诊断",
+      "response": "手腕一转就疼，拧毛巾都费劲，先让它歇一歇，别硬拧。要是一直疼或者肿起来，去让医生检查一下更放心。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我这两天手腕一转就疼，拧毛巾都费劲"
+        ],
+        [
+          "assistant",
+          "手腕一转就疼，拧毛巾都费劲，先让它歇一歇，别硬拧。要是一直疼或者肿起来，去让医生检查一下更放心。"
+        ],
+        [
+          "user",
+          "可能是前几天搬东西累的"
+        ],
+        [
+          "assistant",
+          "那这两天就少用力，做点轻轻的活动让它缓缓。要是过几天还没好转，别拖着，去查一下。"
+        ]
+      ],
+      "tags": [
+        "手腕不适",
+        "关怀",
+        "多轮",
+        "就医提醒"
+      ],
+      "generated_date": "2026-11-21",
       "quality": "qualified",
       "qc_reasons": []
     }

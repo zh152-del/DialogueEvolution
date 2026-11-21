@@ -1,6 +1,6 @@
 {
   "category": "multi_turn",
-  "count": 87,
+  "count": 92,
   "entries": [
     {
       "id": "multi_turn-0177",
@@ -3644,6 +3644,183 @@
         "情绪"
       ],
       "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0574",
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "你先别睡，我刚想到一个挺有意思的事",
+      "condition": "用户深夜主动开启话题",
+      "response": "诶？这时间点还精神着呢，说来听听，什么事这么有意思。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "你先别睡，我刚想到一个挺有意思的事"
+        ],
+        [
+          "assistant",
+          "诶？这时间点还精神着呢，说来听听，什么事这么有意思。"
+        ],
+        [
+          "user",
+          "我在想，如果有一天记忆能像文件一样存起来就好了"
+        ],
+        [
+          "assistant",
+          "这个想法有意思，那你最想先存下哪一段？说不定存着存着，你自己就先笑了。"
+        ]
+      ],
+      "tags": [
+        "主动话题",
+        "深夜",
+        "想象",
+        "多轮"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0575",
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "先放一放，我刚瞥见窗外有道彩虹",
+      "condition": "用户在对话中突然转向窗外所见",
+      "response": "彩虹？那先不管刚才那事了——快说说，是完整的一道还是只有一小截？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "先放一放，我刚瞥见窗外有道彩虹"
+        ],
+        [
+          "assistant",
+          "彩虹？那先不管刚才那事了——快说说，是完整的一道还是只有一小截？"
+        ],
+        [
+          "user",
+          "只有一小截，但颜色特别清楚"
+        ],
+        [
+          "assistant",
+          "一小截反而更珍贵，看见就是赚到。要不要趁它还在，赶紧拍一张？"
+        ]
+      ],
+      "tags": [
+        "转话题",
+        "彩虹",
+        "多轮"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0576",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "我想把这个月的开销理一理，但一打开账单就头大",
+      "condition": "用户请助手帮忙梳理开销，多轮协作",
+      "response": "理账确实一看就头大。要不这样，你先大概说几笔最大的，我帮你按类分一分，剩下的再慢慢补。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我想把这个月的开销理一理，但一打开账单就头大"
+        ],
+        [
+          "assistant",
+          "理账确实一看就头大。要不这样，你先大概说几笔最大的，我帮你按类分一分，剩下的再慢慢补。"
+        ],
+        [
+          "user",
+          "房租、吃饭，还有一笔买电脑的，就这几样大的"
+        ],
+        [
+          "assistant",
+          "清楚了：固定支出是房租，日常是吃饭，买电脑算一次性大额。先把这三类分开，压力一下就小多了。"
+        ]
+      ],
+      "tags": [
+        "记账",
+        "梳理",
+        "多轮"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0577",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "我今天状态不太对，说不上来哪里不对",
+      "condition": "用户情绪低落但说不清原因，多轮陪伴",
+      "response": "说不上来的不对劲最磨人了。别急着给它找名字，你先说说今天大概怎么过的，我们慢慢捋。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我今天状态不太对，说不上来哪里不对"
+        ],
+        [
+          "assistant",
+          "说不上来的不对劲最磨人了。别急着给它找名字，你先说说今天大概怎么过的，我们慢慢捋。"
+        ],
+        [
+          "user",
+          "其实也没发生什么大事，就是一整天都有点提不起劲"
+        ],
+        [
+          "assistant",
+          "嗯，没大事反而更难说清。这种时候别逼自己振作，做点不费脑的小事过渡一下，往往就缓过来了。"
+        ]
+      ],
+      "tags": [
+        "情绪",
+        "陪伴",
+        "多轮"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0578",
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "换个频道——我刚冒出个特别奇怪的念头",
+      "condition": "用户突然跳跃到趣味话题",
+      "response": "换频道就换频道，我这台接收器什么都收。来吧，多奇怪都行。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "换个频道——我刚冒出个特别奇怪的念头"
+        ],
+        [
+          "assistant",
+          "换频道就换频道，我这台接收器什么都收。来吧，多奇怪都行。"
+        ],
+        [
+          "user",
+          "我在想，云会不会也有自己的朋友圈"
+        ],
+        [
+          "assistant",
+          "哈哈这个设定我接受，说不定它们互相点赞的方式就是碰一碰变成更大的一朵。你觉得哪种云最外向？"
+        ]
+      ],
+      "tags": [
+        "转话题",
+        "想象",
+        "趣味",
+        "多轮"
+      ],
+      "generated_date": "2026-11-21",
       "quality": "qualified",
       "qc_reasons": []
     }

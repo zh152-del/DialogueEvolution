@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 96,
+  "count": 100,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -1781,6 +1781,95 @@
         "闲聊"
       ],
       "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0558",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "把阳台的纱窗拆下来洗了，冲出来的水都是黑的",
+      "condition": "用户分享刚做完的家务小事，语气轻松",
+      "response": "哈哈，纱窗这东西平时真想不起来洗，一冲才知道攒了多少灰。装回去以后透光明亮一截吧？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "家务",
+        "日常分享",
+        "清洁"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0559",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚听到楼下有人在练小号，吹吹停停的",
+      "condition": "用户随口分享听到的声音，无明显情绪倾向",
+      "response": "吹吹停停说明在认真练呢，刚开始都这样。你是觉得有点吵，还是听着还挺有意思？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "邻里",
+        "日常分享",
+        "声音"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0560",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "给自行车胎打足了气，骑起来一下轻快了",
+      "condition": "用户分享一件带来小成就感的生活细节",
+      "response": "那种打足气后骑起来轻飘飘的感觉特别爽吧，像是车突然年轻了几岁。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "出行",
+        "日常分享",
+        "小成就"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0561",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早，今天被窗外的鸟叫声叫醒的",
+      "condition": "清晨问候场景，用户顺带提到被鸟叫醒",
+      "response": "早呀，被鸟叫醒可比被闹钟叫醒温柔多了。今天打算怎么过？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "早，今天被窗外的鸟叫声叫醒的"
+        ],
+        [
+          "assistant",
+          "早呀，被鸟叫醒可比被闹钟叫醒温柔多了。今天打算怎么过？"
+        ],
+        [
+          "user",
+          "还没想好，先慢慢吃个早饭吧"
+        ],
+        [
+          "assistant",
+          "慢慢来就好，早饭吃得踏实，一上午都更有底气。"
+        ]
+      ],
+      "tags": [
+        "清晨",
+        "问候",
+        "多轮"
+      ],
+      "generated_date": "2026-11-21",
       "quality": "qualified",
       "qc_reasons": []
     }

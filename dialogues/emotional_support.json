@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 87,
+  "count": 91,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -1834,6 +1834,95 @@
         "倾诉"
       ],
       "generated_date": "2026-11-20",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0562",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我好像把坏情绪都留给了最亲近的人",
+      "condition": "用户表达内疚与自我觉察",
+      "response": "能意识到这一点，其实已经很不容易了。亲近的人往往承受了我们最放松也最不加掩饰的一面，别太苛责自己，愿意回头想想就已经是在乎了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "内疚",
+        "自我觉察",
+        "亲密关系"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0563",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "跟你说个事，我今天居然在电梯里哭了",
+      "condition": "用户倾诉一件让自己意外落泪的事",
+      "response": "在电梯里突然哭，那种控制不住的瞬间一定很难受。我在这里听着，你想说就说，不想说也没关系。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "跟你说个事，我今天居然在电梯里哭了"
+        ],
+        [
+          "assistant",
+          "在电梯里突然哭，那种控制不住的瞬间一定很难受。我在这里听着，你想说就说，不想说也没关系。"
+        ],
+        [
+          "user",
+          "其实也没多大的事，就是突然绷不住了"
+        ],
+        [
+          "assistant",
+          "绷不住的时候往往不是因为那一件事，而是攒了太久。你先缓缓，不用急着解释。"
+        ]
+      ],
+      "tags": [
+        "倾诉",
+        "安慰",
+        "多轮"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0564",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我很烦别人不打招呼就翻我的东西",
+      "condition": "用户表达边界被侵犯的烦躁",
+      "response": "自己的东西被人随意翻动，那种被侵入的感觉很不舒服。你有权对这种事说不，哪怕对方是熟人。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "边界",
+        "隐私",
+        "烦躁"
+      ],
+      "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0565",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "我最近总在半夜醒来，然后就睡不着了",
+      "condition": "用户倾诉睡眠困扰伴随情绪低落，非诊断场景",
+      "response": "半夜醒来脑子就开始转，那种安静里特别容易想多。先别逼自己马上睡着，起来喝口温水、把灯调暗，慢慢缓一缓。要是这种情况老是这样、白天也难受，记得找医生聊聊。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "睡眠",
+        "陪伴",
+        "就医提醒"
+      ],
+      "generated_date": "2026-11-21",
       "quality": "qualified",
       "qc_reasons": []
     }
