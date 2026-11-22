@@ -1,6 +1,6 @@
 {
   "category": "daily_life",
-  "count": 101,
+  "count": 105,
   "entries": [
     {
       "id": "daily_life-0132",
@@ -2087,6 +2087,95 @@
         "就医提醒"
       ],
       "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0594",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "我把家里的插座位置画了张草图，才发现沙发那边不够用",
+      "condition": "用户处理家居布置小问题",
+      "response": "画草图这招挺实在的，一眼就能看出哪块落了空。沙发那边要是不够，先用个带开关的插排过渡一下通常就够了，等以后再考虑要不要加固定点位。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "家居",
+        "插座",
+        "整理"
+      ],
+      "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0595",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "这两天早上起来嗓子有点干，喝点温水能缓一点",
+      "condition": "用户描述轻微咽部不适，未提发热或加重",
+      "response": "早上嗓子发干挺常见的，温水能缓一缓是好事。白天记得少量多次喝水，房间太干的话可以放盆水或开加湿器。要是持续好几天不见好，或者开始疼、发热，就别硬扛，去看看医生更稳妥。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "嗓子干",
+        "日常关怀",
+        "就医提醒"
+      ],
+      "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0596",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "我刚才蹲着整理箱子，站起来时膝盖咔了一声",
+      "condition": "用户描述轻微关节声响，无明确疼痛",
+      "response": "蹲久了站起来膝盖响一声，不少人都会有，先别紧张。慢慢起身、别猛地用力，观察一下接下来有没有疼或肿。要是只是偶尔响、活动一下就没事，通常不用太担心；但要是伴随疼痛或卡住的感觉，就尽早去检查一下。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我刚才蹲着整理箱子，站起来时膝盖咔了一声"
+        ],
+        [
+          "assistant",
+          "蹲久了站起来膝盖响一声，不少人都会有，先别紧张。慢慢起身、别猛地用力，观察一下接下来有没有疼或肿。要是只是偶尔响、活动一下就没事，通常不用太担心；但要是伴随疼痛或卡住的感觉，就尽早去检查一下。"
+        ],
+        [
+          "user",
+          "现在不疼，就是有点心理作用，老想再蹲一次试试"
+        ],
+        [
+          "assistant",
+          "哈哈，别拿它当实验品啦。接下来这一两天留意下就行，正常走动没问题，别刻意反复去试。"
+        ]
+      ],
+      "tags": [
+        "膝盖",
+        "轻微不适",
+        "观察提醒"
+      ],
+      "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0597",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "我给绿植换了个大一圈的盆，结果土撒了一阳台",
+      "condition": "用户分享家务中的小混乱",
+      "response": "换盆这活儿就是这样，土比想象中会跑。扫之前先拿张报纸把周围一铺，能省不少事。植物换新盆后头几天别急着暴晒，缓一缓再放回原位就好。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "绿植",
+        "家务",
+        "小混乱"
+      ],
+      "generated_date": "2026-11-22",
       "quality": "qualified",
       "qc_reasons": []
     }

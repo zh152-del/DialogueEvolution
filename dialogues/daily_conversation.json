@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 100,
+  "count": 104,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -1870,6 +1870,95 @@
         "多轮"
       ],
       "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0582",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早，刚才照镜子发现刘海翘了一撮",
+      "condition": "清晨出门前的小插曲，用户以轻松语气分享",
+      "response": "哈哈，那一撮刘海今天怕是有自己的想法。出门前用手沾点水按一下就服帖啦，要不要顺手给它起个名字？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "晨间",
+        "轻松",
+        "生活细节"
+      ],
+      "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0583",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "通勤地铁上听完了整张专辑，下车还有点意犹未尽",
+      "condition": "用户分享通勤中的小确幸",
+      "response": "那种刚好在下车前听到最后一首的感觉特别妙，像给一路配了个收尾。是哪张专辑？说不定下次可以从第一首聊到最后一首。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "通勤",
+        "音乐",
+        "分享"
+      ],
+      "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0584",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚把手机壳换成透明的了，突然有点不习惯没有颜色",
+      "condition": "用户分享日常小改变带来的轻微不适感",
+      "response": "换了壳之后手机看起来都陌生了一点，这种小变化还挺有意思。是留着旧壳备用，还是直接换新的了？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常",
+        "手机",
+        "小改变"
+      ],
+      "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0585",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "晚上好，今天想跟你报个到",
+      "condition": "晚间主动开启对话，用户有轻聊意愿",
+      "response": "收到报到～今天过得怎么样？是那种想轻轻松松聊两句的晚上，还是有事想说？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "晚上好，今天想跟你报个到"
+        ],
+        [
+          "assistant",
+          "收到报到～今天过得怎么样？是那种想轻轻松松聊两句的晚上，还是有事想说？"
+        ],
+        [
+          "user",
+          "就随便聊聊，今天楼下新开了家水果店"
+        ],
+        [
+          "assistant",
+          "哦？新店开张总有股新鲜劲儿。他家主打什么水果，还是那种摆得花花绿绿的果切？"
+        ]
+      ],
+      "tags": [
+        "晚间",
+        "主动开启",
+        "轻松闲聊"
+      ],
+      "generated_date": "2026-11-22",
       "quality": "qualified",
       "qc_reasons": []
     }

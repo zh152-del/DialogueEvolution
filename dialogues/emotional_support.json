@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 91,
+  "count": 95,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -1923,6 +1923,95 @@
         "就医提醒"
       ],
       "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0586",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我今天莫名其妙地想把手机关掉一整天",
+      "condition": "用户感到疲惫、想暂时断开外界，未说明具体原因",
+      "response": "想暂时把世界调成静音，这种冲动挺常见的，不用给自己找理由。要我说，关之前先把重要的事简单交代一句，然后就安心歇着——我这边随时能回来找你。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "疲惫",
+        "独处",
+        "安抚"
+      ],
+      "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0587",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "朋友说我最近变了，我听完不知道该难过还是该解释",
+      "condition": "用户被他人评价困扰，情绪复杂",
+      "response": "被说「变了」的时候最容易愣住，因为不知道对方指的是哪一面。你不用急着解释，先想想自己认不认同这个变化——认，就当它是成长的注脚；不认，也没必要为别人的一句话改写自己。想说说他具体怎么讲的吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "被评价",
+        "困惑",
+        "倾听"
+      ],
+      "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0588",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "心里有点闷，但我现在不太想分析原因",
+      "condition": "用户情绪低落但暂时不想深挖原因，需要陪伴而非追问",
+      "response": "那就先不分析。有时候闷着不需要被拆开看，有个人在旁边陪着就行。我在这儿，你想说就接着说，不想说我们就安静待一会儿。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "心里有点闷，但我现在不太想分析原因"
+        ],
+        [
+          "assistant",
+          "那就先不分析。有时候闷着不需要被拆开看，有个人在旁边陪着就行。我在这儿，你想说就接着说，不想说我们就安静待一会儿。"
+        ],
+        [
+          "user",
+          "嗯，就待着吧"
+        ],
+        [
+          "assistant",
+          "好，我陪你。等你想开口了，哪怕只是「还是闷」，也随时丢过来。"
+        ]
+      ],
+      "tags": [
+        "低落",
+        "陪伴",
+        "不追问"
+      ],
+      "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0589",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我刚刚差点在办公室哭出来，赶紧去了趟洗手间",
+      "condition": "用户在公共场合情绪波动，需要即时安抚",
+      "response": "那种强撑着去洗手间的几分钟最难受了。你已经做得很好——先照顾住了自己。现在缓过来一点了吗？要是还想躲一会儿，就慢慢来，我不催你。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪波动",
+        "职场",
+        "即时安抚"
+      ],
+      "generated_date": "2026-11-22",
       "quality": "qualified",
       "qc_reasons": []
     }

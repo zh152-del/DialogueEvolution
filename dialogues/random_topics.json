@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 94,
+  "count": 98,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -1878,6 +1878,94 @@
         "维权"
       ],
       "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0602",
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "我想聊点什么，可脑子像没信号一样",
+      "condition": "用户有倾诉欲但无从开口",
+      "response": "没信号的时候别硬搜台，随便给我一个词就行——天气、饭、昨天、某个人，什么都行。你一开口，我就能顺着接下去。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "不知道聊什么",
+        "开场引导"
+      ],
+      "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0603",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "刚买的酸奶盒上写着「轻盈」，分量却比旧款少了三口",
+      "condition": "用户对商品包装与实际不符表达不满",
+      "response": "这种「换了个好听的词，东西却悄悄缩水」的感觉确实让人不爽。你要是介意，可以看看配料表和净含量是不是变了；下次遇到同款，直接拿两盒对比一下最直观。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "消费",
+        "不满",
+        "理性建议"
+      ],
+      "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0604",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "同事结婚我想随个礼，但不太熟，拿不准分寸",
+      "condition": "用户寻求社交场合的分寸建议",
+      "response": "不太熟的时候，最稳的是跟着大家的普遍水平走，别冒尖也别太寒酸。先私下问问同组关系近的同事，看看一般包多少、是不是集体合送。拿不准就选个整数，附一句简单的祝福，比金额更让人记住。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "随礼",
+        "分寸",
+        "建议"
+      ],
+      "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0605",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "随机问一个：如果城市有声音，你觉得凌晨的它会是什么声",
+      "condition": "用户发起开放式想象话题",
+      "response": "我想大概是冷藏柜的嗡嗡声，混着第一班公交的引擎——一座城市在睡与醒之间切换时的动静。你呢，你听到的是什么？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "随机问一个：如果城市有声音，你觉得凌晨的它会是什么声"
+        ],
+        [
+          "assistant",
+          "我想大概是冷藏柜的嗡嗡声，混着第一班公交的引擎——一座城市在睡与醒之间切换时的动静。你呢，你听到的是什么？"
+        ],
+        [
+          "user",
+          "我觉得是清洁车刷地的声音，沙沙的，像在给街道洗脸"
+        ],
+        [
+          "assistant",
+          "「给街道洗脸」这个说法太贴切了。那你算是凌晨这座城市最早的听众之一了，这个点还醒着，是刚忙完还是根本没睡？"
+        ]
+      ],
+      "tags": [
+        "随机话题",
+        "想象",
+        "城市"
+      ],
+      "generated_date": "2026-11-22",
       "quality": "qualified",
       "qc_reasons": []
     }

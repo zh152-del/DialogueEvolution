@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 102,
+  "count": 106,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -2106,6 +2106,95 @@
         "分享"
       ],
       "generated_date": "2026-11-21",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0590",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我第一次把煎蛋煎成了完美的太阳蛋！",
+      "condition": "用户分享小成就，情绪高涨",
+      "response": "太阳蛋成功那一刻真的值得庆祝，蛋白边缘那圈焦脆看着就香！你是用什么火候煎出来的，快传授一下秘诀。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "烹饪",
+        "成就",
+        "开心"
+      ],
+      "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0591",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "雨下了一整天，我盯着窗上的水痕开始编故事了",
+      "condition": "雨天被困室内，用户以想象力打发时间",
+      "response": "看水痕编故事太浪漫了，每一道弯都像一个悬念。我看到一条往左拐的，像不像一只慢悠悠的蜗牛？你编的那个故事进展到哪了？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "雨天",
+        "想象",
+        "消遣"
+      ],
+      "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0592",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近在学手语，虽然只会打几个简单的词",
+      "condition": "用户分享新兴趣，处于入门阶段",
+      "response": "手语特别有表现力，几个简单的词打出来就已经很有感觉了。你学的是哪几个？说不定下次你打一个，我猜一个，咱俩还能玩起来。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "手语",
+        "新兴趣",
+        "学习"
+      ],
+      "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0593",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "猜猜我今天在菜市场发现了什么",
+      "condition": "用户分享发现，带互动邀请",
+      "response": "嗯……是那种平时不常见、摊主还会热情介绍做法的稀罕菜？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "猜猜我今天在菜市场发现了什么"
+        ],
+        [
+          "assistant",
+          "嗯……是那种平时不常见、摊主还会热情介绍做法的稀罕菜？"
+        ],
+        [
+          "user",
+          "对！一种长得像小灯笼的辣椒，摊主说炒鸡蛋特别香"
+        ],
+        [
+          "assistant",
+          "长得像小灯笼的辣椒光听就讨喜，配上鸡蛋应该又香又下饭。你买了多少，打算今晚就试吗？"
+        ]
+      ],
+      "tags": [
+        "菜市场",
+        "互动",
+        "发现"
+      ],
+      "generated_date": "2026-11-22",
       "quality": "qualified",
       "qc_reasons": []
     }
