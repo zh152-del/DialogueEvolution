@@ -1,131 +1,131 @@
 {
-  "resource_version": "v0.1.14",
+  "resource_version": "v0.1.15",
   "repo": "zh152-del/DialogueEvolution",
-  "generated_date": "2026-11-22",
+  "generated_date": "2026-11-23",
   "stats": {
-    "total": 24,
-    "qualified": 24,
-    "to_review": 0,
-    "unqualified": 0
+    "total": 27,
+    "qualified": 25,
+    "to_review": 1,
+    "unqualified": 1
   },
-  "qualified_total": 604,
+  "qualified_total": 629,
   "scene_distribution": {
     "daily_conversation": 4,
     "emotional_support": 4,
     "casual_chat": 4,
     "daily_life": 4,
-    "multi_turn": 4,
-    "random_topics": 4
+    "multi_turn": 3,
+    "random_topics": 6
   },
   "samples": [
     {
-      "id": "daily_conversation-0582",
-      "category_cn": "日常问候",
-      "trigger": "早，刚才照镜子发现刘海翘了一撮",
-      "response": "哈哈，那一撮刘海今天怕是有自己的想法。出门前用手沾点水按一下就服帖啦，要不要顺手给它起个名字？"
+      "id": "daily_conversation-0606",
+      "category_cn": "日常闲聊",
+      "trigger": "钥匙插进锁孔转了半天没反应",
+      "response": "这种时候最急人，越使劲越打不开。先别拧了，把钥匙退出来看看是不是拿错了一把，或者往锁孔里吹口气、颠一颠再试；真不行就先找家人送钥匙，别在门口跟它较劲。"
     },
     {
-      "id": "daily_conversation-0585",
+      "id": "daily_conversation-0607",
       "category_cn": "日常问候",
-      "trigger": "晚上好，今天想跟你报个到",
-      "response": "收到报到～今天过得怎么样？是那种想轻轻松松聊两句的晚上，还是有事想说？"
+      "trigger": "刚把阳台的衬衫收进来，还带着太阳味",
+      "response": "晒过的衣服那股味道确实让人心情好，像是把好天气穿在身上。今天状态看起来不错嘛，打算怎么安排？"
     },
     {
-      "id": "emotional_support-0586",
+      "id": "daily_conversation-0608",
+      "category_cn": "日常闲聊",
+      "trigger": "手机充电线又被我压在枕头底下了",
+      "response": "这根线怕是跟你形影不离，睡觉都不放过。下次睡前把它顺手挂在床头，省得半夜起来满床摸。"
+    },
+    {
+      "id": "daily_conversation-0609",
+      "category_cn": "日常问候",
+      "trigger": "这个点才吃上早饭，差点饿晕",
+      "response": "饿到发晕可不行，先慢慢吃点东西垫着，别一下子吃太猛。吃完喝点温水缓一缓，今天记得把午饭也吃上。"
+    },
+    {
+      "id": "emotional_support-0610",
       "category_cn": "情绪表达",
-      "trigger": "我今天莫名其妙地想把手机关掉一整天",
-      "response": "想暂时把世界调成静音，这种冲动挺常见的，不用给自己找理由。要我说，关之前先把重要的事简单交代一句，然后就安心歇着——我这边随时能回来找你。"
+      "trigger": "别人都没察觉，只有我自己在心里翻江倒海",
+      "response": "最累的就是这种——外面风平浪静，只有你一个人心里翻腾。别人看不见，不代表你的情绪不真。想说就说给我听，不用先让它显得够格。"
     },
     {
-      "id": "emotional_support-0588",
+      "id": "emotional_support-0611",
       "category_cn": "安慰与倾听",
-      "trigger": "心里有点闷，但我现在不太想分析原因",
-      "response": "那就先不分析。有时候闷着不需要被拆开看，有个人在旁边陪着就行。我在这儿，你想说就接着说，不想说我们就安静待一会儿。"
+      "trigger": "我好像越来越不容易被逗笑了",
+      "response": "连笑都变得费劲的时候，人容易怀疑自己是不是变冷了。其实更像是最近绷得太紧，快乐被挤到了一边。要是这种感觉持续好一阵，记得找信任的人聊聊，或者让专业的人帮你看看，别一个人扛。"
     },
     {
-      "id": "casual_chat-0590",
+      "id": "emotional_support-0612",
+      "category_cn": "安慰与倾听",
+      "trigger": "我把不开心憋了一路，到家门口反而不想进门了",
+      "response": "在门口站着那一下，像是攒了一路的力气突然没地方使了。先别急着进去，站会儿也行。"
+    },
+    {
+      "id": "casual_chat-0613",
       "category_cn": "开心与分享",
-      "trigger": "我第一次把煎蛋煎成了完美的太阳蛋！",
-      "response": "太阳蛋成功那一刻真的值得庆祝，蛋白边缘那圈焦脆看着就香！你是用什么火候煎出来的，快传授一下秘诀。"
+      "trigger": "第一次把蛋糕胚烤得那么平整",
+      "response": "蛋糕胚平整那可是烘焙的一大关，说明你的温度和时间都拿捏住了！抹上奶油就是个像样的蛋糕了，什么口味？"
     },
     {
-      "id": "casual_chat-0592",
+      "id": "casual_chat-0614",
       "category_cn": "兴趣爱好",
-      "trigger": "我最近在学手语，虽然只会打几个简单的词",
-      "response": "手语特别有表现力，几个简单的词打出来就已经很有感觉了。你学的是哪几个？说不定下次你打一个，我猜一个，咱俩还能玩起来。"
+      "trigger": "我发现阳台的薄荷自己长到了花盆外头",
+      "response": "薄荷这东西生命力旺得很，给点阳光就往外窜。长到盆外头说明它住得挺舒服，你可以顺手给它分个盆，一盆变两盆。"
     },
     {
-      "id": "daily_life-0595",
-      "category_cn": "身体不舒服时的日常交流",
-      "trigger": "这两天早上起来嗓子有点干，喝点温水能缓一点",
-      "response": "早上嗓子发干挺常见的，温水能缓一缓是好事。白天记得少量多次喝水，房间太干的话可以放盆水或开加湿器。要是持续好几天不见好，或者开始疼、发热，就别硬扛，去看看医生更稳妥。"
+      "id": "casual_chat-0615",
+      "category_cn": "无聊与消遣",
+      "trigger": "无聊到开始数米饭粒有多少种形状",
+      "response": "这算是把无聊研究成学问了哈哈。数出来没——是不是还有三角形的？要不要我给你出个更费脑的，把这顿饭的时间打发掉。"
     },
     {
-      "id": "daily_life-0596",
-      "category_cn": "身体不舒服时的日常交流",
-      "trigger": "我刚才蹲着整理箱子，站起来时膝盖咔了一声",
-      "response": "蹲久了站起来膝盖响一声，不少人都会有，先别紧张。慢慢起身、别猛地用力，观察一下接下来有没有疼或肿。要是只是偶尔响、活动一下就没事，通常不用太担心；但要是伴随疼痛或卡住的感觉，就尽早去检查一下。"
+      "id": "casual_chat-0616",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近开始学织毛衣了，针脚歪歪扭扭",
+      "response": "第一件织得歪歪扭扭才正常，谁还不是从这里开始的。织完这件哪怕不合身，也是独一份的纪念，你打算织什么颜色？"
     },
     {
-      "id": "multi_turn-0598",
-      "category_cn": "突然改变话题",
-      "trigger": "先不说这个了——你有没有想过，为什么闹钟总设在最不想起床的点",
-      "response": "哈哈因为那是「必须起来」的点，当然最不想面对。说到底闹钟是跟未来的自己谈的判，结果每天早上都在违约。你一般设几个闹钟？"
-    },
-    {
-      "id": "multi_turn-0600",
-      "category_cn": "多轮连续交流",
-      "trigger": "顺着刚才那句，我又想到一个细节",
-      "response": "还在顺着那条线走啊，我听着呢。这个新细节是让事情更清楚了，还是反而更绕了？"
-    },
-    {
-      "id": "random_topics-0602",
-      "category_cn": "用户不知道聊什么",
-      "trigger": "我想聊点什么，可脑子像没信号一样",
-      "response": "没信号的时候别硬搜台，随便给我一个词就行——天气、饭、昨天、某个人，什么都行。你一开口，我就能顺着接下去。"
-    },
-    {
-      "id": "random_topics-0605",
-      "category_cn": "随机话题探索",
-      "trigger": "随机问一个：如果城市有声音，你觉得凌晨的它会是什么声",
-      "response": "我想大概是冷藏柜的嗡嗡声，混着第一班公交的引擎——一座城市在睡与醒之间切换时的动静。你呢，你听到的是什么？"
+      "id": "daily_life-0617",
+      "category_cn": "生活琐事",
+      "trigger": "倒热水的时候溅到手背，红了一小片",
+      "response": "刚烫到那一下挺疼的。赶紧用流动的凉水冲一会儿降降温，别抹酱油牙膏那些偏方；要是起泡或者越来越疼，就去找医生看看。"
     }
   ],
   "github": {
     "repo": "zh152-del/DialogueEvolution",
     "dir": "DialogueEvolution",
     "verified": true,
-    "commit": "33158965c3566bbe548bc5ce106416dd8fa90cc8",
+    "commit": "d69488f17bd67a91b67f96aa6ad7a0b82c554632",
     "files": [
       {
         "path": "dialogues/daily_conversation.json",
-        "count": 104,
-        "sha256": "6446e52a415137aaec49597a0d24e1d5b8c4f6a2de73763b8178baa5a1dc61ae"
+        "count": 108,
+        "sha256": "8c7c3000a22c8e7234167f198732cc5b530ed6baab74999ecd4438376b8a9516"
       },
       {
         "path": "dialogues/emotional_support.json",
-        "count": 95,
-        "sha256": "a898509e2ca0b2543377cb29b9787f7b95e97c682c353ccd69aac8191c183eb5"
+        "count": 99,
+        "sha256": "3fdc15a1bd4be0507a42a200ca06283d7d84d0d66edb2edc7b2e84a7703e4d54"
       },
       {
         "path": "dialogues/casual_chat.json",
-        "count": 106,
-        "sha256": "5da29398abe2084136e54d4b414fecb632ab2a2b177e4d4badd9ab22cd68e21c"
+        "count": 110,
+        "sha256": "ed207641db190b44beff7c89258f9f0e72e22ebc2adf38140e53f419679ec1fd"
       },
       {
         "path": "dialogues/daily_life.json",
-        "count": 105,
-        "sha256": "72b1fada84ed2273ed3a914ca7b369abac097a480662b85bc24a9dcc1d5c3225"
+        "count": 109,
+        "sha256": "8999b701b524182cad239f2aa50d46ecb3e92b1b0a719db94ea210010f3e2ddd"
       },
       {
         "path": "dialogues/multi_turn.json",
-        "count": 96,
-        "sha256": "f59769b1c3c6c2e90e35d9031f3fb5887464410240cfe2f3a4c1f8bce6951b20"
+        "count": 99,
+        "sha256": "e31d8de457726db8ce963208dd1efb3ecbc716702f407595e529b1100e367ecd"
       },
       {
         "path": "dialogues/random_topics.json",
-        "count": 98,
-        "sha256": "1746c7f8181f401f832f3d77608af1f47cc3c7203487b1864bc25f71e0f6a3e0"
+        "count": 104,
+        "sha256": "3e5fb80470003833cdff81ed9137c4c6101fcdbeb8af7336fe25f7c69732be30"
       }
     ]
   },
