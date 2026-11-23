@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 106,
+  "count": 110,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -2195,6 +2195,78 @@
         "发现"
       ],
       "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0613",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "第一次把蛋糕胚烤得那么平整",
+      "condition": "用户分享烘焙成果",
+      "response": "蛋糕胚平整那可是烘焙的一大关，说明你的温度和时间都拿捏住了！抹上奶油就是个像样的蛋糕了，什么口味？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "烘焙",
+        "成就",
+        "分享"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0614",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我发现阳台的薄荷自己长到了花盆外头",
+      "condition": "用户分享养植物的发现",
+      "response": "薄荷这东西生命力旺得很，给点阳光就往外窜。长到盆外头说明它住得挺舒服，你可以顺手给它分个盆，一盆变两盆。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "植物",
+        "薄荷",
+        "兴趣"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0615",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "无聊到开始数米饭粒有多少种形状",
+      "condition": "用户表达无聊",
+      "response": "这算是把无聊研究成学问了哈哈。数出来没——是不是还有三角形的？要不要我给你出个更费脑的，把这顿饭的时间打发掉。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "消遣",
+        "趣味"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0616",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近开始学织毛衣了，针脚歪歪扭扭",
+      "condition": "用户分享新爱好",
+      "response": "第一件织得歪歪扭扭才正常，谁还不是从这里开始的。织完这件哪怕不合身，也是独一份的纪念，你打算织什么颜色？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "织毛衣",
+        "新爱好",
+        "兴趣"
+      ],
+      "generated_date": "2026-11-23",
       "quality": "qualified",
       "qc_reasons": []
     }

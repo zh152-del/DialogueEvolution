@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 95,
+  "count": 99,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -2012,6 +2012,103 @@
         "即时安抚"
       ],
       "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0610",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "别人都没察觉，只有我自己在心里翻江倒海",
+      "condition": "用户表达不被理解的强烈情绪",
+      "response": "最累的就是这种——外面风平浪静，只有你一个人心里翻腾。别人看不见，不代表你的情绪不真。想说就说给我听，不用先让它显得够格。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "不被理解",
+        "倾听"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0611",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "我好像越来越不容易被逗笑了",
+      "condition": "用户表达情绪低落、兴趣减退",
+      "response": "连笑都变得费劲的时候，人容易怀疑自己是不是变冷了。其实更像是最近绷得太紧，快乐被挤到了一边。要是这种感觉持续好一阵，记得找信任的人聊聊，或者让专业的人帮你看看，别一个人扛。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪低落",
+        "关怀",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0612",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "我把不开心憋了一路，到家门口反而不想进门了",
+      "condition": "用户带着压抑情绪，需要多轮倾听",
+      "response": "在门口站着那一下，像是攒了一路的力气突然没地方使了。先别急着进去，站会儿也行。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我把不开心憋了一路，到家门口反而不想进门了"
+        ],
+        [
+          "assistant",
+          "在门口站着那一下，像是攒了一路的力气突然没地方使了。先别急着进去，站会儿也行。"
+        ],
+        [
+          "user",
+          "说不上具体是什么，就是觉得特别累"
+        ],
+        [
+          "assistant",
+          "有时候累不需要理由。你愿意说就说，不想说我就陪你在这站一会儿。"
+        ],
+        [
+          "user",
+          "谢谢你，我缓过来了，进去吧"
+        ],
+        [
+          "assistant",
+          "能缓过来就好。进去先喝口水，今天已经够辛苦了。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "情绪",
+        "倾听"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0630",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我总担心自己高兴得太早",
+      "condition": "用户表达对快乐的不安",
+      "response": "高兴的时候还留着一分小心，像是怕被谁收回去。可此刻的高兴是真的，先允许自己踏踏实实乐一下吧，没必要提前替未来扣分。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "焦虑",
+        "自我接纳"
+      ],
+      "generated_date": "2026-11-23",
       "quality": "qualified",
       "qc_reasons": []
     }

@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 98,
+  "count": 104,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -1966,6 +1966,139 @@
         "城市"
       ],
       "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0624",
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "陪我玩个猜谜吧，最好把我难住那种",
+      "condition": "用户想玩互动游戏",
+      "response": "好啊，来个有点绕的：什么东西越洗越脏？先别急着说水——再想想。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "猜谜",
+        "互动",
+        "消遣"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0625",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "你说人为什么要纠结先有鸡还是先有蛋",
+      "condition": "用户抛出经典思辨问题",
+      "response": "这题难就难在它把起点藏起来了。从演化角度看，是先有产下鸡蛋的那只近似鸡，再慢慢有了鸡；不过要是较真定义蛋，答案又反过来。你更站哪边？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "思辨",
+        "冷知识",
+        "话题"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0626",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "我有个一直不好意思问的问题",
+      "condition": "用户想探询但有所顾虑",
+      "response": "这儿没有不好意思的问题，问出来又不花钱。你说，我听着。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "提问",
+        "探索",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0627",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "帮我想想怎么跟房东提修缮的事",
+      "condition": "用户寻求沟通建议，需要多轮梳理",
+      "response": "先说说要修的是什么，是漏水还是家电坏了？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "帮我想想怎么跟房东提修缮的事"
+        ],
+        [
+          "assistant",
+          "先说说要修的是什么，是漏水还是家电坏了？"
+        ],
+        [
+          "user",
+          "卫生间水管渗水，墙角都潮了"
+        ],
+        [
+          "assistant",
+          "那得尽早说，拖久了损坏更大。你可以先拍几张照片发过去，写清楚什么时候发现的、是否已经影响到使用，语气平常地把事情讲明就行。"
+        ],
+        [
+          "user",
+          "我怕他觉得我事多"
+        ],
+        [
+          "assistant",
+          "如实反映房屋问题不是事多，是正当需求。你越早清楚地说，越省得后面扯皮。他要是拖着不处理，再考虑找物业或社区帮忙协调。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "建议",
+        "房东"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0628",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "物业又在群里发了一堆接龙",
+      "condition": "用户表达对群消息的不满",
+      "response": "群接龙一刷屏，真正重要的消息反倒被淹了。嫌吵就把群设成免打扰，需要时再翻；真影响到生活，就私下跟物业说一声别刷太频繁。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "吐槽",
+        "物业",
+        "群消息"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0629",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "突然好奇，古人冬天靠什么取暖过冬",
+      "condition": "用户提出知识探索类问题",
+      "response": "古人过冬法子挺多：烧炭的火盆、熏笼，还有靠厚墙和火炕；手冷就捧个手炉，脚冷用汤婆子。没有暖气，主要靠添衣、生火和抱团。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "冷知识",
+        "历史",
+        "话题"
+      ],
+      "generated_date": "2026-11-23",
       "quality": "qualified",
       "qc_reasons": []
     }

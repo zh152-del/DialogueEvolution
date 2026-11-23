@@ -1,6 +1,6 @@
 {
   "category": "multi_turn",
-  "count": 96,
+  "count": 99,
   "entries": [
     {
       "id": "multi_turn-0177",
@@ -3961,6 +3961,135 @@
         "好奇"
       ],
       "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0621",
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "我刚做了个决定，想听听你会怎么想",
+      "condition": "用户想主动展开一段多轮讨论",
+      "response": "我听着呢，你说。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我刚做了个决定，想听听你会怎么想"
+        ],
+        [
+          "assistant",
+          "我听着呢，你说。"
+        ],
+        [
+          "user",
+          "我打算把周末那趟出行推掉，在家歇着"
+        ],
+        [
+          "assistant",
+          "能做个不去的决定也不容易。是最近太累了，还是心里其实没那么想去？"
+        ],
+        [
+          "user",
+          "有点累，而且我怕去了也提不起劲"
+        ],
+        [
+          "assistant",
+          "那就更该歇着。与其硬着头皮去、回来更累，不如痛痛快快在家恢复。想聊天的时候我随时在。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "决定",
+        "倾听"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0622",
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "不说这个了——我刚闻到一股烤红薯的香味",
+      "condition": "用户在对话中突然转移话题",
+      "response": "哈哈这话题拐得挺香。是楼下有人推车在卖吗？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "不说这个了——我刚闻到一股烤红薯的香味"
+        ],
+        [
+          "assistant",
+          "哈哈这话题拐得挺香。是楼下有人推车在卖吗？"
+        ],
+        [
+          "user",
+          "对，就拐角那家，冬天一到就出摊"
+        ],
+        [
+          "assistant",
+          "那种炭火烤出来的红薯，甜里带点焦香，闻着就暖。这天气来一个正合适。"
+        ],
+        [
+          "user",
+          "你这么一说我更馋了，下楼买一个"
+        ],
+        [
+          "assistant",
+          "去吧，趁热吃最香。回来记得告诉我好不好吃。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "转移话题",
+        "烤红薯"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0623",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "我刚翻到一张老照片，忽然想说说那个人",
+      "condition": "用户借照片展开回忆，需要多轮",
+      "response": "一张老照片能把人一下拽回那阵子。他是谁？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我刚翻到一张老照片，忽然想说说那个人"
+        ],
+        [
+          "assistant",
+          "一张老照片能把人一下拽回那阵子。他是谁？"
+        ],
+        [
+          "user",
+          "以前的一个老同学，后来断了联系"
+        ],
+        [
+          "assistant",
+          "断了联系的人，反而常常留着最清楚的某个瞬间。照片里你们在干嘛？"
+        ],
+        [
+          "user",
+          "在学校的操场上，笑得特别傻"
+        ],
+        [
+          "assistant",
+          "笑得傻的那张往往最真。想联系就联系一下，哪怕只是问声好；不想也没关系，能记着就已经很好了。"
+        ]
+      ],
+      "tags": [
+        "多轮",
+        "回忆",
+        "老照片"
+      ],
+      "generated_date": "2026-11-23",
       "quality": "qualified",
       "qc_reasons": []
     }

@@ -1,6 +1,6 @@
 {
   "category": "daily_life",
-  "count": 105,
+  "count": 109,
   "entries": [
     {
       "id": "daily_life-0132",
@@ -2176,6 +2176,78 @@
         "小混乱"
       ],
       "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0617",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "倒热水的时候溅到手背，红了一小片",
+      "condition": "用户轻微烫伤，需关怀提醒",
+      "response": "刚烫到那一下挺疼的。赶紧用流动的凉水冲一会儿降降温，别抹酱油牙膏那些偏方；要是起泡或者越来越疼，就去找医生看看。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "烫伤",
+        "生活",
+        "健康提醒"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0618",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "这两天后颈发紧，低头看手机太久了",
+      "condition": "用户颈肩不适",
+      "response": "一直低着头，脖子等于扛着个脑袋加班，发紧很正常。每隔一会儿抬头活动活动，把屏幕抬高到平视的位置；要是连着好几天都这样或者带动头晕手麻，就去查一下更放心。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "颈肩",
+        "手机",
+        "健康提醒"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0619",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "嘴里起了个溃疡，吃饭都躲着那侧",
+      "condition": "用户口腔不适",
+      "response": "溃疡虽然小，吃饭说话都受影响。这段时间吃软一点、别太烫太辣的，注意休息；如果一两周还没好或者反复发作，让医生看一下比较稳妥。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "口腔溃疡",
+        "饮食",
+        "健康提醒"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0620",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "洗完的杯子总有股洗洁精味，冲了好几遍",
+      "condition": "用户生活小困扰",
+      "response": "洗洁精放多了确实容易残留在杯壁上。试试少挤一点、用温水多冲几遍，或者最后用凉水过一遍；实在不放心就换个小苏打泡一泡再冲净。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "清洗",
+        "杯子",
+        "生活"
+      ],
+      "generated_date": "2026-11-23",
       "quality": "qualified",
       "qc_reasons": []
     }

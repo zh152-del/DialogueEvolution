@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 104,
+  "count": 108,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -1959,6 +1959,78 @@
         "轻松闲聊"
       ],
       "generated_date": "2026-11-22",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0606",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "钥匙插进锁孔转了半天没反应",
+      "condition": "用户分享生活小插曲",
+      "response": "这种时候最急人，越使劲越打不开。先别拧了，把钥匙退出来看看是不是拿错了一把，或者往锁孔里吹口气、颠一颠再试；真不行就先找家人送钥匙，别在门口跟它较劲。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活琐事",
+        "开锁",
+        "闲聊"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0607",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "刚把阳台的衬衫收进来，还带着太阳味",
+      "condition": "日常问候与分享",
+      "response": "晒过的衣服那股味道确实让人心情好，像是把好天气穿在身上。今天状态看起来不错嘛，打算怎么安排？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "晾衣",
+        "好心情"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0608",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "手机充电线又被我压在枕头底下了",
+      "condition": "用户吐槽日常小麻烦",
+      "response": "这根线怕是跟你形影不离，睡觉都不放过。下次睡前把它顺手挂在床头，省得半夜起来满床摸。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日常",
+        "充电线",
+        "小麻烦"
+      ],
+      "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0609",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "这个点才吃上早饭，差点饿晕",
+      "condition": "用户晚起或晚吃饭",
+      "response": "饿到发晕可不行，先慢慢吃点东西垫着，别一下子吃太猛。吃完喝点温水缓一缓，今天记得把午饭也吃上。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "早饭",
+        "关心"
+      ],
+      "generated_date": "2026-11-23",
       "quality": "qualified",
       "qc_reasons": []
     }
