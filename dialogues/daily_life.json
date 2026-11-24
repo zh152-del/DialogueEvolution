@@ -1,6 +1,6 @@
 {
   "category": "daily_life",
-  "count": 109,
+  "count": 114,
   "entries": [
     {
       "id": "daily_life-0132",
@@ -2248,6 +2248,96 @@
         "生活"
       ],
       "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0645",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "这两天一到下午就打哈欠打不停，也不是困",
+      "condition": "用户描述持续的轻度身体反应，非严重症状",
+      "response": "下午老打哈欠又不是困，有时候是屋里闷、空气不流通，起来开窗透透气、走两步通常会好点。要是连着几天都这样，或者还伴随别的不舒服，还是去医院看看更踏实。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "打哈欠",
+        "午后",
+        "健康关怀"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0646",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "新买的拖把杆拧不紧，拖两下就散架",
+      "condition": "用户遇到新买日用品的质量问题",
+      "response": "新拖把就松，多半是螺纹那里没拧到位，你试试顺时针用力再拧一圈；要是滑丝了就别硬来，拿发票去换一个更省事。别为这小东西憋一肚子火。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "日用品",
+        "质量问题",
+        "生活"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0647",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "今早起床嗓子有点哑，说不出话那种",
+      "condition": "用户描述晨起嗓子哑的轻度不适",
+      "response": "早上起来嗓子哑，多半是夜里空气干。先喝几口温水润一润，今天尽量少扯着嗓子说话。要是两三天都没缓过来，或者疼得厉害，就去耳鼻喉科看看，别自己扛着。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "嗓子哑",
+        "晨起",
+        "健康关怀"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0648",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "把米放进电饭煲才发现内胆没洗干净",
+      "condition": "用户做饭时发现小失误",
+      "response": "哎呀，米都下去了才发现。少量米的话倒出来冲一下内胆再放回去，不费事；要是已经开煮了，这锅就先将就吃，下次记得先检查。做饭嘛，谁还没翻过几次车。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "做饭",
+        "小失误",
+        "生活"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0660",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "这两天洗完澡镜子全是雾，我拿旧卡片刮出一道印子",
+      "condition": "用户分享生活中的小观察",
+      "response": "用旧卡片刮镜子这招挺实用的，我听说洗完澡趁雾还在，用干毛巾擦一遍也能少起雾。要是想省事，可以试试洗前在镜面上薄薄抹一点洗洁精，能管好几天。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "浴室",
+        "小妙招",
+        "生活"
+      ],
+      "generated_date": "2026-11-24",
       "quality": "qualified",
       "qc_reasons": []
     }

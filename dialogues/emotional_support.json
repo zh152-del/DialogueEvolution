@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 99,
+  "count": 103,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -2109,6 +2109,78 @@
         "自我接纳"
       ],
       "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0636",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "方案推翻了三次，现在对着空白文档有点想哭",
+      "condition": "用户因反复返工感到挫败想落泪",
+      "response": "改到第三版还得从头来，这种崩溃我懂。先别盯着空白文档了，离开座位喝口水、走两步。你已经改过三版，说明一直在认真推，不是没成果，歇一下我们再一起捋下一版。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "挫败",
+        "工作压力",
+        "想哭"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0637",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "今天翻旧书桌，翻出一张同学写的留言，看着看着眼睛就热了",
+      "condition": "用户因旧物触景生情",
+      "response": "有些字隔了那么久再看，还是会一下子把人拉回当时。眼睛热就让它热一会儿，不用忍着。那句话写的什么，愿意的话我也想听听。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "怀旧",
+        "感动",
+        "旧物"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0638",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "我明明都做完了，却总担心哪里没做好，停下来就心慌",
+      "condition": "用户完成任务后仍持续焦虑",
+      "response": "事情做完了脑子还不肯下班，这种感觉挺累人的。慌的时候先深呼吸几下，把注意力放回手边能看见的东西。要不要跟我说说具体担心哪块？说出来，往往就没在心里转得那么大了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "焦虑",
+        "完美主义",
+        "心慌"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0639",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "大家都为升职高兴，我却高兴不起来，怀疑自己是不是太冷血",
+      "condition": "用户在群体喜悦中感到疏离和自我怀疑",
+      "response": "别人高兴你却没感觉，不等于你冷血，可能只是这件事没戳中你真正在意的点。不用急着给自己扣帽子。你更想要的是什么，可以慢慢想。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "自我怀疑",
+        "疏离",
+        "情绪"
+      ],
+      "generated_date": "2026-11-24",
       "quality": "qualified",
       "qc_reasons": []
     }

@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 110,
+  "count": 116,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -2267,6 +2267,139 @@
         "兴趣"
       ],
       "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0640",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我终于把那台旧收音机的电池仓擦干净，居然又能收台了",
+      "condition": "用户分享修好旧物的成就感",
+      "response": "哇，擦干净就能收台，这也太有成就感了！是那种老式旋钮调频的吗？调到第一个台的时候是不是特别有仪式感。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "旧物修复",
+        "兴趣",
+        "成就"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0641",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "第一次给盆栽换盆，根须比我想的多好多",
+      "condition": "用户分享园艺新手体验",
+      "response": "根系比想象中发达，说明它在原来的小盆里憋了挺久，换大盆是对的。小心别弄断太多根，栽好后先放阴凉处缓两天再晒。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "园艺",
+        "换盆",
+        "新手"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0642",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "无聊到把购物车的商品按价格从低到高排了一遍",
+      "condition": "用户极度无聊时的消遣行为",
+      "response": "哈哈哈这排序法我第一次听说。排完有没有发现哪个其实根本不需要？无聊到这份上，不如我们玩个游戏，我出个谜你猜。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "消遣",
+        "幽默"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0643",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近开始学认星座，昨晚第一次靠自己找到了北斗",
+      "condition": "用户分享观星的新进展",
+      "response": "找到北斗那一下肯定特别有满足感！它是找方向的利器，顺着斗口两颗星的延长线就能找到北极星。你是在城市里还是郊外看的？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "观星",
+        "星座",
+        "兴趣"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0644",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "我们来玩个接龙，我说一个词你接最后一个字",
+      "condition": "用户提议玩文字游戏，展开多轮互动",
+      "response": "好啊，你起头，我接着你的最后一个字。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我们来玩个接龙，我说一个词你接最后一个字"
+        ],
+        [
+          "assistant",
+          "好啊，你起头，我接着你的最后一个字。"
+        ],
+        [
+          "user",
+          "晴天"
+        ],
+        [
+          "assistant",
+          "天空——我接天字。到你，接空。"
+        ],
+        [
+          "user",
+          "空气"
+        ],
+        [
+          "assistant",
+          "气球！到你，接气。"
+        ]
+      ],
+      "tags": [
+        "文字游戏",
+        "接龙",
+        "互动"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0659",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "我把攒的旧杂志按月份排好了，突然觉得这事儿还挺治愈",
+      "condition": "用户分享整理带来的治愈感",
+      "response": "按月份排旧杂志，听着就很有秩序感。这种把乱的东西理顺的过程，确实特别解压。排完是不是有点舍不得扔了？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "整理",
+        "治愈",
+        "旧杂志"
+      ],
+      "generated_date": "2026-11-24",
       "quality": "qualified",
       "qc_reasons": []
     }

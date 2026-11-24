@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 108,
+  "count": 114,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -2031,6 +2031,114 @@
         "关心"
       ],
       "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0631",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早，今天楼下早餐车换成了推着走的，我追了两步才买到",
+      "condition": "清晨用户分享出门遇到的小插曲",
+      "response": "一大早就追着早餐车跑，这画面还挺有活力的。买到了就好，今天开的这一场算是赢了。早啊，去上班还是休息？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "早安",
+        "生活插曲",
+        "轻松"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0632",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚把冬天的被子收进真空袋，压到一半它自己弹回来了",
+      "condition": "用户分享换季收纳时的小麻烦",
+      "response": "哈，被子也会反抗的。压缩袋要边压边把空气往外赶，压到一半松手它当然弹回来。慢慢来，今晚就能收好。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "换季收纳",
+        "小麻烦",
+        "日常"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0633",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "晚上好，今天单位楼下那棵银杏落了一地叶，踩上去沙沙的",
+      "condition": "傍晚用户带着一点诗意分享所见",
+      "response": "晚上好呀，踩着落叶走一段，确实是很秋天的事。今天过得怎么样，是慢慢走回家的吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "傍晚",
+        "秋天",
+        "问候"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0634",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "早安，今天是被楼下装修的电钻叫醒的",
+      "condition": "清晨用户抱怨被噪音叫醒",
+      "response": "这也太早起叫服务了，被电钻叫醒确实烦躁。要是还没正式开工，记得补个回笼觉，别硬撑着。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "早安",
+        "噪音",
+        "抱怨"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0635",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "中午吃了个超辣的麻辣烫，现在还在打嗝",
+      "condition": "用户饭后分享身体小反应，非严重不适",
+      "response": "这辣劲儿后劲真大。打嗝的话小口喝点温水，缓缓就行。下次点单提前说少辣，既过瘾又不遭罪。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "午饭",
+        "辣",
+        "饭后"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0658",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "早，今天出门发现鞋带断了一根，系了个凑合的结",
+      "condition": "清晨用户分享出门时的小状况",
+      "response": "早啊，鞋带断了还凑合系上出门，也是够随性的。包里备根备用鞋带吧，下次断了大不了换上。今天这一天，算是被鞋带开了个玩笑。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "早安",
+        "小状况",
+        "鞋带"
+      ],
+      "generated_date": "2026-11-24",
       "quality": "qualified",
       "qc_reasons": []
     }

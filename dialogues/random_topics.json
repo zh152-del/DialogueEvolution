@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 104,
+  "count": 109,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -2099,6 +2099,122 @@
         "话题"
       ],
       "generated_date": "2026-11-23",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0653",
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "脑子空空的，你随便抛个能聊十分钟的话题",
+      "condition": "用户想聊天但没有头绪",
+      "response": "那来个能聊一阵的：如果明天突然多出一整天空闲，什么都不用干，你第一件想做的事是什么？不用有意义，随便说。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "脑子空空的，你随便抛个能聊十分钟的话题"
+        ],
+        [
+          "assistant",
+          "那来个能聊一阵的：如果明天突然多出一整天空闲，你第一件想做的事是什么？"
+        ],
+        [
+          "user",
+          "嗯，大概会睡到自然醒，然后慢慢做顿早饭"
+        ],
+        [
+          "assistant",
+          "光是想想就很舒服。你平时做早饭爱做什么？"
+        ],
+        [
+          "user",
+          "我可能会摊个鸡蛋饼，因为不用揉面"
+        ],
+        [
+          "assistant",
+          "聪明，省事又好吃。那你这顿理想早饭配什么喝的？"
+        ]
+      ],
+      "tags": [
+        "话题干",
+        "空闲",
+        "想象",
+        "多轮"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0654",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "排队时前面的人一直在打电话外放，我该怎么提醒才不尴尬",
+      "condition": "用户寻求社交场合的沟通建议",
+      "response": "这种确实不好开口。可以找个自然的由头，比如小声问一句不好意思请问这是几号窗口，借搭话让他意识到自己在公放；或者干脆戴个耳机表示自己在听东西。真要提醒，语气轻松点、带笑，一般不会闹得不愉快。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "沟通",
+        "公共场合",
+        "建议"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0655",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "突然好奇：为什么很多人拍照时都要比剪刀手",
+      "condition": "用户提出轻松的好奇问题",
+      "response": "这更多是个习惯传承吧，早年间拍照比V手势显脸小、好记，大家照着学就传开了。现在不少人比剪刀手其实是不知道手往哪放的默认选项。你拍照一般怎么摆手？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "冷知识",
+        "拍照",
+        "好奇"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0656",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "外卖把汤洒了，客服只肯赔两块钱，我该怎么办",
+      "condition": "用户表达消费不满并寻求处理建议",
+      "response": "汤洒了确实影响吃饭心情，两块钱打发有点敷衍。你可以先拍张照片留证据，再在平台里申请餐品洒漏的售后，通常比客服私下赔的更有准；要是平台也拖，就申请平台介入。别为这点钱生太久气，能补回来就行。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "消费维权",
+        "不满",
+        "建议"
+      ],
+      "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0657",
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "给我出个二选一：今晚是把家里那堆纸箱整理掉，还是就这么瘫着",
+      "condition": "用户在两件事间犹豫，想要轻松的选择",
+      "response": "那我选先瘫二十分钟，再起来把纸箱压平。理由很简单：瘫着是充电，纸箱是放电，光放电会累，光充电会心虚，各来一点最舒服。你要先从哪头开始？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "二选一",
+        "选择",
+        "拖延"
+      ],
+      "generated_date": "2026-11-24",
       "quality": "qualified",
       "qc_reasons": []
     }
