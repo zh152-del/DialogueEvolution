@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 116,
+  "count": 120,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -2400,6 +2400,103 @@
         "旧杂志"
       ],
       "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0670",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我第一次把旧毛衣拆了重织，拆到一半线团缠成了死结，进度为零",
+      "condition": "用户分享新尝试中的小挫折",
+      "response": "拆毛衣这活儿急不得，线一缠就让人想放弃。下次拆的时候边拆边绕成球，能省不少事。你打算织成什么？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣爱好",
+        "手工",
+        "尝试"
+      ],
+      "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0671",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我第一次自己发面做馒头，蒸出来虽然塌了但特别香",
+      "condition": "用户分享做饭成果",
+      "response": "塌了也香，这说明面发得不错！下次蒸之前醒久一点、别急着开锅盖，能更蓬松。第一次能做到这样已经很棒了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "开心分享",
+        "做饭",
+        "成就"
+      ],
+      "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0672",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "陪我玩个游戏吧，我说一个词，你说出三种用它做的菜",
+      "condition": "用户想玩互动小游戏，多轮",
+      "response": "好呀，规矩我懂：你给词，我说三道菜。你先来，说个词吧。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "陪我玩个游戏吧，我说一个词，你说出三种用它做的菜"
+        ],
+        [
+          "assistant",
+          "好呀，规矩我懂：你给词，我说三道菜。你先来，说个词吧。"
+        ],
+        [
+          "user",
+          "土豆"
+        ],
+        [
+          "assistant",
+          "土豆丝、土豆炖牛肉、还有烤土豆。到你了，换你一个词。"
+        ],
+        [
+          "user",
+          "鸡蛋"
+        ],
+        [
+          "assistant",
+          "番茄炒蛋、鸡蛋羹、茶叶蛋。这游戏越玩越饿，要不咱们改玩点别的？"
+        ]
+      ],
+      "tags": [
+        "游戏",
+        "多轮",
+        "消遣"
+      ],
+      "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0673",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我把家里那台旧缝纫机擦干净了，踩了两下还能转，就是线有点跳",
+      "condition": "用户分享翻出的老物件",
+      "response": "老物件还能转就挺不容易的。跳线多半是针或线没装对，回头看看梭芯有没有卡住。你打算做什么，改裤子还是做个布袋？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣爱好",
+        "旧物",
+        "手工"
+      ],
+      "generated_date": "2026-11-25",
       "quality": "qualified",
       "qc_reasons": []
     }

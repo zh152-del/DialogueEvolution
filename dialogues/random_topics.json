@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 109,
+  "count": 113,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -2215,6 +2215,103 @@
         "拖延"
       ],
       "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0682",
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "今天一整天没跟人说过话，突然不知道该怎么开口聊天了",
+      "condition": "用户不知道聊什么，寻求话题",
+      "response": "那就别给自己压力，从最简单的一句开始就行。比如今天你吃到什么、看到什么，哪怕只有一句，我都能接下去。要不我先问你：今天有哪一小会儿觉得还不错？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "不知道聊什么",
+        "开启话题",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0683",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "突然想问个没用的：为什么超市的收银台队伍，我排的那条永远最慢",
+      "condition": "用户提出随机好奇问题",
+      "response": "这大概是排队界最著名的「墨菲定律」了。其实不是你运气差，是人对自己排的那条队最敏感，别的队动一动你都觉得快。下次可以挑转弯少、前面购物车空的那条，心理上会稳一点。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "随机话题",
+        "好奇",
+        "生活观察"
+      ],
+      "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0684",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "共享单车扫开三辆，两辆都是坏的，我差点迟到",
+      "condition": "用户表达对小麻烦的不满",
+      "response": "连着踩雷确实让人火大，尤其是赶时间的时候。下次扫车前可以先看一眼车座和轮胎，能避开不少坏车。要是常在同一处遇到，也可以在本上反馈给平台。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "表达不满",
+        "出行",
+        "建议"
+      ],
+      "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0685",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "我想跟你商量个事：我妈想让我周末去相亲，我其实不太想去",
+      "condition": "用户寻求建议，多轮",
+      "response": "听出来了，你有点抗拒。是不喜欢相亲这种方式，还是觉得现在不想考虑这事？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我想跟你商量个事：我妈想让我周末去相亲，我其实不太想去"
+        ],
+        [
+          "assistant",
+          "听出来了，你有点抗拒。是不喜欢相亲这种方式，还是觉得现在不想考虑这事？"
+        ],
+        [
+          "user",
+          "主要是觉得麻烦，见了也不一定合适"
+        ],
+        [
+          "assistant",
+          "那确实没必要硬去。你可以先跟妈妈说清楚：不是抵触，只是现在想先把自己状态调整好。态度温和点，她多半能接受。"
+        ],
+        [
+          "user",
+          "嗯，我怕她不高兴"
+        ],
+        [
+          "assistant",
+          "妈不高兴可能是一时，但你的感受也得顾。换成「我这阵子先忙自己的，过段再说」，给个缓冲，比直接拒绝好开口多了。"
+        ]
+      ],
+      "tags": [
+        "寻求建议",
+        "多轮",
+        "家庭"
+      ],
+      "generated_date": "2026-11-25",
       "quality": "qualified",
       "qc_reasons": []
     }

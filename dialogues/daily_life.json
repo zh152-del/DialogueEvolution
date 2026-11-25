@@ -1,6 +1,6 @@
 {
   "category": "daily_life",
-  "count": 114,
+  "count": 118,
   "entries": [
     {
       "id": "daily_life-0132",
@@ -2338,6 +2338,103 @@
         "生活"
       ],
       "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0674",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "我今早出门才发现，伞是昨天那把坏了的，伞骨歪了一根",
+      "condition": "用户遇到日常物品故障",
+      "response": "歪了伞骨的伞撑开确实费劲，先用胶带临时固定一下，别硬撑免得彻底折了。包里常备一把折叠伞会省事不少。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活琐事",
+        "出行",
+        "物品"
+      ],
+      "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0675",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "我把家里所有抽屉都拉开找一枚纽扣，找了半小时，最后在衣领上找到了",
+      "condition": "用户分享找东西的哭笑不得经历",
+      "response": "找了半天结果就在眼前，这种事最让人哭笑不得。下次要钉扣子前可以先翻翻针线盒，说不定早备着一颗。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活琐事",
+        "找东西",
+        "幽默"
+      ],
+      "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0676",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我这两天弯腰系鞋带时，腰那里会扯着疼一下，直起来就好了",
+      "condition": "用户描述腰部不适，寻求日常建议（不给诊断）",
+      "response": "弯腰一扯就疼，先别硬撑着做扭腰的动作，这几天少搬重东西、注意保暖。要是反复出现或者疼得越来越厉害，建议去骨科让医生当面看看，别自己贴膏药硬扛。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "健康",
+        "腰部不适",
+        "就医提醒"
+      ],
+      "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0677",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我这两天晚上睡觉总被憋醒，坐起来才顺过气",
+      "condition": "用户描述夜间呼吸不适，多轮关怀与就医提醒",
+      "response": "听起来挺折腾人的。这种情况我不敢随便下判断，你最近是不是鼻塞或者枕头太低了？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我这两天晚上睡觉总被憋醒，坐起来才顺过气"
+        ],
+        [
+          "assistant",
+          "听起来挺折腾人的。这种情况我不敢随便下判断，你最近是不是鼻塞或者枕头太低了？"
+        ],
+        [
+          "user",
+          "有点鼻塞，枕头倒是不矮"
+        ],
+        [
+          "assistant",
+          "鼻塞确实会让夜里呼吸不顺。睡前可以试试用温热毛巾敷敷鼻子、把上半身稍微垫高一点。要是连着几天都憋醒，建议尽早去医院看看，让医生判断更稳妥。"
+        ],
+        [
+          "user",
+          "好，我明天挂个号看看"
+        ],
+        [
+          "assistant",
+          "去看看吧，早点弄清楚原因也安心。今晚先好好休息，有什么想聊的随时找我。"
+        ]
+      ],
+      "tags": [
+        "健康",
+        "多轮",
+        "就医提醒"
+      ],
+      "generated_date": "2026-11-25",
       "quality": "qualified",
       "qc_reasons": []
     }

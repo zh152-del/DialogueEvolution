@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 103,
+  "count": 107,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -2181,6 +2181,103 @@
         "情绪"
       ],
       "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0666",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我把想跟他说的话在心里排练了一路，真见了面却一个字都没提",
+      "condition": "用户表达错过表达时机的懊恼",
+      "response": "排练了一路，见面却卡住，这种感觉我懂，越在意越容易张不开口。话没说出口不代表没意义，下次还有机会。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "表达",
+        "遗憾"
+      ],
+      "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0667",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "今天同事都走光了，我还坐在工位上，其实也没什么事，就是不太想回那个空屋子",
+      "condition": "用户不愿回家、情绪低落",
+      "response": "不想回去就先坐一会儿，不用急着走。空屋子确实会让人心里发虚。要不要先给谁打个电话，或者我陪你聊会儿再走？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "倾听",
+        "低落",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0668",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我把手机里一张存了好几年的合照删了，删完又后悔，蹲在地上愣了好久",
+      "condition": "用户表达删除回忆后的懊悔",
+      "response": "删掉那一刻像是跟什么告别，后悔也正常。照片没了，那些日子还在你记忆里。要是想留个念想，下次可以先备份再决定。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪",
+        "回忆",
+        "后悔"
+      ],
+      "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0669",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "我今天心情有点乱，想跟你说说话",
+      "condition": "用户主动寻求倾听，多轮陪伴",
+      "response": "我在呢，你慢慢说，不用急着理清楚。是想讲件事，还是就想有人陪着待一会儿？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我今天心情有点乱，想跟你说说话"
+        ],
+        [
+          "assistant",
+          "我在呢，你慢慢说，不用急着理清楚。是想讲件事，还是就想有人陪着待一会儿？"
+        ],
+        [
+          "user",
+          "也想不出具体什么事，就是心里堵堵的"
+        ],
+        [
+          "assistant",
+          "有时候堵着就是说不清缘由的。没关系，你想到哪句说哪句，我就在这儿听着，不用组织语言。"
+        ],
+        [
+          "user",
+          "嗯，那我先歇会儿，等下再说"
+        ],
+        [
+          "assistant",
+          "好，不急。你歇着，什么时候想开口了，我都在。"
+        ]
+      ],
+      "tags": [
+        "倾听",
+        "多轮",
+        "情绪"
+      ],
+      "generated_date": "2026-11-25",
       "quality": "qualified",
       "qc_reasons": []
     }

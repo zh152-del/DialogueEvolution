@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 114,
+  "count": 118,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -2139,6 +2139,78 @@
         "鞋带"
       ],
       "generated_date": "2026-11-24",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0662",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早，我今早是被楼下早餐摊的油锅味勾醒的，一睁眼就觉得饿了",
+      "condition": "早晨问候，带生活化细节",
+      "response": "早上好呀，被香味叫醒也算一种幸福。那你赶紧去吃点热乎的，别空着肚子开始一天。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "早晨",
+        "生活"
+      ],
+      "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0663",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "晚上好，我刚把今天收发的所有快递盒拆平，摞了一摞准备明天送回收点",
+      "condition": "晚间日常分享",
+      "response": "晚上好！拆快递盒这事儿还挺解压的，摞整齐了看着就舒服，明天顺手就能带下去。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "夜晚",
+        "收纳"
+      ],
+      "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0664",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "我今晚把煮饭的锅底那层焦巴用热水泡上了，明天再刷",
+      "condition": "日常家务小片段",
+      "response": "泡一晚确实好刷多了。下次煮饭前多放点水、收尾时转小火，能少结点焦巴。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "家务",
+        "做饭",
+        "生活"
+      ],
+      "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0665",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "中午好呀，我刚在工位上眯了十几分钟，醒来脖子有点歪",
+      "condition": "午间问候，带小细节",
+      "response": "中午好，眯一会儿挺解乏的。脖子歪了就慢慢转两圈，别猛地扭，起来走两步活动一下。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "午间",
+        "工作"
+      ],
+      "generated_date": "2026-11-25",
       "quality": "qualified",
       "qc_reasons": []
     }
