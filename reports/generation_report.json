@@ -94,8 +94,8 @@
   "github": {
     "repo": "zh152-del/DialogueEvolution",
     "dir": "DialogueEvolution",
-    "verified": false,
-    "commit": null,
+    "verified": true,
+    "commit": "d9b337790608526d38eb8001f0f75a0532c479c9",
     "files": [
       {
         "path": "dialogues/daily_conversation.json",
