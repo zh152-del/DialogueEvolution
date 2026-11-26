@@ -1,6 +1,6 @@
 {
   "category": "daily_life",
-  "count": 118,
+  "count": 125,
   "entries": [
     {
       "id": "daily_life-0132",
@@ -2435,6 +2435,165 @@
         "就医提醒"
       ],
       "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0707",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "冰箱里只剩鸡蛋和西红柿了，晚饭该怎么凑合一顿",
+      "condition": "用户食材有限时寻求做饭思路",
+      "response": "鸡蛋西红柿可是经典组合，随便一搭就是好菜。做个西红柿炒蛋配米饭，或者下碗番茄鸡蛋面，都是十几分钟能搞定的暖心饭。想吃点热乎的，下碗面最省事。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活琐事",
+        "做饭",
+        "食材",
+        "晚饭"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0708",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "我的耳机线缠成一团了，怎么解都解不开，快崩溃了",
+      "condition": "用户被耳机线打结困扰",
+      "response": "耳机线打结真的让人抓狂。别硬拽，越扯越紧。找个牙签或者别针，顺着线头一点点挑开结口，耐心点一般都能解开。解完之后卷一圈收纳起来，下次就不会再缠了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活琐事",
+        "耳机线",
+        "打结",
+        "小技巧"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0709",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "今天一整天头都昏昏沉沉的，估计是昨晚没睡好",
+      "condition": "用户描述头部昏沉、自述睡眠不足",
+      "response": "没睡好确实会让人一整天都昏昏的。今天先多喝点温水，能小憩就眯一会儿，别硬撑。要是这种昏沉持续好几天不见好，或者越来越严重，还是尽早去医院看看比较安心。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体不舒服",
+        "头昏",
+        "关怀",
+        "就医提醒"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0710",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "嗓子疼了一整天，咽口水都有点难受",
+      "condition": "用户描述咽喉疼痛",
+      "response": "嗓子疼起来连咽口水都难受，确实很折磨。这两天尽量少说话、多喝温水，吃东西选温软一些的，别碰辛辣刺激的。如果疼得厉害或者伴随发烧，记得去医院让医生看看，别自己扛着。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体不舒服",
+        "嗓子疼",
+        "关怀",
+        "就医提醒"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0711",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "洗衣机刚洗完衣服，我发现自己的白衬衫被染成粉色了",
+      "condition": "用户衣物染色后的求助",
+      "response": "哎呀，白色衣物混洗最容易出这种状况。别急着丢，可以试试用彩漂或氧系漂白剂温水浸泡一段时间再洗，看看能不能淡化。以后深色浅色分开洗，这种糟心事就能避免了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活琐事",
+        "洗衣",
+        "染色",
+        "小技巧"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0712",
+      "category": "daily_life",
+      "category_cn": "身体不舒服",
+      "trigger": "我这两天胃有点不舒服，吃不太下东西",
+      "condition": "用户胃部不适的多轮关怀对话",
+      "response": "胃不舒服食欲差确实难受。这两天先吃些清淡好消化的，比如粥和软面，别让胃太受累。具体是怎么个不舒服法，是胀还是隐隐作痛？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我这两天胃有点不舒服，吃不太下东西"
+        ],
+        [
+          "assistant",
+          "胃不舒服食欲差确实难受。这两天先吃些清淡好消化的，比如粥和软面，别让胃太受累。具体是怎么个不舒服法，是胀还是隐隐作痛？"
+        ],
+        [
+          "user",
+          "主要是胀，吃完饭就堵得慌"
+        ],
+        [
+          "assistant",
+          "胀得慌多半跟吃得太急或吃得太多有关。可以试试少食多餐，每顿吃七分饱，饭后走动走动别马上躺下。要是胀痛一直不缓解或者越来越重，建议去医院看看，别自己瞎猜原因。"
+        ],
+        [
+          "user",
+          "好的，我调整一下看看"
+        ],
+        [
+          "assistant",
+          "嗯，先这样观察两天。身体给信号的时候就是在提醒我们慢一点，照顾好自己呀。"
+        ]
+      ],
+      "tags": [
+        "身体不舒服",
+        "胃胀",
+        "多轮",
+        "关怀",
+        "就医提醒"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0713",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "家里的灯泡刚闪了几下就灭了，其他房间都正常",
+      "condition": "用户家中单个灯泡故障",
+      "response": "只有一个房间灯灭了，其他都正常，那多半是这个灯泡或者它的开关接触有问题。先确认灯泡有没有松，拧紧试试；还不行就换个新灯泡看看。如果换灯泡也不亮，可能是线路问题，那时候就得找电工师傅了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活琐事",
+        "灯泡",
+        "故障排查",
+        "家居"
+      ],
+      "generated_date": "2026-11-26",
       "quality": "qualified",
       "qc_reasons": []
     }

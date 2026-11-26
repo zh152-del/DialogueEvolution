@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 107,
+  "count": 114,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -2278,6 +2278,164 @@
         "情绪"
       ],
       "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0693",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我今天在会上被领导当众点名批评，感觉特别丢脸",
+      "condition": "用户遭遇公开批评后表达羞耻与委屈",
+      "response": "当众被点名那种滋味真的很难受，换谁都会觉得脸上挂不住。不过领导的批评针对的是那件事，不代表你这个人不行。先别急着否定自己，晚上好好歇一歇。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "委屈",
+        "职场",
+        "羞耻感"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0694",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "养了三年的猫今天突然走丢了，我现在脑子一片空白",
+      "condition": "用户宠物走失后表达慌乱",
+      "response": "天啊，养了三年的家人突然不见，那种心慌我完全能理解。你现在先深呼吸一下。猫走失头几天最关键，我可以陪你捋一捋：先在家附近仔细找，再把寻猫启事发到小区业主群和朋友圈。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "宠物走失",
+        "慌乱",
+        "应对"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0695",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "我不需要你给建议，就想有人听我吐吐槽",
+      "condition": "用户明确表示只需要倾听不需要建议",
+      "response": "明白，那我就安安静静听你说，不出主意。今天到底怎么了，从头讲也没关系，我在这儿听着。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "倾听",
+        "陪伴",
+        "不评判"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0696",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "最近总是半夜醒来就再也睡不着，白天困得不行，特别烦躁",
+      "condition": "用户表达失眠带来的困扰",
+      "response": "睡不好真的会让人一整天都蔫蔫的，烦躁太正常了。这种反反复复的睡眠问题如果持续好几周，建议还是找个医生聊聊，排除一下身体方面的原因。白天尽量别补太长觉，晚上会更容易困。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "失眠",
+        "烦躁",
+        "就医提醒"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0697",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "努力了很久的项目最后还是没中标，感觉之前的加班都白费了",
+      "condition": "用户项目失败后表达挫败感",
+      "response": "投入了那么多心血却没成，这种落空感真的很扎心，你的不甘我懂。但那些加班磨出来的能力和经验是实实在在留在你身上的，不会因为这个结果就消失。想聊聊过程里哪里卡住了吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰",
+        "挫败",
+        "项目失败",
+        "职场"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0698",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "看着别人都升职加薪，我却在原地踏步，心里很不是滋味",
+      "condition": "用户因与他人比较产生落差感",
+      "response": "看着身边的人往前走，自己停在原地，那种着急和失落我特别能体会。不过每个人的节奏真的不一样，别人的高光背后未必没有代价。与其盯着差距焦虑，不如想想你自己下一步想往哪走。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "比较",
+        "焦虑",
+        "职业"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0699",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "我今天真的撑不住了，什么都没做好",
+      "condition": "用户情绪低落需要多轮安抚",
+      "response": "听起来今天把你压得够呛。先别急着给自己打分，能撑到现在就已经很不容易了。愿意跟我说说具体是哪件事让你觉得没做好吗？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我今天真的撑不住了，什么都没做好"
+        ],
+        [
+          "assistant",
+          "听起来今天把你压得够呛。先别急着给自己打分，能撑到现在就已经很不容易了。愿意跟我说说具体是哪件事让你觉得没做好吗？"
+        ],
+        [
+          "user",
+          "报告写错了一个数据，被客户当场指出来了"
+        ],
+        [
+          "assistant",
+          "被客户当场指出错误，那种难堪确实不好受。不过数据错了可以改，重要的是先补齐再复核一遍。你现在的情绪比那个错误本身更值得先照顾，要不要先喝口水缓一缓？"
+        ],
+        [
+          "user",
+          "嗯，好多了，谢谢你听我说"
+        ],
+        [
+          "assistant",
+          "不用谢，你能说出来情绪就松动了。今天剩下的时间别再为难自己，早点休息，明天清醒了再处理那一份报告也不迟。"
+        ]
+      ],
+      "tags": [
+        "安慰",
+        "多轮",
+        "低落",
+        "职场"
+      ],
+      "generated_date": "2026-11-26",
       "quality": "qualified",
       "qc_reasons": []
     }

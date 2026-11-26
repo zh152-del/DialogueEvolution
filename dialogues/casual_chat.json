@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 120,
+  "count": 127,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -2497,6 +2497,165 @@
         "手工"
       ],
       "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0700",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我终于把搁置了半年的那首吉他曲完整弹下来了！",
+      "condition": "用户分享练成技能后的喜悦",
+      "response": "太棒了吧，半年的功夫没白费！这种从磕磕绊绊到一气呵成的感觉，成就感直接拉满。接下来打算挑战更难的曲子，还是先把这首弹得更顺？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "开心",
+        "分享",
+        "吉他",
+        "成就感"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0701",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "周末下雨出不了门，太无聊了，有没有一个人也能玩的东西",
+      "condition": "雨天室内独处寻求消遣",
+      "response": "下雨天窝着其实挺适合搞点安静的消遣。你可以试试拼图、数独，或者挑一部一直想看没看的纪录片。要是想动动手，跟着视频学一道简单的家常菜也很有意思，做完还能吃掉。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊",
+        "消遣",
+        "室内",
+        "独处"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0702",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "最近迷上手冲咖啡了，正在研究水温对味道的影响",
+      "condition": "用户分享咖啡冲煮爱好中的探索",
+      "response": "手冲迷人的地方就在这儿，一点点参数变化味道就不一样。一般来说浅烘豆适合高一点的水温、深烘豆稍低一些，不过这些只是起点，最好的办法是多试几杯自己做对比。你平时偏好浅烘还是深烘？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣爱好",
+        "咖啡",
+        "手冲",
+        "探索"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0703",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我养的绿萝居然开花了，养了两年头一回见！",
+      "condition": "用户分享养植物开花带来的惊喜",
+      "response": "绿萝开花可不多见，这说明你照顾得真的很好，是那种不经意间的惊喜。拍张照留个纪念吧，这种小确幸值得记录。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "开心",
+        "分享",
+        "植物",
+        "惊喜"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0704",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "好闲啊，陪我玩个猜谜游戏吧",
+      "condition": "用户无聊时主动发起互动游戏（多轮）",
+      "response": "好呀，正好我也想活动活动脑子。你想玩文字谜、脑筋急转弯，还是那种猜物品的？你出题我来猜，或者我出题你猜都行。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "好闲啊，陪我玩个猜谜游戏吧"
+        ],
+        [
+          "assistant",
+          "好呀，正好我也想活动活动脑子。你想玩文字谜、脑筋急转弯，还是那种猜物品的？你出题我来猜，或者我出题你猜都行。"
+        ],
+        [
+          "user",
+          "你来出题吧，出个简单的"
+        ],
+        [
+          "assistant",
+          "好的来个简单的：什么东西越洗越脏？提示一下，是日常生活中天天见的东西。"
+        ],
+        [
+          "user",
+          "是水吗？"
+        ],
+        [
+          "assistant",
+          "答对啦，就是水！水用来洗东西，自己却越来越脏。再来一个还是换个玩法？"
+        ]
+      ],
+      "tags": [
+        "无聊",
+        "消遣",
+        "猜谜",
+        "多轮",
+        "互动"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0705",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近开始学做手账，想把每天的日程都贴得漂漂亮亮的",
+      "condition": "用户分享新手账爱好",
+      "response": "手账真的很治愈，把日子一点点贴整齐的过程本身就让人安心。刚开始可以先从简单的排版和胶带配色入手，别一上来就追求复杂，容易有压力。你准备用手写还是贴纸为主？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣爱好",
+        "手账",
+        "记录",
+        "治愈"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0706",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "刚才在路上被一个陌生人夸了穿搭，开心了一整天",
+      "condition": "用户分享被陌生人赞美带来的好心情",
+      "response": "被陌生人真心夸一句，那种突如其来的开心真的能点亮一整天！说明你的搭配很有眼光呀。这种小惊喜值得好好记住，心情不好的时候拿出来回味一下。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "开心",
+        "分享",
+        "穿搭",
+        "赞美"
+      ],
+      "generated_date": "2026-11-26",
       "quality": "qualified",
       "qc_reasons": []
     }

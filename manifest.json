@@ -1,46 +1,46 @@
 {
-  "resource_version": "v0.1.17",
-  "generated_at": "2026-11-25T01:26:35Z",
+  "resource_version": "v0.1.18",
+  "generated_at": "2026-11-26T01:25:27Z",
   "repo": "zh152-del/DialogueEvolution",
-  "qualified_total": 684,
+  "qualified_total": 726,
   "scene_categories": {
-    "daily_conversation": 118,
-    "emotional_support": 107,
-    "casual_chat": 120,
-    "daily_life": 118,
-    "multi_turn": 108,
-    "random_topics": 113
+    "daily_conversation": 125,
+    "emotional_support": 114,
+    "casual_chat": 127,
+    "daily_life": 125,
+    "multi_turn": 115,
+    "random_topics": 120
   },
   "files": [
     {
       "path": "dialogues/daily_conversation.json",
-      "count": 118,
-      "sha256": "04388f6b46d79dd079863828b8064033ed9dbc139521ec712adddc217d4c3540"
+      "count": 125,
+      "sha256": "30206efff35ac5f3ca4c9c92611fad1bdd7e9122b1d5837a90024cc32d93607b"
     },
     {
       "path": "dialogues/emotional_support.json",
-      "count": 107,
-      "sha256": "101fd6daed85151e97354f5d80f6d213bc06c0b156cdb2611ba1fe8b0f5d600d"
+      "count": 114,
+      "sha256": "3b92c62b04cffa6fa1bcb9a47d128c3766efe302666592cccba106e53fcbd20b"
     },
     {
       "path": "dialogues/casual_chat.json",
-      "count": 120,
-      "sha256": "dec0dd83b6f9f5f96a486caae595f84295c0c4dd23d8eaa88e8067f6386f5b94"
+      "count": 127,
+      "sha256": "f4e6ccbe4a0f0c8b1a54300ed1d93606dbaa4c763aeb7638cb6aacf430026f82"
     },
     {
       "path": "dialogues/daily_life.json",
-      "count": 118,
-      "sha256": "5f3e0e5b99cb7aabe02a0c07c3afa172e51aadc420ec2bf069788c0fb4d3ca95"
+      "count": 125,
+      "sha256": "41ab9d15bedda9bebe5a16c32d5cc7bb6deb04544ddaca52854d2d13fb75499c"
     },
     {
       "path": "dialogues/multi_turn.json",
-      "count": 108,
-      "sha256": "e0570b4c912815822e78745e75a423ba00f883c85c5102534c9d1c46944580db"
+      "count": 115,
+      "sha256": "9451153ccdfb81e81287b0af40b108d72e50364a7372946d56b3efde54a80b34"
     },
     {
       "path": "dialogues/random_topics.json",
-      "count": 113,
-      "sha256": "912da193760605b1e990549d85de24c4f9181d2cf7c0dff841dcadb60e6e0625"
+      "count": 120,
+      "sha256": "1539fe1676f2bbdec5b69bf280d8c284ebd4ff45d51cace29eec664cdb0c5dd6"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 113,
+  "count": 120,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -2312,6 +2312,163 @@
         "家庭"
       ],
       "generated_date": "2026-11-25",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0721",
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "也不知道聊点什么，随便聊两句吧",
+      "condition": "用户无明确话题时发起闲聊",
+      "response": "那我来起个头。说个轻松的问题：如果明天突然多出一整天完全自由的假期，你第一件想做的事是什么？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "不知道聊什么",
+        "闲聊",
+        "开放式提问"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0722",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "我们来玩个二选一的快问快答吧",
+      "condition": "用户发起快问快答互动",
+      "response": "好呀，快问快答开始！第一个：海边度假还是山里露营，你选哪个？别犹豫，凭第一反应说。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "随机话题",
+        "快问快答",
+        "互动",
+        "二选一"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0723",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "说实话，你刚才那个回答太模板化了，能不能说点实在的",
+      "condition": "用户对回答质量表达不满",
+      "response": "收到，你说得对，刚才那段确实太空了，听着像套话。你想聊的具体是哪件事？我这次说具体点，不绕弯子。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "表达不满",
+        "反馈",
+        "改进",
+        "真诚"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0724",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "我明天有个重要面试，有什么需要提前准备的吗",
+      "condition": "用户面试前寻求建议",
+      "response": "面试前准备可以从三块入手：先把自我介绍练顺，控制在两分钟内；再针对岗位准备几个能体现你能力的具体例子；最后提前查好公司的业务和这次岗位的职责。今晚早点睡，状态比临时背题更重要。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "寻求建议",
+        "面试",
+        "准备",
+        "职场"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0725",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "来，随机给我出个点子，随便什么领域都行",
+      "condition": "用户随机话题探索的多轮互动",
+      "response": "好，那抛个冷门点的：如果可以给一座城市设计一个新的公共节日，你会定在什么主题？先说说你的第一反应。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "来，随机给我出个点子，随便什么领域都行"
+        ],
+        [
+          "assistant",
+          "好，那抛个冷门点的：如果可以给一座城市设计一个新的公共节日，你会定在什么主题？"
+        ],
+        [
+          "user",
+          "我想搞个邻居节，大家互相认识一下"
+        ],
+        [
+          "assistant",
+          "这个点子有意思，现在很多小区邻里之间确实太陌生了。那天可以安排长桌宴、二手交换集市，再加个才艺展示，气氛一下就起来了。"
+        ],
+        [
+          "user",
+          "哈哈，弄个厨艺比赛也不错"
+        ],
+        [
+          "assistant",
+          "厨艺比赛太合适了，各家端一道拿手菜，既是比赛又是聚餐。你这个节日要是真办起来，估计街坊关系能近一大截。"
+        ]
+      ],
+      "tags": [
+        "随机话题",
+        "多轮",
+        "创意",
+        "社区"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0726",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "我问了好几次你都没抓住重点，有点失望",
+      "condition": "用户因反复答非所问表达失望",
+      "response": "让你重复这么多次还没说到位，是我的问题，抱歉。你再把这个重点跟我说一遍，我这次一定照着你的意思答，不自己发散。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "表达不满",
+        "失望",
+        "道歉",
+        "倾听"
+      ],
+      "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0727",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "我想养成每天读书的习惯，但总是坚持不下来，怎么办",
+      "condition": "用户寻求培养阅读习惯的建议",
+      "response": "习惯坚持不下来，多半是目标定太高了。可以先从每天读十分钟、几页纸开始，门槛低才容易持续。再固定一个触发点，比如睡前或通勤时读，让读书和已有习惯绑在一起，会比硬逼自己有效得多。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "寻求建议",
+        "阅读",
+        "习惯养成",
+        "自律"
+      ],
+      "generated_date": "2026-11-26",
       "quality": "qualified",
       "qc_reasons": []
     }
