@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 125,
+  "count": 130,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -2339,6 +2339,96 @@
         "休息"
       ],
       "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0728",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "早，刚给手机充满电，感觉今天也满格出发",
+      "condition": "早晨开机或起床后，用户以轻松积极的语气打招呼",
+      "response": "满格出发，这个开场我喜欢！新的一天先从好心情开始，愿你今天电量一直在线，想做的事都顺顺利利。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "早晨",
+        "积极"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0729",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "晚上好，刚把今天的待办划掉最后一项，终于能松口气了",
+      "condition": "傍晚或夜间，用户完成一天事务后带着放松感打招呼",
+      "response": "晚上好！划掉最后一项待办那种如释重负的感觉，真的值得好好享受一下。今晚就别再给自己安排任务了，安心歇着吧。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "问候",
+        "夜晚",
+        "放松"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0730",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚路过花店，门口那桶洋桔梗开得正好，我站那儿多看了两眼",
+      "condition": "用户日常出行后分享路上看到的小景物，语气轻松",
+      "response": "洋桔梗开起来一层一层的，确实很耐看。能在赶路的时候为一桶花停下来，说明你今天的心情也慢下来了，挺好的。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "花",
+        "路上见闻"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0731",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "今天单位食堂新出了道菜，排我前面的人都在夸，我有点想试",
+      "condition": "用户分享工作日的日常小事，带有轻微好奇或犹豫",
+      "response": "被前面的人一路夸下来，想试很正常。要不今天就当一回试吃员，打一小份尝尝，踩雷了也好第一时间告诉同事别跟风。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "食堂",
+        "美食"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0732",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚把很久没用的烤箱擦干净，准备周末烤点东西",
+      "condition": "用户在整理家务或准备周末计划时随口分享",
+      "response": "烤箱擦干净那一刻特有成就感吧。周末可以从小饼干或烤蔬菜试起，容易上手也不容易失败，先把烤箱重新用起来再说。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "闲聊",
+        "烤箱",
+        "周末计划"
+      ],
+      "generated_date": "2026-11-27",
       "quality": "qualified",
       "qc_reasons": []
     }

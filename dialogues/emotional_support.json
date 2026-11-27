@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 114,
+  "count": 119,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -2436,6 +2436,96 @@
         "职场"
       ],
       "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0733",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "交完那份拖了很久的方案，心里没有轻松，反而空落落的",
+      "condition": "用户完成一件长期任务后，出现意料之外的空虚感",
+      "response": "一直绷着的那根弦突然松下来，人反而会有点不适应，空落落的很正常。那不是你不开心，只是身体还没来得及切换到休息模式。今晚先做点不费脑的小事，让自己慢慢落下来。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "空虚",
+        "完成任务"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0734",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "越是大伙都在笑的时候，我越觉得有点格格不入",
+      "condition": "用户在群体场合中感到疏离，表达微妙情绪",
+      "response": "热闹里反而更容易觉得孤单，这种感觉不少人有。你不用逼自己跟着笑，先允许自己有点抽离；如果愿意，也可以跟我说说，是跟这群人不熟，还是最近心里本来就有点累。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "疏离",
+        "孤单"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0735",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "我把准备了好久的分享讲砸了，现在恨不得找个地缝钻进去",
+      "condition": "用户在公开表达或汇报中受挫，自我否定强烈",
+      "response": "准备了那么久却没讲好，那种挫败感我能想象，恨不得钻地缝太真实了。但讲砸一次不等于你不行，只是这一次的状态没跟上准备。先别反复回放那个画面，等你缓过来，我们再一起看看卡在哪儿，下次就能避开。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰倾听",
+        "受挫",
+        "当众发言"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0736",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "养了很久的植物今天死了，我居然为它难过了好久",
+      "condition": "用户因失去长期陪伴的物件而悲伤",
+      "response": "为一盆植物难过好久，一点都不矫情。它陪了你那么久，浇水、晒太阳都成了习惯，突然没了当然会空。你愿意为它难过，说明你是个很用心的人。要是想，也可以说说它当初是怎么来的。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "安慰倾听",
+        "丧失",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0737",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "最近老是做同一个梦，醒来心里沉沉的",
+      "condition": "用户反复做相似梦境，晨起情绪低落",
+      "response": "反复做同一个梦，醒来还压着点什么，确实会让人一整天都沉。梦的内容你愿意说就说，不想说也没关系；可以先留意下最近是不是有什么一直悬着没处理的事，有时把那件事写下来，梦就没那么缠人了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "情绪表达",
+        "梦境",
+        "低落"
+      ],
+      "generated_date": "2026-11-27",
       "quality": "qualified",
       "qc_reasons": []
     }

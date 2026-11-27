@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 120,
+  "count": 124,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -2469,6 +2469,78 @@
         "自律"
       ],
       "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0754",
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "想找人说话，可真到开口又觉得没什么值得说的",
+      "condition": "用户有倾诉欲但找不到话头，希望助手起头",
+      "response": "有时候就是这样，想聊天却不知道从哪儿开口。那我给你起个头：最近有没有哪件小事，是做完之后让你偷偷得意的？哪怕特别小也行，我们从那儿聊起。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "不知道聊什么",
+        "起头",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0755",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "突然好奇，为什么有人晕车有人却不晕",
+      "condition": "用户提出生活化的科学好奇问题",
+      "response": "这跟前庭系统的敏感度有关，耳朵里管平衡的部分对外界晃动的感知因人而异，敏感的人坐车时大脑收到的信号和眼睛看到的不一致，就容易晕。想减轻的话，坐前排、看远处、少低头玩手机通常有用；真晕得厉害，还是得靠医生给的防晕办法。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "随机探索",
+        "晕车",
+        "科普"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0756",
+      "category": "random_topics",
+      "category_cn": "表达不满",
+      "trigger": "刚买的快递盒子破得不成样子，里面的东西差一点就磕坏了",
+      "condition": "用户对物流包装不满，想吐槽或寻求处理办法",
+      "response": "盒子破成那样，东西差点磕坏，换谁都得窝火。你可以先拍照留证，包括外包装和里面的物品，然后找卖家或快递客服申请理赔；只要证据清楚，通常都能得到处理。这种事别自认倒霉。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "表达不满",
+        "快递",
+        "维权"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0757",
+      "category": "random_topics",
+      "category_cn": "寻求建议",
+      "trigger": "我想学一门能在家就能做的副业，但不知道从哪入手",
+      "condition": "用户想发展副业，需要方向性建议",
+      "response": "在家能做的副业，通常从你已有的技能或兴趣里挑最容易起步的。可以先问自己三个问题：你擅长什么、每天能稳定投入多久、愿不愿意先免费练手。把答案列出来，再去看具体平台的要求，比一上来就挑项目靠谱。你要是愿意说说自己的情况，我们可以一起筛。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "寻求建议",
+        "副业",
+        "方向"
+      ],
+      "generated_date": "2026-11-27",
       "quality": "qualified",
       "qc_reasons": []
     }

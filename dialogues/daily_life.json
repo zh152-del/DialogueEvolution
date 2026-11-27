@@ -1,6 +1,6 @@
 {
   "category": "daily_life",
-  "count": 125,
+  "count": 130,
   "entries": [
     {
       "id": "daily_life-0132",
@@ -2594,6 +2594,96 @@
         "家居"
       ],
       "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0745",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "我给家里每盆植物都插了个小标签，写着名字和浇水日期",
+      "condition": "用户在照料植物时做了整理标记，分享小成果",
+      "response": "给植物插标签这招太实用了，名字和浇水日期一目了然，再也不用凭记忆猜这盆上次什么时候浇的。你这份细心，植物肯定养得好。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活琐事",
+        "植物",
+        "整理"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0746",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "外卖点的米饭忘了选份量，送来只有一小盒，根本不够吃",
+      "condition": "用户因外卖份量失误而不满或无奈",
+      "response": "一小盒米饭配一份菜，确实容易不够吃，这种失误挺常见的。下次备注里直接写米饭要大份更保险；这次先将就着，实在不够就补碗面或加个馒头救急。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活琐事",
+        "外卖",
+        "份量"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0747",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "我给钥匙串挂了个小铃铛，这下包里一响就能找到",
+      "condition": "用户用简单办法解决日常小麻烦",
+      "response": "铃铛一响就找到钥匙，这个办法朴素但真的好用。包里翻东西最烦的就是摸半天，你这下等于给钥匙装了定位。就是开会或看电影时记得捏住它，别让它替你发言。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "生活琐事",
+        "钥匙",
+        "小妙招"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0748",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "今天一整天鼻腔都干得发疼，屋里是不是太干燥了",
+      "condition": "用户在干燥环境里出现鼻腔不适，寻求日常缓解",
+      "response": "屋里干的时候鼻腔最先抗议，发疼多半是黏膜缺水了。可以在房间放盆水或用加湿器，自己多喝温水；如果方便，用生理盐水喷一喷鼻腔会舒服些。要是持续好几天还加重，就去问问医生，别硬扛。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体不适",
+        "鼻腔干燥",
+        "日常关怀"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0749",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "我这两天一到晚上小腿就抽筋，半夜疼醒过一回",
+      "condition": "用户夜间出现腿部抽筋，描述日常不适",
+      "response": "半夜被抽筋疼醒，那一下真的很难受。睡前可以把小腿拉伸几下、注意保暖，白天别久坐不动；如果反复发作，还是建议去医院查查原因，别只当是缺什么。我只能陪你做日常关怀，具体要不要检查得听医生的。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "身体不适",
+        "抽筋",
+        "就医提醒"
+      ],
+      "generated_date": "2026-11-27",
       "quality": "qualified",
       "qc_reasons": []
     }

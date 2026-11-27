@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 127,
+  "count": 134,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -2656,6 +2656,132 @@
         "赞美"
       ],
       "generated_date": "2026-11-26",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0738",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我第一次把双黄蛋磕出来的时候，整个人都愣住了",
+      "condition": "用户分享生活中意外的小惊喜",
+      "response": "双黄蛋那种中奖感太可爱了，愣住说明你完全没预料到。这种小概率的惊喜最治愈，配一碗白粥就能开心一早上。下次磕蛋可以继续保持期待，说不定还有惊喜。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "开心分享",
+        "惊喜",
+        "日常"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0739",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "今天下班路上捡到一片特别好看的银杏叶，夹进书里了",
+      "condition": "用户分享随手收藏的小物件，心情愉悦",
+      "response": "把好看的叶子夹进书里，是很温柔的习惯。等哪天翻到那页，还能想起今天这条路和这片叶子，等于给日子做了个书签。挺浪漫的，我支持你继续攒。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "开心分享",
+        "银杏叶",
+        "小收藏"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0740",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我今天第一次自己缝好了掉落的纽扣，虽然针脚有点歪",
+      "condition": "用户首次掌握一项生活小技能，带成就感",
+      "response": "针脚歪点没关系，重点是它牢牢钉住了！第一次自己缝扣子就成功，这可是实打实的生活技能。下次可以试试把线在扣子背面打个小死结，会更结实。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "开心分享",
+        "针线",
+        "成就感"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0741",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "网突然断了，我盯着转圈圈的加载图标发呆",
+      "condition": "用户因网络中断无所事事，语气无聊",
+      "response": "加载图标转啊转，人跟着一起放空，这画面我太熟悉了。趁断网这几分钟，不如站起来伸个懒腰、看看窗外；等网恢复，说不定你反而没那么想刷了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊消遣",
+        "断网",
+        "发呆"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0742",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "陪我玩个游戏，我描述一样东西，你来猜是什么",
+      "condition": "用户主动发起互动小游戏，想打发时间",
+      "response": "好啊，这个我会玩！你来描述，我负责猜。第一样东西是什么？记得别描述得太直白，不然我一下就猜中，就没意思啦。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "无聊消遣",
+        "猜物游戏",
+        "互动"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0743",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我最近开始学着做了一个人份的陶艺小碗",
+      "condition": "用户培养新手工艺类爱好，分享进展",
+      "response": "一个人份的小碗，光是想想就很有生活气息。陶艺最迷人的就是手作的不完美，歪一点、釉色不匀都独一无二。等你烧制出来，记得跟我说说成品怎么样。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣爱好",
+        "陶艺",
+        "手作"
+      ],
+      "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0744",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我把每天的步数画成折线图，看着线条往上爬还挺有成就感",
+      "condition": "用户用可视化方式记录习惯，自我激励",
+      "response": "把步数画成折线图，这招真聪明，数字变成线条，进步一下就看得见。看着它往上爬确实上瘾。可以再给每周定个小台阶，线条稳步向上比猛冲一天更有意思。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "兴趣爱好",
+        "数据记录",
+        "习惯"
+      ],
+      "generated_date": "2026-11-27",
       "quality": "qualified",
       "qc_reasons": []
     }
