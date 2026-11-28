@@ -1,6 +1,6 @@
 {
   "category": "random_topics",
-  "count": 124,
+  "count": 129,
   "entries": [
     {
       "id": "random_topics-0210",
@@ -2541,6 +2541,96 @@
         "方向"
       ],
       "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0778",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "给我出个两分钟就能做完的小实验吧",
+      "condition": "用户请求短小有趣的探索",
+      "response": "试试这个：把一张纸揉成团，另一张同样大小的纸摊平，同时松手，看谁先落地。两分钟不到，还能顺便聊聊为什么结果和直觉不太一样。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "小实验",
+        "好奇",
+        "科学"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0779",
+      "category": "random_topics",
+      "category_cn": "随机话题探索",
+      "trigger": "想听个关于月亮的冷知识，别太长",
+      "condition": "用户想要简短科普",
+      "response": "月亮正以每年大约 3.8 厘米的速度远离地球，这个速度差不多跟指甲生长一样慢，但几亿年累积下来就很可观了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "月亮",
+        "冷知识",
+        "科普"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0780",
+      "category": "random_topics",
+      "category_cn": "用户不知道聊什么",
+      "trigger": "你问我一个简单问题吧，我想把脑子从工作上挪开",
+      "condition": "用户请求引导问题",
+      "response": "好：如果你现在能立刻去一个地方待一小时，你会选哪儿？不用有理由，想到哪儿说哪儿。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "提问",
+        "放松",
+        "话题"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0781",
+      "category": "random_topics",
+      "category_cn": "用户寻求建议",
+      "trigger": "我想养成每天记三句话的习惯，怕坚持不了，给点建议？",
+      "condition": "用户寻求习惯养成建议",
+      "response": "先把门槛压低：睡前在手机备忘录里写三个词也算数，不用成句。连着写一周之后，再决定要不要升级成三句话，比一上来就立大目标稳得多。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "习惯",
+        "建议",
+        "记录"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "random_topics-0782",
+      "category": "random_topics",
+      "category_cn": "用户表达不满",
+      "trigger": "刚发现常去那家店把座位减了一半，排队久了真的很烦",
+      "condition": "用户对日常变化表达不满",
+      "response": "位子少了、队伍长了，那种原本图个方便却反过来被耽误的烦躁很正常。要么下次错峰去，要么那天就换一家，别让一顿饭决定一整天的心情。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "不满",
+        "排队",
+        "日常"
+      ],
+      "generated_date": "2026-11-28",
       "quality": "qualified",
       "qc_reasons": []
     }

@@ -1,6 +1,6 @@
 {
   "category": "daily_conversation",
-  "count": 130,
+  "count": 134,
   "entries": [
     {
       "id": "daily_conversation-0001",
@@ -2429,6 +2429,95 @@
         "周末计划"
       ],
       "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0758",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "早，出门前把门口那双鞋摆正了，突然觉得一天都顺眼了",
+      "condition": "清晨出门前的小仪式",
+      "response": "这种把小东西归位带来的顺眼感最实在了，像是给一天按了个整齐的开头。今天出门路上还顺吗？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "清晨",
+        "仪式感",
+        "心情"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0759",
+      "category": "daily_conversation",
+      "category_cn": "日常问候",
+      "trigger": "晚上好，我把明天的午饭装进饭盒，冰箱里那一格看着特别整齐",
+      "condition": "晚间为明天做准备",
+      "response": "晚上好呀，提前把饭盒装好，等于把明天的自己照顾了一遍。今晚就别再惦记这事了，踏实歇着吧。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "晚间",
+        "准备",
+        "安心"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0760",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "中午下楼时碰到同事，一起走了半层楼梯，谁都没提工作",
+      "condition": "午间与同事短暂同行",
+      "response": "半层楼梯不谈工作，这种留白反而挺舒服的。后来是各走各的，还是聊到别的去了？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "中午下楼时碰到同事，一起走了半层楼梯，谁都没提工作"
+        ],
+        [
+          "assistant",
+          "半层楼梯不谈工作，这种留白反而挺舒服的。后来是各走各的，还是聊到别的去了？"
+        ],
+        [
+          "user",
+          "聊了两句楼下新开的花店，然后就各回工位了"
+        ],
+        [
+          "assistant",
+          "这就挺好，简短又没负担。下午要是也有一段能不谈正事的路，走慢一点也没关系。"
+        ]
+      ],
+      "tags": [
+        "午间",
+        "同事",
+        "轻松"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_conversation-0761",
+      "category": "daily_conversation",
+      "category_cn": "日常闲聊",
+      "trigger": "刚清了手机里二十多张旧截图，最后留下一张上周的天气",
+      "condition": "整理手机相册时的小发现",
+      "response": "留一张天气也挺有意思的，像是给那时候的空气存了个凭证。清完相册是不是感觉手机都轻了一点？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "整理",
+        "相册",
+        "小确幸"
+      ],
+      "generated_date": "2026-11-28",
       "quality": "qualified",
       "qc_reasons": []
     }

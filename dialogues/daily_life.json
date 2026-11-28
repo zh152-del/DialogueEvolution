@@ -1,6 +1,6 @@
 {
   "category": "daily_life",
-  "count": 130,
+  "count": 134,
   "entries": [
     {
       "id": "daily_life-0132",
@@ -2684,6 +2684,95 @@
         "就医提醒"
       ],
       "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0770",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "洗衣服时把洗衣液倒进柔顺剂的格子，洗完一股怪味",
+      "condition": "家务中出现的小失误",
+      "response": "两个格子挨太近，谁都可能倒错。下次洗之前先把瓶子盖拧开确认一下，这回那股味儿多漂洗一遍一般能淡不少。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "洗衣",
+        "家务",
+        "提醒"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0771",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "冰箱里只剩两根黄瓜和两个鸡蛋，今晚得靠它们了",
+      "condition": "食材有限时的晚饭安排",
+      "response": "黄瓜拍一下拌着吃，鸡蛋煎两个，十分钟就能凑出一顿。要是还有半碗米饭，炒一炒就更有饱腹感了。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "做饭",
+        "冰箱",
+        "简餐"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0772",
+      "category": "daily_life",
+      "category_cn": "身体不舒服时的日常交流",
+      "trigger": "早上起来嗓子有点干，说话都发涩，先喝点温水行吗",
+      "condition": "轻微嗓子不适时的日常照料",
+      "response": "当然可以，小口慢喝比猛灌更舒服。今天尽量少说话、让嗓子歇一歇；要是还疼或者发热，就别硬扛，找医生看看更稳妥。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "嗓子",
+        "温水",
+        "关怀"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "daily_life-0773",
+      "category": "daily_life",
+      "category_cn": "生活琐事",
+      "trigger": "我想把抽屉理一理，可一拉开就忘了刚才要找什么",
+      "condition": "整理抽屉时注意力被分散",
+      "response": "哈哈这太真实了，拉开抽屉那一瞬间，脑子先被里面的东西接管了。先别急着找，咱们先定个目标：只理最上面那一格。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我想把抽屉理一理，可一拉开就忘了刚才要找什么"
+        ],
+        [
+          "assistant",
+          "哈哈这太真实了，拉开抽屉那一瞬间，脑子先被里面的东西接管了。先别急着找，咱们先定个目标：只理最上面那一格。"
+        ],
+        [
+          "user",
+          "好，那就先理这一格，结果翻出三根数据线"
+        ],
+        [
+          "assistant",
+          "数据线是抽屉里的常住人口。先按能不能用分两堆，能用的绕一圈收好，不能用的这轮就先放一边，别一次把自己劝退。"
+        ]
+      ],
+      "tags": [
+        "整理",
+        "抽屉",
+        "专注"
+      ],
+      "generated_date": "2026-11-28",
       "quality": "qualified",
       "qc_reasons": []
     }

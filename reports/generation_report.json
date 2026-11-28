@@ -1,131 +1,143 @@
 {
-  "resource_version": "v0.1.19",
+  "resource_version": "v0.1.20",
   "repo": "zh152-del/DialogueEvolution",
-  "generated_date": "2026-11-27",
+  "generated_date": "2026-11-28",
   "stats": {
-    "total": 30,
-    "qualified": 30,
+    "total": 25,
+    "qualified": 25,
     "to_review": 0,
     "unqualified": 0
   },
-  "qualified_total": 756,
+  "qualified_total": 781,
   "scene_distribution": {
-    "daily_conversation": 5,
-    "emotional_support": 5,
-    "casual_chat": 7,
-    "daily_life": 5,
+    "daily_conversation": 4,
+    "emotional_support": 4,
+    "casual_chat": 4,
+    "daily_life": 4,
     "multi_turn": 4,
-    "random_topics": 4
+    "random_topics": 5
   },
   "samples": [
     {
-      "id": "daily_conversation-0728",
+      "id": "daily_conversation-0758",
+      "category_cn": "日常闲聊",
+      "trigger": "早，出门前把门口那双鞋摆正了，突然觉得一天都顺眼了",
+      "response": "这种把小东西归位带来的顺眼感最实在了，像是给一天按了个整齐的开头。今天出门路上还顺吗？"
+    },
+    {
+      "id": "daily_conversation-0759",
       "category_cn": "日常问候",
-      "trigger": "早，刚给手机充满电，感觉今天也满格出发",
-      "response": "满格出发，这个开场我喜欢！新的一天先从好心情开始，愿你今天电量一直在线，想做的事都顺顺利利。"
+      "trigger": "晚上好，我把明天的午饭装进饭盒，冰箱里那一格看着特别整齐",
+      "response": "晚上好呀，提前把饭盒装好，等于把明天的自己照顾了一遍。今晚就别再惦记这事了，踏实歇着吧。"
     },
     {
-      "id": "daily_conversation-0729",
-      "category_cn": "日常问候",
-      "trigger": "晚上好，刚把今天的待办划掉最后一项，终于能松口气了",
-      "response": "晚上好！划掉最后一项待办那种如释重负的感觉，真的值得好好享受一下。今晚就别再给自己安排任务了，安心歇着吧。"
-    },
-    {
-      "id": "daily_conversation-0730",
+      "id": "daily_conversation-0760",
       "category_cn": "日常闲聊",
-      "trigger": "刚路过花店，门口那桶洋桔梗开得正好，我站那儿多看了两眼",
-      "response": "洋桔梗开起来一层一层的，确实很耐看。能在赶路的时候为一桶花停下来，说明你今天的心情也慢下来了，挺好的。"
+      "trigger": "中午下楼时碰到同事，一起走了半层楼梯，谁都没提工作",
+      "response": "半层楼梯不谈工作，这种留白反而挺舒服的。后来是各走各的，还是聊到别的去了？"
     },
     {
-      "id": "daily_conversation-0731",
+      "id": "daily_conversation-0761",
       "category_cn": "日常闲聊",
-      "trigger": "今天单位食堂新出了道菜，排我前面的人都在夸，我有点想试",
-      "response": "被前面的人一路夸下来，想试很正常。要不今天就当一回试吃员，打一小份尝尝，踩雷了也好第一时间告诉同事别跟风。"
+      "trigger": "刚清了手机里二十多张旧截图，最后留下一张上周的天气",
+      "response": "留一张天气也挺有意思的，像是给那时候的空气存了个凭证。清完相册是不是感觉手机都轻了一点？"
     },
     {
-      "id": "daily_conversation-0732",
-      "category_cn": "日常闲聊",
-      "trigger": "刚把很久没用的烤箱擦干净，准备周末烤点东西",
-      "response": "烤箱擦干净那一刻特有成就感吧。周末可以从小饼干或烤蔬菜试起，容易上手也不容易失败，先把烤箱重新用起来再说。"
-    },
-    {
-      "id": "emotional_support-0733",
+      "id": "emotional_support-0762",
       "category_cn": "情绪表达",
-      "trigger": "交完那份拖了很久的方案，心里没有轻松，反而空落落的",
-      "response": "一直绷着的那根弦突然松下来，人反而会有点不适应，空落落的很正常。那不是你不开心，只是身体还没来得及切换到休息模式。今晚先做点不费脑的小事，让自己慢慢落下来。"
+      "trigger": "我把那条写好没发出去的消息删了，删完反倒松了一口气",
+      "response": "删掉之后那口气能松下来，说明那段话在你心里已经完成了它的任务。不用替这个决定找理由，今晚允许自己轻松一下。"
     },
     {
-      "id": "emotional_support-0734",
-      "category_cn": "情绪表达",
-      "trigger": "越是大伙都在笑的时候，我越觉得有点格格不入",
-      "response": "热闹里反而更容易觉得孤单，这种感觉不少人有。你不用逼自己跟着笑，先允许自己有点抽离；如果愿意，也可以跟我说说，是跟这群人不熟，还是最近心里本来就有点累。"
-    },
-    {
-      "id": "emotional_support-0735",
+      "id": "emotional_support-0763",
       "category_cn": "安慰与倾听",
-      "trigger": "我把准备了好久的分享讲砸了，现在恨不得找个地缝钻进去",
-      "response": "准备了那么久却没讲好，那种挫败感我能想象，恨不得钻地缝太真实了。但讲砸一次不等于你不行，只是这一次的状态没跟上准备。先别反复回放那个画面，等你缓过来，我们再一起看看卡在哪儿，下次就能避开。"
+      "trigger": "朋友聚会我提前走了，没跟任何人解释，路上却一直在想怎么解释",
+      "response": "提前走本来就是你给自己的许可，不需要补一份说明。路上反复排练解释，是不是其实担心别人多想？"
     },
     {
-      "id": "emotional_support-0736",
+      "id": "emotional_support-0764",
       "category_cn": "安慰与倾听",
-      "trigger": "养了很久的植物今天死了，我居然为它难过了好久",
-      "response": "为一盆植物难过好久，一点都不矫情。它陪了你那么久，浇水、晒太阳都成了习惯，突然没了当然会空。你愿意为它难过，说明你是个很用心的人。要是想，也可以说说它当初是怎么来的。"
+      "trigger": "家里人问我最近怎么样，我说了句挺好，挂了电话却坐了好久",
+      "response": "那句「挺好」说出口最省事，可挂了电话之后空下来的那段时间，才轮到真实的自己。不用急着改口，先坐一会儿，想说什么我在这儿。"
     },
     {
-      "id": "emotional_support-0737",
-      "category_cn": "情绪表达",
-      "trigger": "最近老是做同一个梦，醒来心里沉沉的",
-      "response": "反复做同一个梦，醒来还压着点什么，确实会让人一整天都沉。梦的内容你愿意说就说，不想说也没关系；可以先留意下最近是不是有什么一直悬着没处理的事，有时把那件事写下来，梦就没那么缠人了。"
+      "id": "emotional_support-0765",
+      "category_cn": "安慰与倾听",
+      "trigger": "我今天有点绷不住了，能陪我慢慢说吗",
+      "response": "能，慢慢说就好，不用先整理成有条理的故事。从哪个瞬间开始绷的，想到哪儿就从哪儿讲。"
     },
     {
-      "id": "casual_chat-0738",
+      "id": "casual_chat-0766",
+      "category_cn": "兴趣爱好",
+      "trigger": "最近迷上手冲咖啡，磨豆那几十秒特别解压",
+      "response": "磨豆那阵沙沙声确实很像给脑子按了个静音键。你现在偏酸一点还是偏苦一点的豆子？"
+    },
+    {
+      "id": "casual_chat-0767",
       "category_cn": "开心与分享",
-      "trigger": "我第一次把双黄蛋磕出来的时候，整个人都愣住了",
-      "response": "双黄蛋那种中奖感太可爱了，愣住说明你完全没预料到。这种小概率的惊喜最治愈，配一碗白粥就能开心一早上。下次磕蛋可以继续保持期待，说不定还有惊喜。"
+      "trigger": "我把阳台角落改成了看云角，只放了张旧凳子",
+      "response": "一张旧凳子就够用了，看云本来也不需要别的装备。坐那儿的时候，是喜欢云走慢一点还是走得快一点？"
     },
     {
-      "id": "casual_chat-0739",
-      "category_cn": "开心与分享",
-      "trigger": "今天下班路上捡到一片特别好看的银杏叶，夹进书里了",
-      "response": "把好看的叶子夹进书里，是很温柔的习惯。等哪天翻到那页，还能想起今天这条路和这片叶子，等于给日子做了个书签。挺浪漫的，我支持你继续攒。"
+      "id": "casual_chat-0768",
+      "category_cn": "兴趣爱好",
+      "trigger": "我家绿萝爬到书架顶上了，快把最上面那排书挤没了",
+      "response": "这盆绿萝是打算把书架收归自己管了。剪一截下来插水瓶里，过阵子又能多一盆，书架也能喘口气。"
+    },
+    {
+      "id": "casual_chat-0769",
+      "category_cn": "无聊与消遣",
+      "trigger": "周末想找点不花钱的乐子，一起想想？",
+      "response": "那我先抛三个：把家里所有抽屉拍一张改造前的照片、给阳台的植物编个名字、或者闭眼随便按电梯楼层当探险。你想从哪个开始？"
+    },
+    {
+      "id": "daily_life-0770",
+      "category_cn": "生活琐事",
+      "trigger": "洗衣服时把洗衣液倒进柔顺剂的格子，洗完一股怪味",
+      "response": "两个格子挨太近，谁都可能倒错。下次洗之前先把瓶子盖拧开确认一下，这回那股味儿多漂洗一遍一般能淡不少。"
+    },
+    {
+      "id": "daily_life-0771",
+      "category_cn": "生活琐事",
+      "trigger": "冰箱里只剩两根黄瓜和两个鸡蛋，今晚得靠它们了",
+      "response": "黄瓜拍一下拌着吃，鸡蛋煎两个，十分钟就能凑出一顿。要是还有半碗米饭，炒一炒就更有饱腹感了。"
     }
   ],
   "github": {
     "repo": "zh152-del/DialogueEvolution",
     "dir": "DialogueEvolution",
-    "verified": true,
-    "commit": "bbb0b95e4fb2ae816e3c76f5858d7c43412033c5",
+    "verified": false,
+    "commit": null,
     "files": [
       {
         "path": "dialogues/daily_conversation.json",
-        "count": 130,
-        "sha256": "cfd65bf0cd879c9b858636e1d4f0fee1ec0d10e39efee8412671da65cf151f5c"
+        "count": 134,
+        "sha256": "a9f1ade1e1cf4dfc86c4409264bc3238997ac796f8bbb38d27368add0ac69b6d"
       },
       {
         "path": "dialogues/emotional_support.json",
-        "count": 119,
-        "sha256": "7cd795a24846b61217213358bcfe36b453d389278f7b080ac689d5975919599e"
+        "count": 123,
+        "sha256": "a80f389e7444e27191b3f553ddc916a3c7323a69b2d73ec01a5a736590a3dcc7"
       },
       {
         "path": "dialogues/casual_chat.json",
-        "count": 134,
-        "sha256": "06e6b8a386b646b05aec4de72cba34981079011fd0a983ac72654ebfc5b2f6a5"
+        "count": 138,
+        "sha256": "3809d5da3608aa3ae454d8f05a47922980e58fac9ee04a9805854ba827531562"
       },
       {
         "path": "dialogues/daily_life.json",
-        "count": 130,
-        "sha256": "a71940944bf0b07cdef57d4d5950088a146268cde4fdd3eb63e72b84566dcbe4"
+        "count": 134,
+        "sha256": "d9c63b4b9feb13b282f084e696166b6f775a5364717552b1dced519bfd2e5b80"
       },
       {
         "path": "dialogues/multi_turn.json",
-        "count": 119,
-        "sha256": "8e0dc79700bc60d6c7ba66b96b56c2c065c597fd3f5110e24048c89e8aa4ee5c"
+        "count": 123,
+        "sha256": "5f8beb07c3d1638cdc12a1a02d4a43b2837b7f5337d328d71abb00f78ea7ff47"
       },
       {
         "path": "dialogues/random_topics.json",
-        "count": 124,
-        "sha256": "bc3b7fb6cbe90dafea811a0579bcc014264b441c98c2a7a2fe1054f170ba0a46"
+        "count": 129,
+        "sha256": "a528dda19f4321baf67a05c109e52af9e8439514d7f33dd4f441ee2f1c503847"
       }
     ]
   },

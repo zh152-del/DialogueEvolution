@@ -1,6 +1,6 @@
 {
   "category": "casual_chat",
-  "count": 134,
+  "count": 138,
   "entries": [
     {
       "id": "casual_chat-0084",
@@ -2782,6 +2782,95 @@
         "习惯"
       ],
       "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0766",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "最近迷上手冲咖啡，磨豆那几十秒特别解压",
+      "condition": "分享新近的爱好",
+      "response": "磨豆那阵沙沙声确实很像给脑子按了个静音键。你现在偏酸一点还是偏苦一点的豆子？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "咖啡",
+        "爱好",
+        "解压"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0767",
+      "category": "casual_chat",
+      "category_cn": "开心与分享",
+      "trigger": "我把阳台角落改成了看云角，只放了张旧凳子",
+      "condition": "分享居家小改造",
+      "response": "一张旧凳子就够用了，看云本来也不需要别的装备。坐那儿的时候，是喜欢云走慢一点还是走得快一点？",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "阳台",
+        "看云",
+        "分享"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0768",
+      "category": "casual_chat",
+      "category_cn": "兴趣爱好",
+      "trigger": "我家绿萝爬到书架顶上了，快把最上面那排书挤没了",
+      "condition": "植物生长带来的居家趣事",
+      "response": "这盆绿萝是打算把书架收归自己管了。剪一截下来插水瓶里，过阵子又能多一盆，书架也能喘口气。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "植物",
+        "绿萝",
+        "居家"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "casual_chat-0769",
+      "category": "casual_chat",
+      "category_cn": "无聊与消遣",
+      "trigger": "周末想找点不花钱的乐子，一起想想？",
+      "condition": "周末寻找零成本消遣",
+      "response": "那我先抛三个：把家里所有抽屉拍一张改造前的照片、给阳台的植物编个名字、或者闭眼随便按电梯楼层当探险。你想从哪个开始？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "周末想找点不花钱的乐子，一起想想？"
+        ],
+        [
+          "assistant",
+          "那我先抛三个：把家里所有抽屉拍一张改造前的照片、给阳台的植物编个名字、或者闭眼随便按电梯楼层当探险。你想从哪个开始？"
+        ],
+        [
+          "user",
+          "给植物编名字这个有意思，先来"
+        ],
+        [
+          "assistant",
+          "好呀，先看看你手边有哪盆，我给它安个不像正经名字的名字，越随意越好。"
+        ]
+      ],
+      "tags": [
+        "周末",
+        "消遣",
+        "脑洞"
+      ],
+      "generated_date": "2026-11-28",
       "quality": "qualified",
       "qc_reasons": []
     }

@@ -1,6 +1,6 @@
 {
   "category": "multi_turn",
-  "count": 119,
+  "count": 123,
   "entries": [
     {
       "id": "multi_turn-0177",
@@ -4912,6 +4912,146 @@
         "眼睛"
       ],
       "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0774",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "刚开完一个很长的会，脑子里还全是刚才的话，想顺一顺",
+      "condition": "会后梳理思绪",
+      "response": "那就从最绕你的那句开始说，不用按顺序。有时候一句话在脑子里打转，是因为它还没被放到合适的位置。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "刚开完一个很长的会，脑子里还全是刚才的话，想顺一顺"
+        ],
+        [
+          "assistant",
+          "那就从最绕你的那句开始说，不用按顺序。有时候一句话在脑子里打转，是因为它还没被放到合适的位置。"
+        ],
+        [
+          "user",
+          "其实是有人说方案再改一版，我没当场接话"
+        ],
+        [
+          "assistant",
+          "没当场接话不代表没想法，反而可能是你在给自己留个缓冲。现在想接的话，你想怎么回那句？我们先在这儿练一遍。"
+        ]
+      ],
+      "tags": [
+        "会议",
+        "梳理",
+        "多轮"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0775",
+      "category": "multi_turn",
+      "category_cn": "主动开启话题",
+      "trigger": "我想跟你说个好消息，但先让我缓两分钟",
+      "condition": "用户主动分享前需要缓冲",
+      "response": "好，我等你。好事落在身上的那几秒，常常比消息本身还值得留着。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我想跟你说个好消息，但先让我缓两分钟"
+        ],
+        [
+          "assistant",
+          "好，我等你。好事落在身上的那几秒，常常比消息本身还值得留着。"
+        ],
+        [
+          "user",
+          "好，刚拿到一直想要的那个名额"
+        ],
+        [
+          "assistant",
+          "太好了！等了这么久终于落地，这一刻值得好好记下来。最想先跟谁说这件事？"
+        ]
+      ],
+      "tags": [
+        "好消息",
+        "分享",
+        "多轮"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0776",
+      "category": "multi_turn",
+      "category_cn": "突然改变话题",
+      "trigger": "刚才差点把一件小事说成大事，现在有点后怕",
+      "condition": "用户中途转移话题",
+      "response": "能刹住那一下就已经很不容易了。话说出去之前的那半秒，往往只有你自己知道有多险。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "刚才差点把一件小事说成大事，现在有点后怕"
+        ],
+        [
+          "assistant",
+          "能刹住那一下就已经很不容易了。话说出去之前的那半秒，往往只有你自己知道有多险。"
+        ],
+        [
+          "user",
+          "算了不说这个了，你今天有没有看到什么有意思的东西"
+        ],
+        [
+          "assistant",
+          "有，刚想到楼下那家店把招牌灯换成了暖黄色，路过时看着挺舒服。你呢，刚才那句话要不要先放一放？"
+        ]
+      ],
+      "tags": [
+        "话题转换",
+        "后怕",
+        "多轮"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "multi_turn-0777",
+      "category": "multi_turn",
+      "category_cn": "多轮连续交流",
+      "trigger": "我们换个话题吧，刚才那个我不想说了",
+      "condition": "用户要求切换话题",
+      "response": "好，翻篇。那我起个新的：最近有没有一首歌，是你单曲循环了好几天的？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我们换个话题吧，刚才那个我不想说了"
+        ],
+        [
+          "assistant",
+          "好，翻篇。那我起个新的：最近有没有一首歌，是你单曲循环了好几天的？"
+        ],
+        [
+          "user",
+          "有一首，通勤路上听的，听完刚好到站"
+        ],
+        [
+          "assistant",
+          "能刚好卡在到站那一刻收尾的歌，多少有点被你选中的缘分。是哪首？我也想知道它为什么这么适合那段路。"
+        ]
+      ],
+      "tags": [
+        "换话题",
+        "音乐",
+        "多轮"
+      ],
+      "generated_date": "2026-11-28",
       "quality": "qualified",
       "qc_reasons": []
     }

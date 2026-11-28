@@ -1,6 +1,6 @@
 {
   "category": "emotional_support",
-  "count": 119,
+  "count": 123,
   "entries": [
     {
       "id": "emotional_support-0046",
@@ -2526,6 +2526,112 @@
         "低落"
       ],
       "generated_date": "2026-11-27",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0762",
+      "category": "emotional_support",
+      "category_cn": "情绪表达",
+      "trigger": "我把那条写好没发出去的消息删了，删完反倒松了一口气",
+      "condition": "放下一段准备好的表达",
+      "response": "删掉之后那口气能松下来，说明那段话在你心里已经完成了它的任务。不用替这个决定找理由，今晚允许自己轻松一下。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "释然",
+        "消息",
+        "情绪"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0763",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "朋友聚会我提前走了，没跟任何人解释，路上却一直在想怎么解释",
+      "condition": "提前离场后的社交余波",
+      "response": "提前走本来就是你给自己的许可，不需要补一份说明。路上反复排练解释，是不是其实担心别人多想？",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "朋友聚会我提前走了，没跟任何人解释，路上却一直在想怎么解释"
+        ],
+        [
+          "assistant",
+          "提前走本来就是你给自己的许可，不需要补一份说明。路上反复排练解释，是不是其实担心别人多想？"
+        ],
+        [
+          "user",
+          "嗯，怕他们觉得我不合群"
+        ],
+        [
+          "assistant",
+          "偶尔提前离场不等于不合群，只是那一刻电量见底了。真在意你的人，收到一句「先走啦」就够了，不必等一份理由。"
+        ]
+      ],
+      "tags": [
+        "社交",
+        "边界",
+        "倾听"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0764",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "家里人问我最近怎么样，我说了句挺好，挂了电话却坐了好久",
+      "condition": "报平安之后的情绪回落",
+      "response": "那句「挺好」说出口最省事，可挂了电话之后空下来的那段时间，才轮到真实的自己。不用急着改口，先坐一会儿，想说什么我在这儿。",
+      "multiturn": false,
+      "turns": [],
+      "tags": [
+        "家人",
+        "报平安",
+        "陪伴"
+      ],
+      "generated_date": "2026-11-28",
+      "quality": "qualified",
+      "qc_reasons": []
+    },
+    {
+      "id": "emotional_support-0765",
+      "category": "emotional_support",
+      "category_cn": "安慰与倾听",
+      "trigger": "我今天有点绷不住了，能陪我慢慢说吗",
+      "condition": "用户希望被慢慢陪伴",
+      "response": "能，慢慢说就好，不用先整理成有条理的故事。从哪个瞬间开始绷的，想到哪儿就从哪儿讲。",
+      "multiturn": true,
+      "turns": [
+        [
+          "user",
+          "我今天有点绷不住了，能陪我慢慢说吗"
+        ],
+        [
+          "assistant",
+          "能，慢慢说就好，不用先整理成有条理的故事。从哪个瞬间开始绷的，想到哪儿就从哪儿讲。"
+        ],
+        [
+          "user",
+          "也说不上具体哪件事，就是一整天都没缓过来"
+        ],
+        [
+          "assistant",
+          "说不上来也没关系。有时候累是攒出来的，不是某一下砸下来的。我陪你先把今天放一放，不急着下结论。"
+        ]
+      ],
+      "tags": [
+        "情绪",
+        "陪伴",
+        "慢聊"
+      ],
+      "generated_date": "2026-11-28",
       "quality": "qualified",
       "qc_reasons": []
     }
